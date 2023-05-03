@@ -1,6 +1,7 @@
 {
   "name": "castle-sim-web",
   "version": "0.0.0",
+  "homepage": "https://podecaradox.github.io/CastleSimWeb",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
