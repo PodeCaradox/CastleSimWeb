@@ -1,0 +1,331 @@
+const TileSizeHalf = vec2<i32>(16,8);
+const ImageSize = vec2<f32>(2048.0,2048.0);
+//4*4 = 16
+struct SingleInstance
+{
+	Index: u32,//image Index
+	Animation: u32,// 1 for Activated // 7 bits for animation length // 12 bits for when update animation TODO
+    AtlasCoordPos: u32, //x/y for column/row z/w for image index
+	AtlasCoordSize: u32,
+};
+
+//4 * 12 = 48 //always dividable by 16
+struct TileInstances
+{
+	Dummy: u32,
+	Color: u32,
+	MiniMapColor: u32,
+	AnimationAlphaStart: u32,
+	ElevationAndOffsetObjectY: u32,//16 bits for Elevation // 16 for OffsetObjectY
+	OffsetElevationX: f32,
+	SingleInstances: array<u32, 6>,
+};
+
+//12 + 4 + 8 + 4 + 4 = 32;
+struct InstancingObject
+{
+    Position: vec3<f32>,
+	Index: u32,
+	UvCoordPos: vec2<f32>,
+	UvCoordSize: u32,
+	Color: u32,
+};
+
+struct TilePropertiesStorage {
+  properties: array<SingleInstance>,
+};
+
+struct TileInstancesStorage {
+  tiles: array<TileInstances>,
+};
+
+struct InstancingObjectStorage {
+  tiles: array<InstancingObject>,
+};
+
+
+//=============================================================================
+// Compute Shader Functions
+//=============================================================================
+fn is_in_map_bounds(map_position: vec2<i32>) -> i32 {
+	if(map_position.x >= 0 && map_position.y >= 0 && map_position.y < params.map_size.y && map_position.x < params.map_size.x) { return 1; }
+
+	return 0;
+}
+
+fn calculate_rows(start: vec2<i32>, mapSizeX: i32) -> i32{
+	if (start.y < start.x)
+	{
+	    return mapSizeX - (start.x - start.y);
+	}
+
+	return mapSizeX + (start.y - start.x);
+}
+
+fn get_columns_until_border(index: vec2<i32>) -> i32{
+	if (index.x < index.y)
+	{
+		return index.x;
+	}
+	return index.y;
+}
+
+fn is_outside_of_map(start_pos: vec2<i32>) -> i32 {
+            var pos = start_pos;
+            for (var i: i32 = 0; i < params.columns; i+=1){
+                pos.x += 1;
+                pos.y += 1;
+                if (is_in_map_bounds(pos) == 1) {
+                    return 0;
+                }
+            }
+            return 1;
+}
+
+fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
+        var start = start_pos;
+        //above right side of map
+        if (params.start_pos.x + params.start_pos.y < params.map_size.x) {
+                   var left: vec2<i32> = vec2<i32>(params.start_pos.x - params.rows, params.start_pos.y + params.rows);
+                   left.x += left.y;
+                   left.y -= left.y;
+
+                   var right_bottom_screen: vec2<i32> = vec2<i32>(params.start_pos.x + params.columns, params.start_pos.y + params.columns);
+                   //check if we are passed the last Tile for MapSizeX with the Camera
+                   if (right_bottom_screen.x + right_bottom_screen.y > params.map_size.x) {
+                       start = vec2<i32>(params.map_size.x - 1, 0);
+                   } else {
+                        //we are above the Last Tile so x < MapSizeX for Camera right bottom Position
+                       right_bottom_screen.x += right_bottom_screen.y;
+                       right_bottom_screen.y -= right_bottom_screen.y;
+                       start = right_bottom_screen;
+                   }
+
+                   //difference is all tiles on the x axis and because we calculate here x,y different to Isomectric View we need to divide by 2 and for odd number add 1 so % 2
+                   var difference = start.x - left.x;
+                   difference += difference % 2;
+                   difference /= 2;
+                   start.x -= difference;
+                   start.y -= difference;
+                   return start;
+       }
+       //underneath right side of map
+       let to_the_left = params.start_pos.x - params.map_size.x;
+       return vec2<i32>(params.start_pos.x - to_the_left, params.start_pos.y + to_the_left);
+}
+
+fn get_start_point(start_pos: vec2<i32>) -> vec2<i32> {
+           var outside = is_outside_of_map(start_pos);
+           var start = start_pos;
+           if (outside == 1) { //calculate the starting point when outside of map on the right.
+                return calc_start_point_outside_map(start_pos);
+           }
+     //inside the map
+     return vec2<i32>(params.start_pos.x, params.start_pos.y);
+}
+
+fn calc_visible_index(index: vec2<i32>, actual_row_start: vec2<i32>) -> i32{
+        var visible_index = 0;
+
+        let start = get_start_point(vec2<i32>(params.start_pos.x, params.start_pos.y));
+        let rows_behind = calculate_rows(index, params.map_size.x) - calculate_rows(start, params.map_size.x);
+
+        //tiles drawn from rows behind us.
+        for (var i: i32 = 0; i < rows_behind; i+=1){
+            let current_row = i / 2;
+            var pos: vec2<i32> = vec2<i32> (start.x - i % 2 - current_row, start.y + current_row);
+            var vertical_tiles = params.columns;
+            if (pos.x < 0 || pos.y < 0) {
+                if (pos.x < pos.y) {
+                    vertical_tiles += pos.x;
+                    pos.y -= pos.x;
+                    pos.x = 0;
+                } else {
+                    vertical_tiles += pos.y;
+                    pos.x -= pos.y;
+                    pos.y = 0;
+                }
+            }
+            pos.x += vertical_tiles;
+            pos.y += vertical_tiles;
+
+            if (pos.x >= params.map_size.x) {
+                let tiles_overflow = pos.x - params.map_size.x;
+                vertical_tiles -= tiles_overflow;
+                pos.y -= tiles_overflow;
+            }
+
+            if (pos.y >= params.map_size.y) {
+                let tiles_overflow = pos.y - params.map_size.y;
+                vertical_tiles -= tiles_overflow;
+            }
+            visible_index += vertical_tiles;
+        }
+
+        //index in current column
+        var columns = get_columns_until_border(index);
+        if (actual_row_start.x >= 0 && actual_row_start.y >= 0) {
+            columns -= get_columns_until_border(actual_row_start);
+        }
+
+        visible_index += columns;
+        return visible_index;
+}
+
+
+fn WorldPosToDepth(world_pos: vec2<i32>) -> f32{
+	let size: f32 = f32(params.map_size.x * params.map_size.y);
+	return 1.0f - f32(world_pos.y * params.map_size.x + world_pos.x) / size ;
+}
+
+fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
+	var screenPos: vec2<f32>;
+	screenPos.x = f32(TileSizeHalf.x * world_pos.x - TileSizeHalf.x * world_pos.y);
+    screenPos.y = f32(TileSizeHalf.y * world_pos.x + TileSizeHalf.y * world_pos.y + TileSizeHalf.x);
+	return screenPos;
+}
+
+fn CreateObjectInstance(instanceId: u32, position: vec3<f32>, color: u32) -> InstancingObject{
+    var newInstance: InstancingObject;
+    newInstance.Position.z = -10.0;
+	if (instanceId == 0u){
+	    return newInstance;
+	}
+	var instance = tile_properties.properties[instanceId];
+	newInstance.Position = position;
+	newInstance.Index = instance.Index;
+	newInstance.UvCoordPos = vec2<f32>(f32(instance.AtlasCoordPos & 0x0000ffffu),f32(instance.AtlasCoordPos >> 16u)) / ImageSize;
+	newInstance.UvCoordSize = instance.AtlasCoordSize;
+	newInstance.Color = color;
+	return newInstance;
+}
+
+fn CreateSpecificInstance(tile_id: u32, world_pos: vec2<i32>, Elevation: u32, Instance: u32, Color: u32) -> InstancingObject{
+	let depth: f32 = WorldPosToDepth(world_pos);
+	var position = WorldToScreenPos(world_pos);
+	position.y -= f32(Elevation);
+	return CreateObjectInstance(tile_id, vec3(position, depth), Color);
+}
+
+
+//=============================================================================
+// Compute Shader
+//=============================================================================
+struct ComputeParams {
+    start_pos: vec2<i32>,
+    map_size: vec2<i32>,
+    columns: i32,
+    rows: i32
+};
+@group(0) @binding(0)
+var<uniform> params: ComputeParams;
+
+@group(1) @binding(0) var<storage, read> tile_properties : TilePropertiesStorage;
+@group(2) @binding(0) var<storage, read> all_tiles : TileInstancesStorage;
+@group(3) @binding(0) var<storage, read_write> visble_tiles_cp : InstancingObjectStorage;
+
+@compute
+@workgroup_size(16, 16, 1)
+fn calcvisibility(@builtin(global_invocation_id) global_id: vec3<u32>) {
+            var index: vec2<i32> = vec2<i32>(params.start_pos.x, params.start_pos.y);
+            let column = i32(global_id.x);
+            var row = i32(global_id.y);
+
+            index.x -= row % 2;
+            row /= 2;
+            index.y += row;
+            index.x -= row;
+            let actual_row_start = index;
+            index.y += column;
+            index.x += column;
+
+            if (is_in_map_bounds(index) == 0) {
+                return;
+            }
+
+           let visible_index = calc_visible_index(index, actual_row_start);
+
+            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
+
+    	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, 0u, 4u, 0xffffffffu);
+}
+
+
+
+//==============================================================================
+// Vertex shader
+//==============================================================================
+struct VertexInput {
+    @location(0) Position: vec4<f32>,
+    @builtin(instance_index) instance_index: u32,
+}
+
+// 16 byte + 16 byte + 12 bytes = 44 bytes
+struct VertexOutput {
+    @builtin(position) Position: vec4<f32>,
+    @location(0) Color: vec4<f32>,
+    @location(1) TexCoord : vec3<f32>,
+}
+
+struct CameraUniform {
+    view_proj: mat4x4<f32>
+};
+@group(1) @binding(0)
+var<uniform> camera: CameraUniform;
+
+@group(2) @binding(0) var<storage, read> visble_tiles: InstancingObjectStorage;
+@vertex
+fn vs_main(
+    input: VertexInput,
+) -> VertexOutput {
+
+    let tileID = input.instance_index;
+    let instance = visble_tiles.tiles[tileID];
+      if (instance.Position.z == -10.0) {
+        return VertexOutput(
+          vec4<f32>(0.0, 0.0, 0.0, -10.0),
+          vec4<f32>(0.0, 0.0, 0.0, 0.0),
+          vec3<f32>(0.0, 0.0, 0.0)
+        );
+      }
+      let imageSize = vec2<f32>(f32(instance.UvCoordSize & 0x0000ffffu), f32(instance.UvCoordSize >> 16u));
+
+      // Calculate ImageSizeToDraw - vec2(imageSize.x/2,imageSize.y) because images have different starting points
+      let position = input.Position.xy * imageSize - vec2<f32>(imageSize.x / 2.0, imageSize.y);
+
+      var pos : vec4<f32> = vec4<f32>(position.xy + instance.Position.xy, instance.Position.z, 1.0);
+      pos = camera.view_proj * pos;
+
+      let texCoord = vec3<f32>(instance.UvCoordPos + (imageSize * input.Position.xy) / ImageSize, f32(instance.Index));
+
+      let output = VertexOutput(
+        pos,
+        vec4<f32>(f32(instance.Color & 0x000000ffu), f32((instance.Color >> 8u) & 0x000000ffu), f32((instance.Color >> 16u) & 0x000000ffu), f32(instance.Color >> 24u)) / 255.0,
+        texCoord
+      );
+      return output;
+    }
+
+//==============================================================================
+// Fragment shader
+//==============================================================================
+@group(0) @binding(0)
+var t_diffuse: texture_2d<f32>;
+@group(0) @binding(1)
+var s_diffuse: sampler;
+
+
+@fragment
+fn fs_main(in: VertexOutput) -> @location(0) vec4<f32> {
+    let color = textureSample(t_diffuse, s_diffuse, in.TexCoord.xy);
+    if(color.a <= 0.0){
+        discard;
+    }
+    return color;
+}
+
+
+
+ 
+
+ 
