@@ -185,13 +185,13 @@ fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
 	return screenPos;
 }
 
-fn CreateObjectInstance(instanceId: u32, position: vec3<f32>, color: u32) -> InstancingObject{
+fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, color: u32) -> InstancingObject{
     var newInstance: InstancingObject;
     newInstance.Position.z = -10.0;
-	if (instanceId == 0u){
+	if (tile_id == 0u){
 	    return newInstance;
 	}
-	var instance = tile_properties.properties[instanceId];
+	var instance = tile_properties.properties[tile_id];
 	newInstance.Position = position;
 	newInstance.Index = instance.Index;
 	newInstance.UvCoordPos = vec2<f32>(f32(instance.AtlasCoordPos & 0x0000ffffu),f32(instance.AtlasCoordPos >> 16u)) / ImageSize;
@@ -200,10 +200,27 @@ fn CreateObjectInstance(instanceId: u32, position: vec3<f32>, color: u32) -> Ins
 	return newInstance;
 }
 
-fn CreateSpecificInstance(tile_id: u32, world_pos: vec2<i32>, Elevation: u32, Instance: u32, Color: u32) -> InstancingObject{
+//Tile and Object
+fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, Color: u32) -> InstancingObject{
 	let depth: f32 = WorldPosToDepth(world_pos);
 	var position = WorldToScreenPos(world_pos);
-	position.y -= f32(Elevation);
+	position.y -= f32(elevation) + 7.0f;;
+	return CreateObjectInstance(tile_id, vec3(position, depth), Color);
+}
+
+fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, Color: u32, offset_elevation_x: f32) -> InstancingObject{
+	let depth: f32 = WorldPosToDepth(world_pos) + 1.4013e-45;
+	var position = WorldToScreenPos(world_pos);
+	position.x += offset_elevation_x;
+	var instance: InstancingObject  = CreateObjectInstance(tile_id, vec3(position, depth), Color);
+    instance.UvCoordSize = (instance.UvCoordSize & 0x0000ffffu) | ((elevation + 7u) << 16u);
+	return instance;
+}
+
+fn CreateSpecificInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, Color: u32) -> InstancingObject{
+	let depth: f32 = WorldPosToDepth(world_pos);
+	var position = WorldToScreenPos(world_pos);
+	position.y -= f32(elevation);
 	return CreateObjectInstance(tile_id, vec3(position, depth), Color);
 }
 
@@ -226,7 +243,7 @@ var<uniform> params: ComputeParams;
 
 @compute
 @workgroup_size(16, 16, 1)
-fn calcvisibility(@builtin(global_invocation_id) global_id: vec3<u32>) {
+fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>) {
             var index: vec2<i32> = vec2<i32>(params.start_pos.x, params.start_pos.y);
             let column = i32(global_id.x);
             var row = i32(global_id.y);
@@ -243,11 +260,41 @@ fn calcvisibility(@builtin(global_invocation_id) global_id: vec3<u32>) {
                 return;
             }
 
-           let visible_index = calc_visible_index(index, actual_row_start);
+           let visible_index = calc_visible_index(index, actual_row_start) * 4;
 
-            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
+           let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
+           let elevation = tile.ElevationAndOffsetObjectY >> 16u;
+    	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 3] = CreateElevationInstance(tile.SingleInstances[3], index, elevation, 0xffffffffu, tile.OffsetElevationX);
+}
 
-    	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, 0u, 4u, 0xffffffffu);
+@compute
+@workgroup_size(16, 16, 1)
+fn instancing_without_elevation(@builtin(global_invocation_id) global_id: vec3<u32>) {
+            var index: vec2<i32> = vec2<i32>(params.start_pos.x, params.start_pos.y);
+            let column = i32(global_id.x);
+            var row = i32(global_id.y);
+
+            index.x -= row % 2;
+            row /= 2;
+            index.y += row;
+            index.x -= row;
+            let actual_row_start = index;
+            index.y += column;
+            index.x += column;
+
+            if (is_in_map_bounds(index) == 0) {
+                return;
+            }
+
+           let visible_index = calc_visible_index(index, actual_row_start) * 2;
+
+           let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
+
+    	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[4], index, 0u, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[5], index, 0u, 0xffffffffu);
 }
 
 
