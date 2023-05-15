@@ -1,43 +1,34 @@
-[
- {
-   "Path":"World\\Terrain",
-   "Name":"land"
+{
+ "land":{
+   "Path":"World\\Terrain"
  },
- {
-   "Path":"World\\Terrain",
-   "Name":"water"
+ "water":{
+   "Path":"World\\Terrain"
  },
- {
-   "Path":"World\\Terrain",
-   "Name":"wall"
+ "wall":{
+   "Path":"World\\Terrain"
  },
-  {
-   "Path":"World\\Elevation",
-   "Name":"land_elevation"
+  "land_elevation":{
+   "Path":"World\\Elevation"
  },
- {
+ "wall_elevation":{
 	 
-   "Path":"World\\Elevation",
-   "Name":"wall_elevation"
+   "Path":"World\\Elevation"
  },
- {
-   "Path":"World\\Debuging",
-   "Name":"debug_tiles"
+ "debug_tiles":{
+   "Path":"World\\Debuging"
  },
- {
-   "Path":"World\\Objects\\Trees",
-   "Name":"tree"
+ "tree":{
+   "Path":"World\\Objects\\Trees"
  },
- {
-   "Path":"World\\Buildings\\ObjectsOnTop",
-   "Name":"objectsontop"
+ "objectsontop":{
+   "Path":"World\\Buildings\\ObjectsOnTop"
  },
- {
-   "Path":"World\\Buildings\\ObjectsTiled",
-   "Name":"objectstiled"
+ "objectstiled":{
+   "Path":"World\\Buildings\\ObjectsTiled"
  },
- {
-   "Path":"Units",
-   "Name":"arrow"
+ "arrow":{
+   "Path":"Units"
  }		
-]
+}
+

@@ -33,12 +33,6 @@
       "Walkable":true,
       "MiniMapColor":"49,50,37,255"
    },
-   "street_0":{
-      "ImageName":"land",
-      "AtlasCoordinate":"240,0,30,16",
-      "Walkable":true,
-      "MiniMapColor":"49,50,37,255"
-   },
    "dirt_1":{
       "ImageName":"land",
       "AtlasCoordinate":"270,0,30,16",

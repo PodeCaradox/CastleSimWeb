@@ -2,7 +2,7 @@
    "tree_red_0_trunk":{
       "ImageName":"tree",
       "AtlasCoordinate":"0,467,30,18",
-      "MiniMapColor":"213,145,103,255",
+      "MiniMapColor":"213,145,103,255"
    },
    "tree_red_0":{
       "ImageName":"tree",
