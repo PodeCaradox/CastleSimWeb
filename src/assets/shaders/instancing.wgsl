@@ -209,7 +209,7 @@ fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, Co
 }
 
 fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, Color: u32, offset_elevation_x: f32) -> InstancingObject{
-	let depth: f32 = WorldPosToDepth(world_pos) + 1.4013e-45;
+	let depth: f32 = WorldPosToDepth(world_pos) + 0.000001;
 	var position = WorldToScreenPos(world_pos);
 	position.x += offset_elevation_x;
 	var instance: InstancingObject  = CreateObjectInstance(tile_id, vec3(position, depth), Color);
@@ -311,7 +311,8 @@ struct VertexInput {
 struct VertexOutput {
     @builtin(position) Position: vec4<f32>,
     @location(0) Color: vec4<f32>,
-    @location(1) TexCoord : vec3<f32>,
+    @location(1) TexCoord : vec2<f32>,
+    @location(2) Index : u32,
 }
 
 struct CameraUniform {
@@ -332,7 +333,8 @@ fn vs_main(
         return VertexOutput(
           vec4<f32>(0.0, 0.0, 0.0, -10.0),
           vec4<f32>(0.0, 0.0, 0.0, 0.0),
-          vec3<f32>(0.0, 0.0, 0.0)
+          vec2<f32>(0.0, 0.0),
+          0u
         );
       }
       let imageSize = vec2<f32>(f32(instance.UvCoordSize & 0x0000ffffu), f32(instance.UvCoordSize >> 16u));
@@ -343,12 +345,13 @@ fn vs_main(
       var pos : vec4<f32> = vec4<f32>(position.xy + instance.Position.xy, instance.Position.z, 1.0);
       pos = camera.view_proj * pos;
 
-      let texCoord = vec3<f32>(instance.UvCoordPos + (imageSize * input.Position.xy) / ImageSize, f32(instance.Index));
+      let texCoord = vec2<f32>(instance.UvCoordPos + (imageSize * input.Position.xy) / ImageSize);
 
       let output = VertexOutput(
         pos,
         vec4<f32>(f32(instance.Color & 0x000000ffu), f32((instance.Color >> 8u) & 0x000000ffu), f32((instance.Color >> 16u) & 0x000000ffu), f32(instance.Color >> 24u)) / 255.0,
-        texCoord
+        texCoord,
+        instance.Index
       );
       return output;
     }
@@ -357,14 +360,14 @@ fn vs_main(
 // Fragment shader
 //==============================================================================
 @group(0) @binding(0)
-var t_diffuse: texture_2d<f32>;
+var t_diffuse: texture_2d_array<f32>;
 @group(0) @binding(1)
 var s_diffuse: sampler;
 
 
 @fragment
 fn fs_main(in: VertexOutput) -> @location(0) vec4<f32> {
-    let color = textureSample(t_diffuse, s_diffuse, in.TexCoord.xy);
+    let color = textureSample(t_diffuse, s_diffuse, in.TexCoord, in.Index);
     if(color.a <= 0.0){
         discard;
     }
