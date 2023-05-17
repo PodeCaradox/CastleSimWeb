@@ -312,7 +312,7 @@ struct VertexOutput {
     @builtin(position) Position: vec4<f32>,
     @location(0) Color: vec4<f32>,
     @location(1) TexCoord : vec2<f32>,
-    @location(2) Index : u32,
+    @location(2) @interpolate(flat)  Index : u32,
 }
 
 struct CameraUniform {
