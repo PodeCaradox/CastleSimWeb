@@ -105,28 +105,29 @@
       "Walkable":true,
       "MiniMapColor":"141,123,66,255"
    },
-   "grass_2":{
-      "ImageName":"land",
-      "AtlasCoordinate":"690,0,30,27",
-      "Walkable":true,
-      "MiniMapColor":"100,118,65,255"
-   },
+
    "grass_0":{
       "ImageName":"land",
 	  "InstanceOnTop":"grass_2",
-      "AtlasCoordinate":"630,0,30,17",
+      "AtlasCoordinate":"632,0,32,16",
       "Walkable":true,
       "MiniMapColor":"100,118,65,255"
    },
    "grass_1":{
       "ImageName":"land",
-      "AtlasCoordinate":"660,0,30,18",
+      "AtlasCoordinate":"664,0,32,20",
       "Walkable":true,
       "MiniMapColor":"100,118,65,255"
    },
+  "grass_2":{
+     "ImageName":"land",
+     "AtlasCoordinate":"696,0,32,28",
+     "Walkable":true,
+     "MiniMapColor":"100,118,65,255"
+  },
    "grass_3":{
       "ImageName":"land",
-      "AtlasCoordinate":"720,0,30,31",
+      "AtlasCoordinate":"728,0,32,32",
       "Walkable":true,
       "MiniMapColor":"100,118,65,255"
    }
