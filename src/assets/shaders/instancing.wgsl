@@ -213,7 +213,9 @@ fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, C
 	var position = WorldToScreenPos(world_pos);
 	position.x += offset_elevation_x;
 	var instance: InstancingObject  = CreateObjectInstance(tile_id, vec3(position, depth), Color);
-    instance.UvCoordSize = (instance.UvCoordSize & 0x0000ffffu) | ((elevation + 7u) << 16u);
+	var size = (elevation + 7u);
+	size += size % 4u;//because of zooming there needs to be a number which has no odd number when zommed out 2 times
+    instance.UvCoordSize = (instance.UvCoordSize & 0x0000ffffu) | (size << 16u);
 	return instance;
 }
 
@@ -263,7 +265,7 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
            let visible_index = calc_visible_index(index, actual_row_start) * 4;
 
            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
-           let elevation = tile.ElevationAndOffsetObjectY >> 16u;
+           var elevation = tile.ElevationAndOffsetObjectY >> 16u;
     	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, 0xffffffffu);
     	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, 0xffffffffu);
     	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, 0xffffffffu);
