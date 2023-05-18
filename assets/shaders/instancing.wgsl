@@ -344,7 +344,12 @@ fn vs_main(
 
       var pos : vec4<f32> = vec4<f32>(position.xy + instance.Position.xy, instance.Position.z, 1.0);
       pos = camera.view_proj * pos;
-
+//      pos = vec4(
+//                round(pos.x),
+//                round(pos.y),
+//                pos.z,
+//                pos.w
+//            );
       let texCoord = vec2<f32>(instance.UvCoordPos + (imageSize * input.Position.xy) / ImageSize);
 
       let output = VertexOutput(
