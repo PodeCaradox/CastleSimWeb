@@ -130,7 +130,7 @@ fn calc_visible_index(index: vec2<i32>, actual_row_start: vec2<i32>) -> i32{
         let start = get_start_point(vec2<i32>(params.start_pos.x, params.start_pos.y));
         let rows_behind = calculate_rows(index, params.map_size.x) - calculate_rows(start, params.map_size.x);
 
-        //tiles drawn from rows behind us.
+        //TODO tiles drawn from rows behind us. Should be not here the loop instead write it in a array with compute or on cpu?
         for (var i: i32 = 0; i < rows_behind; i+=1){
             let current_row = i / 2;
             var pos: vec2<i32> = vec2<i32> (start.x - i % 2 - current_row, start.y + current_row);
@@ -346,12 +346,7 @@ fn vs_main(
 
       var pos : vec4<f32> = vec4<f32>(position.xy + instance.Position.xy, instance.Position.z, 1.0);
       pos = camera.view_proj * pos;
-//      pos = vec4(
-//                round(pos.x),
-//                round(pos.y),
-//                pos.z,
-//                pos.w
-//            );
+      
       let texCoord = vec2<f32>(instance.UvCoordPos + (imageSize * input.Position.xy) / ImageSize);
 
       let output = VertexOutput(
