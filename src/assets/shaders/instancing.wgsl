@@ -98,6 +98,7 @@ fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
                    //check if we are passed the last Tile for MapSizeX with the Camera
                    if (right_bottom_screen.x + right_bottom_screen.y > params.map_size.x) {
                        start = vec2<i32>(params.map_size.x - 1, 0);
+
                    } else {
                         //we are above the Last Tile so x < MapSizeX for Camera right bottom Position
                        right_bottom_screen.x += right_bottom_screen.y;
@@ -111,6 +112,8 @@ fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
                    difference /= 2;
                    start.x -= difference;
                    start.y -= difference;
+                   start.x += start.x % 2;
+                   start.y += start.y % 2;
                    return start;
        }
        //underneath right side of map
@@ -134,40 +137,9 @@ fn calc_visible_index(index: vec2<i32>, actual_row_start: vec2<i32>) -> i32{
         let start = get_start_point(vec2<i32>(params.start_pos.x, params.start_pos.y));
         let rows_behind = calculate_rows(index, params.map_size.x) - calculate_rows(start, params.map_size.x) - 1;
 
-        //TODO tiles drawn from rows behind us. Should be not here the loop instead write it in a array with compute or on cpu?
         if (rows_behind > 0) {
             visible_index = rows_index.Rows[rows_behind];
         }
-//        for (var i: i32 = 0; i < rows_behind; i+=1){
-//            let current_row = i / 2;
-//            var pos: vec2<i32> = vec2<i32> (start.x - i % 2 - current_row, start.y + current_row);
-//            var vertical_tiles = params.columns;
-//            if (pos.x < 0 || pos.y < 0) {
-//                if (pos.x < pos.y) {
-//                    vertical_tiles += pos.x;
-//                    pos.y -= pos.x;
-//                    pos.x = 0;
-//                } else {
-//                    vertical_tiles += pos.y;
-//                    pos.x -= pos.y;
-//                    pos.y = 0;
-//                }
-//            }
-//            pos.x += vertical_tiles;
-//            pos.y += vertical_tiles;
-//
-//            if (pos.x >= params.map_size.x) {
-//                let tiles_overflow = pos.x - params.map_size.x;
-//                vertical_tiles -= tiles_overflow;
-//                pos.y -= tiles_overflow;
-//            }
-//
-//            if (pos.y >= params.map_size.y) {
-//                let tiles_overflow = pos.y - params.map_size.y;
-//                vertical_tiles -= tiles_overflow;
-//            }
-//            visible_index += vertical_tiles;
-//        }
 
         //index in current column
         var columns = get_columns_until_border(index);
