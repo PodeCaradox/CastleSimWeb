@@ -4,7 +4,7 @@ const ImageSize = vec2<f32>(2048.0,2048.0);
 struct SingleInstance
 {
 	Index: u32,//image Index
-	Animation: u32,// 1 for Activated // 7 bits for animation length // 12 bits for when update animation TODO
+	Animation: u32,// 1 for Activated // 7 bits for animation length // 24 bits for when update animation TODO
     AtlasCoordPos: u32, //x/y for column/row z/w for image index
 	AtlasCoordSize: u32,
 };
@@ -15,7 +15,7 @@ struct TileInstances
 	Dummy: u32,
 	Color: u32,
 	MiniMapColor: u32,
-	AnimationAlphaStart: u32,// to set the delays for wind
+	AnimationTick: u32,// to set the delays for wind
 	ElevationAndOffsetObjectY: u32,//16 bits for Elevation // 16 for OffsetObjectY
 	OffsetElevationX: f32,
 	SingleInstances: array<u32, 6>,
@@ -162,7 +162,7 @@ fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
 	return screenPos;
 }
 
-fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, color: u32) -> InstancingObject{
+fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, animation_tick: u32, color: u32) -> InstancingObject{
     var newInstance: InstancingObject;
     newInstance.Position.z = -10.0;
 	if (tile_id == 0u){
@@ -171,36 +171,46 @@ fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, color: u32) -> Instan
 	var instance = tile_properties.properties[tile_id];
 	newInstance.Position = position;
 	newInstance.Index = instance.Index;
-	newInstance.UvCoordPos = vec2<f32>(f32(instance.AtlasCoordPos & 0x0000ffffu),f32(instance.AtlasCoordPos >> 16u)) / ImageSize;
+	var atlas_pos = instance.AtlasCoordPos;
+	//	Animation: u32,// 1 for Activated // 7 bits for animation length // 12 bits for when update animation TODO
+	if (instance.Animation >> 31u == 1u){
+	    let animation_length =  u32((instance.Animation >> 24u) & 0x0000007fu);
+	    let update_tick =  u32(instance.Animation & 0x00ffffffu);
+	    let uv_size = u32(instance.AtlasCoordSize & 0x0000ffffu);
+	    let is_update_time = animation_tick / update_tick;
+	    atlas_pos += uv_size * (is_update_time % animation_length);
+	}
+
+	newInstance.UvCoordPos = vec2<f32>(f32(atlas_pos & 0x0000ffffu),f32(atlas_pos >> 16u)) / ImageSize;
 	newInstance.UvCoordSize = instance.AtlasCoordSize;
 	newInstance.Color = color;
 	return newInstance;
 }
 
 //Tile and Object
-fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, Color: u32) -> InstancingObject{
+fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32) -> InstancingObject{
 	let depth: f32 = WorldPosToDepth(world_pos);
 	var position = WorldToScreenPos(world_pos);
 	position.y -= f32(elevation) + 7.0f;;
-	return CreateObjectInstance(tile_id, vec3(position, depth), Color);
+	return CreateObjectInstance(tile_id, vec3(position, depth), animation_tick, Color);
 }
 
-fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, Color: u32, offset_elevation_x: f32) -> InstancingObject{
+fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32, offset_elevation_x: f32) -> InstancingObject{
 	let depth: f32 = WorldPosToDepth(world_pos) + 0.0000001;
 	var position = WorldToScreenPos(world_pos);
 	position.x += offset_elevation_x;
-	var instance: InstancingObject  = CreateObjectInstance(tile_id, vec3(position, depth), Color);
+	var instance: InstancingObject  = CreateObjectInstance(tile_id, vec3(position, depth), animation_tick, Color);
 	var size = (elevation + 7u);
 	size += size % 4u;//because of zooming there needs to be a number which has no odd number when zommed out 2 times
     instance.UvCoordSize = (instance.UvCoordSize & 0x0000ffffu) | (size << 16u);
 	return instance;
 }
 
-fn CreateSpecificInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, Color: u32) -> InstancingObject{
+fn CreateSpecificInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32) -> InstancingObject{
 	let depth: f32 = WorldPosToDepth(world_pos);
 	var position = WorldToScreenPos(world_pos);
 	position.y -= f32(elevation);
-	return CreateObjectInstance(tile_id, vec3(position, depth), Color);
+	return CreateObjectInstance(tile_id, vec3(position, depth), animation_tick, Color);
 }
 
 
@@ -211,7 +221,9 @@ struct ComputeParams {
     start_pos: vec2<i32>,
     map_size: vec2<i32>,
     columns: i32,
-    rows: i32
+    rows: i32,
+    tick: u32,
+    offset: u32
 };
 @group(0) @binding(0)
 var<uniform> params: ComputeParams;
@@ -244,10 +256,11 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
 
            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
            var elevation = tile.ElevationAndOffsetObjectY >> 16u;
-    	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, 0xffffffffu);
-    	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, 0xffffffffu);
-    	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, 0xffffffffu);
-    	   visble_tiles_cp.tiles[visible_index + 3] = CreateElevationInstance(tile.SingleInstances[3], index, elevation, 0xffffffffu, tile.OffsetElevationX);
+           let tick = params.tick + tile.AnimationTick;
+    	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, tick, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, tick, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, tick, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 3] = CreateElevationInstance(tile.SingleInstances[3], index, elevation, tick, 0xffffffffu, tile.OffsetElevationX);
 }
 
 @compute
@@ -272,9 +285,9 @@ fn instancing_without_elevation(@builtin(global_invocation_id) global_id: vec3<u
            let visible_index = calc_visible_index(index, actual_row_start) * 2;
 
            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
-
-    	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[4], index, 0u, 0xffffffffu);
-    	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[5], index, 0u, 0xffffffffu);
+           let tick = params.tick + tile.AnimationTick;
+    	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[4], index, 0u, tick, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[5], index, 0u, tick, 0xffffffffu);
 }
 
 

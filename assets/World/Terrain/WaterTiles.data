@@ -1,6 +1,7 @@
 {
   "water_tile_0":{
     "ImageName": "water",
+    "Animation":"water_animation_0",
     "AtlasCoordinate": "0,96,32,16",
     "MiniMapColor": "89,220,225,255"
   }

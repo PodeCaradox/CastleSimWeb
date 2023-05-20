@@ -1,7 +1,7 @@
 {
    "water_animation_0":{
-      "AnimationLength":7,
-      "Delay":200
+      "AnimationLength":8,
+      "Delay":300
    },
    "animated_grass_0":{
       "AnimationLength":6,

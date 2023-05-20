@@ -121,13 +121,15 @@
    },
   "grass_2":{
      "ImageName":"land",
-     "AtlasCoordinate":"696,0,32,28",
+     "AtlasCoordinate":"728,0,32,32",
      "Walkable":true,
+     "Animation":"animated_grass_0",
      "MiniMapColor":"100,118,65,255"
   },
    "grass_3":{
       "ImageName":"land",
       "AtlasCoordinate":"728,0,32,32",
+      "Animation":"animated_grass_0",
       "Walkable":true,
       "MiniMapColor":"100,118,65,255"
    }
