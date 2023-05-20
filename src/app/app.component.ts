@@ -33,13 +33,21 @@ export class AppComponent implements AfterViewInit, OnInit  {
       }else{
         screenfull.exit();
       }
+      const canvas: HTMLCanvasElement = document.getElementById('castle_sim_canvas') as HTMLCanvasElement;
+      if (canvas) {
+        canvas.focus();
+      }
     }
+
 
   }
 
   loading_state() {
     this.isLoaded = this.loading!.nativeElement.getAttribute('tag') as boolean;
-    this.gameFieldDiv!.nativeElement.children[0].nativeElement.click();
+    const canvas: HTMLCanvasElement = document.getElementById('castle_sim_canvas') as HTMLCanvasElement;
+    if (canvas) {
+      canvas.focus();
+    }
   }
 
   ngOnInit(): void {
