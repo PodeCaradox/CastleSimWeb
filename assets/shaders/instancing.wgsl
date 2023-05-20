@@ -97,7 +97,7 @@ fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
                    var right_bottom_screen: vec2<i32> = vec2<i32>(params.start_pos.x + params.columns, params.start_pos.y + params.columns);
                    //check if we are passed the last Tile for MapSizeX with the Camera
                    if (right_bottom_screen.x + right_bottom_screen.y > params.map_size.x) {
-                       start = vec2<i32>(params.map_size.x - 1, 0);
+                       start = vec2<i32>(params.map_size.x, 0);
 
                    } else {
                         //we are above the Last Tile so x < MapSizeX for Camera right bottom Position
@@ -112,8 +112,6 @@ fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
                    difference /= 2;
                    start.x -= difference;
                    start.y -= difference;
-                   start.x += start.x % 2;
-                   start.y += start.y % 2;
                    return start;
        }
        //underneath right side of map
