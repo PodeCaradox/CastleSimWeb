@@ -26,6 +26,28 @@ button{
   z-index: 10;
 }
 
+.overdraw{
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: 10 !important;
+}
+
+
+
+p{
+  color: white;
+}
+
+.stretch-128 {
+  height: 32px;
+  padding: 2px;
+}
+
+.margin_w_key{
+  padding-left: 34px;
+}
+
 mat-icon,mat-icon.matListIcon{
   outline:none !important;
 
