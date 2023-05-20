@@ -39,6 +39,7 @@ export class AppComponent implements AfterViewInit, OnInit  {
 
   loading_state() {
     this.isLoaded = this.loading!.nativeElement.getAttribute('tag') as boolean;
+    this.gameFieldDiv!.nativeElement.children[0].nativeElement.click();
   }
 
   ngOnInit(): void {
