@@ -6,11 +6,14 @@ import screenfull from 'screenfull';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements AfterViewInit  {
+export class AppComponent implements AfterViewInit, OnInit  {
   wasmModule: InitOutput | undefined;
   @ViewChild('gameFieldDiv') gameFieldDiv: ElementRef | undefined;
+  @ViewChild('loadingElement', { read: ElementRef, static:false }) loading: ElementRef | undefined;
   isFullscreen: boolean = false;
+  isLoaded: boolean = false;
   async ngAfterViewInit() {
+
     if (screenfull.isEnabled) {
       screenfull.on('change', () => {
         this.isFullscreen = screenfull.isFullscreen;
@@ -34,4 +37,11 @@ export class AppComponent implements AfterViewInit  {
 
   }
 
+  loading_state() {
+    this.isLoaded = this.loading!.nativeElement.getAttribute('tag') as boolean;
+  }
+
+  ngOnInit(): void {
+    this.isLoaded = false;
+  }
 }

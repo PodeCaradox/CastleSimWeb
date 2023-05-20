@@ -1,5 +1,9 @@
 <div id="container">
     <button *ngIf="!isFullscreen" mat-icon-button (click)="fullscreen()"> <mat-icon>open_in_new</mat-icon></button>
+  <div *ngIf="!isLoaded" >
+    <mat-spinner class="loading-spinner" id="loading_spinner" #loadingElement (click)="loading_state()"></mat-spinner>
+    <p class="loading-spinner loading-text" id="loading_text">asdasdasdasd</p>
+  </div>
 
   <div id="wasm-example" #gameFieldDiv>
   </div>
