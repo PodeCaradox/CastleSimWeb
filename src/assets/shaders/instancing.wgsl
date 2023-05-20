@@ -15,7 +15,7 @@ struct TileInstances
 	Dummy: u32,
 	Color: u32,
 	MiniMapColor: u32,
-	AnimationAlphaStart: u32,
+	AnimationAlphaStart: u32,// to set the delays for wind
 	ElevationAndOffsetObjectY: u32,//16 bits for Elevation // 16 for OffsetObjectY
 	OffsetElevationX: f32,
 	SingleInstances: array<u32, 6>,
