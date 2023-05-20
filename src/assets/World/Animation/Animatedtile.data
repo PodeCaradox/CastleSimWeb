@@ -1,13 +1,19 @@
 {
    "water_animation_0":{
+      "PauseFrames":0,
+      "OffsetByXAxis":0,
       "AnimationLength":8,
       "Delay":300
    },
    "animated_grass_0":{
+      "PauseFrames":6,
+      "OffsetByXAxis":60,
       "AnimationLength":6,
       "Delay":500
    },
    "animated_tree_red":{
+      "PauseFrames":0,
+      "OffsetByXAxis":0,
       "AnimationLength":6,
       "Delay":200
    }
