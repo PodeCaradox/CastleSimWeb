@@ -182,8 +182,6 @@ fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, animation_tick: u32, 
 	    let img_coord = is_update_time % (animation_length + pausing_frames);
 	    if(img_coord < animation_length){
 	        atlas_pos += uv_size * img_coord;
-	    }else{
-	        atlas_pos += uv_size;
 	    }
 	}
 
