@@ -6,10 +6,10 @@
       "Delay":400
    },
    "animated_grass_0":{
-      "PauseFrames":40,
+      "PauseFrames":70,
       "OffsetByXAxis":100,
       "AnimationLength":2,
-      "Delay":160
+      "Delay":180
    },
    "animated_tree_red":{
       "PauseFrames":0,
