@@ -1,0 +1,33 @@
+{
+ "land":{
+   "Path":"images\\world\\terrain"
+ },
+ "water":{
+   "Path":"images\\world\\terrain"
+ },
+ "wall":{
+   "Path":"images\\world\\terrain"
+ },
+  "land_elevation":{
+   "Path":"images\\world\\elevation"
+ },
+ "wall_elevation":{
+   "Path":"images\\world\\elevation"
+ },
+ "debug_tiles":{
+   "Path":"images\\world\\debugging"
+ },
+ "tree":{
+   "Path":"images\\world\\objects\\trees"
+ },
+ "objects_on_top":{
+   "Path":"images\\world\\buildings\\objects_on_top"
+ },
+ "objects_tiled":{
+   "Path":"images\\world\\buildings\\objects_tiled"
+ },
+ "arrow":{
+   "Path":"images\\units"
+ }
+}
+
