@@ -57,16 +57,16 @@ fn vs_main(
 
         if (input.ColorSelected == 2u) {
           color = vec4<f32>(179.0 / 255.0, 98.0 / 255.0, 48.0 / 255.0, 153.0 / 255.0);
-        } else if (input.ColorSelected > 3u) {
+        } else if (input.ColorSelected > 2u) {
           color = vec4<f32>(114.0 / 255.0, 67.0 / 255.0, 41.0 / 255.0, 153.0 / 255.0);
         }else{
-            scale = vec2<f32>(0.0, 0.0);
+          scale = vec2<f32>(0.0, 0.0);
         }
-
+        var texCoord : vec2<f32> = (texPos + (size * inputvertex.Position.xy)) / 2048.0;
         pos -= vec2<f32>(scale.x, scale.y * 2.0);
         size += scale.xy * 2.0;
         var posWorld : vec4<f32> = vec4<f32>((pos + (size * inputvertex.Position.xy) + round(alignment * camera.screen_size)), 0.0, 1.0);
-        var texCoord : vec2<f32> = (texPos + (size * inputvertex.Position.xy)) / 2048.0;
+
         output.Color = color;
         output.TexCoord = texCoord;
         output.Position = camera.proj * posWorld;
