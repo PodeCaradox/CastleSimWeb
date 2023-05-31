@@ -19,7 +19,7 @@ struct DynamicVSinput
 struct CameraUniform {
     proj: mat4x4<f32>,
     screen_size: vec2<f32>,
-    offsetting: vec2<f32>,
+    scale_factor: vec2<f32>,
 }
 
 @group(1) @binding(0)
@@ -65,8 +65,7 @@ fn vs_main(
 
         pos -= vec2<f32>(scale.x, scale.y * 2.0);
         size += scale.xy * 2.0;
-
-        var posWorld : vec4<f32> = vec4<f32>(pos + (size * inputvertex.Position.xy) + round(alignment * camera.screen_size), 0.0, 1.0);
+        var posWorld : vec4<f32> = vec4<f32>((pos + (size * inputvertex.Position.xy) + round(alignment * camera.screen_size)), 0.0, 1.0);
         var texCoord : vec2<f32> = (texPos + (size * inputvertex.Position.xy)) / 2048.0;
         output.Color = color;
         output.TexCoord = texCoord;
