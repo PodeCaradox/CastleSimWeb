@@ -2,22 +2,10 @@
 
    "delete_brush":{
       "BrushType":"DeleteBrush",
-      "SourceRectangleUIImage":{
-         "X":247,
-         "Y":0,
-         "Width":63,
-         "Height":25
-      },
       "BrushEntities":[]
    },
    "brush_test_0":{
       "BrushType":"TileBrush",
-      "SourceRectangleUIImage":{
-         "X":0,
-         "Y":27,
-         "Width":40,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"tile_orange",
@@ -31,12 +19,6 @@
    },
    "brush_water_0":{
       "BrushType":"TileBrush",
-      "SourceRectangleUIImage":{
-         "X":41,
-         "Y":27,
-         "Width":48,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"water_tile_0",
@@ -46,12 +28,6 @@
    },
    "brush_rocks":{
       "BrushType":"TileBrush",
-      "SourceRectangleUIImage":{
-         "X":0,
-         "Y":0,
-         "Width":40,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"stone_0",
@@ -65,12 +41,6 @@
    },
    "brush_rocks_moss":{
       "BrushType":"TileBrush",
-      "SourceRectangleUIImage":{
-         "X":91,
-         "Y":27,
-         "Width":40,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"stone_moss_0",
@@ -84,12 +54,6 @@
    },
    "brush_dry_grass":{
       "BrushType":"TileBrush",
-      "SourceRectangleUIImage":{
-         "X":82,
-         "Y":0,
-         "Width":40,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"grass_dry_0",
@@ -111,12 +75,6 @@
    },
    "brush_grass":{
       "BrushType":"TileBrush",
-      "SourceRectangleUIImage":{
-         "X":82,
-         "Y":0,
-         "Width":40,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"grass_0",
@@ -138,12 +96,6 @@
    },
    "brush_grass1":{
       "BrushType":"TileBrush",
-      "SourceRectangleUIImage":{
-         "X":82,
-         "Y":0,
-         "Width":40,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"grass_0",
@@ -153,12 +105,6 @@
    },
    "brush_elevation_up":{
       "BrushType":"ElevationBrush",
-      "SourceRectangleUIImage":{
-         "X":132,
-         "Y":27,
-         "Width":59,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"elevation_tile_0",
@@ -168,12 +114,6 @@
    },
    "brush_elevation_down":{
       "BrushType":"ElevationBrush",
-      "SourceRectangleUIImage":{
-         "X":132,
-         "Y":27,
-         "Width":59,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"elevation_tile_0",
@@ -183,12 +123,6 @@
    },
    "brush_wall_0":{
       "BrushType":"WallBrush",
-      "SourceRectangleUIImage":{
-         "X":192,
-         "Y":27,
-         "Width":48,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"wall_tile_0",
@@ -198,12 +132,6 @@
    },
    "brush_crenelation_0":{
       "BrushType":"CrenelationBrush",
-      "SourceRectangleUIImage":{
-         "X":241,
-         "Y":27,
-         "Width":70,
-         "Height":26
-      },
       "BrushEntities":[
          {
             "Name":"wall_crenelation_0",
@@ -213,12 +141,6 @@
    },
    "brush_tree":{
       "BrushType":"StaticObjectBrush",
-      "SourceRectangleUIImage":{
-         "X":0,
-         "Y":54,
-         "Width":40,
-         "Height":18
-      },
       "BrushEntities":[
          {
             "Name":"tree_red_0",
@@ -228,12 +150,6 @@
    },
    "brush_house1":{
       "BrushType":"BuildingBrush",
-      "SourceRectangleUIImage":{
-         "X":0,
-         "Y":54,
-         "Width":40,
-         "Height":18
-      },
       "BrushEntities":[
          {
             "Name":"test",
@@ -243,12 +159,6 @@
    },
    "brush_house":{
       "BrushType":"BuildingBrush",
-      "SourceRectangleUIImage":{
-         "X":0,
-         "Y":54,
-         "Width":40,
-         "Height":18
-      },
       "BrushEntities":[
          {
             "Name":"test1",
@@ -258,12 +168,6 @@
    },
    "brush_house2":{
       "BrushType":"BuildingBrush",
-      "SourceRectangleUIImage":{
-         "X":0,
-         "Y":54,
-         "Width":40,
-         "Height":18
-      },
       "BrushEntities":[
          {
             "Name":"test2",
