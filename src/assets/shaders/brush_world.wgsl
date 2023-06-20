@@ -66,7 +66,7 @@ fn is_in_map_bounds(map_position: vec2<i32>) -> i32 {
 
 fn WorldPosToDepth(world_pos: vec2<i32>) -> f32{
 	let size: f32 = f32(params.map_size.x * params.map_size.y);
-	return 1.0f - f32(world_pos.y * params.map_size.x + world_pos.x) / size ;
+	return 1.0f - f32(world_pos.y * params.map_size.x + world_pos.x) / size - ZStep;
 }
 
 fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
@@ -170,7 +170,7 @@ if (global_id.x > brush_params.instances_to_draw) {
        visble_tiles_cp.tiles[visible_index + 1u] = CreateSpecificInstance(tile.SingleInstances[1], pos, elevation, 0u, tile.Color);
        visble_tiles_cp.tiles[visible_index + 2u] = CreateBuildingInstance(tile.SingleInstances[2], pos, elevation, 0u, tile.Color);
        visble_tiles_cp.tiles[visible_index + 3u] = CreateElevationInstance(tile.SingleInstances[3], pos, elevation, 0u, tile.Color, tile.OffsetElevationX);
-
+       visble_tiles_cp.tiles[visible_index + 3u].Position.z -= ZStep;
 		return;
 	}
 
