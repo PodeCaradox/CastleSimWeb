@@ -1,4 +1,10 @@
 {
+   "wall_wooden_0":{
+      "ImageName":"wall",
+      "AtlasCoordinate":"0,180,32,64",
+      "ElevationFamilyName":"elevation_wall_wood",
+      "MiniMapColor":"213,145,103,255"
+   },
    "wall_tile_0":{
       "FamilyName":"wall_tile_full",
       "ImageName":"wall",

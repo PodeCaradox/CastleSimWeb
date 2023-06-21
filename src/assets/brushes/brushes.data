@@ -130,6 +130,15 @@
          }
       ]
    },
+   "brush_wall_wooden_0":{
+      "BrushType":"WallBrush",
+      "BrushEntities":[
+         {
+            "Name":"wall_wooden_0",
+            "RandomFactor":1
+         }
+      ]
+   },
    "brush_crenelation_0":{
       "BrushType":"CrenelationBrush",
       "BrushEntities":[
@@ -148,155 +157,335 @@
          }
       ]
    },
-   "brush_house1":{
+    "apple_farm_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"test",
+            "Name":"apple_farm",
             "RandomFactor":1
          }
       ]
    },
-   "brush_house":{
+   "cow_farm_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"test1",
+            "Name":"cow_farm",
             "RandomFactor":1
          }
       ]
    },
-   "brush_house2":{
+   "grain_farm_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"test2",
+            "Name":"grain_farm",
             "RandomFactor":1
          }
       ]
    },
-   "churchsmall":{
+   "hop_farm_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"churchsmall",
+            "Name":"hop_farm",
             "RandomFactor":1
          }
       ]
    },
-   "churchmedium":{
+   "hunter_stand_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"churchmedium",
+            "Name":"hunter_stand",
             "RandomFactor":1
          }
       ]
    },
-   "CastleKeepBig":{
+    "mill_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"CastleKeepBig",
+            "Name":"mill",
             "RandomFactor":1
          }
       ]
    },
-   "CasttleKeep":{
+   "bakery_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"CasttleKeep",
+            "Name":"bakery",
             "RandomFactor":1
          }
       ]
    },
-   "TowerSmall":{
+   "brewery_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"TowerSmall",
+            "Name":"brewery",
             "RandomFactor":1
          }
       ]
    },
-   "TowerMedium":{
+       "wood_cutter_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"TowerMedium",
+            "Name":"wood_cutter",
             "RandomFactor":1
          }
       ]
    },
-   "TowerBigSquare":{
+   "mine_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"TowerBigSquare",
+            "Name":"mine",
             "RandomFactor":1
          }
       ]
    },
-   "TowerRound":{
+   "black_smith_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"TowerRound",
+            "Name":"black_smith",
             "RandomFactor":1
          }
       ]
    },
-   "WoodenGate":{
+   "tannery_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"WoodenGate",
+            "Name":"tannery",
             "RandomFactor":1
          }
       ]
    },
-      "Woddedn_castleKeep":{
+   "shields_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"Woddedn_castleKeep",
+            "Name":"shields",
             "RandomFactor":1
          }
       ]
    },
-      "CasleKeep_mooded":{
+   "archery_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"CasleKeep_mooded",
+            "Name":"archery",
             "RandomFactor":1
          }
       ]
    },
-      "CastleKeepLeft":{
+   "house_1_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"CastleKeepLeft",
+            "Name":"house_1",
             "RandomFactor":1
          }
       ]
    },
-      "CastleKeepRight":{
+   "house_2_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"CastleKeepRight",
+            "Name":"house_2",
             "RandomFactor":1
          }
       ]
    },
-         "Castlekeep_gatecenter":{
+   "house_3_brush":{
       "BrushType":"BuildingBrush",
       "BrushEntities":[
          {
-            "Name":"Castlekeep_gatecenter",
+            "Name":"house_3",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "house_4_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"house_4",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "house_5_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"house_5",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "house_6_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"house_6",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "house_7_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"house_7",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "granary_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"granary",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "market_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"market",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "inn_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"inn",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "well_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"well",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "church_small_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"church_small",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "church_medium_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"church_medium",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "church_big_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"church_big",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "gate_0_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"gate_0",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "gate_1_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"gate_1",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "tower_smallc_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"tower_smallc",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "tower_small_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"tower_small",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "tower_big_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"tower_big",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "tower_bigc_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"tower_bigc",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "armory_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"armory",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "barracks_1_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"barracks_1",
+            "RandomFactor":1
+         }
+      ]
+   },
+   "barracks_2_brush":{
+      "BrushType":"BuildingBrush",
+      "BrushEntities":[
+         {
+            "Name":"barracks_2",
             "RandomFactor":1
          }
       ]
