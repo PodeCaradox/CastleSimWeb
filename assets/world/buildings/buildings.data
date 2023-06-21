@@ -1,45 +1,18 @@
 {
-  "test0": {
+  "apple_farm": {
     "TileIds": [
-      "test0_0",
-      "test0_1",
-      "test0_2",
-      "test0_3",
-      "test0_4",
-      "test0_5",
-      "test0_6",
-      "test0_7",
-      "test0_8",
-      "test0_9",
-      "test0_10",
-      "test0_11",
-      "test0_12",
-      "test0_13",
-      "test0_14",
-      "test0_15"
+      "apple_farm_0",
+      "apple_farm_1",
+      "apple_farm_2",
+      "apple_farm_3",
+      "apple_farm_4",
+      "apple_farm_5",
+      "apple_farm_6",
+      "apple_farm_7",
+      "apple_farm_8"
     ],
     "Positions": [
       {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -1
-      },
-      {
         "x": -1,
         "y": -1
       },
@@ -52,10 +25,6 @@
         "y": -1
       },
       {
-        "x": -2,
-        "y": 0
-      },
-      {
         "x": -1,
         "y": 0
       },
@@ -66,10 +35,6 @@
       {
         "x": 1,
         "y": 0
-      },
-      {
-        "x": -2,
-        "y": 1
       },
       {
         "x": -1,
@@ -85,24 +50,33 @@
       }
     ]
   },
-  "test1": {
+  "brewery": {
     "TileIds": [
-      "test1_0",
-      "test1_1",
-      "test1_2",
-      "test1_3",
-      "test1_4",
-      "test1_5",
-      "test1_6",
-      "test1_7",
-      "test1_8",
-      "test1_9",
-      "test1_10",
-      "test1_11",
-      "test1_12",
-      "test1_13",
-      "test1_14",
-      "test1_15"
+      "brewery_0",
+      "brewery_1",
+      "brewery_2",
+      "brewery_3",
+      "brewery_4",
+      "brewery_5",
+      "brewery_6",
+      "brewery_7",
+      "brewery_8",
+      "brewery_9",
+      "brewery_10",
+      "brewery_11",
+      "brewery_12",
+      "brewery_13",
+      "brewery_14",
+      "brewery_15",
+      "brewery_16",
+      "brewery_17",
+      "brewery_18",
+      "brewery_19",
+      "brewery_20",
+      "brewery_21",
+      "brewery_22",
+      "brewery_23",
+      "brewery_24"
     ],
     "Positions": [
       {
@@ -122,330 +96,8 @@
         "y": -2
       },
       {
-        "x": -2,
-        "y": -1
-      },
-      {
-        "x": -1,
-        "y": -1
-      },
-      {
-        "x": 0,
-        "y": -1
-      },
-      {
-        "x": 1,
-        "y": -1
-      },
-      {
-        "x": -2,
-        "y": 0
-      },
-      {
-        "x": -1,
-        "y": 0
-      },
-      {
-        "x": 0,
-        "y": 0
-      },
-      {
-        "x": 1,
-        "y": 0
-      },
-      {
-        "x": -2,
-        "y": 1
-      },
-      {
-        "x": -1,
-        "y": 1
-      },
-      {
-        "x": 0,
-        "y": 1
-      },
-      {
-        "x": 1,
-        "y": 1
-      }
-    ]
-  },
-  "test2": {
-    "TileIds": [
-      "test2_0",
-      "test2_1",
-      "test2_2",
-      "test2_3",
-      "test2_4",
-      "test2_5",
-      "test2_6",
-      "test2_7",
-      "test2_8",
-      "test2_9",
-      "test2_10",
-      "test2_11",
-      "test2_12",
-      "test2_13",
-      "test2_14",
-      "test2_15",
-      "test2_16",
-      "test2_17",
-      "test2_18",
-      "test2_19",
-      "test2_20",
-      "test2_21",
-      "test2_22",
-      "test2_23",
-      "test2_24",
-      "test2_25",
-      "test2_26",
-      "test2_27",
-      "test2_28",
-      "test2_29",
-      "test2_30",
-      "test2_31",
-      "test2_32",
-      "test2_33",
-      "test2_34",
-      "test2_35",
-      "test2_36",
-      "test2_37",
-      "test2_38",
-      "test2_39",
-      "test2_40",
-      "test2_41",
-      "test2_42",
-      "test2_43",
-      "test2_44",
-      "test2_45",
-      "test2_46",
-      "test2_47",
-      "test2_48",
-      "test2_49",
-      "test2_50",
-      "test2_51",
-      "test2_52",
-      "test2_53",
-      "test2_54",
-      "test2_55",
-      "test2_56",
-      "test2_57",
-      "test2_58",
-      "test2_59",
-      "test2_60",
-      "test2_61",
-      "test2_62",
-      "test2_63",
-      "test2_64",
-      "test2_65",
-      "test2_66",
-      "test2_67",
-      "test2_68",
-      "test2_69",
-      "test2_70",
-      "test2_71",
-      "test2_72",
-      "test2_73",
-      "test2_74",
-      "test2_75",
-      "test2_76",
-      "test2_77",
-      "test2_78",
-      "test2_79",
-      "test2_80",
-      "test2_81",
-      "test2_82",
-      "test2_83",
-      "test2_84",
-      "test2_85",
-      "test2_86",
-      "test2_87",
-      "test2_88",
-      "test2_89",
-      "test2_90",
-      "test2_91",
-      "test2_92",
-      "test2_93",
-      "test2_94",
-      "test2_95",
-      "test2_96",
-      "test2_97",
-      "test2_98",
-      "test2_99"
-    ],
-    "Positions": [
-      {
-        "x": -5,
-        "y": -5
-      },
-      {
-        "x": -4,
-        "y": -5
-      },
-      {
-        "x": -3,
-        "y": -5
-      },
-      {
-        "x": -2,
-        "y": -5
-      },
-      {
-        "x": -1,
-        "y": -5
-      },
-      {
-        "x": 0,
-        "y": -5
-      },
-      {
-        "x": 1,
-        "y": -5
-      },
-      {
-        "x": 2,
-        "y": -5
-      },
-      {
-        "x": 3,
-        "y": -5
-      },
-      {
-        "x": 4,
-        "y": -5
-      },
-      {
-        "x": -5,
-        "y": -4
-      },
-      {
-        "x": -4,
-        "y": -4
-      },
-      {
-        "x": -3,
-        "y": -4
-      },
-      {
-        "x": -2,
-        "y": -4
-      },
-      {
-        "x": -1,
-        "y": -4
-      },
-      {
-        "x": 0,
-        "y": -4
-      },
-      {
-        "x": 1,
-        "y": -4
-      },
-      {
-        "x": 2,
-        "y": -4
-      },
-      {
-        "x": 3,
-        "y": -4
-      },
-      {
-        "x": 4,
-        "y": -4
-      },
-      {
-        "x": -5,
-        "y": -3
-      },
-      {
-        "x": -4,
-        "y": -3
-      },
-      {
-        "x": -3,
-        "y": -3
-      },
-      {
-        "x": -2,
-        "y": -3
-      },
-      {
-        "x": -1,
-        "y": -3
-      },
-      {
-        "x": 0,
-        "y": -3
-      },
-      {
-        "x": 1,
-        "y": -3
-      },
-      {
-        "x": 2,
-        "y": -3
-      },
-      {
-        "x": 3,
-        "y": -3
-      },
-      {
-        "x": 4,
-        "y": -3
-      },
-      {
-        "x": -5,
-        "y": -2
-      },
-      {
-        "x": -4,
-        "y": -2
-      },
-      {
-        "x": -3,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
         "x": 2,
         "y": -2
-      },
-      {
-        "x": 3,
-        "y": -2
-      },
-      {
-        "x": 4,
-        "y": -2
-      },
-      {
-        "x": -5,
-        "y": -1
-      },
-      {
-        "x": -4,
-        "y": -1
-      },
-      {
-        "x": -3,
-        "y": -1
       },
       {
         "x": -2,
@@ -468,26 +120,6 @@
         "y": -1
       },
       {
-        "x": 3,
-        "y": -1
-      },
-      {
-        "x": 4,
-        "y": -1
-      },
-      {
-        "x": -5,
-        "y": 0
-      },
-      {
-        "x": -4,
-        "y": 0
-      },
-      {
-        "x": -3,
-        "y": 0
-      },
-      {
         "x": -2,
         "y": 0
       },
@@ -508,26 +140,6 @@
         "y": 0
       },
       {
-        "x": 3,
-        "y": 0
-      },
-      {
-        "x": 4,
-        "y": 0
-      },
-      {
-        "x": -5,
-        "y": 1
-      },
-      {
-        "x": -4,
-        "y": 1
-      },
-      {
-        "x": -3,
-        "y": 1
-      },
-      {
         "x": -2,
         "y": 1
       },
@@ -546,300 +158,6 @@
       {
         "x": 2,
         "y": 1
-      },
-      {
-        "x": 3,
-        "y": 1
-      },
-      {
-        "x": 4,
-        "y": 1
-      },
-      {
-        "x": -5,
-        "y": 2
-      },
-      {
-        "x": -4,
-        "y": 2
-      },
-      {
-        "x": -3,
-        "y": 2
-      },
-      {
-        "x": -2,
-        "y": 2
-      },
-      {
-        "x": -1,
-        "y": 2
-      },
-      {
-        "x": 0,
-        "y": 2
-      },
-      {
-        "x": 1,
-        "y": 2
-      },
-      {
-        "x": 2,
-        "y": 2
-      },
-      {
-        "x": 3,
-        "y": 2
-      },
-      {
-        "x": 4,
-        "y": 2
-      },
-      {
-        "x": -5,
-        "y": 3
-      },
-      {
-        "x": -4,
-        "y": 3
-      },
-      {
-        "x": -3,
-        "y": 3
-      },
-      {
-        "x": -2,
-        "y": 3
-      },
-      {
-        "x": -1,
-        "y": 3
-      },
-      {
-        "x": 0,
-        "y": 3
-      },
-      {
-        "x": 1,
-        "y": 3
-      },
-      {
-        "x": 2,
-        "y": 3
-      },
-      {
-        "x": 3,
-        "y": 3
-      },
-      {
-        "x": 4,
-        "y": 3
-      },
-      {
-        "x": -5,
-        "y": 4
-      },
-      {
-        "x": -4,
-        "y": 4
-      },
-      {
-        "x": -3,
-        "y": 4
-      },
-      {
-        "x": -2,
-        "y": 4
-      },
-      {
-        "x": -1,
-        "y": 4
-      },
-      {
-        "x": 0,
-        "y": 4
-      },
-      {
-        "x": 1,
-        "y": 4
-      },
-      {
-        "x": 2,
-        "y": 4
-      },
-      {
-        "x": 3,
-        "y": 4
-      },
-      {
-        "x": 4,
-        "y": 4
-      }
-    ]
-  },
-  "churchsmall": {
-    "TileIds": [
-      "churchsmall_0",
-      "churchsmall_1",
-      "churchsmall_2",
-      "churchsmall_3",
-      "churchsmall_4",
-      "churchsmall_5",
-      "churchsmall_6",
-      "churchsmall_7",
-      "churchsmall_8",
-      "churchsmall_9",
-      "churchsmall_10",
-      "churchsmall_11",
-      "churchsmall_12",
-      "churchsmall_13",
-      "churchsmall_14",
-      "churchsmall_15",
-      "churchsmall_16",
-      "churchsmall_17",
-      "churchsmall_18",
-      "churchsmall_19",
-      "churchsmall_20",
-      "churchsmall_21",
-      "churchsmall_22",
-      "churchsmall_23",
-      "churchsmall_24",
-      "churchsmall_25",
-      "churchsmall_26",
-      "churchsmall_27",
-      "churchsmall_28",
-      "churchsmall_29",
-      "churchsmall_30",
-      "churchsmall_31",
-      "churchsmall_32",
-      "churchsmall_33",
-      "churchsmall_34",
-      "churchsmall_35"
-    ],
-    "Positions": [
-      {
-        "x": -3,
-        "y": -3
-      },
-      {
-        "x": -2,
-        "y": -3
-      },
-      {
-        "x": -1,
-        "y": -3
-      },
-      {
-        "x": 0,
-        "y": -3
-      },
-      {
-        "x": 1,
-        "y": -3
-      },
-      {
-        "x": 2,
-        "y": -3
-      },
-      {
-        "x": -3,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": 2,
-        "y": -2
-      },
-      {
-        "x": -3,
-        "y": -1
-      },
-      {
-        "x": -2,
-        "y": -1
-      },
-      {
-        "x": -1,
-        "y": -1
-      },
-      {
-        "x": 0,
-        "y": -1
-      },
-      {
-        "x": 1,
-        "y": -1
-      },
-      {
-        "x": 2,
-        "y": -1
-      },
-      {
-        "x": -3,
-        "y": 0
-      },
-      {
-        "x": -2,
-        "y": 0
-      },
-      {
-        "x": -1,
-        "y": 0
-      },
-      {
-        "x": 0,
-        "y": 0
-      },
-      {
-        "x": 1,
-        "y": 0
-      },
-      {
-        "x": 2,
-        "y": 0
-      },
-      {
-        "x": -3,
-        "y": 1
-      },
-      {
-        "x": -2,
-        "y": 1
-      },
-      {
-        "x": -1,
-        "y": 1
-      },
-      {
-        "x": 0,
-        "y": 1
-      },
-      {
-        "x": 1,
-        "y": 1
-      },
-      {
-        "x": 2,
-        "y": 1
-      },
-      {
-        "x": -3,
-        "y": 2
       },
       {
         "x": -2,
@@ -863,588 +181,177 @@
       }
     ]
   },
-  "churchmedium": {
+  "church_big": {
     "TileIds": [
-      "churchmedium_0",
-      "churchmedium_1",
-      "churchmedium_2",
-      "churchmedium_3",
-      "churchmedium_4",
-      "churchmedium_5",
-      "churchmedium_6",
-      "churchmedium_7",
-      "churchmedium_8",
-      "churchmedium_9",
-      "churchmedium_10",
-      "churchmedium_11",
-      "churchmedium_12",
-      "churchmedium_13",
-      "churchmedium_14",
-      "churchmedium_15",
-      "churchmedium_16",
-      "churchmedium_17",
-      "churchmedium_18",
-      "churchmedium_19",
-      "churchmedium_20",
-      "churchmedium_21",
-      "churchmedium_22",
-      "churchmedium_23",
-      "churchmedium_24",
-      "churchmedium_25",
-      "churchmedium_26",
-      "churchmedium_27",
-      "churchmedium_28",
-      "churchmedium_29",
-      "churchmedium_30",
-      "churchmedium_31",
-      "churchmedium_32",
-      "churchmedium_33",
-      "churchmedium_34",
-      "churchmedium_35",
-      "churchmedium_36",
-      "churchmedium_37",
-      "churchmedium_38",
-      "churchmedium_39",
-      "churchmedium_40",
-      "churchmedium_41",
-      "churchmedium_42",
-      "churchmedium_43",
-      "churchmedium_44",
-      "churchmedium_45",
-      "churchmedium_46",
-      "churchmedium_47",
-      "churchmedium_48",
-      "churchmedium_49",
-      "churchmedium_50",
-      "churchmedium_51",
-      "churchmedium_52",
-      "churchmedium_53",
-      "churchmedium_54",
-      "churchmedium_55",
-      "churchmedium_56",
-      "churchmedium_57",
-      "churchmedium_58",
-      "churchmedium_59",
-      "churchmedium_60",
-      "churchmedium_61",
-      "churchmedium_62",
-      "churchmedium_63",
-      "churchmedium_64",
-      "churchmedium_65",
-      "churchmedium_66",
-      "churchmedium_67",
-      "churchmedium_68",
-      "churchmedium_69",
-      "churchmedium_70",
-      "churchmedium_71",
-      "churchmedium_72",
-      "churchmedium_73",
-      "churchmedium_74",
-      "churchmedium_75",
-      "churchmedium_76",
-      "churchmedium_77",
-      "churchmedium_78",
-      "churchmedium_79",
-      "churchmedium_80"
-    ],
-    "Positions": [
-      {
-        "x": -4,
-        "y": -4
-      },
-      {
-        "x": -3,
-        "y": -4
-      },
-      {
-        "x": -2,
-        "y": -4
-      },
-      {
-        "x": -1,
-        "y": -4
-      },
-      {
-        "x": 0,
-        "y": -4
-      },
-      {
-        "x": 1,
-        "y": -4
-      },
-      {
-        "x": 2,
-        "y": -4
-      },
-      {
-        "x": 3,
-        "y": -4
-      },
-      {
-        "x": 4,
-        "y": -4
-      },
-      {
-        "x": -4,
-        "y": -3
-      },
-      {
-        "x": -3,
-        "y": -3
-      },
-      {
-        "x": -2,
-        "y": -3
-      },
-      {
-        "x": -1,
-        "y": -3
-      },
-      {
-        "x": 0,
-        "y": -3
-      },
-      {
-        "x": 1,
-        "y": -3
-      },
-      {
-        "x": 2,
-        "y": -3
-      },
-      {
-        "x": 3,
-        "y": -3
-      },
-      {
-        "x": 4,
-        "y": -3
-      },
-      {
-        "x": -4,
-        "y": -2
-      },
-      {
-        "x": -3,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": 2,
-        "y": -2
-      },
-      {
-        "x": 3,
-        "y": -2
-      },
-      {
-        "x": 4,
-        "y": -2
-      },
-      {
-        "x": -4,
-        "y": -1
-      },
-      {
-        "x": -3,
-        "y": -1
-      },
-      {
-        "x": -2,
-        "y": -1
-      },
-      {
-        "x": -1,
-        "y": -1
-      },
-      {
-        "x": 0,
-        "y": -1
-      },
-      {
-        "x": 1,
-        "y": -1
-      },
-      {
-        "x": 2,
-        "y": -1
-      },
-      {
-        "x": 3,
-        "y": -1
-      },
-      {
-        "x": 4,
-        "y": -1
-      },
-      {
-        "x": -4,
-        "y": 0
-      },
-      {
-        "x": -3,
-        "y": 0
-      },
-      {
-        "x": -2,
-        "y": 0
-      },
-      {
-        "x": -1,
-        "y": 0
-      },
-      {
-        "x": 0,
-        "y": 0
-      },
-      {
-        "x": 1,
-        "y": 0
-      },
-      {
-        "x": 2,
-        "y": 0
-      },
-      {
-        "x": 3,
-        "y": 0
-      },
-      {
-        "x": 4,
-        "y": 0
-      },
-      {
-        "x": -4,
-        "y": 1
-      },
-      {
-        "x": -3,
-        "y": 1
-      },
-      {
-        "x": -2,
-        "y": 1
-      },
-      {
-        "x": -1,
-        "y": 1
-      },
-      {
-        "x": 0,
-        "y": 1
-      },
-      {
-        "x": 1,
-        "y": 1
-      },
-      {
-        "x": 2,
-        "y": 1
-      },
-      {
-        "x": 3,
-        "y": 1
-      },
-      {
-        "x": 4,
-        "y": 1
-      },
-      {
-        "x": -4,
-        "y": 2
-      },
-      {
-        "x": -3,
-        "y": 2
-      },
-      {
-        "x": -2,
-        "y": 2
-      },
-      {
-        "x": -1,
-        "y": 2
-      },
-      {
-        "x": 0,
-        "y": 2
-      },
-      {
-        "x": 1,
-        "y": 2
-      },
-      {
-        "x": 2,
-        "y": 2
-      },
-      {
-        "x": 3,
-        "y": 2
-      },
-      {
-        "x": 4,
-        "y": 2
-      },
-      {
-        "x": -4,
-        "y": 3
-      },
-      {
-        "x": -3,
-        "y": 3
-      },
-      {
-        "x": -2,
-        "y": 3
-      },
-      {
-        "x": -1,
-        "y": 3
-      },
-      {
-        "x": 0,
-        "y": 3
-      },
-      {
-        "x": 1,
-        "y": 3
-      },
-      {
-        "x": 2,
-        "y": 3
-      },
-      {
-        "x": 3,
-        "y": 3
-      },
-      {
-        "x": 4,
-        "y": 3
-      },
-      {
-        "x": -4,
-        "y": 4
-      },
-      {
-        "x": -3,
-        "y": 4
-      },
-      {
-        "x": -2,
-        "y": 4
-      },
-      {
-        "x": -1,
-        "y": 4
-      },
-      {
-        "x": 0,
-        "y": 4
-      },
-      {
-        "x": 1,
-        "y": 4
-      },
-      {
-        "x": 2,
-        "y": 4
-      },
-      {
-        "x": 3,
-        "y": 4
-      },
-      {
-        "x": 4,
-        "y": 4
-      }
-    ]
-  },
-  "chruchbig": {
-    "TileIds": [
-      "chruchbig_0",
-      "chruchbig_1",
-      "chruchbig_2",
-      "chruchbig_3",
-      "chruchbig_4",
-      "chruchbig_5",
-      "chruchbig_6",
-      "chruchbig_7",
-      "chruchbig_8",
-      "chruchbig_9",
-      "chruchbig_10",
-      "chruchbig_11",
-      "chruchbig_12",
-      "chruchbig_13",
-      "chruchbig_14",
-      "chruchbig_15",
-      "chruchbig_16",
-      "chruchbig_17",
-      "chruchbig_18",
-      "chruchbig_19",
-      "chruchbig_20",
-      "chruchbig_21",
-      "chruchbig_22",
-      "chruchbig_23",
-      "chruchbig_24",
-      "chruchbig_25",
-      "chruchbig_26",
-      "chruchbig_27",
-      "chruchbig_28",
-      "chruchbig_29",
-      "chruchbig_30",
-      "chruchbig_31",
-      "chruchbig_32",
-      "chruchbig_33",
-      "chruchbig_34",
-      "chruchbig_35",
-      "chruchbig_36",
-      "chruchbig_37",
-      "chruchbig_38",
-      "chruchbig_39",
-      "chruchbig_40",
-      "chruchbig_41",
-      "chruchbig_42",
-      "chruchbig_43",
-      "chruchbig_44",
-      "chruchbig_45",
-      "chruchbig_46",
-      "chruchbig_47",
-      "chruchbig_48",
-      "chruchbig_49",
-      "chruchbig_50",
-      "chruchbig_51",
-      "chruchbig_52",
-      "chruchbig_53",
-      "chruchbig_54",
-      "chruchbig_55",
-      "chruchbig_56",
-      "chruchbig_57",
-      "chruchbig_58",
-      "chruchbig_59",
-      "chruchbig_60",
-      "chruchbig_61",
-      "chruchbig_62",
-      "chruchbig_63",
-      "chruchbig_64",
-      "chruchbig_65",
-      "chruchbig_66",
-      "chruchbig_67",
-      "chruchbig_68",
-      "chruchbig_69",
-      "chruchbig_70",
-      "chruchbig_71",
-      "chruchbig_72",
-      "chruchbig_73",
-      "chruchbig_74",
-      "chruchbig_75",
-      "chruchbig_76",
-      "chruchbig_77",
-      "chruchbig_78",
-      "chruchbig_79",
-      "chruchbig_80",
-      "chruchbig_81",
-      "chruchbig_82",
-      "chruchbig_83",
-      "chruchbig_84",
-      "chruchbig_85",
-      "chruchbig_86",
-      "chruchbig_87",
-      "chruchbig_88",
-      "chruchbig_89",
-      "chruchbig_90",
-      "chruchbig_91",
-      "chruchbig_92",
-      "chruchbig_93",
-      "chruchbig_94",
-      "chruchbig_95",
-      "chruchbig_96",
-      "chruchbig_97",
-      "chruchbig_98",
-      "chruchbig_99",
-      "chruchbig_100",
-      "chruchbig_101",
-      "chruchbig_102",
-      "chruchbig_103",
-      "chruchbig_104",
-      "chruchbig_105",
-      "chruchbig_106",
-      "chruchbig_107",
-      "chruchbig_108",
-      "chruchbig_109",
-      "chruchbig_110",
-      "chruchbig_111",
-      "chruchbig_112",
-      "chruchbig_113",
-      "chruchbig_114",
-      "chruchbig_115",
-      "chruchbig_116",
-      "chruchbig_117",
-      "chruchbig_118",
-      "chruchbig_119",
-      "chruchbig_120",
-      "chruchbig_121",
-      "chruchbig_122",
-      "chruchbig_123",
-      "chruchbig_124",
-      "chruchbig_125",
-      "chruchbig_126",
-      "chruchbig_127",
-      "chruchbig_128",
-      "chruchbig_129",
-      "chruchbig_130",
-      "chruchbig_131",
-      "chruchbig_132",
-      "chruchbig_133",
-      "chruchbig_134",
-      "chruchbig_135",
-      "chruchbig_136",
-      "chruchbig_137",
-      "chruchbig_138",
-      "chruchbig_139",
-      "chruchbig_140",
-      "chruchbig_141",
-      "chruchbig_142",
-      "chruchbig_143",
-      "chruchbig_144",
-      "chruchbig_145",
-      "chruchbig_146",
-      "chruchbig_147",
-      "chruchbig_148",
-      "chruchbig_149",
-      "chruchbig_150",
-      "chruchbig_151",
-      "chruchbig_152",
-      "chruchbig_153",
-      "chruchbig_154",
-      "chruchbig_155",
-      "chruchbig_156",
-      "chruchbig_157",
-      "chruchbig_158",
-      "chruchbig_159",
-      "chruchbig_160",
-      "chruchbig_161",
-      "chruchbig_162",
-      "chruchbig_163",
-      "chruchbig_164",
-      "chruchbig_165",
-      "chruchbig_166",
-      "chruchbig_167",
-      "chruchbig_168"
+      "church_big_0",
+      "church_big_1",
+      "church_big_2",
+      "church_big_3",
+      "church_big_4",
+      "church_big_5",
+      "church_big_6",
+      "church_big_7",
+      "church_big_8",
+      "church_big_9",
+      "church_big_10",
+      "church_big_11",
+      "church_big_12",
+      "church_big_13",
+      "church_big_14",
+      "church_big_15",
+      "church_big_16",
+      "church_big_17",
+      "church_big_18",
+      "church_big_19",
+      "church_big_20",
+      "church_big_21",
+      "church_big_22",
+      "church_big_23",
+      "church_big_24",
+      "church_big_25",
+      "church_big_26",
+      "church_big_27",
+      "church_big_28",
+      "church_big_29",
+      "church_big_30",
+      "church_big_31",
+      "church_big_32",
+      "church_big_33",
+      "church_big_34",
+      "church_big_35",
+      "church_big_36",
+      "church_big_37",
+      "church_big_38",
+      "church_big_39",
+      "church_big_40",
+      "church_big_41",
+      "church_big_42",
+      "church_big_43",
+      "church_big_44",
+      "church_big_45",
+      "church_big_46",
+      "church_big_47",
+      "church_big_48",
+      "church_big_49",
+      "church_big_50",
+      "church_big_51",
+      "church_big_52",
+      "church_big_53",
+      "church_big_54",
+      "church_big_55",
+      "church_big_56",
+      "church_big_57",
+      "church_big_58",
+      "church_big_59",
+      "church_big_60",
+      "church_big_61",
+      "church_big_62",
+      "church_big_63",
+      "church_big_64",
+      "church_big_65",
+      "church_big_66",
+      "church_big_67",
+      "church_big_68",
+      "church_big_69",
+      "church_big_70",
+      "church_big_71",
+      "church_big_72",
+      "church_big_73",
+      "church_big_74",
+      "church_big_75",
+      "church_big_76",
+      "church_big_77",
+      "church_big_78",
+      "church_big_79",
+      "church_big_80",
+      "church_big_81",
+      "church_big_82",
+      "church_big_83",
+      "church_big_84",
+      "church_big_85",
+      "church_big_86",
+      "church_big_87",
+      "church_big_88",
+      "church_big_89",
+      "church_big_90",
+      "church_big_91",
+      "church_big_92",
+      "church_big_93",
+      "church_big_94",
+      "church_big_95",
+      "church_big_96",
+      "church_big_97",
+      "church_big_98",
+      "church_big_99",
+      "church_big_100",
+      "church_big_101",
+      "church_big_102",
+      "church_big_103",
+      "church_big_104",
+      "church_big_105",
+      "church_big_106",
+      "church_big_107",
+      "church_big_108",
+      "church_big_109",
+      "church_big_110",
+      "church_big_111",
+      "church_big_112",
+      "church_big_113",
+      "church_big_114",
+      "church_big_115",
+      "church_big_116",
+      "church_big_117",
+      "church_big_118",
+      "church_big_119",
+      "church_big_120",
+      "church_big_121",
+      "church_big_122",
+      "church_big_123",
+      "church_big_124",
+      "church_big_125",
+      "church_big_126",
+      "church_big_127",
+      "church_big_128",
+      "church_big_129",
+      "church_big_130",
+      "church_big_131",
+      "church_big_132",
+      "church_big_133",
+      "church_big_134",
+      "church_big_135",
+      "church_big_136",
+      "church_big_137",
+      "church_big_138",
+      "church_big_139",
+      "church_big_140",
+      "church_big_141",
+      "church_big_142",
+      "church_big_143",
+      "church_big_144",
+      "church_big_145",
+      "church_big_146",
+      "church_big_147",
+      "church_big_148",
+      "church_big_149",
+      "church_big_150",
+      "church_big_151",
+      "church_big_152",
+      "church_big_153",
+      "church_big_154",
+      "church_big_155",
+      "church_big_156",
+      "church_big_157",
+      "church_big_158",
+      "church_big_159",
+      "church_big_160",
+      "church_big_161",
+      "church_big_162",
+      "church_big_163",
+      "church_big_164",
+      "church_big_165",
+      "church_big_166",
+      "church_big_167",
+      "church_big_168"
     ],
     "Positions": [
       {
@@ -2125,89 +1032,89 @@
       }
     ]
   },
-  "CastleKeepBig": {
+  "church_medium": {
     "TileIds": [
-      "CastleKeepBig_0",
-      "CastleKeepBig_1",
-      "CastleKeepBig_2",
-      "CastleKeepBig_3",
-      "CastleKeepBig_4",
-      "CastleKeepBig_5",
-      "CastleKeepBig_6",
-      "CastleKeepBig_7",
-      "CastleKeepBig_8",
-      "CastleKeepBig_9",
-      "CastleKeepBig_10",
-      "CastleKeepBig_11",
-      "CastleKeepBig_12",
-      "CastleKeepBig_13",
-      "CastleKeepBig_14",
-      "CastleKeepBig_15",
-      "CastleKeepBig_16",
-      "CastleKeepBig_17",
-      "CastleKeepBig_18",
-      "CastleKeepBig_19",
-      "CastleKeepBig_20",
-      "CastleKeepBig_21",
-      "CastleKeepBig_22",
-      "CastleKeepBig_23",
-      "CastleKeepBig_24",
-      "CastleKeepBig_25",
-      "CastleKeepBig_26",
-      "CastleKeepBig_27",
-      "CastleKeepBig_28",
-      "CastleKeepBig_29",
-      "CastleKeepBig_30",
-      "CastleKeepBig_31",
-      "CastleKeepBig_32",
-      "CastleKeepBig_33",
-      "CastleKeepBig_34",
-      "CastleKeepBig_35",
-      "CastleKeepBig_36",
-      "CastleKeepBig_37",
-      "CastleKeepBig_38",
-      "CastleKeepBig_39",
-      "CastleKeepBig_40",
-      "CastleKeepBig_41",
-      "CastleKeepBig_42",
-      "CastleKeepBig_43",
-      "CastleKeepBig_44",
-      "CastleKeepBig_45",
-      "CastleKeepBig_46",
-      "CastleKeepBig_47",
-      "CastleKeepBig_48",
-      "CastleKeepBig_49",
-      "CastleKeepBig_50",
-      "CastleKeepBig_51",
-      "CastleKeepBig_52",
-      "CastleKeepBig_53",
-      "CastleKeepBig_54",
-      "CastleKeepBig_55",
-      "CastleKeepBig_56",
-      "CastleKeepBig_57",
-      "CastleKeepBig_58",
-      "CastleKeepBig_59",
-      "CastleKeepBig_60",
-      "CastleKeepBig_61",
-      "CastleKeepBig_62",
-      "CastleKeepBig_63",
-      "CastleKeepBig_64",
-      "CastleKeepBig_65",
-      "CastleKeepBig_66",
-      "CastleKeepBig_67",
-      "CastleKeepBig_68",
-      "CastleKeepBig_69",
-      "CastleKeepBig_70",
-      "CastleKeepBig_71",
-      "CastleKeepBig_72",
-      "CastleKeepBig_73",
-      "CastleKeepBig_74",
-      "CastleKeepBig_75",
-      "CastleKeepBig_76",
-      "CastleKeepBig_77",
-      "CastleKeepBig_78",
-      "CastleKeepBig_79",
-      "CastleKeepBig_80"
+      "church_medium_0",
+      "church_medium_1",
+      "church_medium_2",
+      "church_medium_3",
+      "church_medium_4",
+      "church_medium_5",
+      "church_medium_6",
+      "church_medium_7",
+      "church_medium_8",
+      "church_medium_9",
+      "church_medium_10",
+      "church_medium_11",
+      "church_medium_12",
+      "church_medium_13",
+      "church_medium_14",
+      "church_medium_15",
+      "church_medium_16",
+      "church_medium_17",
+      "church_medium_18",
+      "church_medium_19",
+      "church_medium_20",
+      "church_medium_21",
+      "church_medium_22",
+      "church_medium_23",
+      "church_medium_24",
+      "church_medium_25",
+      "church_medium_26",
+      "church_medium_27",
+      "church_medium_28",
+      "church_medium_29",
+      "church_medium_30",
+      "church_medium_31",
+      "church_medium_32",
+      "church_medium_33",
+      "church_medium_34",
+      "church_medium_35",
+      "church_medium_36",
+      "church_medium_37",
+      "church_medium_38",
+      "church_medium_39",
+      "church_medium_40",
+      "church_medium_41",
+      "church_medium_42",
+      "church_medium_43",
+      "church_medium_44",
+      "church_medium_45",
+      "church_medium_46",
+      "church_medium_47",
+      "church_medium_48",
+      "church_medium_49",
+      "church_medium_50",
+      "church_medium_51",
+      "church_medium_52",
+      "church_medium_53",
+      "church_medium_54",
+      "church_medium_55",
+      "church_medium_56",
+      "church_medium_57",
+      "church_medium_58",
+      "church_medium_59",
+      "church_medium_60",
+      "church_medium_61",
+      "church_medium_62",
+      "church_medium_63",
+      "church_medium_64",
+      "church_medium_65",
+      "church_medium_66",
+      "church_medium_67",
+      "church_medium_68",
+      "church_medium_69",
+      "church_medium_70",
+      "church_medium_71",
+      "church_medium_72",
+      "church_medium_73",
+      "church_medium_74",
+      "church_medium_75",
+      "church_medium_76",
+      "church_medium_77",
+      "church_medium_78",
+      "church_medium_79",
+      "church_medium_80"
     ],
     "Positions": [
       {
@@ -2536,512 +1443,44 @@
       }
     ]
   },
-  "CasttleKeep": {
+  "church_small": {
     "TileIds": [
-      "CasttleKeep_0",
-      "CasttleKeep_1",
-      "CasttleKeep_2",
-      "CasttleKeep_3",
-      "CasttleKeep_4",
-      "CasttleKeep_5",
-      "CasttleKeep_6",
-      "CasttleKeep_7",
-      "CasttleKeep_8",
-      "CasttleKeep_9",
-      "CasttleKeep_10",
-      "CasttleKeep_11",
-      "CasttleKeep_12",
-      "CasttleKeep_13",
-      "CasttleKeep_14",
-      "CasttleKeep_15",
-      "CasttleKeep_16",
-      "CasttleKeep_17",
-      "CasttleKeep_18",
-      "CasttleKeep_19",
-      "CasttleKeep_20",
-      "CasttleKeep_21",
-      "CasttleKeep_22",
-      "CasttleKeep_23",
-      "CasttleKeep_24",
-      "CasttleKeep_25",
-      "CasttleKeep_26",
-      "CasttleKeep_27",
-      "CasttleKeep_28",
-      "CasttleKeep_29",
-      "CasttleKeep_30",
-      "CasttleKeep_31",
-      "CasttleKeep_32",
-      "CasttleKeep_33",
-      "CasttleKeep_34",
-      "CasttleKeep_35",
-      "CasttleKeep_36",
-      "CasttleKeep_37",
-      "CasttleKeep_38",
-      "CasttleKeep_39",
-      "CasttleKeep_40",
-      "CasttleKeep_41",
-      "CasttleKeep_42",
-      "CasttleKeep_43",
-      "CasttleKeep_44",
-      "CasttleKeep_45",
-      "CasttleKeep_46",
-      "CasttleKeep_47",
-      "CasttleKeep_48"
-    ],
-    "Positions": [
-      {
-        "x": -3,
-        "y": -3
-      },
-      {
-        "x": -2,
-        "y": -3
-      },
-      {
-        "x": -1,
-        "y": -3
-      },
-      {
-        "x": 0,
-        "y": -3
-      },
-      {
-        "x": 1,
-        "y": -3
-      },
-      {
-        "x": 2,
-        "y": -3
-      },
-      {
-        "x": 3,
-        "y": -3
-      },
-      {
-        "x": -3,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": 2,
-        "y": -2
-      },
-      {
-        "x": 3,
-        "y": -2
-      },
-      {
-        "x": -3,
-        "y": -1
-      },
-      {
-        "x": -2,
-        "y": -1
-      },
-      {
-        "x": -1,
-        "y": -1
-      },
-      {
-        "x": 0,
-        "y": -1
-      },
-      {
-        "x": 1,
-        "y": -1
-      },
-      {
-        "x": 2,
-        "y": -1
-      },
-      {
-        "x": 3,
-        "y": -1
-      },
-      {
-        "x": -3,
-        "y": 0
-      },
-      {
-        "x": -2,
-        "y": 0
-      },
-      {
-        "x": -1,
-        "y": 0
-      },
-      {
-        "x": 0,
-        "y": 0
-      },
-      {
-        "x": 1,
-        "y": 0
-      },
-      {
-        "x": 2,
-        "y": 0
-      },
-      {
-        "x": 3,
-        "y": 0
-      },
-      {
-        "x": -3,
-        "y": 1
-      },
-      {
-        "x": -2,
-        "y": 1
-      },
-      {
-        "x": -1,
-        "y": 1
-      },
-      {
-        "x": 0,
-        "y": 1
-      },
-      {
-        "x": 1,
-        "y": 1
-      },
-      {
-        "x": 2,
-        "y": 1
-      },
-      {
-        "x": 3,
-        "y": 1
-      },
-      {
-        "x": -3,
-        "y": 2
-      },
-      {
-        "x": -2,
-        "y": 2
-      },
-      {
-        "x": -1,
-        "y": 2
-      },
-      {
-        "x": 0,
-        "y": 2
-      },
-      {
-        "x": 1,
-        "y": 2
-      },
-      {
-        "x": 2,
-        "y": 2
-      },
-      {
-        "x": 3,
-        "y": 2
-      },
-      {
-        "x": -3,
-        "y": 3
-      },
-      {
-        "x": -2,
-        "y": 3
-      },
-      {
-        "x": -1,
-        "y": 3
-      },
-      {
-        "x": 0,
-        "y": 3
-      },
-      {
-        "x": 1,
-        "y": 3
-      },
-      {
-        "x": 2,
-        "y": 3
-      },
-      {
-        "x": 3,
-        "y": 3
-      }
-    ]
-  },
-  "TowerSmall": {
-    "TileIds": [
-      "TowerSmall_0",
-      "TowerSmall_1",
-      "TowerSmall_2",
-      "TowerSmall_3",
-      "TowerSmall_4",
-      "TowerSmall_5",
-      "TowerSmall_6",
-      "TowerSmall_7",
-      "TowerSmall_8",
-      "TowerSmall_9",
-      "TowerSmall_10",
-      "TowerSmall_11",
-      "TowerSmall_12",
-      "TowerSmall_13",
-      "TowerSmall_14",
-      "TowerSmall_15"
-    ],
-    "Positions": [
-      {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -1
-      },
-      {
-        "x": -1,
-        "y": -1
-      },
-      {
-        "x": 0,
-        "y": -1
-      },
-      {
-        "x": 1,
-        "y": -1
-      },
-      {
-        "x": -2,
-        "y": 0
-      },
-      {
-        "x": -1,
-        "y": 0
-      },
-      {
-        "x": 0,
-        "y": 0
-      },
-      {
-        "x": 1,
-        "y": 0
-      },
-      {
-        "x": -2,
-        "y": 1
-      },
-      {
-        "x": -1,
-        "y": 1
-      },
-      {
-        "x": 0,
-        "y": 1
-      },
-      {
-        "x": 1,
-        "y": 1
-      }
-    ]
-  },
-  "TowerMedium": {
-    "TileIds": [
-      "TowerMedium_0",
-      "TowerMedium_1",
-      "TowerMedium_2",
-      "TowerMedium_3",
-      "TowerMedium_4",
-      "TowerMedium_5",
-      "TowerMedium_6",
-      "TowerMedium_7",
-      "TowerMedium_8",
-      "TowerMedium_9",
-      "TowerMedium_10",
-      "TowerMedium_11",
-      "TowerMedium_12",
-      "TowerMedium_13",
-      "TowerMedium_14",
-      "TowerMedium_15",
-      "TowerMedium_16",
-      "TowerMedium_17",
-      "TowerMedium_18",
-      "TowerMedium_19",
-      "TowerMedium_20",
-      "TowerMedium_21",
-      "TowerMedium_22",
-      "TowerMedium_23",
-      "TowerMedium_24"
-    ],
-    "Positions": [
-      {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": 2,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -1
-      },
-      {
-        "x": -1,
-        "y": -1
-      },
-      {
-        "x": 0,
-        "y": -1
-      },
-      {
-        "x": 1,
-        "y": -1
-      },
-      {
-        "x": 2,
-        "y": -1
-      },
-      {
-        "x": -2,
-        "y": 0
-      },
-      {
-        "x": -1,
-        "y": 0
-      },
-      {
-        "x": 0,
-        "y": 0
-      },
-      {
-        "x": 1,
-        "y": 0
-      },
-      {
-        "x": 2,
-        "y": 0
-      },
-      {
-        "x": -2,
-        "y": 1
-      },
-      {
-        "x": -1,
-        "y": 1
-      },
-      {
-        "x": 0,
-        "y": 1
-      },
-      {
-        "x": 1,
-        "y": 1
-      },
-      {
-        "x": 2,
-        "y": 1
-      },
-      {
-        "x": -2,
-        "y": 2
-      },
-      {
-        "x": -1,
-        "y": 2
-      },
-      {
-        "x": 0,
-        "y": 2
-      },
-      {
-        "x": 1,
-        "y": 2
-      },
-      {
-        "x": 2,
-        "y": 2
-      }
-    ]
-  },
-  "TowerBigSquare": {
-    "TileIds": [
-      "TowerBigSquare_0",
-      "TowerBigSquare_1",
-      "TowerBigSquare_2",
-      "TowerBigSquare_3",
-      "TowerBigSquare_4",
-      "TowerBigSquare_5",
-      "TowerBigSquare_6",
-      "TowerBigSquare_7",
-      "TowerBigSquare_8",
-      "TowerBigSquare_9",
-      "TowerBigSquare_10",
-      "TowerBigSquare_11",
-      "TowerBigSquare_12",
-      "TowerBigSquare_13",
-      "TowerBigSquare_14",
-      "TowerBigSquare_15",
-      "TowerBigSquare_16",
-      "TowerBigSquare_17",
-      "TowerBigSquare_18",
-      "TowerBigSquare_19",
-      "TowerBigSquare_20",
-      "TowerBigSquare_21",
-      "TowerBigSquare_22",
-      "TowerBigSquare_23",
-      "TowerBigSquare_24",
-      "TowerBigSquare_25",
-      "TowerBigSquare_26",
-      "TowerBigSquare_27",
-      "TowerBigSquare_28",
-      "TowerBigSquare_29",
-      "TowerBigSquare_30",
-      "TowerBigSquare_31",
-      "TowerBigSquare_32",
-      "TowerBigSquare_33",
-      "TowerBigSquare_34",
-      "TowerBigSquare_35"
+      "church_small_0",
+      "church_small_1",
+      "church_small_2",
+      "church_small_3",
+      "church_small_4",
+      "church_small_5",
+      "church_small_6",
+      "church_small_7",
+      "church_small_8",
+      "church_small_9",
+      "church_small_10",
+      "church_small_11",
+      "church_small_12",
+      "church_small_13",
+      "church_small_14",
+      "church_small_15",
+      "church_small_16",
+      "church_small_17",
+      "church_small_18",
+      "church_small_19",
+      "church_small_20",
+      "church_small_21",
+      "church_small_22",
+      "church_small_23",
+      "church_small_24",
+      "church_small_25",
+      "church_small_26",
+      "church_small_27",
+      "church_small_28",
+      "church_small_29",
+      "church_small_30",
+      "church_small_31",
+      "church_small_32",
+      "church_small_33",
+      "church_small_34",
+      "church_small_35"
     ],
     "Positions": [
       {
@@ -3190,44 +1629,1591 @@
       }
     ]
   },
-  "TowerRound": {
+  "cow_farm": {
     "TileIds": [
-      "TowerRound_0",
-      "TowerRound_1",
-      "TowerRound_2",
-      "TowerRound_3",
-      "TowerRound_4",
-      "TowerRound_5",
-      "TowerRound_6",
-      "TowerRound_7",
-      "TowerRound_8",
-      "TowerRound_9",
-      "TowerRound_10",
-      "TowerRound_11",
-      "TowerRound_12",
-      "TowerRound_13",
-      "TowerRound_14",
-      "TowerRound_15",
-      "TowerRound_16",
-      "TowerRound_17",
-      "TowerRound_18",
-      "TowerRound_19",
-      "TowerRound_20",
-      "TowerRound_21",
-      "TowerRound_22",
-      "TowerRound_23",
-      "TowerRound_24",
-      "TowerRound_25",
-      "TowerRound_26",
-      "TowerRound_27",
-      "TowerRound_28",
-      "TowerRound_29",
-      "TowerRound_30",
-      "TowerRound_31",
-      "TowerRound_32",
-      "TowerRound_33",
-      "TowerRound_34",
-      "TowerRound_35"
+      "cow_farm_0",
+      "cow_farm_1",
+      "cow_farm_2",
+      "cow_farm_3",
+      "cow_farm_4",
+      "cow_farm_5",
+      "cow_farm_6",
+      "cow_farm_7",
+      "cow_farm_8"
+    ],
+    "Positions": [
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "gate_0": {
+    "TileIds": [
+      "gate_0_0",
+      "gate_0_1",
+      "gate_0_2",
+      "gate_0_3",
+      "gate_0_4",
+      "gate_0_5",
+      "gate_0_6",
+      "gate_0_7",
+      "gate_0_8",
+      "gate_0_9",
+      "gate_0_10",
+      "gate_0_11",
+      "gate_0_12",
+      "gate_0_13",
+      "gate_0_14",
+      "gate_0_15",
+      "gate_0_16",
+      "gate_0_17",
+      "gate_0_18",
+      "gate_0_19",
+      "gate_0_20",
+      "gate_0_21",
+      "gate_0_22",
+      "gate_0_23",
+      "gate_0_24"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "gate_1": {
+    "TileIds": [
+      "gate_1_0",
+      "gate_1_1",
+      "gate_1_2",
+      "gate_1_3",
+      "gate_1_4",
+      "gate_1_5",
+      "gate_1_6",
+      "gate_1_7",
+      "gate_1_8",
+      "gate_1_9",
+      "gate_1_10",
+      "gate_1_11",
+      "gate_1_12",
+      "gate_1_13",
+      "gate_1_14",
+      "gate_1_15",
+      "gate_1_16",
+      "gate_1_17",
+      "gate_1_18",
+      "gate_1_19",
+      "gate_1_20",
+      "gate_1_21",
+      "gate_1_22",
+      "gate_1_23",
+      "gate_1_24"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "grain_farm": {
+    "TileIds": [
+      "grain_farm_0",
+      "grain_farm_1",
+      "grain_farm_2",
+      "grain_farm_3",
+      "grain_farm_4",
+      "grain_farm_5",
+      "grain_farm_6",
+      "grain_farm_7",
+      "grain_farm_8"
+    ],
+    "Positions": [
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "hop_farm": {
+    "TileIds": [
+      "hop_farm_0",
+      "hop_farm_1",
+      "hop_farm_2",
+      "hop_farm_3",
+      "hop_farm_4",
+      "hop_farm_5",
+      "hop_farm_6",
+      "hop_farm_7",
+      "hop_farm_8"
+    ],
+    "Positions": [
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "house_1": {
+    "TileIds": [
+      "house_1_0",
+      "house_1_1",
+      "house_1_2",
+      "house_1_3",
+      "house_1_4",
+      "house_1_5",
+      "house_1_6",
+      "house_1_7",
+      "house_1_8",
+      "house_1_9",
+      "house_1_10",
+      "house_1_11",
+      "house_1_12",
+      "house_1_13",
+      "house_1_14",
+      "house_1_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "house_2": {
+    "TileIds": [
+      "house_2_0",
+      "house_2_1",
+      "house_2_2",
+      "house_2_3",
+      "house_2_4",
+      "house_2_5",
+      "house_2_6",
+      "house_2_7",
+      "house_2_8",
+      "house_2_9",
+      "house_2_10",
+      "house_2_11",
+      "house_2_12",
+      "house_2_13",
+      "house_2_14",
+      "house_2_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "house_3": {
+    "TileIds": [
+      "house_3_0",
+      "house_3_1",
+      "house_3_2",
+      "house_3_3",
+      "house_3_4",
+      "house_3_5",
+      "house_3_6",
+      "house_3_7",
+      "house_3_8",
+      "house_3_9",
+      "house_3_10",
+      "house_3_11",
+      "house_3_12",
+      "house_3_13",
+      "house_3_14",
+      "house_3_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "house_4": {
+    "TileIds": [
+      "house_4_0",
+      "house_4_1",
+      "house_4_2",
+      "house_4_3",
+      "house_4_4",
+      "house_4_5",
+      "house_4_6",
+      "house_4_7",
+      "house_4_8",
+      "house_4_9",
+      "house_4_10",
+      "house_4_11",
+      "house_4_12",
+      "house_4_13",
+      "house_4_14",
+      "house_4_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "house_5": {
+    "TileIds": [
+      "house_5_0",
+      "house_5_1",
+      "house_5_2",
+      "house_5_3",
+      "house_5_4",
+      "house_5_5",
+      "house_5_6",
+      "house_5_7",
+      "house_5_8",
+      "house_5_9",
+      "house_5_10",
+      "house_5_11",
+      "house_5_12",
+      "house_5_13",
+      "house_5_14",
+      "house_5_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "house_6": {
+    "TileIds": [
+      "house_6_0",
+      "house_6_1",
+      "house_6_2",
+      "house_6_3",
+      "house_6_4",
+      "house_6_5",
+      "house_6_6",
+      "house_6_7",
+      "house_6_8",
+      "house_6_9",
+      "house_6_10",
+      "house_6_11",
+      "house_6_12",
+      "house_6_13",
+      "house_6_14",
+      "house_6_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "house_7": {
+    "TileIds": [
+      "house_7_0",
+      "house_7_1",
+      "house_7_2",
+      "house_7_3",
+      "house_7_4",
+      "house_7_5",
+      "house_7_6",
+      "house_7_7",
+      "house_7_8",
+      "house_7_9",
+      "house_7_10",
+      "house_7_11",
+      "house_7_12",
+      "house_7_13",
+      "house_7_14",
+      "house_7_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "hunter_stand": {
+    "TileIds": [
+      "hunter_stand_0",
+      "hunter_stand_1",
+      "hunter_stand_2",
+      "hunter_stand_3",
+      "hunter_stand_4",
+      "hunter_stand_5",
+      "hunter_stand_6",
+      "hunter_stand_7",
+      "hunter_stand_8"
+    ],
+    "Positions": [
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "archery": {
+    "TileIds": [
+      "archery_0",
+      "archery_1",
+      "archery_2",
+      "archery_3",
+      "archery_4",
+      "archery_5",
+      "archery_6",
+      "archery_7",
+      "archery_8",
+      "archery_9",
+      "archery_10",
+      "archery_11",
+      "archery_12",
+      "archery_13",
+      "archery_14",
+      "archery_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "inn": {
+    "TileIds": [
+      "inn_0",
+      "inn_1",
+      "inn_2",
+      "inn_3",
+      "inn_4",
+      "inn_5",
+      "inn_6",
+      "inn_7",
+      "inn_8",
+      "inn_9",
+      "inn_10",
+      "inn_11",
+      "inn_12",
+      "inn_13",
+      "inn_14",
+      "inn_15",
+      "inn_16",
+      "inn_17",
+      "inn_18",
+      "inn_19",
+      "inn_20",
+      "inn_21",
+      "inn_22",
+      "inn_23",
+      "inn_24"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "market": {
+    "TileIds": [
+      "market_0",
+      "market_1",
+      "market_2",
+      "market_3",
+      "market_4",
+      "market_5",
+      "market_6",
+      "market_7",
+      "market_8",
+      "market_9",
+      "market_10",
+      "market_11",
+      "market_12",
+      "market_13",
+      "market_14",
+      "market_15",
+      "market_16",
+      "market_17",
+      "market_18",
+      "market_19",
+      "market_20",
+      "market_21",
+      "market_22",
+      "market_23",
+      "market_24"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "mine": {
+    "TileIds": [
+      "mine_0",
+      "mine_1",
+      "mine_2",
+      "mine_3",
+      "mine_4",
+      "mine_5",
+      "mine_6",
+      "mine_7",
+      "mine_8",
+      "mine_9",
+      "mine_10",
+      "mine_11",
+      "mine_12",
+      "mine_13",
+      "mine_14",
+      "mine_15",
+      "mine_16",
+      "mine_17",
+      "mine_18",
+      "mine_19",
+      "mine_20",
+      "mine_21",
+      "mine_22",
+      "mine_23",
+      "mine_24"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "stables": {
+    "TileIds": [
+      "stables_0",
+      "stables_1",
+      "stables_2",
+      "stables_3",
+      "stables_4",
+      "stables_5",
+      "stables_6",
+      "stables_7",
+      "stables_8",
+      "stables_9",
+      "stables_10",
+      "stables_11",
+      "stables_12",
+      "stables_13",
+      "stables_14",
+      "stables_15",
+      "stables_16",
+      "stables_17",
+      "stables_18",
+      "stables_19",
+      "stables_20",
+      "stables_21",
+      "stables_22",
+      "stables_23",
+      "stables_24",
+      "stables_25",
+      "stables_26",
+      "stables_27",
+      "stables_28",
+      "stables_29",
+      "stables_30",
+      "stables_31",
+      "stables_32",
+      "stables_33",
+      "stables_34",
+      "stables_35"
     ],
     "Positions": [
       {
@@ -3376,17 +3362,933 @@
       }
     ]
   },
-  "WoodenGate": {
+  "tower_big": {
     "TileIds": [
-      "WoodenGate_0",
-      "WoodenGate_1",
-      "WoodenGate_2",
-      "WoodenGate_3",
-      "WoodenGate_4",
-      "WoodenGate_5",
-      "WoodenGate_6",
-      "WoodenGate_7",
-      "WoodenGate_8"
+      "tower_big_0",
+      "tower_big_1",
+      "tower_big_2",
+      "tower_big_3",
+      "tower_big_4",
+      "tower_big_5",
+      "tower_big_6",
+      "tower_big_7",
+      "tower_big_8",
+      "tower_big_9",
+      "tower_big_10",
+      "tower_big_11",
+      "tower_big_12",
+      "tower_big_13",
+      "tower_big_14",
+      "tower_big_15",
+      "tower_big_16",
+      "tower_big_17",
+      "tower_big_18",
+      "tower_big_19",
+      "tower_big_20",
+      "tower_big_21",
+      "tower_big_22",
+      "tower_big_23",
+      "tower_big_24",
+      "tower_big_25",
+      "tower_big_26",
+      "tower_big_27",
+      "tower_big_28",
+      "tower_big_29",
+      "tower_big_30",
+      "tower_big_31",
+      "tower_big_32",
+      "tower_big_33",
+      "tower_big_34",
+      "tower_big_35"
+    ],
+    "Positions": [
+      {
+        "x": -3,
+        "y": -3
+      },
+      {
+        "x": -2,
+        "y": -3
+      },
+      {
+        "x": -1,
+        "y": -3
+      },
+      {
+        "x": 0,
+        "y": -3
+      },
+      {
+        "x": 1,
+        "y": -3
+      },
+      {
+        "x": 2,
+        "y": -3
+      },
+      {
+        "x": -3,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -3,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -3,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -3,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -3,
+        "y": 2
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "tower_big_d": {
+    "TileIds": [
+      "tower_big_d_0",
+      "tower_big_d_1",
+      "tower_big_d_2",
+      "tower_big_d_3",
+      "tower_big_d_4",
+      "tower_big_d_5",
+      "tower_big_d_6",
+      "tower_big_d_7",
+      "tower_big_d_8",
+      "tower_big_d_9",
+      "tower_big_d_10",
+      "tower_big_d_11",
+      "tower_big_d_12",
+      "tower_big_d_13",
+      "tower_big_d_14",
+      "tower_big_d_15",
+      "tower_big_d_16",
+      "tower_big_d_17",
+      "tower_big_d_18",
+      "tower_big_d_19",
+      "tower_big_d_20",
+      "tower_big_d_21",
+      "tower_big_d_22",
+      "tower_big_d_23",
+      "tower_big_d_24",
+      "tower_big_d_25",
+      "tower_big_d_26",
+      "tower_big_d_27",
+      "tower_big_d_28",
+      "tower_big_d_29",
+      "tower_big_d_30",
+      "tower_big_d_31",
+      "tower_big_d_32",
+      "tower_big_d_33",
+      "tower_big_d_34",
+      "tower_big_d_35"
+    ],
+    "Positions": [
+      {
+        "x": -3,
+        "y": -3
+      },
+      {
+        "x": -2,
+        "y": -3
+      },
+      {
+        "x": -1,
+        "y": -3
+      },
+      {
+        "x": 0,
+        "y": -3
+      },
+      {
+        "x": 1,
+        "y": -3
+      },
+      {
+        "x": 2,
+        "y": -3
+      },
+      {
+        "x": -3,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -3,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -3,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -3,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -3,
+        "y": 2
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "tower_bigc": {
+    "TileIds": [
+      "tower_bigc_0",
+      "tower_bigc_1",
+      "tower_bigc_2",
+      "tower_bigc_3",
+      "tower_bigc_4",
+      "tower_bigc_5",
+      "tower_bigc_6",
+      "tower_bigc_7",
+      "tower_bigc_8",
+      "tower_bigc_9",
+      "tower_bigc_10",
+      "tower_bigc_11",
+      "tower_bigc_12",
+      "tower_bigc_13",
+      "tower_bigc_14",
+      "tower_bigc_15",
+      "tower_bigc_16",
+      "tower_bigc_17",
+      "tower_bigc_18",
+      "tower_bigc_19",
+      "tower_bigc_20",
+      "tower_bigc_21",
+      "tower_bigc_22",
+      "tower_bigc_23",
+      "tower_bigc_24",
+      "tower_bigc_25",
+      "tower_bigc_26",
+      "tower_bigc_27",
+      "tower_bigc_28",
+      "tower_bigc_29",
+      "tower_bigc_30",
+      "tower_bigc_31",
+      "tower_bigc_32",
+      "tower_bigc_33",
+      "tower_bigc_34",
+      "tower_bigc_35"
+    ],
+    "Positions": [
+      {
+        "x": -3,
+        "y": -3
+      },
+      {
+        "x": -2,
+        "y": -3
+      },
+      {
+        "x": -1,
+        "y": -3
+      },
+      {
+        "x": 0,
+        "y": -3
+      },
+      {
+        "x": 1,
+        "y": -3
+      },
+      {
+        "x": 2,
+        "y": -3
+      },
+      {
+        "x": -3,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -3,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -3,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -3,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -3,
+        "y": 2
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "tower_bigc_d": {
+    "TileIds": [
+      "tower_bigc_d_0",
+      "tower_bigc_d_1",
+      "tower_bigc_d_2",
+      "tower_bigc_d_3",
+      "tower_bigc_d_4",
+      "tower_bigc_d_5",
+      "tower_bigc_d_6",
+      "tower_bigc_d_7",
+      "tower_bigc_d_8",
+      "tower_bigc_d_9",
+      "tower_bigc_d_10",
+      "tower_bigc_d_11",
+      "tower_bigc_d_12",
+      "tower_bigc_d_13",
+      "tower_bigc_d_14",
+      "tower_bigc_d_15",
+      "tower_bigc_d_16",
+      "tower_bigc_d_17",
+      "tower_bigc_d_18",
+      "tower_bigc_d_19",
+      "tower_bigc_d_20",
+      "tower_bigc_d_21",
+      "tower_bigc_d_22",
+      "tower_bigc_d_23",
+      "tower_bigc_d_24",
+      "tower_bigc_d_25",
+      "tower_bigc_d_26",
+      "tower_bigc_d_27",
+      "tower_bigc_d_28",
+      "tower_bigc_d_29",
+      "tower_bigc_d_30",
+      "tower_bigc_d_31",
+      "tower_bigc_d_32",
+      "tower_bigc_d_33",
+      "tower_bigc_d_34",
+      "tower_bigc_d_35"
+    ],
+    "Positions": [
+      {
+        "x": -3,
+        "y": -3
+      },
+      {
+        "x": -2,
+        "y": -3
+      },
+      {
+        "x": -1,
+        "y": -3
+      },
+      {
+        "x": 0,
+        "y": -3
+      },
+      {
+        "x": 1,
+        "y": -3
+      },
+      {
+        "x": 2,
+        "y": -3
+      },
+      {
+        "x": -3,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -3,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -3,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -3,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -3,
+        "y": 2
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "tower_small": {
+    "TileIds": [
+      "tower_small_0",
+      "tower_small_1",
+      "tower_small_2",
+      "tower_small_3",
+      "tower_small_4",
+      "tower_small_5",
+      "tower_small_6",
+      "tower_small_7",
+      "tower_small_8",
+      "tower_small_9",
+      "tower_small_10",
+      "tower_small_11",
+      "tower_small_12",
+      "tower_small_13",
+      "tower_small_14",
+      "tower_small_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "tower_small_d": {
+    "TileIds": [
+      "tower_small_d_0",
+      "tower_small_d_1",
+      "tower_small_d_2",
+      "tower_small_d_3",
+      "tower_small_d_4",
+      "tower_small_d_5",
+      "tower_small_d_6",
+      "tower_small_d_7",
+      "tower_small_d_8",
+      "tower_small_d_9",
+      "tower_small_d_10",
+      "tower_small_d_11",
+      "tower_small_d_12",
+      "tower_small_d_13",
+      "tower_small_d_14",
+      "tower_small_d_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "tower_smallc": {
+    "TileIds": [
+      "tower_smallc_0",
+      "tower_smallc_1",
+      "tower_smallc_2",
+      "tower_smallc_3",
+      "tower_smallc_4",
+      "tower_smallc_5",
+      "tower_smallc_6",
+      "tower_smallc_7",
+      "tower_smallc_8"
     ],
     "Positions": [
       {
@@ -3427,124 +4329,20 @@
       }
     ]
   },
-  "CasleKeep_mooded": {
+  "tower_smallc_d": {
     "TileIds": [
-      "CasleKeep_mooded_0",
-      "CasleKeep_mooded_1",
-      "CasleKeep_mooded_2",
-      "CasleKeep_mooded_3",
-      "CasleKeep_mooded_4",
-      "CasleKeep_mooded_5",
-      "CasleKeep_mooded_6",
-      "CasleKeep_mooded_7",
-      "CasleKeep_mooded_8",
-      "CasleKeep_mooded_9",
-      "CasleKeep_mooded_10",
-      "CasleKeep_mooded_11",
-      "CasleKeep_mooded_12",
-      "CasleKeep_mooded_13",
-      "CasleKeep_mooded_14",
-      "CasleKeep_mooded_15",
-      "CasleKeep_mooded_16",
-      "CasleKeep_mooded_17",
-      "CasleKeep_mooded_18",
-      "CasleKeep_mooded_19",
-      "CasleKeep_mooded_20",
-      "CasleKeep_mooded_21",
-      "CasleKeep_mooded_22",
-      "CasleKeep_mooded_23",
-      "CasleKeep_mooded_24",
-      "CasleKeep_mooded_25",
-      "CasleKeep_mooded_26",
-      "CasleKeep_mooded_27",
-      "CasleKeep_mooded_28",
-      "CasleKeep_mooded_29",
-      "CasleKeep_mooded_30",
-      "CasleKeep_mooded_31",
-      "CasleKeep_mooded_32",
-      "CasleKeep_mooded_33",
-      "CasleKeep_mooded_34",
-      "CasleKeep_mooded_35",
-      "CasleKeep_mooded_36",
-      "CasleKeep_mooded_37",
-      "CasleKeep_mooded_38",
-      "CasleKeep_mooded_39",
-      "CasleKeep_mooded_40",
-      "CasleKeep_mooded_41",
-      "CasleKeep_mooded_42",
-      "CasleKeep_mooded_43",
-      "CasleKeep_mooded_44",
-      "CasleKeep_mooded_45",
-      "CasleKeep_mooded_46",
-      "CasleKeep_mooded_47",
-      "CasleKeep_mooded_48"
+      "tower_smallc_d_0",
+      "tower_smallc_d_1",
+      "tower_smallc_d_2",
+      "tower_smallc_d_3",
+      "tower_smallc_d_4",
+      "tower_smallc_d_5",
+      "tower_smallc_d_6",
+      "tower_smallc_d_7",
+      "tower_smallc_d_8"
     ],
     "Positions": [
       {
-        "x": -3,
-        "y": -3
-      },
-      {
-        "x": -2,
-        "y": -3
-      },
-      {
-        "x": -1,
-        "y": -3
-      },
-      {
-        "x": 0,
-        "y": -3
-      },
-      {
-        "x": 1,
-        "y": -3
-      },
-      {
-        "x": 2,
-        "y": -3
-      },
-      {
-        "x": 3,
-        "y": -3
-      },
-      {
-        "x": -3,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": 2,
-        "y": -2
-      },
-      {
-        "x": 3,
-        "y": -2
-      },
-      {
-        "x": -3,
-        "y": -1
-      },
-      {
-        "x": -2,
-        "y": -1
-      },
-      {
         "x": -1,
         "y": -1
       },
@@ -3555,22 +4353,6 @@
       {
         "x": 1,
         "y": -1
-      },
-      {
-        "x": 2,
-        "y": -1
-      },
-      {
-        "x": 3,
-        "y": -1
-      },
-      {
-        "x": -3,
-        "y": 0
-      },
-      {
-        "x": -2,
-        "y": 0
       },
       {
         "x": -1,
@@ -3585,22 +4367,6 @@
         "y": 0
       },
       {
-        "x": 2,
-        "y": 0
-      },
-      {
-        "x": 3,
-        "y": 0
-      },
-      {
-        "x": -3,
-        "y": 1
-      },
-      {
-        "x": -2,
-        "y": 1
-      },
-      {
         "x": -1,
         "y": 1
       },
@@ -3611,213 +4377,125 @@
       {
         "x": 1,
         "y": 1
-      },
-      {
-        "x": 2,
-        "y": 1
-      },
-      {
-        "x": 3,
-        "y": 1
-      },
-      {
-        "x": -3,
-        "y": 2
-      },
-      {
-        "x": -2,
-        "y": 2
-      },
-      {
-        "x": -1,
-        "y": 2
-      },
-      {
-        "x": 0,
-        "y": 2
-      },
-      {
-        "x": 1,
-        "y": 2
-      },
-      {
-        "x": 2,
-        "y": 2
-      },
-      {
-        "x": 3,
-        "y": 2
-      },
-      {
-        "x": -3,
-        "y": 3
-      },
-      {
-        "x": -2,
-        "y": 3
-      },
-      {
-        "x": -1,
-        "y": 3
-      },
-      {
-        "x": 0,
-        "y": 3
-      },
-      {
-        "x": 1,
-        "y": 3
-      },
-      {
-        "x": 2,
-        "y": 3
-      },
-      {
-        "x": 3,
-        "y": 3
       }
     ]
   },
-  "CastleKeepLeft": {
+  "well": {
     "TileIds": [
-      "CastleKeepLeft_0"
+      "well_0",
+      "well_1",
+      "well_2",
+      "well_3",
+      "well_4",
+      "well_5",
+      "well_6",
+      "well_7",
+      "well_8"
     ],
     "Positions": [
       {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
         "x": 0,
         "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
       }
     ]
   },
-  "CastleKeepRight": {
+  "wood_cutter": {
     "TileIds": [
-      "CastleKeepRight_0"
+      "wood_cutter_0",
+      "wood_cutter_1",
+      "wood_cutter_2",
+      "wood_cutter_3",
+      "wood_cutter_4",
+      "wood_cutter_5",
+      "wood_cutter_6",
+      "wood_cutter_7",
+      "wood_cutter_8"
     ],
     "Positions": [
       {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
         "x": 0,
         "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
       }
     ]
   },
-  "Woddedn_castleKeep": {
+  "mill": {
     "TileIds": [
-      "Woddedn_castleKeep_0",
-      "Woddedn_castleKeep_1",
-      "Woddedn_castleKeep_2",
-      "Woddedn_castleKeep_3",
-      "Woddedn_castleKeep_4",
-      "Woddedn_castleKeep_5",
-      "Woddedn_castleKeep_6",
-      "Woddedn_castleKeep_7",
-      "Woddedn_castleKeep_8",
-      "Woddedn_castleKeep_9",
-      "Woddedn_castleKeep_10",
-      "Woddedn_castleKeep_11",
-      "Woddedn_castleKeep_12",
-      "Woddedn_castleKeep_13",
-      "Woddedn_castleKeep_14",
-      "Woddedn_castleKeep_15",
-      "Woddedn_castleKeep_16",
-      "Woddedn_castleKeep_17",
-      "Woddedn_castleKeep_18",
-      "Woddedn_castleKeep_19",
-      "Woddedn_castleKeep_20",
-      "Woddedn_castleKeep_21",
-      "Woddedn_castleKeep_22",
-      "Woddedn_castleKeep_23",
-      "Woddedn_castleKeep_24",
-      "Woddedn_castleKeep_25",
-      "Woddedn_castleKeep_26",
-      "Woddedn_castleKeep_27",
-      "Woddedn_castleKeep_28",
-      "Woddedn_castleKeep_29",
-      "Woddedn_castleKeep_30",
-      "Woddedn_castleKeep_31",
-      "Woddedn_castleKeep_32",
-      "Woddedn_castleKeep_33",
-      "Woddedn_castleKeep_34",
-      "Woddedn_castleKeep_35",
-      "Woddedn_castleKeep_36",
-      "Woddedn_castleKeep_37",
-      "Woddedn_castleKeep_38",
-      "Woddedn_castleKeep_39",
-      "Woddedn_castleKeep_40",
-      "Woddedn_castleKeep_41",
-      "Woddedn_castleKeep_42",
-      "Woddedn_castleKeep_43",
-      "Woddedn_castleKeep_44",
-      "Woddedn_castleKeep_45",
-      "Woddedn_castleKeep_46",
-      "Woddedn_castleKeep_47",
-      "Woddedn_castleKeep_48"
+      "mill_0",
+      "mill_1",
+      "mill_2",
+      "mill_3",
+      "mill_4",
+      "mill_5",
+      "mill_6",
+      "mill_7",
+      "mill_8"
     ],
     "Positions": [
       {
-        "x": -3,
-        "y": -3
-      },
-      {
-        "x": -2,
-        "y": -3
-      },
-      {
-        "x": -1,
-        "y": -3
-      },
-      {
-        "x": 0,
-        "y": -3
-      },
-      {
-        "x": 1,
-        "y": -3
-      },
-      {
-        "x": 2,
-        "y": -3
-      },
-      {
-        "x": 3,
-        "y": -3
-      },
-      {
-        "x": -3,
-        "y": -2
-      },
-      {
-        "x": -2,
-        "y": -2
-      },
-      {
-        "x": -1,
-        "y": -2
-      },
-      {
-        "x": 0,
-        "y": -2
-      },
-      {
-        "x": 1,
-        "y": -2
-      },
-      {
-        "x": 2,
-        "y": -2
-      },
-      {
-        "x": 3,
-        "y": -2
-      },
-      {
-        "x": -3,
-        "y": -1
-      },
-      {
-        "x": -2,
-        "y": -1
-      },
-      {
         "x": -1,
         "y": -1
       },
@@ -3828,22 +4506,6 @@
       {
         "x": 1,
         "y": -1
-      },
-      {
-        "x": 2,
-        "y": -1
-      },
-      {
-        "x": 3,
-        "y": -1
-      },
-      {
-        "x": -3,
-        "y": 0
-      },
-      {
-        "x": -2,
-        "y": 0
       },
       {
         "x": -1,
@@ -3858,22 +4520,6 @@
         "y": 0
       },
       {
-        "x": 2,
-        "y": 0
-      },
-      {
-        "x": 3,
-        "y": 0
-      },
-      {
-        "x": -3,
-        "y": 1
-      },
-      {
-        "x": -2,
-        "y": 1
-      },
-      {
         "x": -1,
         "y": 1
       },
@@ -3884,81 +4530,784 @@
       {
         "x": 1,
         "y": 1
-      },
-      {
-        "x": 2,
-        "y": 1
-      },
-      {
-        "x": 3,
-        "y": 1
-      },
-      {
-        "x": -3,
-        "y": 2
-      },
-      {
-        "x": -2,
-        "y": 2
-      },
-      {
-        "x": -1,
-        "y": 2
-      },
-      {
-        "x": 0,
-        "y": 2
-      },
-      {
-        "x": 1,
-        "y": 2
-      },
-      {
-        "x": 2,
-        "y": 2
-      },
-      {
-        "x": 3,
-        "y": 2
-      },
-      {
-        "x": -3,
-        "y": 3
-      },
-      {
-        "x": -2,
-        "y": 3
-      },
-      {
-        "x": -1,
-        "y": 3
-      },
-      {
-        "x": 0,
-        "y": 3
-      },
-      {
-        "x": 1,
-        "y": 3
-      },
-      {
-        "x": 2,
-        "y": 3
-      },
-      {
-        "x": 3,
-        "y": 3
       }
     ]
   },
-  "Castlekeep_gatecenter": {
+  "armory": {
     "TileIds": [
-      "Castlekeep_gatecenter_0"
+      "armory_0",
+      "armory_1",
+      "armory_2",
+      "armory_3",
+      "armory_4",
+      "armory_5",
+      "armory_6",
+      "armory_7",
+      "armory_8",
+      "armory_9",
+      "armory_10",
+      "armory_11",
+      "armory_12",
+      "armory_13",
+      "armory_14",
+      "armory_15"
     ],
     "Positions": [
       {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
         "x": 0,
         "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "bakery": {
+    "TileIds": [
+      "bakery_0",
+      "bakery_1",
+      "bakery_2",
+      "bakery_3",
+      "bakery_4",
+      "bakery_5",
+      "bakery_6",
+      "bakery_7",
+      "bakery_8",
+      "bakery_9",
+      "bakery_10",
+      "bakery_11",
+      "bakery_12",
+      "bakery_13",
+      "bakery_14",
+      "bakery_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "barracks_1": {
+    "TileIds": [
+      "barracks_1_0",
+      "barracks_1_1",
+      "barracks_1_2",
+      "barracks_1_3",
+      "barracks_1_4",
+      "barracks_1_5",
+      "barracks_1_6",
+      "barracks_1_7",
+      "barracks_1_8",
+      "barracks_1_9",
+      "barracks_1_10",
+      "barracks_1_11",
+      "barracks_1_12",
+      "barracks_1_13",
+      "barracks_1_14",
+      "barracks_1_15",
+      "barracks_1_16",
+      "barracks_1_17",
+      "barracks_1_18",
+      "barracks_1_19",
+      "barracks_1_20",
+      "barracks_1_21",
+      "barracks_1_22",
+      "barracks_1_23",
+      "barracks_1_24"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "barracks_2": {
+    "TileIds": [
+      "barracks_2_0",
+      "barracks_2_1",
+      "barracks_2_2",
+      "barracks_2_3",
+      "barracks_2_4",
+      "barracks_2_5",
+      "barracks_2_6",
+      "barracks_2_7",
+      "barracks_2_8",
+      "barracks_2_9",
+      "barracks_2_10",
+      "barracks_2_11",
+      "barracks_2_12",
+      "barracks_2_13",
+      "barracks_2_14",
+      "barracks_2_15",
+      "barracks_2_16",
+      "barracks_2_17",
+      "barracks_2_18",
+      "barracks_2_19",
+      "barracks_2_20",
+      "barracks_2_21",
+      "barracks_2_22",
+      "barracks_2_23",
+      "barracks_2_24"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": 2,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 2,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": -2,
+        "y": 2
+      },
+      {
+        "x": -1,
+        "y": 2
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "black_smith": {
+    "TileIds": [
+      "black_smith_0",
+      "black_smith_1",
+      "black_smith_2",
+      "black_smith_3",
+      "black_smith_4",
+      "black_smith_5",
+      "black_smith_6",
+      "black_smith_7",
+      "black_smith_8",
+      "black_smith_9",
+      "black_smith_10",
+      "black_smith_11",
+      "black_smith_12",
+      "black_smith_13",
+      "black_smith_14",
+      "black_smith_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "granary": {
+    "TileIds": [
+      "granary_0",
+      "granary_1",
+      "granary_2",
+      "granary_3",
+      "granary_4",
+      "granary_5",
+      "granary_6",
+      "granary_7",
+      "granary_8",
+      "granary_9",
+      "granary_10",
+      "granary_11",
+      "granary_12",
+      "granary_13",
+      "granary_14",
+      "granary_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "shields": {
+    "TileIds": [
+      "shields_0",
+      "shields_1",
+      "shields_2",
+      "shields_3",
+      "shields_4",
+      "shields_5",
+      "shields_6",
+      "shields_7",
+      "shields_8",
+      "shields_9",
+      "shields_10",
+      "shields_11",
+      "shields_12",
+      "shields_13",
+      "shields_14",
+      "shields_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ]
+  },
+  "tannery": {
+    "TileIds": [
+      "tannery_0",
+      "tannery_1",
+      "tannery_2",
+      "tannery_3",
+      "tannery_4",
+      "tannery_5",
+      "tannery_6",
+      "tannery_7",
+      "tannery_8",
+      "tannery_9",
+      "tannery_10",
+      "tannery_11",
+      "tannery_12",
+      "tannery_13",
+      "tannery_14",
+      "tannery_15"
+    ],
+    "Positions": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -2
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      },
+      {
+        "x": -2,
+        "y": -1
+      },
+      {
+        "x": -1,
+        "y": -1
+      },
+      {
+        "x": 0,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": -2,
+        "y": 0
+      },
+      {
+        "x": -1,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": -2,
+        "y": 1
+      },
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
       }
     ]
   }

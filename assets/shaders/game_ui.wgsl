@@ -40,7 +40,7 @@ fn vs_main(
 ) -> VertexOutput {
 
         var output : VertexOutput;
-        var color = vec4<f32>(37.0 / 255.0, 42.0 / 255.0, 50.0 / 255.0, 153.0 / 255.0);
+        var color = vec4<f32>(184.0 / 255.0, 184.0 / 255.0, 184.0 / 255.0, 255.0 / 255.0);
 
         if (input.Selected == 0u) {
           output.Position = vec4<f32>(0.0, 0.0, 0.0, -1.0);
@@ -58,9 +58,9 @@ fn vs_main(
 
 
         if (input.Selected == 2u) {
-          color = vec4<f32>(179.0 / 255.0, 98.0 / 255.0, 48.0 / 255.0, 153.0 / 255.0);
+          color = vec4<f32>(215.0 / 255.0, 209.0 / 255.0, 157.0 / 255.0, 255.0 / 255.0);
         } else if (input.Selected > 2u) {
-          color = vec4<f32>(114.0 / 255.0, 67.0 / 255.0, 41.0 / 255.0, 153.0 / 255.0);
+          color = vec4<f32>(236.0 / 255.0, 210.0 / 255.0, 126.0 / 255.0, 255.0 / 255.0);
         }else{
           scale = vec2<f32>(0.0, 0.0);
         }
@@ -91,7 +91,11 @@ fn fs_main(in: VertexOutput) -> @location(0) vec4<f32> {
 	if(color.r == 1.0 && color.g == 0.0 && color.b == 1.0){
 		discard;
 	}
-    return vec4(in.Color.rgb*(1.0 - color.a) + color.rgb,color.a + in.Color.a);;
+
+	if(color.a > 0.0) {
+	 return vec4(color.rgba);;
+	}
+    return vec4(in.Color.rgba);
 }
 
 
