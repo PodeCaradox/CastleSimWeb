@@ -20,6 +20,9 @@
  "tree":{
    "Path":"images\\world\\objects\\trees"
  },
+  "decorativ":{
+   "Path":"images\\world\\objects\\decorative"
+ },
  "objects_on_top":{
    "Path":"images\\world\\buildings\\objects_on_top"
  },
