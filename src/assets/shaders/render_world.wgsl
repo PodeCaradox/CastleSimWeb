@@ -184,11 +184,19 @@ fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, animation_tick: u32, 
 	    let animation_length =  u32((instance.Animation >> 24u) & 0x0000007fu);
 	    let pausing_frames =  u32(instance.Animation & 0x00000fffu);
 	    let update_tick =  u32((instance.Animation >> 12u) & 0x00000fffu);
-	    let uv_size = u32(instance.AtlasCoordSize & 0x0000ffffu);
+	    let uv_size = vec2<u32>(instance.AtlasCoordSize & 0x0000ffffu, instance.AtlasCoordSize >> 16u);
 	    let is_update_time = animation_tick / update_tick;
 	    let img_coord = is_update_time % (animation_length + pausing_frames);
 	    if(img_coord < animation_length){
-	        atlas_pos += uv_size * img_coord;
+	        let current_pos_x = (atlas_pos & 0x00000fffu);
+            let new_pos_x = current_pos_x + (uv_size.x * img_coord);
+
+            let end_pixels = (u32(ImageSize.x) - current_pos_x) % uv_size.x;
+            let real_size = u32(ImageSize.x) - end_pixels;
+            let pos_y = (new_pos_x / real_size) * uv_size.y;
+            let pos_x = new_pos_x % real_size - current_pos_x;
+
+            atlas_pos += pos_x + (pos_y << 16u);
 	    }
 	}
 
@@ -267,9 +275,11 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
 
            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
            var elevation = tile.ElevationAndOffsetObjectY >> 16u;
-           let tick = params.tick + tile.AnimationOffsetTick;
+           var tick = params.tick + (tile.AnimationOffsetTick >> 16u);
     	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, tick, 0xffffffffu);
+    	   tick = params.tick + (tile.AnimationOffsetTick & 0x0000ffffu);
     	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, tick, 0xffffffffu);
+    	   tick = params.tick;
     	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, tick, 0xffffffffu);
     	   visble_tiles_cp.tiles[visible_index + 3] = CreateElevationInstance(tile.SingleInstances[3], index, elevation, tick, 0xffffffffu, tile.OffsetElevationX);
 }

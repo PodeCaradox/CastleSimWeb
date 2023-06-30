@@ -1,12 +1,13 @@
 {
-   "tree_red_0_trunk":{
+   "tree_0_trunk":{
       "ImageName":"tree",
-      "AtlasCoordinate":"0,467,30,18",
+      "AtlasCoordinate":"0,2024,36,24",
       "MiniMapColor":"213,145,103,255"
    },
-   "tree_red_0":{
+   "tree_0":{
       "ImageName":"tree",
-      "AtlasCoordinate":"0,0,148,136",
-      "NameElevationDisabled":"tree_red_0_trunk"
+	  "Animation":"animated_tree_0",
+      "AtlasCoordinate":"0,0,184,144",
+      "NameElevationDisabled":"tree_0_trunk"
    }
 }
