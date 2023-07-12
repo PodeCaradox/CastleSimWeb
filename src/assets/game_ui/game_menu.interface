@@ -84,7 +84,7 @@
                     }
                 }, {
                     "EventType": "Function",
-                    "EventName": "IncreaseBrushSize",
+                    "EventName": "increase_brush_size",
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -106,7 +106,7 @@
                     }
                 }, {
                     "EventType": "Function",
-                    "EventName": "DecreaseBrushSize",
+                    "EventName": "decrease_brush_size",
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
