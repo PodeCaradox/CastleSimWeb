@@ -5,7 +5,7 @@ const ZStep : f32 = 0.0000001;
 struct SingleInstance
 {
 	Index: u32,//image Index
-	Animation: u32,// 1 for Activated // 7 bits for animation length // 12 bits for when update animation // 12 pausing frames TODO
+	Animation: u32,// 8 bits for animation length // 12 bits for when update animation // 12 pausing frames TODO
     AtlasCoordPos: u32, //x/y for column/row z/w for image index
 	AtlasCoordSize: u32,
 };
@@ -14,9 +14,9 @@ struct SingleInstance
 struct TileInstances
 {
 	Index: u32,
-	Color: u32,
+	Color: u32,//Can be used for Animation activ only used for brush color
 	MiniMapColor: u32,
-	AnimationOffsetTick: u32,// to set the delays for wind
+	AnimationOffsetTick: u32,// 1 bit enabled, 1 bit wind current_frame
 	ElevationAndOffsetObjectY: u32,//16 bits for Elevation // 16 for OffsetObjectY
 	OffsetElevationX: f32,
 	SingleInstances: array<u32, 6>,
@@ -169,13 +169,19 @@ fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
 	return screenPos;
 }
 
+fn initInstancingObject() -> InstancingObject {
+    var obj: InstancingObject;
+    obj.Position = vec3<f32>(0.0, 0.0, -10.0);
+    obj.Index = 0u;
+    obj.UvCoordPos = vec2<f32>(0.0, 0.0);
+    obj.UvCoordSize = 0u;
+    obj.Color = 0u;
+    return obj;
+}
+
 fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, animation_tick: u32, color: u32) -> InstancingObject{
-    var newInstance: InstancingObject;
-    newInstance.Position.z = -10.0;
-	if (tile_id == 0u){
-	    return newInstance;
-	}
 	var instance = tile_properties.properties[tile_id];
+	var newInstance: InstancingObject;
 	newInstance.Position = position;
 	newInstance.Index = instance.Index;
 	var atlas_pos = instance.AtlasCoordPos;
@@ -208,6 +214,9 @@ fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, animation_tick: u32, 
 
 //Tile and Object
 fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32) -> InstancingObject{
+    if (tile_id == 0u){
+        return initInstancingObject();
+    }
 	let depth: f32 = WorldPosToDepth(world_pos);
 	var position = WorldToScreenPos(world_pos);
 	position.y -= f32(elevation) + 7.0f;;
@@ -215,6 +224,9 @@ fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, an
 }
 
 fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32, offset_elevation_x: f32) -> InstancingObject{
+    if (tile_id == 0u){
+        return initInstancingObject();
+    }
 	let depth: f32 = WorldPosToDepth(world_pos) + ZStep;
 	var position = WorldToScreenPos(world_pos);
 	position.x += offset_elevation_x;
@@ -226,6 +238,9 @@ fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, a
 }
 
 fn CreateSpecificInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32) -> InstancingObject{
+	if (tile_id == 0u){
+	    return initInstancingObject();
+	}
 	let depth: f32 = WorldPosToDepth(world_pos);
 	var position = WorldToScreenPos(world_pos);
 	position.y -= f32(elevation);
@@ -277,9 +292,7 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
            var elevation = tile.ElevationAndOffsetObjectY >> 16u;
            var tick = params.tick + (tile.AnimationOffsetTick >> 16u);
     	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, tick, 0xffffffffu);
-    	   tick = params.tick + (tile.AnimationOffsetTick & 0x0000ffffu);
     	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, tick, 0xffffffffu);
-    	   tick = params.tick;
     	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, tick, 0xffffffffu);
     	   visble_tiles_cp.tiles[visible_index + 3] = CreateElevationInstance(tile.SingleInstances[3], index, elevation, tick, 0xffffffffu, tile.OffsetElevationX);
 }
@@ -344,7 +357,7 @@ fn vs_main(
     let instance = visble_tiles.tiles[tileID];
       if (instance.Position.z == -10.0) {
         return VertexOutput(
-          vec4<f32>(0.0, 0.0, 0.0, -10.0),
+          vec4<f32>(-100.0, -100.0, -100.0, 0.0),
           vec4<f32>(0.0, 0.0, 0.0, 0.0),
           vec2<f32>(0.0, 0.0),
           0u

@@ -76,14 +76,20 @@ fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
 	return screenPos;
 }
 
+fn initInstancingObject() -> InstancingObject {
+    var obj: InstancingObject;
+    obj.Position = vec3<f32>(0.0, 0.0, -10.0);
+    obj.Index = 0u;
+    obj.UvCoordPos = vec2<f32>(0.0, 0.0);
+    obj.UvCoordSize = 0u;
+    obj.Color = 0u;
+    return obj;
+}
+
 fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, animation_tick: u32, color: u32) -> InstancingObject{
-    var newInstance: InstancingObject;
-    newInstance.Color = color;
-    newInstance.Position.z = -10.0;
-	if (tile_id == 0u){
-	    return newInstance;
-	}
 	var instance = tile_properties.properties[tile_id];
+	var newInstance: InstancingObject;
+	newInstance.Color = color;
 	newInstance.Position = position;
 	newInstance.Index = instance.Index;
 	var atlas_pos = instance.AtlasCoordPos;
@@ -108,6 +114,9 @@ fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, animation_tick: u32, 
 
 //Tile and Object
 fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32) -> InstancingObject{
+	if (tile_id == 0u){
+            return initInstancingObject();
+    }
 	let depth: f32 = WorldPosToDepth(world_pos);
 	var position = WorldToScreenPos(world_pos);
 	position.y -= f32(elevation) + 7.0f;;
@@ -115,6 +124,9 @@ fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, an
 }
 
 fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32, offset_elevation_x: f32) -> InstancingObject{
+	if (tile_id == 0u){
+            return initInstancingObject();
+    }
 	let depth: f32 = WorldPosToDepth(world_pos) + ZStep;
 	var position = WorldToScreenPos(world_pos);
 	position.x += offset_elevation_x;
@@ -126,6 +138,9 @@ fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, a
 }
 
 fn CreateSpecificInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32) -> InstancingObject{
+	if (tile_id == 0u){
+            return initInstancingObject();
+    }
 	let depth: f32 = WorldPosToDepth(world_pos);
 	var position = WorldToScreenPos(world_pos);
 	position.y -= f32(elevation);
