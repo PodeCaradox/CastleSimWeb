@@ -1,0 +1,38 @@
+{
+    "brush_elevation_down": {
+        "BrushEntities": [
+            {
+                "Name": "elevation_tile_0",
+                "RandomFactor": -1
+            }
+        ],
+        "BrushType": "ElevationBrush"
+    },
+    "brush_elevation_up": {
+        "BrushEntities": [
+            {
+                "Name": "elevation_tile_0",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "ElevationBrush"
+    },
+    "brush_test_0": {
+        "BrushEntities": [
+            {
+                "Name": "tile_orange",
+                "RandomFactor": 1
+            },
+            {
+                "Name": "tile_grey",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "TileBrush"
+    },
+    "delete_brush": {
+        "BrushEntities": [
+        ],
+        "BrushType": "DeleteBrush"
+    }
+}

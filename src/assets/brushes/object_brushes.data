@@ -1,0 +1,11 @@
+{
+    "brush_tree_0": {
+        "BrushEntities": [
+            {
+                "Name": "tree_0",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "StaticObjectBrush"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "brush_crenelation_0": {
+        "BrushEntities": [
+            {
+                "Name": "wall_crenelation_0",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "CrenelationBrush"
+    },
+    "brush_wall_0": {
+        "BrushEntities": [
+            {
+                "Name": "wall_tile_0",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "WallBrush"
+    },
+    "brush_wall_wooden_0": {
+        "BrushEntities": [
+            {
+                "Name": "wall_wooden_0",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "WallBrush"
+    }
+}

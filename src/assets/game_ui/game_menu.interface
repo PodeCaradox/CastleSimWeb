@@ -32,13 +32,13 @@
                         "y": 0
                     },
                     "ImageSource": {
-                        "x": 620,
-                        "y": 64,
+                        "x": 1548,
+                        "y": 0,
                         "width": 457,
                         "height": 54
                     }
                 }, {
-					"EventType": "SelectBrush",
+                    "EventType": "SelectBrush",
                     "EventName": "brush_elevation_up",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -54,14 +54,13 @@
                         "y": 1
                     },
                     "ImageSource": {
-                        "x": 576,
-                        "y": 118,
+                        "x": 1553,
+                        "y": 78,
                         "width": 24,
                         "height": 24
                     }
-                }, 
-				{
-					"EventType": "SelectBrush",
+                }, {
+                    "EventType": "SelectBrush",
                     "EventName": "brush_elevation_down",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -77,8 +76,8 @@
                         "y": 27
                     },
                     "ImageSource": {
-                        "x": 600,
-                        "y": 118,
+                        "x": 1577,
+                        "y": 78,
                         "width": 24,
                         "height": 24
                     }
@@ -99,8 +98,8 @@
                         "y": 1
                     },
                     "ImageSource": {
-                        "x": 624,
-                        "y": 118,
+                        "x": 1553,
+                        "y": 54,
                         "width": 24,
                         "height": 24
                     }
@@ -121,8 +120,8 @@
                         "y": 27
                     },
                     "ImageSource": {
-                        "x": 648,
-                        "y": 118,
+                        "x": 1577,
+                        "y": 54,
                         "width": 24,
                         "height": 24
                     }
@@ -143,8 +142,8 @@
                         "y": 2
                     },
                     "ImageSource": {
-                        "x": 672,
-                        "y": 118,
+                        "x": 1148,
+                        "y": 0,
                         "width": 48,
                         "height": 48
                     }
@@ -168,8 +167,8 @@
                         }
                     },
                     "ImageSource": {
-                        "x": 0,
-                        "y": 124,
+                        "x": 610,
+                        "y": 0,
                         "width": 538,
                         "height": 38
                     }
@@ -189,8 +188,8 @@
                         "y": 6
                     },
                     "ImageSource": {
-                        "x": 112,
-                        "y": 162,
+                        "x": 722,
+                        "y": 38,
                         "width": 24,
                         "height": 24
                     }
@@ -210,8 +209,8 @@
                         "y": 6
                     },
                     "ImageSource": {
-                        "x": 136,
-                        "y": 162,
+                        "x": 746,
+                        "y": 38,
                         "width": 24,
                         "height": 24
                     }
@@ -231,8 +230,8 @@
                         "y": 6
                     },
                     "ImageSource": {
-                        "x": 160,
-                        "y": 162,
+                        "x": 770,
+                        "y": 38,
                         "width": 24,
                         "height": 24
                     }
@@ -252,8 +251,8 @@
                         "y": 6
                     },
                     "ImageSource": {
-                        "x": 184,
-                        "y": 162,
+                        "x": 794,
+                        "y": 38,
                         "width": 24,
                         "height": 24
                     }
@@ -273,8 +272,8 @@
                         "y": 6
                     },
                     "ImageSource": {
-                        "x": 208,
-                        "y": 162,
+                        "x": 818,
+                        "y": 38,
                         "width": 24,
                         "height": 24
                     }
@@ -311,8 +310,8 @@
                         "y": 0
                     },
                     "ImageSource": {
-                        "x": 64,
-                        "y": 162,
+                        "x": 674,
+                        "y": 38,
                         "width": 48,
                         "height": 48
                     }
@@ -353,8 +352,8 @@
                         "y": 0
                     },
                     "ImageSource": {
-                        "x": 0,
-                        "y": 162,
+                        "x": 610,
+                        "y": 38,
                         "width": 64,
                         "height": 64
                     }
@@ -426,20 +425,19 @@
                 }
             ]
         },
-		"MainBuildMenu": {
+        "MainBuildMenu": {
             "Alignment": "CenterBottom",
             "Scale": {
                 "x": 1,
                 "y": 1
             },
-            "MenuItems": [
-				{
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
                             "x": 1,
                             "y": 65,
-                            "width": 606,
+                            "width": 608,
                             "height": 36
                         }
                     },
@@ -449,13 +447,12 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 226,
-                        "width": 608,
+                        "y": 0,
+                        "width": 610,
                         "height": 101
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "FarmingSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -467,18 +464,17 @@
                         }
                     },
                     "Position": {
-                        "x": -201,
+                        "x": -200,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "ManufacturingSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -490,18 +486,17 @@
                         }
                     },
                     "Position": {
-                        "x": -167,
+                        "x": -166,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 28,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "MaterialsSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -513,18 +508,17 @@
                         }
                     },
                     "Position": {
-                        "x": -133,
+                        "x": -132,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "ProductionSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -536,18 +530,17 @@
                         }
                     },
                     "Position": {
-                        "x": -99,
+                        "x": -98,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 84,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "HouseSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -559,18 +552,17 @@
                         }
                     },
                     "Position": {
-                        "x": -65,
+                        "x": -64,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "PopularitySubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -582,18 +574,17 @@
                         }
                     },
                     "Position": {
-                        "x": -31,
+                        "x": -30,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 140,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "FaithSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -605,18 +596,17 @@
                         }
                     },
                     "Position": {
-                        "x": 3,
+                        "x": 4,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 168,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "WallSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -628,18 +618,17 @@
                         }
                     },
                     "Position": {
-                        "x": 37,
+                        "x": 38,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 196,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "GateSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -651,18 +640,17 @@
                         }
                     },
                     "Position": {
-                        "x": 71,
+                        "x": 72,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 224,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "TowerSubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -674,18 +662,17 @@
                         }
                     },
                     "Position": {
-                        "x": 105,
+                        "x": 106,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 252,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "OpenSubMenu",
+                }, {
+                    "EventType": "OpenSubMenu",
                     "EventName": "MilitarySubMenu",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -697,70 +684,68 @@
                         }
                     },
                     "Position": {
-                        "x": 139,
+                        "x": 140,
                         "y": -33
                     },
                     "ImageSource": {
                         "x": 280,
-                        "y": 327,
+                        "y": 101,
                         "width": 28,
                         "height": 32
                     }
                 }
             ]
         },
-		"MainDeleteMenu": {
-			"Alignment": "CenterBottom",
+        "MainDeleteMenu": {
+            "Alignment": "CenterBottom",
             "Scale": {
                 "x": 1,
                 "y": 1
             },
-            "MenuItems": [
-				{
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomCircle",
                         "Position": {
-							"x": 16,
-							"y": 16
-						},
-						"Radius": 16 
+                            "x": 16,
+                            "y": 16
+                        },
+                        "Radius": 16
                     },
                     "Position": {
                         "x": 288,
                         "y": -35
                     },
                     "ImageSource": {
-                        "x": 32,
-                        "y": 0,
+                        "x": 578,
+                        "y": 101,
                         "width": 32,
                         "height": 32
                     }
-                },
-				{
-					"EventType": "SelectBrush",
+                }, {
+                    "EventType": "SelectBrush",
                     "EventName": "delete_brush",
                     "CollisionObject": {
                         "type": "CustomCircle",
-                       "Position": {
-							"x": 16,
-							"y": 16
-						},
-						"Radius": 16
+                        "Position": {
+                            "x": 16,
+                            "y": 16
+                        },
+                        "Radius": 16
                     },
                     "Position": {
                         "x": 288,
                         "y": -35
                     },
                     "ImageSource": {
-                        "x": 0,
-                        "y": 0,
+                        "x": 546,
+                        "y": 101,
                         "width": 32,
                         "height": 32
                     }
                 }
-			]
-		},
-		"LandSubMenu": {
+            ]
+        },
+        "LandSubMenu": {
             "Alignment": "RightTop",
             "MenuItems": [{
                     "CollisionObject": {
@@ -769,7 +754,7 @@
                             "x": 0,
                             "y": 0,
                             "width": 404,
-                            "height": 54
+                            "height": 90
                         }
                     },
                     "Position": {
@@ -777,10 +762,10 @@
                         "y": 54
                     },
                     "ImageSource": {
-                        "x": 1077,
-                        "y": 0,
+                        "x": 1601,
+                        "y": 54,
                         "width": 404,
-                        "height": 54
+                        "height": 90
                     }
                 }, {
                     "EventType": "SelectBrush",
@@ -799,8 +784,8 @@
                         "y": 56
                     },
                     "ImageSource": {
-                        "x": 1077,
-                        "y": 54,
+                        "x": 1196,
+                        "y": 0,
                         "width": 32,
                         "height": 32
                     }
@@ -821,8 +806,8 @@
                         "y": 56
                     },
                     "ImageSource": {
-                        "x": 1109,
-                        "y": 54,
+                        "x": 1228,
+                        "y": 0,
                         "width": 32,
                         "height": 32
                     }
@@ -843,13 +828,12 @@
                         "y": 56
                     },
                     "ImageSource": {
-                        "x": 1141,
-                        "y": 54,
+                        "x": 1260,
+                        "y": 0,
                         "width": 32,
                         "height": 32
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "brush_tree_0",
                     "CollisionObject": {
@@ -866,22 +850,219 @@
                         "y": 56
                     },
                     "ImageSource": {
-                        "x": 1173,
-                        "y": 54,
+                        "x": 1292,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_sand_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -253,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1324,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_dirt_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -217,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1356,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_gravel_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -181,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1388,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_street_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -145,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1420,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_dirt_1",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -109,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1452,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_gravel_1",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -73,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1484,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_stone_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -37,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1516,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_stone_moss_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -397,
+                        "y": 92
+                    },
+                    "ImageSource": {
+                        "x": 1196,
+                        "y": 32,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_grass_dry_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -361,
+                        "y": 92
+                    },
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 32,
                         "width": 32,
                         "height": 32
                     }
                 }
             ]
         },
-		"FarmingSubMenu": {
+        "FarmingSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -894,15 +1075,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                }, 
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "apple_farm_brush",
                     "CollisionObject": {
@@ -920,12 +1094,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 359,
+                        "y": 133,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "grain_farm_brush",
                     "CollisionObject": {
@@ -943,12 +1116,11 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 359,
+                        "y": 133,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "cow_farm_brush",
                     "CollisionObject": {
@@ -966,12 +1138,11 @@
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 359,
+                        "y": 133,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "hunter_stand_brush",
                     "CollisionObject": {
@@ -989,12 +1160,11 @@
                     },
                     "ImageSource": {
                         "x": 168,
-                        "y": 359,
+                        "y": 133,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "hop_farm_brush",
                     "CollisionObject": {
@@ -1012,21 +1182,20 @@
                     },
                     "ImageSource": {
                         "x": 224,
-                        "y": 359,
+                        "y": 133,
                         "width": 56,
                         "height": 56
                     }
                 }
             ]
         },
-		"ManufacturingSubMenu": {
+        "ManufacturingSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1039,15 +1208,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "brewery_brush",
                     "CollisionObject": {
@@ -1065,12 +1227,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 415,
+                        "y": 189,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "mill_brush",
                     "CollisionObject": {
@@ -1088,12 +1249,11 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 415,
+                        "y": 189,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "bakery_brush",
                     "CollisionObject": {
@@ -1111,21 +1271,20 @@
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 415,
+                        "y": 189,
                         "width": 56,
                         "height": 56
                     }
                 }
-			]
+            ]
         },
-		"MaterialsSubMenu": {
+        "MaterialsSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1138,15 +1297,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "wood_cutter_brush",
                     "CollisionObject": {
@@ -1164,12 +1316,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 471,
+                        "y": 245,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "mine_brush",
                     "CollisionObject": {
@@ -1187,21 +1338,20 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 471,
+                        "y": 245,
                         "width": 56,
                         "height": 56
                     }
                 }
-			]
+            ]
         },
-		"ProductionSubMenu": {
+        "ProductionSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1214,15 +1364,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                }, 
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "black_smith_brush",
                     "CollisionObject": {
@@ -1240,12 +1383,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 527,
+                        "y": 301,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "tannery_brush",
                     "CollisionObject": {
@@ -1263,12 +1405,11 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 527,
+                        "y": 301,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "shields_brush",
                     "CollisionObject": {
@@ -1286,12 +1427,11 @@
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 527,
+                        "y": 301,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "archery_brush",
                     "CollisionObject": {
@@ -1309,21 +1449,20 @@
                     },
                     "ImageSource": {
                         "x": 168,
-                        "y": 527,
+                        "y": 301,
                         "width": 56,
                         "height": 56
                     }
                 }
             ]
         },
-		"HouseSubMenu": {
+        "HouseSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1336,15 +1475,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                }, 
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "house_1_brush",
                     "CollisionObject": {
@@ -1362,12 +1494,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 583,
+                        "y": 357,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "house_2_brush",
                     "CollisionObject": {
@@ -1385,12 +1516,11 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 583,
+                        "y": 357,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "house_3_brush",
                     "CollisionObject": {
@@ -1408,12 +1538,11 @@
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 583,
+                        "y": 357,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "house_4_brush",
                     "CollisionObject": {
@@ -1431,12 +1560,11 @@
                     },
                     "ImageSource": {
                         "x": 168,
-                        "y": 583,
+                        "y": 357,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "house_5_brush",
                     "CollisionObject": {
@@ -1454,12 +1582,11 @@
                     },
                     "ImageSource": {
                         "x": 224,
-                        "y": 583,
+                        "y": 357,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "house_6_brush",
                     "CollisionObject": {
@@ -1477,12 +1604,11 @@
                     },
                     "ImageSource": {
                         "x": 280,
-                        "y": 583,
+                        "y": 357,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "house_7_brush",
                     "CollisionObject": {
@@ -1500,21 +1626,20 @@
                     },
                     "ImageSource": {
                         "x": 336,
-                        "y": 583,
+                        "y": 357,
                         "width": 56,
                         "height": 56
                     }
                 }
             ]
         },
-		"PopularitySubMenu": {
+        "PopularitySubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1527,15 +1652,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                }, 
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "granary_brush",
                     "CollisionObject": {
@@ -1553,12 +1671,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 639,
+                        "y": 413,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "market_brush",
                     "CollisionObject": {
@@ -1576,12 +1693,11 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 639,
+                        "y": 413,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "inn_brush",
                     "CollisionObject": {
@@ -1599,12 +1715,11 @@
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 639,
+                        "y": 413,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "well_brush",
                     "CollisionObject": {
@@ -1622,21 +1737,20 @@
                     },
                     "ImageSource": {
                         "x": 168,
-                        "y": 639,
+                        "y": 413,
                         "width": 56,
                         "height": 56
                     }
                 }
             ]
         },
-		"FaithSubMenu": {
+        "FaithSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1649,15 +1763,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "church_small_brush",
                     "CollisionObject": {
@@ -1675,12 +1782,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 695,
+                        "y": 469,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "church_medium_brush",
                     "CollisionObject": {
@@ -1698,12 +1804,11 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 695,
+                        "y": 469,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "church_big_brush",
                     "CollisionObject": {
@@ -1721,21 +1826,20 @@
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 695,
+                        "y": 469,
                         "width": 56,
                         "height": 56
                     }
                 }
-			]
+            ]
         },
-		"WallSubMenu": {
+        "WallSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1748,15 +1852,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "brush_wall_wooden_0",
                     "CollisionObject": {
@@ -1774,12 +1871,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 751,
+                        "y": 525,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "brush_wall_0",
                     "CollisionObject": {
@@ -1797,21 +1893,20 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 751,
+                        "y": 525,
                         "width": 56,
                         "height": 56
                     }
                 }
-			]
+            ]
         },
-		"GateSubMenu": {
+        "GateSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1824,15 +1919,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "gate_1_brush",
                     "CollisionObject": {
@@ -1850,12 +1938,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 807,
+                        "y": 581,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "gate_0_brush",
                     "CollisionObject": {
@@ -1873,21 +1960,20 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 807,
+                        "y": 581,
                         "width": 56,
                         "height": 56
                     }
                 }
-			]
+            ]
         },
-		"TowerSubMenu": {
+        "TowerSubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1900,15 +1986,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                }, 
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "tower_smallc_brush",
                     "CollisionObject": {
@@ -1926,12 +2005,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 863,
+                        "y": 637,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "tower_small_brush",
                     "CollisionObject": {
@@ -1949,12 +2027,11 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 863,
+                        "y": 637,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "tower_big_brush",
                     "CollisionObject": {
@@ -1972,12 +2049,11 @@
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 863,
+                        "y": 637,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "tower_bigc_brush",
                     "CollisionObject": {
@@ -1995,21 +2071,20 @@
                     },
                     "ImageSource": {
                         "x": 168,
-                        "y": 863,
+                        "y": 637,
                         "width": 56,
                         "height": 56
                     }
                 }
             ]
         },
-		"MilitarySubMenu": {
+        "MilitarySubMenu": {
             "Alignment": "CenterBottom",
-			"Scale": {
+            "Scale": {
                 "x": 2,
                 "y": 2
             },
-            "MenuItems": [
-                   {
+            "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -2022,15 +2097,8 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    },
-                    "ImageSource": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 0,
-                        "height": 0
                     }
-                }, 
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "armory_brush",
                     "CollisionObject": {
@@ -2048,12 +2116,11 @@
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 919,
+                        "y": 693,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "barracks_1_brush",
                     "CollisionObject": {
@@ -2071,12 +2138,11 @@
                     },
                     "ImageSource": {
                         "x": 56,
-                        "y": 919,
+                        "y": 693,
                         "width": 56,
                         "height": 56
                     }
-                },
-				{
+                }, {
                     "EventType": "SelectBrush",
                     "EventName": "barracks_2_brush",
                     "CollisionObject": {
@@ -2094,12 +2160,12 @@
                     },
                     "ImageSource": {
                         "x": 112,
-                        "y": 919,
+                        "y": 693,
                         "width": 56,
                         "height": 56
                     }
                 }
             ]
         }
-	}
+    }
 }
