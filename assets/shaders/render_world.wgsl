@@ -290,7 +290,7 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
 
            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
            var elevation = tile.ElevationAndOffsetObjectY >> 16u;
-           var tick = params.tick + (tile.AnimationOffsetTick >> 16u);
+           var tick = params.tick;
     	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, tick, 0xffffffffu);
     	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, tick, 0xffffffffu);
     	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, tick, 0xffffffffu);
@@ -319,7 +319,7 @@ fn instancing_without_elevation(@builtin(global_invocation_id) global_id: vec3<u
            let visible_index = calc_visible_index(index, actual_row_start) * 2;
 
            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
-           let tick = params.tick + tile.AnimationOffsetTick ;
+           let tick = params.tick;
     	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[4], index, 0u, tick, 0xffffffffu);
     	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[5], index, 0u, tick, 0xffffffffu);
 }

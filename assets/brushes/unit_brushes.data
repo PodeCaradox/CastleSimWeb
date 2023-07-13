@@ -1,0 +1,11 @@
+{
+    "Units_Test": {
+        "BrushEntities": [
+            {
+                "Name": "Castlekeep_gatecenter",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "DynamicObjectBrush"
+    }
+}

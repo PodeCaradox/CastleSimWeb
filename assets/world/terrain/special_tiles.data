@@ -1,20 +1,22 @@
 { 
- "brush_tile":{
-      "ImageName":"land",
-      "AtlasCoordinate":"0,0,30,16",
-      "Walkable":true,
-      "MiniMapColor":"213,145,103,255"
-   },
-   "tile_orange":{
-      "ImageName":"land",
-      "AtlasCoordinate":"0,60,32,16",
-      "Walkable":true,
-      "MiniMapColor":"213,145,103,255"
-   },
-   "tile_grey":{
-      "ImageName":"land",
-      "AtlasCoordinate":"32,60,32,16",
-      "Walkable":true,
-      "MiniMapColor":"127,118,104,255"
-   }
+	"brush_tile":{
+	  "ImageName":"land",
+	  "AtlasCoordinate":"0,0,32,16"
+	},
+	"elevation_disabled": {
+		"ImageName": "land",
+		"AtlasCoordinate": "32,0,32,16"
+	},
+	"tile_orange":{
+	  "ImageName":"land",
+	  "AtlasCoordinate":"64,0,32,16",
+	  "Walkable":true,
+	  "MiniMapColor":"213,145,103,255"
+	},
+	"tile_grey":{
+	  "ImageName":"land",
+	  "AtlasCoordinate":"96,0,32,16",
+	  "Walkable":true,
+	  "MiniMapColor":"127,118,104,255"
+	}
 }
