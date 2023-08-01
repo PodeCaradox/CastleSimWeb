@@ -65,12 +65,20 @@ fn is_in_map_bounds(map_position: vec2<i32>) -> i32 {
 }
 
 fn calculate_rows(start: vec2<i32>, mapSizeX: i32) -> i32{
+	var rows = 0;
+
 	if (start.y < start.x)
 	{
-	    return mapSizeX - (start.x - start.y);
+	    rows = (mapSizeX - 1) - (start.x - start.y);
+	}else {
+     	rows = (mapSizeX - 1) + (start.y - start.x);
+    }
+
+	if (rows < 0) {
+	    return 0;
 	}
 
-	return mapSizeX + (start.y - start.x);
+	return rows;
 }
 
 fn get_columns_until_border(index: vec2<i32>) -> i32{
@@ -82,15 +90,15 @@ fn get_columns_until_border(index: vec2<i32>) -> i32{
 }
 
 fn is_outside_of_map(start_pos: vec2<i32>) -> i32 {
-            var pos = start_pos;
-            for (var i: i32 = 0; i < params.columns; i+=1){
-                pos.x += 1;
-                pos.y += 1;
-                if (is_in_map_bounds(pos) == 1) {
-                    return 0;
-                }
+        var pos = start_pos;
+        for (var i: i32 = 0; i < params.columns; i+=1){
+            pos.x += 1;
+            pos.y += 1;
+            if (is_in_map_bounds(pos) == 1) {
+                return 0;
             }
-            return 1;
+        }
+        return 1;
 }
 
 fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
@@ -127,24 +135,20 @@ fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
 }
 
 fn get_start_point(start_pos: vec2<i32>) -> vec2<i32> {
-           var outside = is_outside_of_map(start_pos);
-           var start = start_pos;
-           if (outside == 1) { //calculate the starting point when outside of map on the right.
-                return calc_start_point_outside_map(start_pos);
-           }
+      var outside = is_outside_of_map(start_pos);
+      if (outside == 1) { //calculate the starting point when outside of map on the right.
+        return calc_start_point_outside_map(start_pos);
+      }
      //inside the map
      return vec2<i32>(params.start_pos.x, params.start_pos.y);
 }
 
 fn calc_visible_index(index: vec2<i32>, actual_row_start: vec2<i32>) -> i32{
-        var visible_index = 0;
 
         let start = get_start_point(vec2<i32>(params.start_pos.x, params.start_pos.y));
-        let rows_behind = calculate_rows(index, params.map_size.x) - calculate_rows(start, params.map_size.x) - 1;
+        let rows_behind = calculate_rows(index, params.map_size.x) - calculate_rows(start, params.map_size.x);
 
-        if (rows_behind > 0) {
-            visible_index = rows_index.Rows[rows_behind];
-        }
+        var visible_index = rows_index.Rows[rows_behind];
 
         //index in current column
         var columns = get_columns_until_border(index);
@@ -286,6 +290,10 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
                 return;
             }
 
+            if (row >= params.rows || column >= params.columns){
+                return;
+            }
+
            let visible_index = calc_visible_index(index, actual_row_start) * 4;
 
            let tile = all_tiles.tiles[index.y * params.map_size.x + index.x];
@@ -325,7 +333,7 @@ fn instancing_without_elevation(@builtin(global_invocation_id) global_id: vec3<u
 }
 
 //==============================================================================
-// Vertex shader
+// Vertex shader_bindings
 //==============================================================================
 struct VertexInput {
     @location(0) Position: vec4<f32>,
@@ -383,7 +391,7 @@ fn vs_main(
     }
 
 //==============================================================================
-// Fragment shader
+// Fragment shader_bindings
 //==============================================================================
 @group(0) @binding(0)
 var t_diffuse: texture_2d_array<f32>;

@@ -22,6 +22,7 @@ export class AppComponent implements AfterViewInit, OnInit  {
     init().then(value => {
       this.wasmModule = value;
       this.wasmModule.run(this.gameFieldDiv?.nativeElement!.clientWidth, this.gameFieldDiv?.nativeElement!.clientHeight);
+
     });
   }
 
@@ -46,6 +47,7 @@ export class AppComponent implements AfterViewInit, OnInit  {
     this.isLoaded = this.loading!.nativeElement.getAttribute('tag') as boolean;
     const canvas: HTMLCanvasElement = document.getElementById('castle_sim_canvas') as HTMLCanvasElement;
     if (canvas) {
+      window.dispatchEvent(new Event('resize'));
       canvas.focus();
     }
   }
