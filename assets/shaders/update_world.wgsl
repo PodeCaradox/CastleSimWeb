@@ -30,5 +30,4 @@ fn update_world(@builtin(global_invocation_id) global_id: vec3<u32>) {
     }
 	var tile: TileInstances = update_tiles.tiles[global_id.x];
     all_tiles.tiles[tile.Index] = tile;
-
 }
