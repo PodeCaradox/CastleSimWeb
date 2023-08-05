@@ -52,6 +52,105 @@ struct TilesBehindStorage {
 //=============================================================================
 // Compute Shader Functions
 //=============================================================================
+fn calculate_rows(start: vec2<i32>, mapSizeX: i32) -> i32{
+	var rows = 0;
+
+	if (start.y < start.x)
+	{
+	    rows = (mapSizeX - 1) - (start.x - start.y);
+	}else {
+     	rows = (mapSizeX - 1) + (start.y - start.x);
+    }
+
+	if (rows < 0) {
+	    return 0;
+	}
+
+	return rows;
+}
+
+fn get_columns_until_border(index: vec2<i32>) -> i32{
+	if (index.x < index.y)
+	{
+		return index.x;
+	}
+	return index.y;
+}
+
+fn is_outside_of_map(start_pos: vec2<i32>) -> i32 {
+        var pos = start_pos;
+        for (var i: i32 = 0; i < params.columns; i+=1){
+            pos.x += 1;
+            pos.y += 1;
+            if (is_in_map_bounds(pos) == 1) {
+                return 0;
+            }
+        }
+        return 1;
+}
+
+fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
+        var start = start_pos;
+        //above right side of map
+        if (params.start_pos.x + params.start_pos.y < params.map_size.x) {
+                   var left: vec2<i32> = vec2<i32>(params.start_pos.x - params.rows, params.start_pos.y + params.rows);
+                   left.x += left.y;
+                   left.y -= left.y;
+
+                   var right_bottom_screen: vec2<i32> = vec2<i32>(params.start_pos.x + params.columns, params.start_pos.y + params.columns);
+                   //check if we are passed the last Tile for MapSizeX with the Camera
+                   if (right_bottom_screen.x + right_bottom_screen.y > params.map_size.x) {
+                       start = vec2<i32>(params.map_size.x, 0);
+
+                   } else {
+                        //we are above the Last Tile so x < MapSizeX for Camera right bottom Position
+                       right_bottom_screen.x += right_bottom_screen.y;
+                       right_bottom_screen.y -= right_bottom_screen.y;
+                       start = right_bottom_screen;
+                   }
+
+                   //difference is all tiles on the x axis and because we calculate here x,y different to Isomectric View we need to divide by 2 and for odd number add 1 so % 2
+                   var difference = start.x - left.x;
+                   difference += difference % 2;
+                   difference /= 2;
+                   start.x -= difference;
+                   start.y -= difference;
+                   return start;
+       }
+       //underneath right side of map
+       let to_the_left = params.start_pos.x - params.map_size.x;
+       return vec2<i32>(params.start_pos.x - to_the_left, params.start_pos.y + to_the_left);
+}
+
+fn get_start_point(start_pos: vec2<i32>) -> vec2<i32> {
+      var outside = is_outside_of_map(start_pos);
+      if (outside == 1) { //calculate the starting point when outside of map on the right.
+        return calc_start_point_outside_map(start_pos);
+      }
+     //inside the map
+     return vec2<i32>(params.start_pos.x, params.start_pos.y);
+}
+
+fn calc_visible_index(index: vec2<i32>, actual_row_start: vec2<i32>) -> i32{
+
+        let start = get_start_point(vec2<i32>(params.start_pos.x, params.start_pos.y));
+        let rows_behind = calculate_rows(index, params.map_size.x) - calculate_rows(start, params.map_size.x);
+
+        var visible_index = rows_index.Rows[rows_behind];
+
+        //index in current column
+        var columns = get_columns_until_border(index);
+        if (actual_row_start.x >= 0 && actual_row_start.y >= 0) {
+            columns -= get_columns_until_border(actual_row_start);
+        }
+
+        visible_index += columns;
+        return visible_index;
+}
+
+//=============================================================================
+// Compute Shader Functions
+//=============================================================================
 fn index_to_world_pos(index: u32) -> vec2<i32> {
     var x : i32 = i32(index % u32(params.map_size.x));
     var y : i32 = i32(index / u32(params.map_size.y));
@@ -160,11 +259,15 @@ struct BrushParamsCompute
 {
      build_able: u32,
      brush_instance_not_buildable: u32,
+     draw_map_behind: u32,
      visible_index: u32,
-     instances_to_draw: u32
+     instances_to_draw: u32,
+     show_offset: u32
 };
 
+
 @group(0) @binding(0) var<uniform> params: ComputeParams;
+@group(0) @binding(1) var<storage, read> rows_index : TilesBehindStorage;
 @group(1) @binding(0) var<storage, read> tile_properties : TilePropertiesStorage;
 @group(2) @binding(0) var<uniform> brush_params: BrushParamsCompute;
 @group(2) @binding(1) var<storage, read> brush_tiles : TileInstancesStorage;
@@ -172,10 +275,27 @@ struct BrushParamsCompute
 @compute
 @workgroup_size(16, 1, 1)
 fn instancing_cs_brush(@builtin(global_invocation_id) global_id: vec3<u32>) {
-if (global_id.x > brush_params.instances_to_draw) {
+if (global_id.x >= brush_params.instances_to_draw) {
         return;
     }
 	var tile: TileInstances = brush_tiles.tiles[global_id.x];
+
+
+    let index = index_to_world_pos(tile.Index);
+
+    if  (brush_params.draw_map_behind == 0u && brush_params.build_able == 1u){
+      let tiles_y: i32 = (params.start_pos.x - params.start_pos.y) - (index.x - index.y);
+        let column = tiles_y / 2 + tiles_y % 2;
+        var actual_row_start = vec2(params.start_pos.x, params.start_pos.y + tiles_y);
+        actual_row_start.y -= column;
+        actual_row_start.x -= column;
+        let index_to_delete = calc_visible_index(index, actual_row_start) * i32(brush_params.show_offset);
+         for (var y : i32 = 0; y < i32(brush_params.show_offset); y = y + 1) {
+            visble_tiles_cp.tiles[index_to_delete + y] = initInstancingObject();
+         }
+    }
+
+
 
     var elevation : u32 = (tile.ElevationAndOffsetObjectY >> 16u);
     let pos = index_to_world_pos(tile.Index);
