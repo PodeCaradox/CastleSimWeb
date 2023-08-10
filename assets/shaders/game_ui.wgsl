@@ -35,7 +35,7 @@ struct VertexOutput {
 }
 
 @vertex
-fn vs_ui(
+fn vertex_ui(
     inputvertex: QuadInput, static_input: StaticVSinput, input: DynamicVSinput
 ) -> VertexOutput {
 
@@ -86,7 +86,7 @@ var s_diffuse: sampler;
 
 
 @fragment
-fn fs_ui(in: VertexOutput) -> @location(0) vec4<f32> {
+fn fragment_ui(in: VertexOutput) -> @location(0) vec4<f32> {
     let color = textureSample(t_diffuse, s_diffuse, in.TexCoord);
 	if(color.r == 1.0 && color.g == 0.0 && color.b == 1.0){
 		discard;
