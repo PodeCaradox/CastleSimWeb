@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button";
 import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
+import {NoRightClickDirective} from "./no-right-click.directive";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NoRightClickDirective
   ],
     imports: [
         BrowserModule,

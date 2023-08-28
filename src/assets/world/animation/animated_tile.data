@@ -15,5 +15,10 @@
       "OffsetAnimationObject":true,
       "AnimationLength":50,
       "Delay":50
-   }
+   },
+  "building_disabled":{
+     "PauseFrames":0,
+     "AnimationLength":16,
+     "Delay":150
+  }
 }

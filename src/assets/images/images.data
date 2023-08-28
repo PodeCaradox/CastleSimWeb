@@ -31,6 +31,9 @@
  },
  "arrow":{
    "Path":"images\\units"
- }
+ },
+  "world_effects":{
+    "Path":"images\\world\\effects"
+  }
 }
 

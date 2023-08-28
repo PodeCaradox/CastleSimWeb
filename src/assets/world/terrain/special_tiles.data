@@ -18,5 +18,10 @@
 	  "AtlasCoordinate":"96,0,32,16",
 	  "Walkable":true,
 	  "MiniMapColor":"127,118,104,255"
-	}
+	},
+    "building_disabled_icon":{
+      "ImageName":"world_effects",
+      "Animation":"building_disabled",
+      "AtlasCoordinate":"0,0,34,34"
+    }
 }
