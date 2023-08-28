@@ -1,5 +1,10 @@
 {
   "apple_farm": {
+	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 8
+	},
     "TileIds": [
       "apple_farm_0",
       "apple_farm_1",
@@ -51,6 +56,11 @@
     ]
   },
   "brewery": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 24
+	},
     "TileIds": [
       "brewery_0",
       "brewery_1",
@@ -182,6 +192,11 @@
     ]
   },
   "church_big": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 200,
+	  "tile_pos": 168
+	},
     "TileIds": [
       "church_big_0",
       "church_big_1",
@@ -1032,7 +1047,11 @@
       }
     ]
   },
-  "church_medium": {
+  "church_medium": {	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 200,
+	  "tile_pos": 80
+	},
     "TileIds": [
       "church_medium_0",
       "church_medium_1",
@@ -1443,7 +1462,12 @@
       }
     ]
   },
-  "church_small": {
+  "church_small": {	
+	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 150,
+	  "tile_pos": 35
+	},
     "TileIds": [
       "church_small_0",
       "church_small_1",
@@ -1630,6 +1654,11 @@
     ]
   },
   "cow_farm": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 8
+	},
     "TileIds": [
       "cow_farm_0",
       "cow_farm_1",
@@ -1943,6 +1972,11 @@
     ]
   },
   "grain_farm": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 8
+	},
     "TileIds": [
       "grain_farm_0",
       "grain_farm_1",
@@ -1994,6 +2028,11 @@
     ]
   },
   "hop_farm": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 8
+	},
     "TileIds": [
       "hop_farm_0",
       "hop_farm_1",
@@ -2647,6 +2686,11 @@
     ]
   },
   "hunter_stand": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 80,
+	  "tile_pos": 8
+	},
     "TileIds": [
       "hunter_stand_0",
       "hunter_stand_1",
@@ -2698,6 +2742,11 @@
     ]
   },
   "archery": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 15
+	},
     "TileIds": [
       "archery_0",
       "archery_1",
@@ -2784,6 +2833,11 @@
     ]
   },
   "inn": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 24
+	},
     "TileIds": [
       "inn_0",
       "inn_1",
@@ -3046,6 +3100,11 @@
     ]
   },
   "mine": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 24
+	},
     "TileIds": [
       "mine_0",
       "mine_1",
@@ -4381,6 +4440,11 @@
     ]
   },
   "well": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 8
+	},
     "TileIds": [
       "well_0",
       "well_1",
@@ -4432,6 +4496,11 @@
     ]
   },
   "wood_cutter": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 8
+	},
     "TileIds": [
       "wood_cutter_0",
       "wood_cutter_1",
@@ -4483,6 +4552,11 @@
     ]
   },
   "mill": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 120,
+	  "tile_pos": 8
+	},
     "TileIds": [
       "mill_0",
       "mill_1",
@@ -4534,6 +4608,11 @@
     ]
   },
   "armory": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 80,
+	  "tile_pos": 15
+	},
     "TileIds": [
       "armory_0",
       "armory_1",
@@ -4620,6 +4699,11 @@
     ]
   },
   "bakery": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 15
+	},
     "TileIds": [
       "bakery_0",
       "bakery_1",
@@ -4968,6 +5052,11 @@
     ]
   },
   "black_smith": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 15
+	},
     "TileIds": [
       "black_smith_0",
       "black_smith_1",
@@ -5140,6 +5229,11 @@
     ]
   },
   "shields": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 120,
+	  "tile_pos": 15
+	},
     "TileIds": [
       "shields_0",
       "shields_1",
@@ -5226,6 +5320,11 @@
     ]
   },
   "tannery": {
+  	"IdleAnimation": {
+	  "id":"building_disabled_icon",
+	  "offset": 50,
+	  "tile_pos": 15
+	},
     "TileIds": [
       "tannery_0",
       "tannery_1",

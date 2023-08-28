@@ -217,13 +217,14 @@ fn CreateObjectInstance(tile_id: u32, position: vec3<f32>, animation_tick: u32, 
 }
 
 //Tile and Object
-fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32) -> InstancingObject{
+fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, animation_tick: u32, Color: u32, offsetObjectY: u32) -> InstancingObject{
     if (tile_id == 0u){
         return initInstancingObject();
     }
 	let depth: f32 = WorldPosToDepth(world_pos);
 	var position = WorldToScreenPos(world_pos);
-	position.y -= f32(elevation) + 7.0f;;
+	position.y -= f32(elevation) + 7.0f;
+	position.y -= f32(offsetObjectY);
 	return CreateObjectInstance(tile_id, vec3(position, depth), animation_tick, Color);
 }
 
@@ -301,7 +302,7 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
            var tick = params.tick;
     	   visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, tick, 0xffffffffu);
     	   visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, tick, 0xffffffffu);
-    	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, tick, 0xffffffffu);
+    	   visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, tick, 0xffffffffu, (tile.ElevationAndOffsetObjectY & 0x0000ffffu));
     	   visble_tiles_cp.tiles[visible_index + 3] = CreateElevationInstance(tile.SingleInstances[3], index, elevation, tick, 0xffffffffu, tile.OffsetElevationX);
 }
 
