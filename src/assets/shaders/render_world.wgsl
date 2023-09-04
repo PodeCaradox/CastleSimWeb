@@ -183,6 +183,14 @@ fn initInstancingObject() -> InstancingObject {
     return obj;
 }
 
+fn calculateValue(x: f32, mapSizeX: f32) -> f32 {
+    var halfMapSizeX = mapSizeX / 2.0;
+    var absDiff = abs(x - halfMapSizeX);
+    var value = 1.0 + 2.0 * absDiff / mapSizeX;
+    value = 1.0 - pow(value, 2.0);
+    return value;
+}
+
 fn CaclAnimationFrame(instance: SingleInstance, animation_enabled: u32, tick: u32, pos: vec2<i32>) -> u32{
 	//Animation: u32 1 for Wind // 7 bits for animation length // 12 bits for when update animation // 5 bits repeat frames // 7 bits pausing frames TODO
     if (animation_enabled == 0u){
@@ -192,13 +200,14 @@ fn CaclAnimationFrame(instance: SingleInstance, animation_enabled: u32, tick: u3
     var animation_tick = tick;
     // wind animation
     if (instance.Animation >> 31u == 1u){
-       animation_tick += u32(pos.y) * 50u;
+       //animation_tick += u32(pos.y + params.map_size.y * 10 + (pos.y - params.map_size.y)) * 50u;
+        animation_tick += u32(f32(pos.y + params.map_size.y) * 50.0 + calculateValue(f32(pos.x), f32(params.map_size.x)) * 1400.0);//pos.y * 50 +
     }
 
     var atlas_pos = instance.AtlasCoordPos;
     let animation_length =  u32((instance.Animation >> 24u) & 0x0000007fu);
     let reiteration =  u32((instance.Animation >> 7u) & 0x0000001fu);
-    let pausing_frames =  u32(instance.Animation & 0x0000007fu);
+    let pausing_frames =  u32(instance.Animation & 0x0000007fu) * 2u;
     let update_tick =  u32((instance.Animation >> 12u) & 0x00000fffu);
     let uv_size = vec2<u32>(instance.AtlasCoordSize & 0x0000ffffu, instance.AtlasCoordSize >> 16u);
     let is_update_time = animation_tick / update_tick;
@@ -207,7 +216,6 @@ fn CaclAnimationFrame(instance: SingleInstance, animation_enabled: u32, tick: u3
     if(img_coord < animation_length_wih_reiterattions){
         let current_pos_x = (atlas_pos & 0x00000fffu);
         let new_pos_x = current_pos_x + (uv_size.x * (img_coord % animation_length));
-
         let end_pixels = (u32(ImageSize.x) - current_pos_x) % uv_size.x;
         let real_size = u32(ImageSize.x) - end_pixels;
         let pos_y = (new_pos_x / real_size) * uv_size.y;
