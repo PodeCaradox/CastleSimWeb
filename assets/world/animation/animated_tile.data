@@ -1,20 +1,21 @@
 {
    "water_animation_0":{
-      "PauseFrames":1,
+      "PauseFrames":0,
       "AnimationLength":8,
       "Delay":400
    },
    "animated_grass_0":{
-      "PauseFrames":30,
-      "OffsetAnimationObject":true,
-      "AnimationLength":7,
-      "Delay":120
+      "PauseFrames":50,
+      "Reiterations":4,
+      "AnimationLength":5,
+      "Delay":100,
+	  "ReactToWind": true
    },
    "animated_tree_0":{
-      "PauseFrames":40,
-      "OffsetAnimationObject":true,
+      "PauseFrames":100,
       "AnimationLength":50,
-      "Delay":50
+      "Delay":50,
+	  "ReactToWind": true
    },
   "building_disabled":{
      "PauseFrames":0,

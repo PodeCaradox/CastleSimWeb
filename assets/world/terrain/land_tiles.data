@@ -99,6 +99,7 @@
     "grass_3": {
         "ImageName": "land",
 		"Animation":"animated_grass_0",
+		"NameElevationDisabled":"grass_3",
         "AtlasCoordinate": "640,0,32,32",
         "Walkable": true,
         "MiniMapColor": "100,118,65,255"
