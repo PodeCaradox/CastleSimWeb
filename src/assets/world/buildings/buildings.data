@@ -2,7 +2,7 @@
   "apple_farm": {
 	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 8
 	},
     "TileIds": [
@@ -58,7 +58,7 @@
   "brewery": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 24
 	},
     "TileIds": [
@@ -1656,7 +1656,7 @@
   "cow_farm": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 8
 	},
     "TileIds": [
@@ -1974,7 +1974,7 @@
   "grain_farm": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 8
 	},
     "TileIds": [
@@ -2030,7 +2030,7 @@
   "hop_farm": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 8
 	},
     "TileIds": [
@@ -2744,7 +2744,7 @@
   "archery": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 15
 	},
     "TileIds": [
@@ -2835,7 +2835,7 @@
   "inn": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 24
 	},
     "TileIds": [
@@ -3102,7 +3102,7 @@
   "mine": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 24
 	},
     "TileIds": [
@@ -4442,7 +4442,7 @@
   "well": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 8
 	},
     "TileIds": [
@@ -4498,7 +4498,7 @@
   "wood_cutter": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 8
 	},
     "TileIds": [
@@ -4701,7 +4701,7 @@
   "bakery": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 15
 	},
     "TileIds": [
@@ -5054,7 +5054,7 @@
   "black_smith": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 15
 	},
     "TileIds": [
@@ -5231,7 +5231,7 @@
   "shields": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 120,
+	  "offset": 80,
 	  "tile_pos": 15
 	},
     "TileIds": [
@@ -5322,7 +5322,7 @@
   "tannery": {
   	"IdleAnimation": {
 	  "id":"building_disabled_icon",
-	  "offset": 50,
+	  "offset": 80,
 	  "tile_pos": 15
 	},
     "TileIds": [

@@ -16,10 +16,7 @@
                 "RandomFactor": 2
             }, {
                 "Name": "grass_2",
-                "RandomFactor": 1
-            }, {
-                "Name": "grass_3",
-                "RandomFactor": 5
+                "RandomFactor": 2
             }
         ],
         "BrushType": "TileBrush"
