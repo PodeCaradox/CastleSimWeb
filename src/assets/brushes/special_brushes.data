@@ -3,7 +3,7 @@
         "BrushEntities": [
             {
                 "Name": "elevation_tile_0",
-                "RandomFactor": -1
+                "RandomFactor": -4
             }
         ],
         "BrushType": "ElevationBrush"
@@ -12,7 +12,7 @@
         "BrushEntities": [
             {
                 "Name": "elevation_tile_0",
-                "RandomFactor": 1
+                "RandomFactor": 4
             }
         ],
         "BrushType": "ElevationBrush"

@@ -3,6 +3,7 @@
     "ImageName": "water",
     "Animation":"water_animation_0",
     "AtlasCoordinate": "0,96,32,16",
+	"ElevationFamilyName":"elevation_water",
     "MiniMapColor": "89,220,225,255"
   }
 }

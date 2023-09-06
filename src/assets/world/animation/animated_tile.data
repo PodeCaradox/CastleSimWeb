@@ -4,6 +4,11 @@
       "AnimationLength":8,
       "Delay":400
    },
+   "water_animation_elevation_0":{
+      "PauseFrames":0,
+      "AnimationLength":16,
+      "Delay":100
+   },
    "animated_grass_0":{
       "PauseFrames":50,
       "Reiterations":4,

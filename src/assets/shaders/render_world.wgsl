@@ -259,9 +259,8 @@ fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: u32, a
 	let depth: f32 = WorldPosToDepth(world_pos) + ZStep;
 	var position = WorldToScreenPos(world_pos);
 	position.x += offset_elevation_x;
+	var size = (elevation + 8u);
 	var instance: InstancingObject  = CreateObjectInstance(tile_id, world_pos, vec3(position, depth), animation_enabled, animation_tick, Color);
-	var size = (elevation + 7u);
-	size += size % 4u;//because of zooming there needs to be a number which has no odd number when zommed out 2 times
     instance.UvCoordSize = (instance.UvCoordSize & 0x0000ffffu) | (size << 16u);
 	return instance;
 }
