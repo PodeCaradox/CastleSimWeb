@@ -14,6 +14,9 @@
  "wall_elevation":{
    "Path":"images\\world\\elevation"
  },
+ "water_elevation":{
+   "Path":"images\\world\\elevation"
+ },
  "debug_tiles":{
    "Path":"images\\world\\debugging"
  },

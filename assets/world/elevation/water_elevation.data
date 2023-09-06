@@ -1,2 +1,32 @@
 {
+   "elevation_water_0":{
+      "ImageName":"water_elevation",
+      "AtlasCoordinate":"0,0,32,465",
+	  "Animation":"water_animation_elevation_0"
+   },
+   "elevation_water_diagonal_0":{
+      "ImageName":"water_elevation",
+      "AtlasCoordinate":"0,0,32,465",
+	  "Animation":"water_animation_elevation_0"
+   },
+   "elevation_water_diagonal_left_0":{
+      "ImageName":"water_elevation",
+      "AtlasCoordinate":"0,0,32,465",
+	  "Animation":"water_animation_elevation_0"
+   },
+   "elevation_water_diagonal_right_0":{
+      "ImageName":"water_elevation",
+      "AtlasCoordinate":"0,0,32,465",
+	  "Animation":"water_animation_elevation_0"
+   },
+   "elevation_water_left_0":{
+      "ImageName":"water_elevation",
+      "AtlasCoordinate":"0,0,32,465",
+	  "Animation":"water_animation_elevation_0"
+   },
+   "elevation_water_right_0":{
+      "ImageName":"water_elevation",
+      "AtlasCoordinate":"0,0,32,465",
+	  "Animation":"water_animation_elevation_0"
+   }
 }
