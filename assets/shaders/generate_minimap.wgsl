@@ -7,15 +7,17 @@ struct MiniMapParams {
     minimap_image_pos: vec2<i32>,
 };
 
+//4 * 12 = 48 bytes //always dividable by 16
 struct TileInstances
 {
-	Index: u32,
-	Color: u32,//Can be used for Animation activ only used for brush color
+	TileIndex: u32,
+	Color: u32,//Shadow Color
 	MiniMapColor: u32,
-	AnimationOffsetTick: u32,// 1 bit enabled, 1 bit wind current_frame
-	ElevationAndOffsetObjectY: u32,//16 bits for Elevation // 16 for OffsetObjectY
-	OffsetElevationX: f32,
-	SingleInstances: array<u32, 6>,
+	Elevation: f32,
+    ObjectY: array<u32, 2>,//16 bits for Y //16 bits for Y //16 bits for Y //16 bits for Y
+	AnimationData: u32,// 8 bit enabled, 8 bit enabled, 8 bit enabled, 8 bit enabled
+	OffsetElevationX: u32,// 8 bit OffsetX, 8 bit OffsetX, 8 bit OffsetX, 8 bit OffsetX
+    SingleInstances: array<u32, 24>,
 };
 
 struct TileInstancesStorage {

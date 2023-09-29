@@ -1,13 +1,14 @@
 //4 * 12 = 48 //always dividable by 16
 struct TileInstances
 {
-	Index: u32,
-	Color: u32,
+	TileIndex: u32,
+	Color: u32,//Shadow Color
 	MiniMapColor: u32,
-	AnimationOffsetTick: u32,// to set the delays for wind
-	ElevationAndOffsetObjectY: u32,//16 bits for Elevation // 16 for OffsetObjectY
-	OffsetElevationX: f32,
-	SingleInstances: array<u32, 6>,
+	Elevation: f32,
+    ObjectY: array<u32, 2>,//16 bits for Y //16 bits for Y //16 bits for Y //16 bits for Y
+	AnimationData: u32,// 8 bit enabled, 8 bit enabled, 8 bit enabled, 8 bit enabled
+	OffsetElevationX: u32,// 8 bit OffsetX, 8 bit OffsetX, 8 bit OffsetX, 8 bit OffsetX
+    SingleInstances: array<u32, 24>,
 };
 
 struct ComputeParams {
@@ -29,5 +30,5 @@ fn update_world(@builtin(global_invocation_id) global_id: vec3<u32>) {
         return;
     }
 	var tile: TileInstances = update_tiles.tiles[global_id.x];
-    all_tiles.tiles[tile.Index] = tile;
+    all_tiles.tiles[tile.TileIndex] = tile;
 }
