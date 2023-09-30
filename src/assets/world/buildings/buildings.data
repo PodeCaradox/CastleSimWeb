@@ -1710,6 +1710,7 @@
     ]
   },
   "gate_0": {
+	"DirNames" : ["gate_1", "gate_0", "gate_1"],
     "TileIds": [
       "gate_0_0",
       "gate_0_1",
@@ -1841,6 +1842,7 @@
     ]
   },
   "gate_1": {
+	"DirNames" : ["gate_0", "gate_1", "gate_0"],
     "TileIds": [
       "gate_1_0",
       "gate_1_1",
