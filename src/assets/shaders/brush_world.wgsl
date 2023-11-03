@@ -11,16 +11,21 @@ struct SingleInstance
 	AtlasCoordSize: u32,
 };
 
-struct TileInstances
+//4 * 4 = 16 bytes
+struct TileData
 {
 	TileIndex: u32,
 	Color: u32,//Shadow Color
 	MiniMapColor: u32,
 	Elevation: f32,
-    ObjectY: array<u32, 2>,//16 bits for Y //16 bits for Y //16 bits for Y //16 bits for Y
-	AnimationData: u32,// 8 bit enabled, 8 bit enabled, 8 bit enabled, 8 bit enabled
-	OffsetElevationX: u32,// 8 bit OffsetX, 8 bit OffsetX, 8 bit OffsetX, 8 bit OffsetX
-    SingleInstances: array<u32, 24>,
+};
+
+//4 * 8 = 32 bytes
+struct TileRotationData
+{
+    Data: u32,//16 bits for ObjectY //8 bit AnimationData //8 bit OffsetElevationX
+    SingleInstances: array<u32, 6>,
+    Free: u32
 };
 
 //12 + 4 + 8 + 4 + 4 = 32;
@@ -37,8 +42,12 @@ struct TilePropertiesStorage {
   properties: array<SingleInstance>,
 };
 
-struct TileInstancesStorage {
-  tiles: array<TileInstances>,
+struct TileDataStorage {
+  tiles: array<TileData>,
+};
+
+struct TileRotationDataStorage {
+  tiles: array<TileRotationData>,
 };
 
 struct InstancingObjectStorage {
@@ -325,18 +334,19 @@ struct BrushParamsCompute
 @group(0) @binding(1) var<storage, read> rows_index : TilesBehindStorage;
 @group(1) @binding(0) var<storage, read> tile_properties : TilePropertiesStorage;
 @group(2) @binding(0) var<uniform> brush_params: BrushParamsCompute;
-@group(2) @binding(1) var<storage, read> brush_tiles : TileInstancesStorage;
+@group(2) @binding(1) var<storage, read> brush_tiles_data : TileDataStorage;
+@group(2) @binding(2) var<storage, read> brush_tiles_rotation : TileRotationDataStorage;
 @group(3) @binding(0) var<storage, read_write> visble_tiles_cp : InstancingObjectStorage;
+
 @compute
 @workgroup_size(16, 1, 1)
 fn instancing_cs_brush(@builtin(global_invocation_id) global_id: vec3<u32>) {
 if (global_id.x >= brush_params.instances_to_draw) {
         return;
     }
-	var tile: TileInstances = brush_tiles.tiles[global_id.x];
+    let brush_tile_data = brush_tiles_data.tiles[global_id.x];
 
-
-    let index = index_to_world_pos(tile.TileIndex);
+    let index = index_to_world_pos(brush_tile_data.TileIndex);
 
     if  (brush_params.draw_map_behind == 0u && brush_params.build_able == 1u){
       let tiles_y: i32 = (params.start_pos.x - params.start_pos.y) - (index.x - index.y);
@@ -352,53 +362,29 @@ if (global_id.x >= brush_params.instances_to_draw) {
 
 
 
-    var elevation : f32 = tile.Elevation;
-    let pos = index_to_world_pos(tile.TileIndex);
+    var elevation : f32 = brush_tile_data.Elevation;
+    let pos = index_to_world_pos(brush_tile_data.TileIndex);
 	if(brush_params.build_able == 1u){
 	   var visible_index : u32 = brush_params.visible_index + global_id.x * 4u;
 
-      let shift = (8u * params.direction);
-      let animation_enabled = 0u;
-        var offset_object: u32 = tile.ObjectY[0u];
-        if (params.direction > 1u){
-        offset_object = tile.ObjectY[1u];
-        }
-      var offset_object_y = f32(((offset_object >> ((params.direction & 1u) * 16u)) & 0x0000ffffu));
-      var offset_elevation_x =  u8_to_i8((tile.OffsetElevationX >> shift) & 0x000000ffu);
+       let brush_tile_rotation = brush_tiles_rotation.tiles[global_id.x * 4u + params.direction];
 
-      if (params.direction == 0u){
-            visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[0], index, elevation, animation_enabled, 0u, tile.Color);
-            visble_tiles_cp.tiles[visible_index + 1u] = CreateSpecificInstance(tile.SingleInstances[1], index, elevation, animation_enabled, 0u, tile.Color);
-            visble_tiles_cp.tiles[visible_index + 2u] = CreateBuildingInstance(tile.SingleInstances[2], index, elevation, animation_enabled, 0u, tile.Color, offset_object_y);
-            visble_tiles_cp.tiles[visible_index + 3u] = CreateElevationInstance(tile.SingleInstances[3], index, elevation, animation_enabled, 0u, tile.Color, offset_elevation_x);
-            visble_tiles_cp.tiles[visible_index + 3u].Position.z -= ZStep;
-      }
-      else if(params.direction == 1u){
-            visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[6], index, elevation, animation_enabled, 0u, tile.Color);
-            visble_tiles_cp.tiles[visible_index + 1u] = CreateSpecificInstance(tile.SingleInstances[7], index, elevation, animation_enabled, 0u, tile.Color);
-            visble_tiles_cp.tiles[visible_index + 2u] = CreateBuildingInstance(tile.SingleInstances[8], index, elevation, animation_enabled, 0u, tile.Color, offset_object_y);
-            visble_tiles_cp.tiles[visible_index + 3u] = CreateElevationInstance(tile.SingleInstances[9], index, elevation, animation_enabled, 0u, tile.Color, offset_elevation_x);
-            visble_tiles_cp.tiles[visible_index + 3u].Position.z -= ZStep;
-      }
-      else if(params.direction == 2u){
-        visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[12], index, elevation, animation_enabled, 0u, tile.Color);
-        visble_tiles_cp.tiles[visible_index + 1u] = CreateSpecificInstance(tile.SingleInstances[13], index, elevation, animation_enabled, 0u, tile.Color);
-        visble_tiles_cp.tiles[visible_index + 2u] = CreateBuildingInstance(tile.SingleInstances[14], index, elevation, animation_enabled, 0u, tile.Color, offset_object_y);
-        visble_tiles_cp.tiles[visible_index + 3u] = CreateElevationInstance(tile.SingleInstances[15], index, elevation, animation_enabled, 0u, tile.Color, offset_elevation_x);
-        visble_tiles_cp.tiles[visible_index + 3u].Position.z -= ZStep;
-      }
-      else if(params.direction == 3u){
-        visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile.SingleInstances[18], index, elevation, animation_enabled, 0u, tile.Color);
-        visble_tiles_cp.tiles[visible_index + 1u] = CreateSpecificInstance(tile.SingleInstances[19], index, elevation, animation_enabled, 0u, tile.Color);
-        visble_tiles_cp.tiles[visible_index + 2u] = CreateBuildingInstance(tile.SingleInstances[20], index, elevation, animation_enabled, 0u, tile.Color, offset_object_y);
-        visble_tiles_cp.tiles[visible_index + 3u] = CreateElevationInstance(tile.SingleInstances[21], index, elevation, animation_enabled, 0u, tile.Color, offset_elevation_x);
-        visble_tiles_cp.tiles[visible_index + 3u].Position.z -= ZStep;
-      }
+       var animation = (brush_tile_rotation.Data >> 8u) & 0x000000ffu;
+       var animation_enabled = animation & 0x00000001u;
 
+       var offset_object_y = f32(brush_tile_rotation.Data >> 16u);
+       var offset_elevation_x = u8_to_i8(brush_tile_rotation.Data & 0x000000ffu);
+
+
+        visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(brush_tile_rotation.SingleInstances[0u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
+        visble_tiles_cp.tiles[visible_index + 1u] = CreateSpecificInstance(brush_tile_rotation.SingleInstances[1u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
+        visble_tiles_cp.tiles[visible_index + 2u] = CreateBuildingInstance(brush_tile_rotation.SingleInstances[2u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_object_y);
+        visble_tiles_cp.tiles[visible_index + 3u] = CreateElevationInstance(brush_tile_rotation.SingleInstances[3u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_elevation_x);
+        visble_tiles_cp.tiles[visible_index + 3u].Position.z -= ZStep;
 
 		return;
 	}
 
 	var visible_index : u32 = brush_params.visible_index + global_id.x;
-    visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(brush_params.brush_instance_not_buildable, index, elevation, 0u, 0u, tile.Color);
+    visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(brush_params.brush_instance_not_buildable, index, elevation, 0u, 0u, brush_tile_data.Color);
 }

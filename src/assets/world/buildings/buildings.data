@@ -1047,7 +1047,8 @@
       }
     ]
   },
-  "church_medium": {	"IdleAnimation": {
+  "church_medium": {	
+  "IdleAnimation": {
 	  "id":"building_disabled_icon",
 	  "offset": 200,
 	  "tile_pos": 80
