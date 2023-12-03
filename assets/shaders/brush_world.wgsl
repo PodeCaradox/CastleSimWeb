@@ -5,10 +5,10 @@ const ZStep : f32 = 0.0000001;
 //4*4 = 16
 struct SingleInstance
 {
-	ImageIndex: u32,//image Index
+	image_index: u32,//image Index
 	Animation: u32,// 1 for Activated // 7 bits for animation length // 12 bits for when update animation // 12 pausing frames TODO
     AtlasCoordPos: u32, //x/y for column/row z/w for image index
-	AtlasCoordSize: u32,
+	atlas_coord_size: u32,
 };
 
 //4 * 4 = 16 bytes
@@ -32,7 +32,7 @@ struct TileRotationData
 struct InstancingObject
 {
     Position: vec3<f32>,
-	ImageIndex: u32,
+	image_index: u32,
 	UvCoordPos: vec2<f32>,
 	UvCoordSize: u32,
 	Color: u32,
@@ -183,7 +183,7 @@ fn is_in_map_bounds(map_position: vec2<i32>) -> i32 {
 
 fn WorldPosToDepth(world_pos: vec2<i32>) -> f32{
 	let size: f32 = f32(params.map_size.x * params.map_size.y);
-	return 1.0f - f32(world_pos.y * params.map_size.x + world_pos.x) / size - ZStep;
+	return 1.0f - f32(world_pos.y * params.map_size.x + world_pos.x) / size;
 }
 
 fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
@@ -196,7 +196,7 @@ fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
 fn initInstancingObject() -> InstancingObject {
     var obj: InstancingObject;
     obj.Position = vec3<f32>(0.0, 0.0, -10.0);
-    obj.ImageIndex = 0u;
+    obj.image_index = 0u;
     obj.UvCoordPos = vec2<f32>(0.0, 0.0);
     obj.UvCoordSize = 0u;
     obj.Color = 0u;
@@ -229,7 +229,7 @@ fn CaclAnimationFrame(instance: SingleInstance, animation_enabled: u32, tick: u3
     let reiteration =  u32((instance.Animation >> 7u) & 0x0000001fu);
     let pausing_frames =  u32(instance.Animation & 0x0000007fu) * 2u;
     let update_tick =  u32((instance.Animation >> 12u) & 0x00000fffu);
-    let uv_size = vec2<u32>(instance.AtlasCoordSize & 0x0000ffffu, instance.AtlasCoordSize >> 16u);
+    let uv_size = vec2<u32>(instance.atlas_coord_size & 0x0000ffffu, instance.atlas_coord_size >> 16u);
     let is_update_time = animation_tick / update_tick;
     let animation_length_wih_reiterattions = animation_length + animation_length * reiteration;
     let img_coord = is_update_time % (animation_length_wih_reiterattions + pausing_frames);
@@ -250,12 +250,12 @@ fn CreateObjectInstance(tile_id: u32, map_pos: vec2<i32>, position: vec3<f32>, a
 	var instance = tile_properties.properties[tile_id];
 	var newInstance: InstancingObject;
 	newInstance.Position = position;
-	newInstance.ImageIndex = instance.ImageIndex;
+	newInstance.image_index = instance.image_index;
 
 	var atlas_pos = CaclAnimationFrame(instance, animation_enabled, animation_tick, map_pos);
 
 	newInstance.UvCoordPos = vec2<f32>(f32(atlas_pos & 0x0000ffffu),f32(atlas_pos >> 16u)) / ImageSize;
-	newInstance.UvCoordSize = instance.AtlasCoordSize;
+	newInstance.UvCoordSize = instance.atlas_coord_size;
 	newInstance.Color = color;
 	return newInstance;
 }
@@ -378,9 +378,9 @@ if (global_id.x >= brush_params.instances_to_draw) {
 
         visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(brush_tile_rotation.SingleInstances[0u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
         visble_tiles_cp.tiles[visible_index + 1u] = CreateSpecificInstance(brush_tile_rotation.SingleInstances[1u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
+        visble_tiles_cp.tiles[visible_index + 1u].Position.z -= ZStep *  2.0;
         visble_tiles_cp.tiles[visible_index + 2u] = CreateBuildingInstance(brush_tile_rotation.SingleInstances[2u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_object_y);
         visble_tiles_cp.tiles[visible_index + 3u] = CreateElevationInstance(brush_tile_rotation.SingleInstances[3u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_elevation_x);
-        visble_tiles_cp.tiles[visible_index + 3u].Position.z -= ZStep;
 
 		return;
 	}
