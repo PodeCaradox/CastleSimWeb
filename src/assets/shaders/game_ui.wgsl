@@ -17,6 +17,7 @@ struct DynamicVSinput
 	@location(6) Size: vec2<u32>,
 	@location(7) @interpolate(flat) Selected: u32,
 };
+
 struct CameraUniform {
     proj: mat4x4<f32>,
     screen_size: vec2<f32>,

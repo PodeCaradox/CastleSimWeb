@@ -46,7 +46,6 @@ fn generate_minimap(@builtin(global_invocation_id) global_id: vec3<u32>) {
    if (i32(params.mini_map_tile_size.y) > 1 && i32(params.mini_map_tile_size.x) > 1) {
      for (var y : i32 = 0; y < i32(params.mini_map_tile_size.y); y = y + 1) {
            for (var x : i32 = -i32(params.mini_map_tile_size.x); x < i32(params.mini_map_tile_size.x); x = x + 1) {
-
                 textureStore(t_interface, params.minimap_image_pos + pos + vec2<i32>(x,y), color);
            }
        }

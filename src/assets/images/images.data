@@ -1,42 +1,78 @@
 {
  "land":{
-   "Path":"images\\world\\terrain"
+   "Path":"images\\world\\terrain",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "water":{
-   "Path":"images\\world\\terrain"
+   "Path":"images\\world\\terrain",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "wall":{
-   "Path":"images\\world\\terrain"
+   "Path":"images\\world\\terrain",
+   "DataType":"png",
+   "CsType":"environment"
  },
   "land_elevation":{
-   "Path":"images\\world\\elevation"
+   "Path":"images\\world\\elevation",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "wall_elevation":{
-   "Path":"images\\world\\elevation"
+   "Path":"images\\world\\elevation",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "water_elevation":{
-   "Path":"images\\world\\elevation"
+   "Path":"images\\world\\elevation",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "debug_tiles":{
-   "Path":"images\\world\\debugging"
+   "Path":"images\\world\\debugging",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "tree":{
-   "Path":"images\\world\\objects\\trees"
+   "Path":"images\\world\\objects\\trees",
+   "DataType":"png",
+   "CsType":"environment"
  },
   "decorativ":{
-   "Path":"images\\world\\objects\\decorative"
+   "Path":"images\\world\\objects\\decorative",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "objects_on_top":{
-   "Path":"images\\world\\buildings\\objects_on_top"
+   "Path":"images\\world\\buildings\\objects_on_top",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "objects_tiled":{
-   "Path":"images\\world\\buildings\\objects_tiled"
+   "Path":"images\\world\\buildings\\objects_tiled",
+   "DataType":"png",
+   "CsType":"environment"
  },
  "arrow":{
-   "Path":"images\\units"
+   "Path":"images\\units",
+   "DataType":"png",
+   "CsType":"environment"
  },
   "world_effects":{
-    "Path":"images\\world\\effects"
-  }
+    "Path":"images\\world\\effects",
+    "DataType":"png",
+    "CsType":"environment"
+  },
+ "color_table_1":{
+   "Path":"images\\units",
+   "DataType":"png",
+   "CsType":"color_table"
+ },
+ "unit1":{
+    "Path":"images\\units",
+    "DataType":"positions",
+    "CsType":"position_table"
+ }
 }
 
