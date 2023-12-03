@@ -43,8 +43,8 @@ struct EntityInput
 struct VertexOutput {
     @builtin(position) Position: vec4<f32>,
     @location(0) TexCoord : vec2<f32>,
-    @location(1) image_index : u32,
-    @location(2) color_table_index : u32,
+    @location(1) @interpolate(flat) image_index : u32,
+    @location(2) @interpolate(flat) color_table_index : u32,
     @location(3) ColorTablePos : vec2<f32>,
 }
 
