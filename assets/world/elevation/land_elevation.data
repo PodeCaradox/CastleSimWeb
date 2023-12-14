@@ -1,26 +1,26 @@
 {
    "elevation_tile_0":{
       "ImageName":"land_elevation",
-      "AtlasCoordinate":"0,0,32,464"
+      "AtlasCoordinate":"0,0,64,928"
    },
    "elevation_tile_diagonal_0":{
       "ImageName":"land_elevation",
-      "AtlasCoordinate":"32,0,32,464"
+      "AtlasCoordinate":"64,0,64,928"
    },
    "elevation_tile_diagonal_left_0":{
       "ImageName":"land_elevation",
-      "AtlasCoordinate":"64,0,32,464"
+      "AtlasCoordinate":"128,0,64,928"
    },
    "elevation_tile_diagonal_right_0":{
       "ImageName":"land_elevation",
-      "AtlasCoordinate":"96,0,32,464"
+      "AtlasCoordinate":"192,0,64,928"
    },
    "elevation_tile_left_0":{
       "ImageName":"land_elevation",
-      "AtlasCoordinate":"0,0,16,464"
+      "AtlasCoordinate":"0,0,32,928"
    },
    "elevation_tile_right_0":{
       "ImageName":"land_elevation",
-      "AtlasCoordinate":"16,0,16,464"
+      "AtlasCoordinate":"32,0,32,928"
    }
 }
