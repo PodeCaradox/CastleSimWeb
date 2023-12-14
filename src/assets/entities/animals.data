@@ -1,0 +1,210 @@
+{
+"test_unit":{
+     "ImageName":"deer",
+     "ColorTableImageName":"color_table",
+     "ColorTableStartPos":"0,0",
+     "AnimationData":[
+        {
+           "Animation":"WalkingNorthEast",
+        "Frames":[
+            {
+                    "AtlasCoord": "0,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "64,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "128,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "192,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "256,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "320,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "384,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "448,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "512,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "576,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "640,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "704,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "768,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "832,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "896,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "960,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1024,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1088,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1152,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1216,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1280,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1344,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1408,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1472,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1536,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1600,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1664,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1728,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1792,0,32,45",
+                    "ImageOffset": "0,10"
+                },
+                {
+                    "AtlasCoord": "1856,0,32,45",
+                    "ImageOffset": "0,10"
+                }
+        ]
+        }
+     ]
+  },
+ "deer":{
+    "ImageName":"deer",
+    "ColorTableImageName":"color_table",
+    "ColorTableStartPos":"0,0",
+    "AnimationData":[
+       {
+          "Animation":"WalkingNorthEast",
+        "Frames":[
+            {
+                "AtlasCoord": "0,0,33,51",
+                "ImageOffset": "9,10"
+            },
+            {
+                "AtlasCoord": "464,0,33,51",
+                "ImageOffset": "9,10"
+            },
+            {
+                "AtlasCoord": "932,0,33,49",
+                "ImageOffset": "9,10"
+            },
+            {
+                "AtlasCoord": "1416,0,33,49",
+                "ImageOffset": "9,10"
+            },
+            {
+                "AtlasCoord": "1904,0,33,49",
+                "ImageOffset": "9,10"
+            },
+            {
+                "AtlasCoord": "422,106,31,51",
+                "ImageOffset": "11,10"
+            },
+            {
+                "AtlasCoord": "886,106,31,51",
+                "ImageOffset": "11,10"
+            },
+            {
+                "AtlasCoord": "1358,106,33,51",
+                "ImageOffset": "9,10"
+            },
+            {
+                "AtlasCoord": "1834,106,33,51",
+                "ImageOffset": "9,10"
+            },
+            {
+                "AtlasCoord": "262,216,31,49",
+                "ImageOffset": "7,10"
+            },
+            {
+                "AtlasCoord": "738,216,31,51",
+                "ImageOffset": "11,10"
+            },
+            {
+                "AtlasCoord": "1206,216,33,49",
+                "ImageOffset": "13,10"
+            },
+            {
+                "AtlasCoord": "1682,216,33,49",
+                "ImageOffset": "13,10"
+            },
+            {
+                "AtlasCoord": "174,322,33,49",
+                "ImageOffset": "13,10"
+            },
+            {
+                "AtlasCoord": "650,322,31,49",
+                "ImageOffset": "11,10"
+            },
+            {
+                "AtlasCoord": "1114,322,31,51",
+                "ImageOffset": "11,10"
+            }
+        ]
+       }
+    ]
+ }
+}

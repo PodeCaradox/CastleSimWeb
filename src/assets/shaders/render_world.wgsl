@@ -1,4 +1,4 @@
-const TileSizeHalf = vec2<i32>(16,8);
+const TileSizeHalf = vec2<i32>(32,16);
 const ImageSize = vec2<f32>(2048.0,2048.0);
 const ZStep : f32 = 0.0000001;
 
@@ -286,7 +286,7 @@ fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: f32, a
 	let depth: f32 = WorldPosToDepth(pos) + ZStep;
 	var position = WorldToScreenPos(pos);
 	position.x += offset_elevation_x;
-	var size = u32(elevation) + 8u;
+	var size = u32(elevation) + 16u;//TileSizeHalf
 	var instance: InstancingObject  = CreateObjectInstance(tile_id, world_pos, vec3(position, depth), animation_enabled, animation_tick, Color);
     instance.UvCoordSize = (instance.UvCoordSize & 0x0000ffffu) | (size << 16u);
 	return instance;

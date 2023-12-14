@@ -44,18 +44,23 @@
    "DataType":"png",
    "CsType":"environment"
  },
- "objects_on_top":{
+ "objects_on_top1":{
    "Path":"images\\world\\buildings\\objects_on_top",
    "DataType":"png",
    "CsType":"environment"
  },
- "objects_tiled":{
-   "Path":"images\\world\\buildings\\objects_tiled",
+ "objects_on_top2":{
+   "Path":"images\\world\\buildings\\objects_on_top",
    "DataType":"png",
    "CsType":"environment"
  },
- "arrow":{
-   "Path":"images\\units",
+ "objects_on_top3":{
+   "Path":"images\\world\\buildings\\objects_on_top",
+   "DataType":"png",
+   "CsType":"environment"
+ },
+ "objects_tiled1":{
+   "Path":"images\\world\\buildings\\objects_tiled",
    "DataType":"png",
    "CsType":"environment"
  },
@@ -64,15 +69,15 @@
     "DataType":"png",
     "CsType":"environment"
   },
- "color_table_1":{
-   "Path":"images\\units",
+ "color_table":{
+   "Path":"images\\entities\\animals",
    "DataType":"png",
    "CsType":"color_table"
  },
- "unit1":{
-    "Path":"images\\units",
-    "DataType":"positions",
-    "CsType":"position_table"
+ "swordsman":{
+   "Path":"images\\entities\\animals",
+   "DataType":"positions",
+   "CsType":"position_table"
  }
 }
 

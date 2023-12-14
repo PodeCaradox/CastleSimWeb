@@ -1,50 +1,50 @@
 {
    "elevation_wall_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"0,0,32,463"
+      "AtlasCoordinate":"0,0,64,926"
    },
    "elevation_wall_diagonal_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"32,0,32,463"
+      "AtlasCoordinate":"64,0,64,926"
    },
    "elevation_wall_diagonal_left_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"64,0,32,463"
+      "AtlasCoordinate":"128,0,64,926"
    },
    "elevation_wall_diagonal_right_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"96,0,32,463"
+      "AtlasCoordinate":"192,0,64,926"
    },
    "elevation_wall_left_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"0,0,16,463"
+      "AtlasCoordinate":"0,0,32,926"
    },
    "elevation_wall_right_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"16,0,16,463"
+      "AtlasCoordinate":"32,0,32,926"
    },
-      "elevation_wall_wood_0":{
+   "elevation_wall_wood_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"128,0,32,463"
+      "AtlasCoordinate":"256,0,64,926"
    },
    "elevation_wall_wood_diagonal_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"160,0,32,463"
+      "AtlasCoordinate":"320,0,64,926"
    },
    "elevation_wall_wood_diagonal_left_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"192,0,32,463"
+      "AtlasCoordinate":"384,0,64,926"
    },
    "elevation_wall_wood_diagonal_right_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"224,0,32,463"
+      "AtlasCoordinate":"448,0,64,926"
    },
    "elevation_wall_wood_left_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"128,0,16,463"
+      "AtlasCoordinate":"256,0,32,926"
    },
    "elevation_wall_wood_right_0":{
       "ImageName":"wall_elevation",
-      "AtlasCoordinate":"144,0,16,463"
+      "AtlasCoordinate":"288,0,32,926"
    }
 }
