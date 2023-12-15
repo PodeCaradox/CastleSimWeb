@@ -1102,7 +1102,7 @@
                     }
                 }, {
                     "EventType": "SelectBrush",
-                    "EventName": "unit_test",
+                    "EventName": "swordsman_brush",
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -1118,6 +1118,28 @@
                     },
                     "ImageSource": {
                         "x": 1196,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                },{
+                    "EventType": "SelectBrush",
+                    "EventName": "deer_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -361,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1228,
                         "y": 64,
                         "width": 32,
                         "height": 32

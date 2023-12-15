@@ -1,8 +1,17 @@
 {
-    "unit_test": {
+    "swordsman_brush": {
         "BrushEntities": [
             {
-                "Name": "Castlekeep_gatecenter",
+                "Name": "swordsman",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "EntitiesBrush"
+    },
+	"deer_brush": {
+        "BrushEntities": [
+            {
+                "Name": "deer",
                 "RandomFactor": 1
             }
         ],

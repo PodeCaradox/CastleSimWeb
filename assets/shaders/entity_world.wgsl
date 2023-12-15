@@ -134,7 +134,7 @@ fn vs_main(
     let atlasCoordSize = vec2<f32>(f32(entity_input.Data >> 24u) * 2.0, f32(entity_input.Size & 0x000000ffu) * 2.0);
     let colorTableOffsetValue = (entity_input.Data >> 16u) & 0x0000000fu;
     let colorTableOffset = vec2<f32>(f32(colorTableOffsetValue % 4u), f32(colorTableOffsetValue / 4u));
-    let colorTablePos = (vec2<f32>(f32((entity_property.ColorTableStartPos >> 16u) & 0x0000ffffu), f32(entity_property.ColorTableStartPos & 0x0000ffffu)) + colorTableOffset) * ColorTableSize;
+    let colorTablePos = (vec2<f32>(f32(entity_property.ColorTableStartPos & 0x0000ffffu), f32((entity_property.ColorTableStartPos >> 16u) & 0x0000ffffu)) + colorTableOffset) * ColorTableSize;
     let atlasCoordPos = vec2<f32>(f32((entity_input.Size >> 20u) & 0x00000fffu), f32((entity_input.Size >> 8u) &  0x00000fffu));
     let image_offset = vec2<f32>(u8_to_i8(entity_input.ImageOffset & 0x000000ffu), u8_to_i8((entity_input.ImageOffset >> 8u) & 0x000000ffu));
     let elevation = f32((entity_input.ImageOffset >> 16u) & 0x0000ffffu);
