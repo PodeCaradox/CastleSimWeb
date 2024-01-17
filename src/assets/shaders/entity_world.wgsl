@@ -72,13 +72,9 @@ fn applyRotation(map_pos: vec2<i32>) -> vec2<i32> {
 //2 * 4 = 8 bytes
 struct EntityProperties
 {
-    ImageIndexAndColorTableIndex: u32,
-    //image_index            color_table_index
-    //1111 1111 1111 1111 , 1111 1111 1111 1111
-    ColorTableStartPos: u32,
-    //color_table_start_pos x,y
-    //1111 1111 1111 1111 ,    1111 1111 1111 1111
-    //EntityType
+    ImageIndexAndColorTableIndex: u32,          //u16, u16 image_index, color_table_index
+    ColorTableStartPos: u32,        //u16, u16 color_table_start_pos x,y
+                                    //Entity Type
 };
 
 struct EntityPropertiesStorage {
@@ -89,17 +85,29 @@ struct VertexInput {
     @location(0) Position: vec4<f32>
 }
 
-//4 * 4 = 16 bytes
+
+////extra for map positions drawing
+//struct EntityInput
+//{
+//	Position: vec3<f32>,
+//	entity_properties_index: u32,       //8 bytes which color to draw
+//};
+
+//struct EntityInput
+//{
+//	@location(0) ImageOffsetAndAtlasWH: u32,       //i8,i8,u8,u8
+//	@location(1) AtlasCoordPos: u32,                   //u16,u16
+//	@location(2) ColorTableOffsetXAndEntityInputId: u32,           //8u 24u     ColorTableOffsetX
+//};
+
+
+//5 * 4 = 20 bytes
 struct EntityInput
 {
 	@location(1) Position: vec2<f32>,           //Vec2<f32> Z calculated
 	@location(2) ImageOffset: u32,           //Vec2<f32> Z calculated
     @location(3) Data: u32,
-    //Widht                 ColorTableOffsetX          entity_properties_index
-    //1111 1111             1111 1111                  1111 1111 1111 1111
     @location(4) Size: u32,
-    //AtlasCoordPos X       AtlasCoordPos Y        Height
-    //1111 1111 1111        1111 1111 1111       1111 1111
 };
 
 //10 * 4 = 40 bytes
@@ -141,7 +149,6 @@ fn vs_main(
     let imageSize = atlasCoordSize;
 
     let position = vertex_input.Position.xy * imageSize - vec2<f32>(imageSize.x / 2.0, imageSize.y);
-    //let pos_rotated = rotate(entity_input.Position);
 
     var new_pos = entity_input.Position;
     new_pos = rotate(new_pos);
@@ -152,11 +159,9 @@ fn vs_main(
     var pos : vec4<f32> = vec4<f32>(position.xy + new_pos, depth, 1.0);
     pos = params.view_proj * pos;
 
-    let imagePos = atlasCoordPos;//vec2<f32>(f32(entity_input.AtlasCoordPos & 0x0000ffffu), f32(entity_input.AtlasCoordPos >> 16u));
+    let imagePos = atlasCoordPos;
     let texCoord = vec2<f32>((imagePos + imageSize * vertex_input.Position.xy) / ImageSize);
 
-    //      let colorTablePos = vec2<f32>(f32(entity_input.ColorTableIndexAndPos & 0x000000ffu), f32((entity_input.ColorTableIndexAndPos >> 8u) & 0x000000ffu));
-    //      let colorTableIndex = entity_input.ColorTableIndexAndPos >> 16u;
     let output = VertexOutput(
     pos,
     texCoord,

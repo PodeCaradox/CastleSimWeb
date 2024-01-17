@@ -206,5 +206,21 @@
                 ]
           }
        ]
+    },
+	  "healthbar":{
+       "ImageName":"healthbar",
+       "ColorTableImageName":"color_table",
+       "ColorTableStartPos":"0,8",
+       "AnimationData":[
+          {
+             "Animation":"WalkingNorthEast",
+                  "Frames":[
+                    {
+                        "AtlasCoord": "0,0,48,6",
+                        "ImageOffset": "0,0"
+                    }
+                ]
+          }
+       ]
     }
 }

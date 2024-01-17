@@ -1,21 +1,24 @@
+fn convertU16ToI16(value: u32) -> f32 {
+    if ((value & 0x8000u) != 0u) {
+        // If the highest bit is set, it's a negative number in i16 terms.
+        return f32(value) - 65536.0;
+    } else {
+        return f32(value);
+    }
+}
+
 struct QuadInput
 {
 	@location(0) Position: vec4<f32>,
 };
 
-struct StaticVSinput
+struct VSinput
 {
-	@location(1) TexPos: vec2<u32>,
-	@location(2) TexSize: vec2<u32>,
-	@location(3) Alignment: vec2<u32>,
-	@location(4) Scale: vec2<u32>,
-};
-
-struct DynamicVSinput
-{
-	@location(5) Position: vec2<i32>,
-	@location(6) Size: vec2<u32>,
-	@location(7) @interpolate(flat) Selected: u32,
+    @location(1) Position: u32,
+    @location(2) Size: u32,
+	@location(3) TexPos: u32,
+	@location(4) TexSize: u32,
+	@location(5) @interpolate(flat)  Data: u32,  //16 alignment, 8 state, 8 Scale
 };
 
 struct CameraUniform {
@@ -37,34 +40,38 @@ struct VertexOutput {
 
 @vertex
 fn vertex_ui(
-    inputvertex: QuadInput, static_input: StaticVSinput, input: DynamicVSinput
+    inputvertex: QuadInput, input: VSinput
 ) -> VertexOutput {
 
         var output : VertexOutput;
+        let state = input.Data >> 24u;
         var color = vec4<f32>(184.0 / 255.0, 184.0 / 255.0, 184.0 / 255.0, 255.0 / 255.0);
 
-        if (input.Selected == 0u) {
+        if (state == 0u) {
           output.Position = vec4<f32>(0.0, 0.0, 0.0, -1.0);
           output.TexCoord = vec2<f32>(0.0, 0.0);
           output.Color = color;
           return output;
         }
 
-        var pos = vec2<f32>(f32(input.Position.x), f32(input.Position.y));
-        var size = vec2<f32>(f32(input.Size.x), f32(input.Size.y));
-        var texPos = vec2<f32>(f32(static_input.TexPos.x), f32(static_input.TexPos.y));
-        var texSize = vec2<f32>(f32(static_input.TexSize.x), f32(static_input.TexSize.y));
-        var alignment = vec2<f32>(f32(static_input.Alignment.x)/ 2.0, f32(static_input.Alignment.y)/ 2.0) ;
-        var scale = vec2<f32>(f32(static_input.Scale.x), f32(static_input.Scale.y));
 
 
-        if (input.Selected == 2u) {
+        var pos = vec2<f32>(convertU16ToI16(input.Position & 0x0000ffffu), convertU16ToI16(input.Position >> 16u));
+        var size = vec2<f32>(f32(input.Size & 0x0000ffffu), f32(input.Size >> 16u));
+        var texPos = vec2<f32>(f32(input.TexPos & 0x0000ffffu), f32(input.TexPos >> 16u));
+        var texSize = vec2<f32>(f32(input.TexSize & 0x0000ffffu), f32(input.TexSize >> 16u));
+        var alignment = vec2<f32>(f32(input.Data& 0x000000ffu)/ 2.0, f32((input.Data >> 8u) & 0x000000ffu)/ 2.0) ;
+        let scale_data = (input.Data >> 16u) & 0x000000ffu;
+        var scale = vec2<f32>(f32(scale_data), f32(scale_data));
+
+        if (state == 2u) {
           color = vec4<f32>(215.0 / 255.0, 209.0 / 255.0, 157.0 / 255.0, 255.0 / 255.0);
-        } else if (input.Selected > 2u) {
+        } else if (state > 2u) {
           color = vec4<f32>(236.0 / 255.0, 210.0 / 255.0, 126.0 / 255.0, 255.0 / 255.0);
-        }else{
-          scale = vec2<f32>(0.0, 0.0);
+        }else {
+            scale = vec2<f32>(0.0, 0.0);
         }
+
         var texCoord : vec2<f32> = (texPos + (texSize * inputvertex.Position.xy)) / 2048.0;
         pos -= scale;
         size += scale.xy * 2.0;

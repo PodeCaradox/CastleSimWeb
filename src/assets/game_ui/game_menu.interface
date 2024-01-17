@@ -207,7 +207,7 @@
                     },
                     "Position": {
                         "x": -230,
-                        "y": 6
+                        "y": 10
                     },
                     "ImageSource": {
                         "x": 722,
@@ -228,7 +228,7 @@
                     },
                     "Position": {
                         "x": -142,
-                        "y": 6
+                        "y": 10
                     },
                     "ImageSource": {
                         "x": 746,
@@ -249,7 +249,7 @@
                     },
                     "Position": {
                         "x": -54,
-                        "y": 6
+                        "y": 10
                     },
                     "ImageSource": {
                         "x": 770,
@@ -270,7 +270,7 @@
                     },
                     "Position": {
                         "x": 32,
-                        "y": 6
+                        "y": 10
                     },
                     "ImageSource": {
                         "x": 794,
@@ -291,7 +291,7 @@
                     },
                     "Position": {
                         "x": 128,
-                        "y": 6
+                        "y": 10
                     },
                     "ImageSource": {
                         "x": 818,
@@ -767,7 +767,54 @@
                 }
             ]
         },
-        "LandSubMenu": {
+        "MainDebugMenu": {
+            "Alignment": "LeftTop",
+            "Scale": {
+                "x": 0,
+                "y": 0
+            },
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                    }
+                }, {
+                    "EventType": "TextBinding",
+                    "EventName": "FPS",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+					"Text":"FPS:",
+                    "Position": {
+                        "x": 10,
+                        "y": 10
+                    }
+                }
+            ]
+        },
+		
+		"LandSubMenu": {
             "Alignment": "RightTop",
             "MenuItems": [{
                     "CollisionObject": {
@@ -2258,5 +2305,269 @@
                 }
             ]
         }
-    }
+    },
+	"FontAtlas": {
+		":": {
+				"x": 320,
+				"y": 1642,
+				"width": 6,
+				"height": 16
+		},
+		"%": {
+				"x": 160,
+				"y": 1608,
+				"width": 20,
+				"height": 17
+		},
+		"0": {
+				"x": 0,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"1": {
+				"x": 32,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"2": {
+			
+				"x": 64,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"3": {
+			
+				"x": 96,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"4": {
+			
+				"x": 128,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"5": {
+			
+				"x": 160,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"6": {
+			
+				"x": 192,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"7": {
+			
+				"x": 224,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"8": {
+			
+				"x": 256,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"9": {
+			
+				"x": 288,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},	
+		"A": {
+			
+				"x": 32,
+				"y": 1665,
+				"width": 32,
+				"height": 32
+		},	
+		"B": {
+			
+				"x": 64,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"C": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"D": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"E": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"F": {
+			
+				"x": 192,
+				"y": 1672,
+				"width": 13,
+				"height": 16
+		},
+		"G": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"H": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"I": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"J": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"K": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"L": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"M": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"N": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"O": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"P": {
+			
+				"x": 0,
+				"y": 1704,
+				"width": 15,
+				"height": 16
+		},
+		"Q": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"R": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"S": {
+			
+				"x": 96,
+				"y": 1704,
+				"width": 15,
+				"height": 16
+		},
+		"T": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"U": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"V": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"W": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"X": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"Y": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"Z": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		}
+	}		
 }
