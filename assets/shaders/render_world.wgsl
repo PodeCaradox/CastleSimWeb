@@ -4,7 +4,7 @@ const ZStep : f32 = 0.0000001;
 
 struct SingleInstance
 {
-	image_index: u32,
+	image_index: u32,//maybe here tile on top offset -16 + 16 or 0 so i can squeeze texture atlas more
 	Animation: u32,// 1 bit wind animation // 7 bits for animation length // 12 bits for when update animation // 5 bits repeat frames // 7 bits pausing frames
     AtlasCoordPos: u32, //x/y for column/row z/w for image index
 	atlas_coord_size: u32,

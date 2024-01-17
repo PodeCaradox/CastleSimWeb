@@ -74,6 +74,11 @@
    "DataType":"png",
    "CsType":"color_table"
  },
+  "color_table1":{
+   "Path":"images\\entities\\animals",
+   "DataType":"png",
+   "CsType":"color_table"
+ },
  "swordsman":{
    "Path":"images\\entities\\animals",
    "DataType":"positions",
@@ -83,6 +88,11 @@
     "Path":"images\\entities\\animals",
     "DataType":"positions",
     "CsType":"position_table"
-  }
+  },
+   "healthbar":{
+     "Path":"images\\entities\\animals",
+     "DataType":"positions",
+     "CsType":"position_table"
+   }
 }
 
