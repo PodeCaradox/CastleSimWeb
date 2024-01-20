@@ -21,12 +21,12 @@
    },
    "elevation_water_left_0":{
       "ImageName":"water_elevation",
-      "AtlasCoordinate":"0,0,64,930",
+      "AtlasCoordinate":"0,0,32,930",
 	  "Animation":"water_animation_elevation_0"
    },
    "elevation_water_right_0":{
       "ImageName":"water_elevation",
-      "AtlasCoordinate":"0,0,64,930",
+      "AtlasCoordinate":"0,0,32,930",
 	  "Animation":"water_animation_elevation_0"
    }
 }
