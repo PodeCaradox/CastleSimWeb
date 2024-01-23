@@ -4,9 +4,9 @@
   "homepage": ".",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && ng build",
+    "watch": "set NODE_OPTIONS=--openssl-legacy-provider && ng build --watch --configuration development",
     "test": "ng test",
     "build:prod": "ng build --configuration production --base-href https://podecaradox.github.io/CastleSimWeb/",
     "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
@@ -20,7 +20,6 @@
     "@angular/core": "~12.2.0",
     "@angular/forms": "~12.2.0",
     "@angular/material": "^12.2.13",
-
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
@@ -31,8 +30,8 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.18",
-    "@angular/cli": "~12.2.18",
+    "@angular-devkit/build-angular": "^12.2.13",
+    "@angular/cli": "^12.2.18",
     "@angular/compiler-cli": "~12.2.0",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^12.11.1",

@@ -6,8 +6,7 @@
     <img class="img-responsive" src="assets/keys/keys.png" class="stretch-128">
   </div>
   <div *ngIf="!isLoaded">
-    <mat-spinner class="loading-spinner black" id="loading_spinner" #loadingElement
-                 (click)="loading_state()"></mat-spinner>
+    <mat-spinner class="loading-spinner black" id="loading_spinner" #loadingElement></mat-spinner>
     <p class="loading-spinner loading-text black" id="loading_text">loading... </p>
   </div>
   <div appNoRightClick id="wasm-example" #gameFieldDiv class="main_container">
