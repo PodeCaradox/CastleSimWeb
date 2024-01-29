@@ -74,6 +74,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "brewery": {
@@ -279,6 +280,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "church_big": {
@@ -1636,6 +1638,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "church_medium": {
@@ -2289,6 +2292,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "church_small": {
@@ -2582,6 +2586,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "cow_farm": {
@@ -2659,6 +2664,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "gate_0": {
@@ -2864,7 +2870,13 @@
         "ConnectionType": "BuildingPortal"
       }
     ],
-    "ObjectElevation": 220
+    "Hp": 100,
+    "ObjectElevation": 220,
+    "DirNames": [
+      "gate_1",
+      "gate_0",
+      "gate_1"
+    ]
   },
   "gate_1": {
     "TileData": [
@@ -3069,7 +3081,13 @@
         "ConnectionType": "BuildingPortal"
       }
     ],
-    "ObjectElevation": 220
+    "Hp": 100,
+    "ObjectElevation": 220,
+    "DirNames": [
+      "gate_0",
+      "gate_1",
+      "gate_0"
+    ]
   },
   "grain_farm": {
     "TileData": [
@@ -3146,6 +3164,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "hop_farm": {
@@ -3223,6 +3242,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "house_1": {
@@ -3356,6 +3376,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "house_2": {
@@ -3489,6 +3510,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "house_3": {
@@ -3622,6 +3644,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "house_4": {
@@ -3755,6 +3778,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "house_5": {
@@ -3888,6 +3912,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "house_6": {
@@ -4021,6 +4046,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "house_7": {
@@ -4154,6 +4180,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "hunter_stand": {
@@ -4231,6 +4258,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "archery": {
@@ -4364,6 +4392,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "inn": {
@@ -4569,6 +4598,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "market": {
@@ -4774,6 +4804,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "mine": {
@@ -4979,6 +5010,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "stables": {
@@ -5272,6 +5304,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "tower_big": {
@@ -5282,7 +5315,7 @@
           "x": -3,
           "y": -3
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_1",
@@ -5290,7 +5323,7 @@
           "x": -2,
           "y": -3
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_2",
@@ -5298,7 +5331,7 @@
           "x": -1,
           "y": -3
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_3",
@@ -5306,7 +5339,7 @@
           "x": 0,
           "y": -3
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_4",
@@ -5314,7 +5347,7 @@
           "x": 1,
           "y": -3
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_5",
@@ -5322,7 +5355,7 @@
           "x": 2,
           "y": -3
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_6",
@@ -5330,7 +5363,7 @@
           "x": -3,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_7",
@@ -5338,7 +5371,7 @@
           "x": -2,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_8",
@@ -5346,7 +5379,7 @@
           "x": -1,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_9",
@@ -5354,7 +5387,7 @@
           "x": 0,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_10",
@@ -5362,7 +5395,7 @@
           "x": 1,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_11",
@@ -5370,7 +5403,7 @@
           "x": 2,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_12",
@@ -5378,7 +5411,7 @@
           "x": -3,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_13",
@@ -5386,7 +5419,7 @@
           "x": -2,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_14",
@@ -5394,7 +5427,7 @@
           "x": -1,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_15",
@@ -5402,7 +5435,7 @@
           "x": 0,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_16",
@@ -5410,7 +5443,7 @@
           "x": 1,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_17",
@@ -5418,7 +5451,7 @@
           "x": 2,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_18",
@@ -5426,7 +5459,7 @@
           "x": -3,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_19",
@@ -5434,7 +5467,7 @@
           "x": -2,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_20",
@@ -5442,7 +5475,7 @@
           "x": -1,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_21",
@@ -5450,7 +5483,7 @@
           "x": 0,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_22",
@@ -5458,7 +5491,7 @@
           "x": 1,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_23",
@@ -5466,7 +5499,7 @@
           "x": 2,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_24",
@@ -5474,7 +5507,7 @@
           "x": -3,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_25",
@@ -5482,7 +5515,7 @@
           "x": -2,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_26",
@@ -5490,7 +5523,7 @@
           "x": -1,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_27",
@@ -5498,7 +5531,7 @@
           "x": 0,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_28",
@@ -5506,7 +5539,7 @@
           "x": 1,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_29",
@@ -5514,7 +5547,7 @@
           "x": 2,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_30",
@@ -5522,7 +5555,7 @@
           "x": -3,
           "y": 2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_31",
@@ -5530,7 +5563,7 @@
           "x": -2,
           "y": 2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_32",
@@ -5538,7 +5571,7 @@
           "x": -1,
           "y": 2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_33",
@@ -5546,7 +5579,7 @@
           "x": 0,
           "y": 2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_34",
@@ -5554,7 +5587,7 @@
           "x": 1,
           "y": 2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_big_35",
@@ -5562,10 +5595,11 @@
           "x": 2,
           "y": 2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       }
     ],
-    "ObjectElevation": 0
+    "Hp": 100,
+    "ObjectElevation": 380
   },
   "tower_big_d": {
     "TileData": [
@@ -5858,6 +5892,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "tower_bigc": {
@@ -6151,6 +6186,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "tower_bigc_d": {
@@ -6444,6 +6480,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "tower_small": {
@@ -6454,7 +6491,7 @@
           "x": -2,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_1",
@@ -6462,7 +6499,7 @@
           "x": -1,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_2",
@@ -6470,7 +6507,7 @@
           "x": 0,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_3",
@@ -6478,7 +6515,7 @@
           "x": 1,
           "y": -2
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_4",
@@ -6486,7 +6523,7 @@
           "x": -2,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_5",
@@ -6494,7 +6531,7 @@
           "x": -1,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_6",
@@ -6502,7 +6539,7 @@
           "x": 0,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_7",
@@ -6510,7 +6547,7 @@
           "x": 1,
           "y": -1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_8",
@@ -6518,7 +6555,7 @@
           "x": -2,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_9",
@@ -6526,7 +6563,7 @@
           "x": -1,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_10",
@@ -6534,7 +6571,7 @@
           "x": 0,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_11",
@@ -6542,7 +6579,7 @@
           "x": 1,
           "y": 0
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_12",
@@ -6550,7 +6587,7 @@
           "x": -2,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_13",
@@ -6558,7 +6595,7 @@
           "x": -1,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_14",
@@ -6566,7 +6603,7 @@
           "x": 0,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       },
       {
         "TileId": "tower_small_15",
@@ -6574,10 +6611,11 @@
           "x": 1,
           "y": 1
         },
-        "ConnectionType": "Obstacle"
+        "ConnectionType": "BuildingPortal"
       }
     ],
-    "ObjectElevation": 0
+    "Hp": 100,
+    "ObjectElevation": 250
   },
   "tower_small_d": {
     "TileData": [
@@ -6710,6 +6748,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "tower_smallc": {
@@ -6787,6 +6826,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "tower_smallc_d": {
@@ -6864,6 +6904,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "well": {
@@ -6941,6 +6982,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "wood_cutter": {
@@ -7018,6 +7060,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "mill": {
@@ -7095,6 +7138,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "armory": {
@@ -7228,6 +7272,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "bakery": {
@@ -7361,6 +7406,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "barracks_1": {
@@ -7566,6 +7612,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "barracks_2": {
@@ -7771,6 +7818,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "black_smith": {
@@ -7904,6 +7952,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "granary": {
@@ -8037,6 +8086,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "shields": {
@@ -8170,6 +8220,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   },
   "tannery": {
@@ -8303,6 +8354,7 @@
         "ConnectionType": "Obstacle"
       }
     ],
+    "Hp": 100,
     "ObjectElevation": 0
   }
 }
