@@ -2,12 +2,14 @@
    "tree_0_trunk":{
       "ImageName":"tree",
       "AtlasCoordinate":"0,2000,72,48",
+      "ConnectionType":"Obstacle",
       "MiniMapColor":"213,145,103,255"
    },
    "tree_0":{
       "ImageName":"tree",
 	  "Animation":"animated_tree_0",
       "AtlasCoordinate":"0,0,370,370",
+      "ConnectionType":"Obstacle",
       "NameElevationDisabled":"tree_0_trunk"
    }
 }
