@@ -11,5 +11,7 @@
   ],
   "module": "castle_sim.js",
   "types": "castle_sim.d.ts",
-  "sideEffects": false
+  "sideEffects": [
+    "./snippets/*"
+  ]
 }

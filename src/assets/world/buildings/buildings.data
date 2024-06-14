@@ -6,74 +6,73 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "apple_farm_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "apple_farm_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "apple_farm_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "apple_farm_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "apple_farm_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "apple_farm_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "apple_farm_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "apple_farm_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
+    "InstanceOnTop": {
+      "Id": "building_disabled_icon",
+      "TilePos": {
+        "x": 2,
+        "y": 2
+      },
+      "Offset": 60
+    },
     "Hp": 100,
     "ObjectElevation": 0
   },
@@ -84,200 +83,175 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_4",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_5",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_6",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_7",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_8",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_9",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_10",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_11",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_12",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_13",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_14",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_15",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_16",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_17",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_18",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_19",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_20",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_21",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_22",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_23",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "brewery_24",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -290,1352 +264,1183 @@
         "Position": {
           "x": -6,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_1",
         "Position": {
           "x": -5,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_2",
         "Position": {
           "x": -4,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_3",
         "Position": {
           "x": -3,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_4",
         "Position": {
           "x": -2,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_5",
         "Position": {
           "x": -1,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_6",
         "Position": {
           "x": 0,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_7",
         "Position": {
           "x": 1,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_8",
         "Position": {
           "x": 2,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_9",
         "Position": {
           "x": 3,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_10",
         "Position": {
           "x": 4,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_11",
         "Position": {
           "x": 5,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_12",
         "Position": {
           "x": 6,
           "y": -6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_13",
         "Position": {
           "x": -6,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_14",
         "Position": {
           "x": -5,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_15",
         "Position": {
           "x": -4,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_16",
         "Position": {
           "x": -3,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_17",
         "Position": {
           "x": -2,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_18",
         "Position": {
           "x": -1,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_19",
         "Position": {
           "x": 0,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_20",
         "Position": {
           "x": 1,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_21",
         "Position": {
           "x": 2,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_22",
         "Position": {
           "x": 3,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_23",
         "Position": {
           "x": 4,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_24",
         "Position": {
           "x": 5,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_25",
         "Position": {
           "x": 6,
           "y": -5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_26",
         "Position": {
           "x": -6,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_27",
         "Position": {
           "x": -5,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_28",
         "Position": {
           "x": -4,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_29",
         "Position": {
           "x": -3,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_30",
         "Position": {
           "x": -2,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_31",
         "Position": {
           "x": -1,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_32",
         "Position": {
           "x": 0,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_33",
         "Position": {
           "x": 1,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_34",
         "Position": {
           "x": 2,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_35",
         "Position": {
           "x": 3,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_36",
         "Position": {
           "x": 4,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_37",
         "Position": {
           "x": 5,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_38",
         "Position": {
           "x": 6,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_39",
         "Position": {
           "x": -6,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_40",
         "Position": {
           "x": -5,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_41",
         "Position": {
           "x": -4,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_42",
         "Position": {
           "x": -3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_43",
         "Position": {
           "x": -2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_44",
         "Position": {
           "x": -1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_45",
         "Position": {
           "x": 0,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_46",
         "Position": {
           "x": 1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_47",
         "Position": {
           "x": 2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_48",
         "Position": {
           "x": 3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_49",
         "Position": {
           "x": 4,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_50",
         "Position": {
           "x": 5,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_51",
         "Position": {
           "x": 6,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_52",
         "Position": {
           "x": -6,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_53",
         "Position": {
           "x": -5,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_54",
         "Position": {
           "x": -4,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_55",
         "Position": {
           "x": -3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_56",
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_57",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_58",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_59",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_60",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_61",
         "Position": {
           "x": 3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_62",
         "Position": {
           "x": 4,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_63",
         "Position": {
           "x": 5,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_64",
         "Position": {
           "x": 6,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_65",
         "Position": {
           "x": -6,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_66",
         "Position": {
           "x": -5,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_67",
         "Position": {
           "x": -4,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_68",
         "Position": {
           "x": -3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_69",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_70",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_71",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_72",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_73",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_74",
         "Position": {
           "x": 3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_75",
         "Position": {
           "x": 4,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_76",
         "Position": {
           "x": 5,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_77",
         "Position": {
           "x": 6,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_78",
         "Position": {
           "x": -6,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_79",
         "Position": {
           "x": -5,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_80",
         "Position": {
           "x": -4,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_81",
         "Position": {
           "x": -3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_82",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_83",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_84",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_85",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_86",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_87",
         "Position": {
           "x": 3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_88",
         "Position": {
           "x": 4,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_89",
         "Position": {
           "x": 5,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_90",
         "Position": {
           "x": 6,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_91",
         "Position": {
           "x": -6,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_92",
         "Position": {
           "x": -5,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_93",
         "Position": {
           "x": -4,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_94",
         "Position": {
           "x": -3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_95",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_96",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_97",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_98",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_99",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_100",
         "Position": {
           "x": 3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_101",
         "Position": {
           "x": 4,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_102",
         "Position": {
           "x": 5,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_103",
         "Position": {
           "x": 6,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_104",
         "Position": {
           "x": -6,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_105",
         "Position": {
           "x": -5,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_106",
         "Position": {
           "x": -4,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_107",
         "Position": {
           "x": -3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_108",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_109",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_110",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_111",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_112",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_113",
         "Position": {
           "x": 3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_114",
         "Position": {
           "x": 4,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_115",
         "Position": {
           "x": 5,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_116",
         "Position": {
           "x": 6,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_117",
         "Position": {
           "x": -6,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_118",
         "Position": {
           "x": -5,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_119",
         "Position": {
           "x": -4,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_120",
         "Position": {
           "x": -3,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_121",
         "Position": {
           "x": -2,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_122",
         "Position": {
           "x": -1,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_123",
         "Position": {
           "x": 0,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_124",
         "Position": {
           "x": 1,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_125",
         "Position": {
           "x": 2,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_126",
         "Position": {
           "x": 3,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_127",
         "Position": {
           "x": 4,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_128",
         "Position": {
           "x": 5,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_129",
         "Position": {
           "x": 6,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_130",
         "Position": {
           "x": -6,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_131",
         "Position": {
           "x": -5,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_132",
         "Position": {
           "x": -4,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_133",
         "Position": {
           "x": -3,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_134",
         "Position": {
           "x": -2,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_135",
         "Position": {
           "x": -1,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_136",
         "Position": {
           "x": 0,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_137",
         "Position": {
           "x": 1,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_138",
         "Position": {
           "x": 2,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_139",
         "Position": {
           "x": 3,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_140",
         "Position": {
           "x": 4,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_141",
         "Position": {
           "x": 5,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_142",
         "Position": {
           "x": 6,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_143",
         "Position": {
           "x": -6,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_144",
         "Position": {
           "x": -5,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_145",
         "Position": {
           "x": -4,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_146",
         "Position": {
           "x": -3,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_147",
         "Position": {
           "x": -2,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_148",
         "Position": {
           "x": -1,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_149",
         "Position": {
           "x": 0,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_150",
         "Position": {
           "x": 1,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_151",
         "Position": {
           "x": 2,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_152",
         "Position": {
           "x": 3,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_153",
         "Position": {
           "x": 4,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_154",
         "Position": {
           "x": 5,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_155",
         "Position": {
           "x": 6,
           "y": 5
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_156",
         "Position": {
           "x": -6,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_157",
         "Position": {
           "x": -5,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_158",
         "Position": {
           "x": -4,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_159",
         "Position": {
           "x": -3,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_160",
         "Position": {
           "x": -2,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_161",
         "Position": {
           "x": -1,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_162",
         "Position": {
           "x": 0,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_163",
         "Position": {
           "x": 1,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_164",
         "Position": {
           "x": 2,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_165",
         "Position": {
           "x": 3,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_166",
         "Position": {
           "x": 4,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_167",
         "Position": {
           "x": 5,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_big_168",
         "Position": {
           "x": 6,
           "y": 6
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -1648,648 +1453,567 @@
         "Position": {
           "x": -4,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_1",
         "Position": {
           "x": -3,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_2",
         "Position": {
           "x": -2,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_3",
         "Position": {
           "x": -1,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_4",
         "Position": {
           "x": 0,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_5",
         "Position": {
           "x": 1,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_6",
         "Position": {
           "x": 2,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_7",
         "Position": {
           "x": 3,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_8",
         "Position": {
           "x": 4,
           "y": -4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_9",
         "Position": {
           "x": -4,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_10",
         "Position": {
           "x": -3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_11",
         "Position": {
           "x": -2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_12",
         "Position": {
           "x": -1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_13",
         "Position": {
           "x": 0,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_14",
         "Position": {
           "x": 1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_15",
         "Position": {
           "x": 2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_16",
         "Position": {
           "x": 3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_17",
         "Position": {
           "x": 4,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_18",
         "Position": {
           "x": -4,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_19",
         "Position": {
           "x": -3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_20",
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_21",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_22",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_23",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_24",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_25",
         "Position": {
           "x": 3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_26",
         "Position": {
           "x": 4,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_27",
         "Position": {
           "x": -4,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_28",
         "Position": {
           "x": -3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_29",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_30",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_31",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_32",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_33",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_34",
         "Position": {
           "x": 3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_35",
         "Position": {
           "x": 4,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_36",
         "Position": {
           "x": -4,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_37",
         "Position": {
           "x": -3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_38",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_39",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_40",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_41",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_42",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_43",
         "Position": {
           "x": 3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_44",
         "Position": {
           "x": 4,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_45",
         "Position": {
           "x": -4,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_46",
         "Position": {
           "x": -3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_47",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_48",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_49",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_50",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_51",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_52",
         "Position": {
           "x": 3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_53",
         "Position": {
           "x": 4,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_54",
         "Position": {
           "x": -4,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_55",
         "Position": {
           "x": -3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_56",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_57",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_58",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_59",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_60",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_61",
         "Position": {
           "x": 3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_62",
         "Position": {
           "x": 4,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_63",
         "Position": {
           "x": -4,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_64",
         "Position": {
           "x": -3,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_65",
         "Position": {
           "x": -2,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_66",
         "Position": {
           "x": -1,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_67",
         "Position": {
           "x": 0,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_68",
         "Position": {
           "x": 1,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_69",
         "Position": {
           "x": 2,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_70",
         "Position": {
           "x": 3,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_71",
         "Position": {
           "x": 4,
           "y": 3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_72",
         "Position": {
           "x": -4,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_73",
         "Position": {
           "x": -3,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_74",
         "Position": {
           "x": -2,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_75",
         "Position": {
           "x": -1,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_76",
         "Position": {
           "x": 0,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_77",
         "Position": {
           "x": 1,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_78",
         "Position": {
           "x": 2,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_79",
         "Position": {
           "x": 3,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_medium_80",
         "Position": {
           "x": 4,
           "y": 4
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -2302,288 +2026,252 @@
         "Position": {
           "x": -3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_1",
         "Position": {
           "x": -2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_2",
         "Position": {
           "x": -1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_3",
         "Position": {
           "x": 0,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_4",
         "Position": {
           "x": 1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_5",
         "Position": {
           "x": 2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_6",
         "Position": {
           "x": -3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_7",
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_8",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_9",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_10",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_11",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_12",
         "Position": {
           "x": -3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_13",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_14",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_15",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_16",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_17",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_18",
         "Position": {
           "x": -3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_19",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_20",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_21",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_22",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_23",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_24",
         "Position": {
           "x": -3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_25",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_26",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_27",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_28",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_29",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_30",
         "Position": {
           "x": -3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_31",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_32",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_33",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_34",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "church_small_35",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -2596,72 +2284,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "cow_farm_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "cow_farm_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "cow_farm_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "cow_farm_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "cow_farm_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "cow_farm_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "cow_farm_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "cow_farm_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -2674,200 +2353,175 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_4",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_5",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_6",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_7",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_8",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_9",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_10",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_0_11",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_0_12",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_0_13",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_0_14",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_0_15",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_16",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_17",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_18",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_19",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_20",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_21",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_22",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_23",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_0_24",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       }
     ],
     "Hp": 100,
@@ -2885,200 +2539,175 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_1_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_4",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_5",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_6",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_7",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_1_8",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_9",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_10",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_11",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_12",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_1_13",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_14",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_15",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_16",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_17",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_1_18",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_19",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_20",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_21",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_22",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Portal"
+        }
       },
       {
         "TileId": "gate_1_23",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "gate_1_24",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       }
     ],
     "Hp": 100,
@@ -3096,72 +2725,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "grain_farm_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "grain_farm_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "grain_farm_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "grain_farm_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "grain_farm_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "grain_farm_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "grain_farm_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "grain_farm_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -3174,72 +2794,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hop_farm_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hop_farm_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hop_farm_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hop_farm_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hop_farm_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hop_farm_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hop_farm_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hop_farm_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -3252,128 +2863,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_1_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -3386,128 +2981,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_2_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -3520,128 +3099,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_3_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -3654,128 +3217,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_4_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -3788,128 +3335,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_5_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -3922,128 +3453,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_6_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -4056,128 +3571,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "house_7_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -4190,72 +3689,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hunter_stand_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hunter_stand_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hunter_stand_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hunter_stand_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hunter_stand_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hunter_stand_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hunter_stand_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "hunter_stand_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -4268,128 +3758,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "archery_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -4402,200 +3876,175 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_4",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_5",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_6",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_7",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_8",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_9",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_10",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_11",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_12",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_13",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_14",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_15",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_16",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_17",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_18",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_19",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_20",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_21",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_22",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_23",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "inn_24",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -4608,200 +4057,175 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_4",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_5",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_6",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_7",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_8",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_9",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_10",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_11",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_12",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_13",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_14",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_15",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_16",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_17",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_18",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_19",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_20",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_21",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_22",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_23",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "market_24",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -4814,200 +4238,175 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_4",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_5",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_6",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_7",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_8",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_9",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_10",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_11",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_12",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_13",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_14",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_15",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_16",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_17",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_18",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_19",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_20",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_21",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_22",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_23",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mine_24",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -5020,288 +4419,252 @@
         "Position": {
           "x": -3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_1",
         "Position": {
           "x": -2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_2",
         "Position": {
           "x": -1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_3",
         "Position": {
           "x": 0,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_4",
         "Position": {
           "x": 1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_5",
         "Position": {
           "x": 2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_6",
         "Position": {
           "x": -3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_7",
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_8",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_9",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_10",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_11",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_12",
         "Position": {
           "x": -3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_13",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_14",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_15",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_16",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_17",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_18",
         "Position": {
           "x": -3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_19",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_20",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_21",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_22",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_23",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_24",
         "Position": {
           "x": -3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_25",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_26",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_27",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_28",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_29",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_30",
         "Position": {
           "x": -3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_31",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_32",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_33",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_34",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "stables_35",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -5314,288 +4677,252 @@
         "Position": {
           "x": -3,
           "y": -3
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_1",
         "Position": {
           "x": -2,
           "y": -3
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_2",
         "Position": {
           "x": -1,
           "y": -3
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_3",
         "Position": {
           "x": 0,
           "y": -3
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_4",
         "Position": {
           "x": 1,
           "y": -3
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_5",
         "Position": {
           "x": 2,
           "y": -3
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_6",
         "Position": {
           "x": -3,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_7",
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_8",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_9",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_10",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_11",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_12",
         "Position": {
           "x": -3,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_13",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_14",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_15",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_16",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_17",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_18",
         "Position": {
           "x": -3,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_19",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_20",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_21",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_22",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_23",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_24",
         "Position": {
           "x": -3,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_25",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_26",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_27",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_28",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_29",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_30",
         "Position": {
           "x": -3,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_31",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_32",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_33",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_34",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_big_35",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       }
     ],
     "Hp": 100,
@@ -5608,288 +4935,252 @@
         "Position": {
           "x": -3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_1",
         "Position": {
           "x": -2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_2",
         "Position": {
           "x": -1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_3",
         "Position": {
           "x": 0,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_4",
         "Position": {
           "x": 1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_5",
         "Position": {
           "x": 2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_6",
         "Position": {
           "x": -3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_7",
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_8",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_9",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_10",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_11",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_12",
         "Position": {
           "x": -3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_13",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_14",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_15",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_16",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_17",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_18",
         "Position": {
           "x": -3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_19",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_20",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_21",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_22",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_23",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_24",
         "Position": {
           "x": -3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_25",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_26",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_27",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_28",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_29",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_30",
         "Position": {
           "x": -3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_31",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_32",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_33",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_34",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_big_d_35",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -5902,288 +5193,252 @@
         "Position": {
           "x": -3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_1",
         "Position": {
           "x": -2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_2",
         "Position": {
           "x": -1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_3",
         "Position": {
           "x": 0,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_4",
         "Position": {
           "x": 1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_5",
         "Position": {
           "x": 2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_6",
         "Position": {
           "x": -3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_7",
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_8",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_9",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_10",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_11",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_12",
         "Position": {
           "x": -3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_13",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_14",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_15",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_16",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_17",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_18",
         "Position": {
           "x": -3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_19",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_20",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_21",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_22",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_23",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_24",
         "Position": {
           "x": -3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_25",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_26",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_27",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_28",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_29",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_30",
         "Position": {
           "x": -3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_31",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_32",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_33",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_34",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_35",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -6196,288 +5451,252 @@
         "Position": {
           "x": -3,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_1",
         "Position": {
           "x": -2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_2",
         "Position": {
           "x": -1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_3",
         "Position": {
           "x": 0,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_4",
         "Position": {
           "x": 1,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_5",
         "Position": {
           "x": 2,
           "y": -3
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_6",
         "Position": {
           "x": -3,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_7",
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_8",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_9",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_10",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_11",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_12",
         "Position": {
           "x": -3,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_13",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_14",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_15",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_16",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_17",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_18",
         "Position": {
           "x": -3,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_19",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_20",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_21",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_22",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_23",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_24",
         "Position": {
           "x": -3,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_25",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_26",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_27",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_28",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_29",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_30",
         "Position": {
           "x": -3,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_31",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_32",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_33",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_34",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_bigc_d_35",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -6490,128 +5709,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       },
       {
         "TileId": "tower_small_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "BuildingPortal"
+        }
       }
     ],
     "Hp": 100,
@@ -6624,128 +5827,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_small_d_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -6758,72 +5945,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -6836,72 +6014,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_d_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_d_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_d_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_d_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_d_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_d_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_d_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tower_smallc_d_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -6914,72 +6083,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "well_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "well_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "well_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "well_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "well_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "well_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "well_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "well_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -6992,72 +6152,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "wood_cutter_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "wood_cutter_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "wood_cutter_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "wood_cutter_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "wood_cutter_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "wood_cutter_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "wood_cutter_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "wood_cutter_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -7070,72 +6221,63 @@
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mill_1",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mill_2",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mill_3",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mill_4",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mill_5",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mill_6",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mill_7",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "mill_8",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -7148,128 +6290,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "armory_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -7282,128 +6408,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "bakery_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -7416,200 +6526,175 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_4",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_5",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_6",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_7",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_8",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_9",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_10",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_11",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_12",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_13",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_14",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_15",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_16",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_17",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_18",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_19",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_20",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_21",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_22",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_23",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_1_24",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -7622,200 +6707,175 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_4",
         "Position": {
           "x": 2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_5",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_6",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_7",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_8",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_9",
         "Position": {
           "x": 2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_10",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_11",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_12",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_13",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_14",
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_15",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_16",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_17",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_18",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_19",
         "Position": {
           "x": 2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_20",
         "Position": {
           "x": -2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_21",
         "Position": {
           "x": -1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_22",
         "Position": {
           "x": 0,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_23",
         "Position": {
           "x": 1,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "barracks_2_24",
         "Position": {
           "x": 2,
           "y": 2
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -7828,128 +6888,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "black_smith_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -7962,128 +7006,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "granary_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -8096,128 +7124,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "shields_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
@@ -8230,128 +7242,112 @@
         "Position": {
           "x": -2,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_1",
         "Position": {
           "x": -1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_2",
         "Position": {
           "x": 0,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_3",
         "Position": {
           "x": 1,
           "y": -2
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_4",
         "Position": {
           "x": -2,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_5",
         "Position": {
           "x": -1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_6",
         "Position": {
           "x": 0,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_7",
         "Position": {
           "x": 1,
           "y": -1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_8",
         "Position": {
           "x": -2,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_9",
         "Position": {
           "x": -1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_10",
         "Position": {
           "x": 0,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_11",
         "Position": {
           "x": 1,
           "y": 0
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_12",
         "Position": {
           "x": -2,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_13",
         "Position": {
           "x": -1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_14",
         "Position": {
           "x": 0,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       },
       {
         "TileId": "tannery_15",
         "Position": {
           "x": 1,
           "y": 1
-        },
-        "ConnectionType": "Obstacle"
+        }
       }
     ],
     "Hp": 100,
