@@ -458,20 +458,20 @@
                         "type": "CustomRectangle",
                         "Rectangle": {
                             "x": 1,
-                            "y": 65,
+                            "y": 0,
                             "width": 608,
                             "height": 36
                         }
                     },
                     "Position": {
                         "x": -304,
-                        "y": -101
+                        "y": -37
                     },
                     "ImageSource": {
                         "x": 0,
-                        "y": 0,
+                        "y": 64,
                         "width": 610,
-                        "height": 101
+                        "height": 37
                     }
                 }, {
                     "EventType": "OpenSubMenu",
@@ -813,7 +813,6 @@
                 }
             ]
         },
-		
 		"LandSubMenu": {
             "Alignment": "RightTop",
             "MenuItems": [{
@@ -1213,7 +1212,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "apple_farm_brush",
@@ -1346,7 +1351,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "brewery_brush",
@@ -1435,7 +1446,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "wood_cutter_brush",
@@ -1502,7 +1519,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "black_smith_brush",
@@ -1613,7 +1636,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "house_1_brush",
@@ -1790,7 +1819,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "granary_brush",
@@ -1901,7 +1936,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "church_small_brush",
@@ -1990,7 +2031,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "brush_wall_wooden_0",
@@ -2057,7 +2104,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "gate_1_brush",
@@ -2102,6 +2155,28 @@
                         "width": 56,
                         "height": 56
                     }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "gate_new_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": {
+                        "x": -177,
+                        "y": -96
+                    },
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 581,
+                        "width": 56,
+                        "height": 56
+                    }
                 }
             ]
         },
@@ -2124,7 +2199,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "tower_smallc_brush",
@@ -2213,6 +2294,72 @@
                         "width": 56,
                         "height": 56
                     }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "new_tower_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": {
+                        "x": -57,
+                        "y": -96
+                    },
+                    "ImageSource": {
+                        "x": 224,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+				}, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tower_round_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": {
+                        "x": 17,
+                        "y": -96
+                    },
+                    "ImageSource": {
+                        "x": 280,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+				}, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tower_small_new_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": {
+                        "x": 77,
+                        "y": -96
+                    },
+                    "ImageSource": {
+                        "x": 336,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
                 }
             ]
         },
@@ -2235,7 +2382,13 @@
                     "Position": {
                         "x": -304,
                         "y": -101
-                    }
+                    },
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
                 }, {
                     "EventType": "SelectBrush",
                     "EventName": "armory_brush",

@@ -7736,7 +7736,7 @@
     "Name": "tower_bigc_0",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "832,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_0T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7753,7 +7753,7 @@
     "Name": "tower_bigc_1",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "896,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_1T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7770,7 +7770,7 @@
     "Name": "tower_bigc_2",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "960,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_2T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7787,7 +7787,7 @@
     "Name": "tower_bigc_3",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1024,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_3T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7804,7 +7804,7 @@
     "Name": "tower_bigc_4",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1088,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_4T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7821,7 +7821,7 @@
     "Name": "tower_bigc_5",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1152,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_5T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7838,7 +7838,7 @@
     "Name": "tower_bigc_6",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1216,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_6T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7847,7 +7847,7 @@
     "Name": "tower_bigc_7",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1280,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7855,7 +7855,7 @@
     "Name": "tower_bigc_8",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1344,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7863,7 +7863,7 @@
     "Name": "tower_bigc_9",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1408,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7871,7 +7871,7 @@
     "Name": "tower_bigc_10",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1472,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7879,7 +7879,7 @@
     "Name": "tower_bigc_11",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1536,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7895,7 +7895,7 @@
     "Name": "tower_bigc_12",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1600,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_12T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7904,7 +7904,7 @@
     "Name": "tower_bigc_13",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1664,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7912,7 +7912,7 @@
     "Name": "tower_bigc_14",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1728,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7920,7 +7920,7 @@
     "Name": "tower_bigc_15",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1792,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7928,7 +7928,7 @@
     "Name": "tower_bigc_16",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1856,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7936,7 +7936,7 @@
     "Name": "tower_bigc_17",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1920,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7952,7 +7952,7 @@
     "Name": "tower_bigc_18",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1984,704,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_18T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -7961,7 +7961,7 @@
     "Name": "tower_bigc_19",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "0,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7969,7 +7969,7 @@
     "Name": "tower_bigc_20",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "64,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7977,7 +7977,7 @@
     "Name": "tower_bigc_21",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "128,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7985,7 +7985,7 @@
     "Name": "tower_bigc_22",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "192,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -7993,7 +7993,7 @@
     "Name": "tower_bigc_23",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "256,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8009,7 +8009,7 @@
     "Name": "tower_bigc_24",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "320,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_24T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -8018,7 +8018,7 @@
     "Name": "tower_bigc_25",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "384,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8026,7 +8026,7 @@
     "Name": "tower_bigc_26",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "448,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8034,7 +8034,7 @@
     "Name": "tower_bigc_27",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "512,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8042,7 +8042,7 @@
     "Name": "tower_bigc_28",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "576,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8050,7 +8050,7 @@
     "Name": "tower_bigc_29",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "640,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8066,7 +8066,7 @@
     "Name": "tower_bigc_30",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "704,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_bigc_30T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -8075,7 +8075,7 @@
     "Name": "tower_bigc_31",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "768,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8083,7 +8083,7 @@
     "Name": "tower_bigc_32",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "832,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8091,7 +8091,7 @@
     "Name": "tower_bigc_33",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "896,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8099,7 +8099,7 @@
     "Name": "tower_bigc_34",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "960,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8107,7 +8107,7 @@
     "Name": "tower_bigc_35",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1024,736,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8909,7 +8909,7 @@
     "Name": "tower_smallc_1",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1408,800,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_smallc_1T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -8943,7 +8943,7 @@
     "Name": "tower_smallc_3",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1536,800,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "InstanceOnTop": "tower_smallc_3T",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
@@ -8952,7 +8952,7 @@
     "Name": "tower_smallc_4",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1600,800,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8960,7 +8960,7 @@
     "Name": "tower_smallc_5",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1664,800,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -8985,7 +8985,7 @@
     "Name": "tower_smallc_7",
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1792,800,64,32",
-    "ConnectionType": "Obstacle",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   },
@@ -11170,6 +11170,908 @@
     "ImageName": "objects_tiled1",
     "AtlasCoordinate": "1216,992,64,32",
     "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_0T": {
+    "Name": "new_tower_0T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1408,278,64,516",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_0": {
+    "Name": "new_tower_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_1T": {
+    "Name": "new_tower_1T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1472,278,64,516",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_1": {
+    "Name": "new_tower_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_2T": {
+    "Name": "new_tower_2T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1536,278,64,518",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_2": {
+    "Name": "new_tower_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_3T": {
+    "Name": "new_tower_3T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1600,278,64,518",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_3": {
+    "Name": "new_tower_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_4T": {
+    "Name": "new_tower_4T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1664,278,64,518",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_4": {
+    "Name": "new_tower_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_5T": {
+    "Name": "new_tower_5T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1728,278,64,516",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_5": {
+    "Name": "new_tower_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_5T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_6T": {
+    "Name": "new_tower_6T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1792,278,64,518",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_6": {
+    "Name": "new_tower_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_7": {
+    "Name": "new_tower_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_8": {
+    "Name": "new_tower_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_9": {
+    "Name": "new_tower_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_10": {
+    "Name": "new_tower_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_11": {
+    "Name": "new_tower_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,992,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_12T": {
+    "Name": "new_tower_12T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1856,278,64,518",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_12": {
+    "Name": "new_tower_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_12T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_13": {
+    "Name": "new_tower_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_14": {
+    "Name": "new_tower_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_15": {
+    "Name": "new_tower_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_16": {
+    "Name": "new_tower_16",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_17": {
+    "Name": "new_tower_17",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_18T": {
+    "Name": "new_tower_18T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1920,278,64,518",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_18": {
+    "Name": "new_tower_18",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_18T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_19": {
+    "Name": "new_tower_19",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_20": {
+    "Name": "new_tower_20",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_21": {
+    "Name": "new_tower_21",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_22": {
+    "Name": "new_tower_22",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_23": {
+    "Name": "new_tower_23",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_24T": {
+    "Name": "new_tower_24T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1984,278,64,518",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_24": {
+    "Name": "new_tower_24",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_24T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_25": {
+    "Name": "new_tower_25",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_26": {
+    "Name": "new_tower_26",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_27": {
+    "Name": "new_tower_27",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_28": {
+    "Name": "new_tower_28",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_29": {
+    "Name": "new_tower_29",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_30T": {
+    "Name": "new_tower_30T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "0,796,64,518",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_30": {
+    "Name": "new_tower_30",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "new_tower_30T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_31": {
+    "Name": "new_tower_31",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_32": {
+    "Name": "new_tower_32",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_33": {
+    "Name": "new_tower_33",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_34": {
+    "Name": "new_tower_34",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "new_tower_35": {
+    "Name": "new_tower_35",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_0T": {
+    "Name": "tower_small_new_0T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "64,796,64,488",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_0": {
+    "Name": "tower_small_new_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_small_new_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_1T": {
+    "Name": "tower_small_new_1T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "128,796,64,490",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_1": {
+    "Name": "tower_small_new_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_small_new_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_2T": {
+    "Name": "tower_small_new_2T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "192,796,64,488",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_2": {
+    "Name": "tower_small_new_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_small_new_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_3T": {
+    "Name": "tower_small_new_3T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "256,796,64,484",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_3": {
+    "Name": "tower_small_new_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_small_new_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_4": {
+    "Name": "tower_small_new_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_5": {
+    "Name": "tower_small_new_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_6T": {
+    "Name": "tower_small_new_6T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "320,796,64,488",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_6": {
+    "Name": "tower_small_new_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_small_new_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_7": {
+    "Name": "tower_small_new_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1024,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_small_new_8": {
+    "Name": "tower_small_new_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_0T": {
+    "Name": "tower_round_0T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "384,796,64,968",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_0": {
+    "Name": "tower_round_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_round_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_1T": {
+    "Name": "tower_round_1T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "448,796,64,980",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_1": {
+    "Name": "tower_round_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_round_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_2T": {
+    "Name": "tower_round_2T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "512,796,64,990",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_2": {
+    "Name": "tower_round_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_round_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_3T": {
+    "Name": "tower_round_3T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "576,796,64,980",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_3": {
+    "Name": "tower_round_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_round_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_4": {
+    "Name": "tower_round_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_5": {
+    "Name": "tower_round_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_6T": {
+    "Name": "tower_round_6T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "640,796,64,990",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_6": {
+    "Name": "tower_round_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "tower_round_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_7": {
+    "Name": "tower_round_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tower_round_8": {
+    "Name": "tower_round_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_0T": {
+    "Name": "gate_new_0T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "704,796,64,410",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_0": {
+    "Name": "gate_new_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "gate_new_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_1T": {
+    "Name": "gate_new_1T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "768,796,64,404",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_1": {
+    "Name": "gate_new_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1056,64,32",
+    "ConnectionType": "Portal",
+    "InstanceOnTop": "gate_new_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_2T": {
+    "Name": "gate_new_2T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "832,796,64,404",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_2": {
+    "Name": "gate_new_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1056,64,32",
+    "ConnectionType": "Portal",
+    "InstanceOnTop": "gate_new_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_3T": {
+    "Name": "gate_new_3T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "896,796,64,408",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_3": {
+    "Name": "gate_new_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1056,64,32",
+    "ConnectionType": "Portal",
+    "InstanceOnTop": "gate_new_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_4T": {
+    "Name": "gate_new_4T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "960,796,64,410",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_4": {
+    "Name": "gate_new_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "gate_new_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_5T": {
+    "Name": "gate_new_5T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1024,796,64,404",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_5": {
+    "Name": "gate_new_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "gate_new_5T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_6": {
+    "Name": "gate_new_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_7": {
+    "Name": "gate_new_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_8": {
+    "Name": "gate_new_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_9": {
+    "Name": "gate_new_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_10T": {
+    "Name": "gate_new_10T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1088,796,64,404",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_10": {
+    "Name": "gate_new_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "gate_new_10T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_11": {
+    "Name": "gate_new_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_12": {
+    "Name": "gate_new_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_13": {
+    "Name": "gate_new_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_14": {
+    "Name": "gate_new_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_15T": {
+    "Name": "gate_new_15T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1152,796,64,408",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_15": {
+    "Name": "gate_new_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "gate_new_15T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_16": {
+    "Name": "gate_new_16",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_17": {
+    "Name": "gate_new_17",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_18": {
+    "Name": "gate_new_18",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_19": {
+    "Name": "gate_new_19",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_20T": {
+    "Name": "gate_new_20T",
+    "ImageName": "objects_on_top3",
+    "AtlasCoordinate": "1216,796,64,410",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_20": {
+    "Name": "gate_new_20",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1056,64,32",
+    "ConnectionType": "BuildingPortal",
+    "InstanceOnTop": "gate_new_20T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_21": {
+    "Name": "gate_new_21",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1056,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_22": {
+    "Name": "gate_new_22",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1088,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_23": {
+    "Name": "gate_new_23",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1088,64,32",
+    "ConnectionType": "Portal",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gate_new_24": {
+    "Name": "gate_new_24",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1088,64,32",
+    "ConnectionType": "BuildingPortal",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
   }

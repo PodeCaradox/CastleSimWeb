@@ -4,6 +4,18 @@
             {
                 "Name": "tree_0",
                 "RandomFactor": 1
+            },
+			{
+                "Name": "tree_1",
+                "RandomFactor": 1
+            },
+			{
+                "Name": "tree_2",
+                "RandomFactor": 1
+            },
+			{
+                "Name": "tree_3",
+                "RandomFactor": 1
             }
         ],
         "BrushType": "StaticObjectBrush"

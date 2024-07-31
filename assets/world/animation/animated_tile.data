@@ -17,8 +17,8 @@
 	  "ReactToWind": true
    },
    "animated_tree_0":{
-      "PauseFrames":45,
-      "AnimationLength":25,
+      "PauseFrames":54,
+      "AnimationLength":16,
       "Delay":100,
 	  "ReactToWind": true
    },
