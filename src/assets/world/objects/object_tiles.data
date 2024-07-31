@@ -1,15 +1,54 @@
 {
    "tree_0_trunk":{
-      "ImageName":"tree",
-      "AtlasCoordinate":"0,2000,72,48",
+      "ImageName":"tree_trunk",
+      "AtlasCoordinate":"0,239,19,17",
+      "ConnectionType":"Obstacle",
+      "MiniMapColor":"213,145,103,255"
+   },
+      "tree_1_trunk":{
+      "ImageName":"tree_trunk",
+      "AtlasCoordinate":"19,239,19,17",
+      "ConnectionType":"Obstacle",
+      "MiniMapColor":"213,145,103,255"
+   },
+      "tree_2_trunk":{
+      "ImageName":"tree_trunk",
+      "AtlasCoordinate":"38,239,19,17",
+      "ConnectionType":"Obstacle",
+      "MiniMapColor":"213,145,103,255"
+   },
+      "tree_3_trunk":{
+      "ImageName":"tree_trunk",
+      "AtlasCoordinate":"57,239,19,17",
       "ConnectionType":"Obstacle",
       "MiniMapColor":"213,145,103,255"
    },
    "tree_0":{
       "ImageName":"tree",
 	  "Animation":"animated_tree_0",
-      "AtlasCoordinate":"0,0,370,370",
+      "AtlasCoordinate":"0,0,256,256",
       "ConnectionType":"Obstacle",
       "NameElevationDisabled":"tree_0_trunk"
+   },
+   "tree_1":{
+      "ImageName":"tree",
+	  "Animation":"animated_tree_0",
+      "AtlasCoordinate":"0,512,256,256",
+      "ConnectionType":"Obstacle",
+      "NameElevationDisabled":"tree_1_trunk"
+   },
+   "tree_2":{
+      "ImageName":"tree",
+	  "Animation":"animated_tree_0",
+      "AtlasCoordinate":"0,1024,256,256",
+      "ConnectionType":"Obstacle",
+      "NameElevationDisabled":"tree_2_trunk"
+   },
+   "tree_3":{
+      "ImageName":"tree",
+	  "Animation":"animated_tree_0",
+      "AtlasCoordinate":"0,1536,256,256",
+      "ConnectionType":"Obstacle",
+      "NameElevationDisabled":"tree_3_trunk"
    }
 }

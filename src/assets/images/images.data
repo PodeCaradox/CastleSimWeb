@@ -39,6 +39,11 @@
    "DataType":"png",
    "CsType":"environment"
  },
+  "tree_trunk":{
+   "Path":"images\\world\\objects\\trees",
+   "DataType":"png",
+   "CsType":"environment"
+ },
   "decorativ":{
    "Path":"images\\world\\objects\\decorative",
    "DataType":"png",

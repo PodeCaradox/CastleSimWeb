@@ -68,8 +68,8 @@
     "InstanceOnTop": {
       "Id": "building_disabled_icon",
       "TilePos": {
-        "x": 2,
-        "y": 2
+        "x": 0,
+        "y": 0
       },
       "Offset": 60
     },
@@ -254,6 +254,14 @@
         }
       }
     ],
+    "InstanceOnTop": {
+      "Id": "building_disabled_icon",
+      "TilePos": {
+        "x": 0,
+        "y": 0
+      },
+      "Offset": 0
+    },
     "Hp": 100,
     "ObjectElevation": 0
   },
@@ -7352,5 +7360,578 @@
     ],
     "Hp": 100,
     "ObjectElevation": 0
+  },
+  "new_tower": {
+    "TileData": [
+      {
+        "TileId": "new_tower_0",
+        "Position": {
+          "x": -3,
+          "y": -3
+        }
+      },
+      {
+        "TileId": "new_tower_1",
+        "Position": {
+          "x": -2,
+          "y": -3
+        }
+      },
+      {
+        "TileId": "new_tower_2",
+        "Position": {
+          "x": -1,
+          "y": -3
+        }
+      },
+      {
+        "TileId": "new_tower_3",
+        "Position": {
+          "x": 0,
+          "y": -3
+        }
+      },
+      {
+        "TileId": "new_tower_4",
+        "Position": {
+          "x": 1,
+          "y": -3
+        }
+      },
+      {
+        "TileId": "new_tower_5",
+        "Position": {
+          "x": 2,
+          "y": -3
+        }
+      },
+      {
+        "TileId": "new_tower_6",
+        "Position": {
+          "x": -3,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "new_tower_7",
+        "Position": {
+          "x": -2,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "new_tower_8",
+        "Position": {
+          "x": -1,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "new_tower_9",
+        "Position": {
+          "x": 0,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "new_tower_10",
+        "Position": {
+          "x": 1,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "new_tower_11",
+        "Position": {
+          "x": 2,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "new_tower_12",
+        "Position": {
+          "x": -3,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "new_tower_13",
+        "Position": {
+          "x": -2,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "new_tower_14",
+        "Position": {
+          "x": -1,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "new_tower_15",
+        "Position": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "new_tower_16",
+        "Position": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "new_tower_17",
+        "Position": {
+          "x": 2,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "new_tower_18",
+        "Position": {
+          "x": -3,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "new_tower_19",
+        "Position": {
+          "x": -2,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "new_tower_20",
+        "Position": {
+          "x": -1,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "new_tower_21",
+        "Position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "new_tower_22",
+        "Position": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "new_tower_23",
+        "Position": {
+          "x": 2,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "new_tower_24",
+        "Position": {
+          "x": -3,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "new_tower_25",
+        "Position": {
+          "x": -2,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "new_tower_26",
+        "Position": {
+          "x": -1,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "new_tower_27",
+        "Position": {
+          "x": 0,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "new_tower_28",
+        "Position": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "new_tower_29",
+        "Position": {
+          "x": 2,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "new_tower_30",
+        "Position": {
+          "x": -3,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "new_tower_31",
+        "Position": {
+          "x": -2,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "new_tower_32",
+        "Position": {
+          "x": -1,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "new_tower_33",
+        "Position": {
+          "x": 0,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "new_tower_34",
+        "Position": {
+          "x": 1,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "new_tower_35",
+        "Position": {
+          "x": 2,
+          "y": 2
+        }
+      }
+    ],
+    "ObjectElevation": 450
+  },
+  "tower_small_new": {
+    "TileData": [
+      {
+        "TileId": "tower_small_new_0",
+        "Position": {
+          "x": -1,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "tower_small_new_1",
+        "Position": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "tower_small_new_2",
+        "Position": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "tower_small_new_3",
+        "Position": {
+          "x": -1,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "tower_small_new_4",
+        "Position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "tower_small_new_5",
+        "Position": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "tower_small_new_6",
+        "Position": {
+          "x": -1,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "tower_small_new_7",
+        "Position": {
+          "x": 0,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "tower_small_new_8",
+        "Position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "ObjectElevation": 438
+  },
+  "tower_round": {
+    "TileData": [
+      {
+        "TileId": "tower_round_0",
+        "Position": {
+          "x": -1,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "tower_round_1",
+        "Position": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "tower_round_2",
+        "Position": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "tower_round_3",
+        "Position": {
+          "x": -1,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "tower_round_4",
+        "Position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "tower_round_5",
+        "Position": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "tower_round_6",
+        "Position": {
+          "x": -1,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "tower_round_7",
+        "Position": {
+          "x": 0,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "tower_round_8",
+        "Position": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    ],
+    "ObjectElevation": 912
+  },
+  "gate_new": {
+    "TileData": [
+      {
+        "TileId": "gate_new_0",
+        "Position": {
+          "x": -2,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "gate_new_1",
+        "Position": {
+          "x": -1,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "gate_new_2",
+        "Position": {
+          "x": 0,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "gate_new_3",
+        "Position": {
+          "x": 1,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "gate_new_4",
+        "Position": {
+          "x": 2,
+          "y": -2
+        }
+      },
+      {
+        "TileId": "gate_new_5",
+        "Position": {
+          "x": -2,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "gate_new_6",
+        "Position": {
+          "x": -1,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "gate_new_7",
+        "Position": {
+          "x": 0,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "gate_new_8",
+        "Position": {
+          "x": 1,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "gate_new_9",
+        "Position": {
+          "x": 2,
+          "y": -1
+        }
+      },
+      {
+        "TileId": "gate_new_10",
+        "Position": {
+          "x": -2,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "gate_new_11",
+        "Position": {
+          "x": -1,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "gate_new_12",
+        "Position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "gate_new_13",
+        "Position": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "gate_new_14",
+        "Position": {
+          "x": 2,
+          "y": 0
+        }
+      },
+      {
+        "TileId": "gate_new_15",
+        "Position": {
+          "x": -2,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "gate_new_16",
+        "Position": {
+          "x": -1,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "gate_new_17",
+        "Position": {
+          "x": 0,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "gate_new_18",
+        "Position": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "gate_new_19",
+        "Position": {
+          "x": 2,
+          "y": 1
+        }
+      },
+      {
+        "TileId": "gate_new_20",
+        "Position": {
+          "x": -2,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "gate_new_21",
+        "Position": {
+          "x": -1,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "gate_new_22",
+        "Position": {
+          "x": 0,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "gate_new_23",
+        "Position": {
+          "x": 1,
+          "y": 2
+        }
+      },
+      {
+        "TileId": "gate_new_24",
+        "Position": {
+          "x": 2,
+          "y": 2
+        }
+      }
+    ],
+    "ObjectElevation": 376
   }
 }

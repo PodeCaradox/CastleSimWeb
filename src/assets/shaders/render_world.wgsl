@@ -13,9 +13,9 @@ struct SingleInstance
 //4 * 4 = 16 bytes
 struct TileData
 {
-	TileIndex: u32,
+	TileIndex: u32, // could be 24 bits also 8 free
 	Color: u32,//Shadow Color
-	MiniMapColor: u32,
+	MiniMapColor: u32, // only need rgb 8 bits free
 	Elevation: f32,
 };
 

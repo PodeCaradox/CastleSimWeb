@@ -1,4 +1,40 @@
-{
+{	
+	"gate_new_brush": {
+        "BrushEntities": [
+            {
+                "Name": "gate_new",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },	
+	"tower_round_brush": {
+        "BrushEntities": [
+            {
+                "Name": "tower_round",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },	
+	"tower_small_new_brush": {
+        "BrushEntities": [
+            {
+                "Name": "tower_small_new",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+	"new_tower_brush": {
+        "BrushEntities": [
+            {
+                "Name": "new_tower",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
     "apple_farm_brush": {
         "BrushEntities": [
             {
