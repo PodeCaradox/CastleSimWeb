@@ -11,13 +11,14 @@
    },
    "animated_grass_0":{
       "PauseFrames":50,
-      "Reiterations":4,
+      "Reiterations":3,
       "AnimationLength":5,
       "Delay":100,
 	  "ReactToWind": true
    },
    "animated_tree_0":{
-      "PauseFrames":54,
+      "PauseFrames":38,
+      "Reiterations":1,
       "AnimationLength":16,
       "Delay":100,
 	  "ReactToWind": true

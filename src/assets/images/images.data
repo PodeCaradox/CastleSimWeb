@@ -89,6 +89,11 @@
    "DataType":"positions",
    "CsType":"position_table"
  },
+ "piceman":{
+   "Path":"images\\entities\\animals",
+   "DataType":"positions",
+   "CsType":"position_table"
+ },
   "deer":{
     "Path":"images\\entities\\animals",
     "DataType":"positions",

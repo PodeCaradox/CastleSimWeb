@@ -16,5 +16,14 @@
             }
         ],
         "BrushType": "EntitiesBrush"
+    },
+	"piceman_brush": {
+        "BrushEntities": [
+            {
+                "Name": "piceman",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "EntitiesBrush"
     }
 }
