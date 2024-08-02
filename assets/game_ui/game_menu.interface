@@ -1190,6 +1190,29 @@
                         "width": 32,
                         "height": 32
                     }
+                },
+				{
+                    "EventType": "SelectBrush",
+                    "EventName": "piceman_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": {
+                        "x": -325,
+                        "y": 56
+                    },
+                    "ImageSource": {
+                        "x": 1260,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
                 }
             ]
         },
