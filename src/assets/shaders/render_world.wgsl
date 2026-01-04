@@ -14,7 +14,7 @@ struct SingleInstance
 struct TileData
 {
 	TileIndex: u32, // could be 24 bits also 8 free
-	Color: u32,//Shadow Color
+	Color: u32,//Shadow Color could be used for exra tile.
 	MiniMapColor: u32, // only need rgb 8 bits free
 	Elevation: f32,
 };
@@ -23,8 +23,8 @@ struct TileData
 struct TileRotationData
 {
     Data: u32,//16 bits for ObjectY //8 bit AnimationData //8 bit OffsetElevationX
-    SingleInstances: array<u32, 6>,
-    Free: u32
+    SingleInstances: array<u32, 6>,                   //ground_instance, //object_instance, //building_instance, //elevation_instance, //ground_instance_flatten, //object_instance_flatten,
+    Free: u32//Skip images to rotated image would save space Only one time needed , Data is 4 Times needed because of wall illusion animation etc.
 };
 
 //12 + 4 + 8 + 4 + 4 = 32 bytes;
