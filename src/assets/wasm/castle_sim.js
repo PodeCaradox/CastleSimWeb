@@ -810,6 +810,10 @@ function __wbg_get_imports() {
         const ret = arg0.length;
         return ret;
     };
+    imports.wbg.__wbg_limits_486026e4aa69b9b2 = function(arg0) {
+        const ret = arg0.limits;
+        return ret;
+    };
     imports.wbg.__wbg_limits_59402e6db2c6b230 = function(arg0) {
         const ret = arg0.limits;
         return ret;
