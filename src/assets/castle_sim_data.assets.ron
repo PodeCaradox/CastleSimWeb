@@ -1,0 +1,48 @@
+({
+    "environment_image": File (
+        path: "images\\environment\\environment.atlas",
+    ),
+    "colortable_images": Files (
+        paths: [
+        "images\\entities\\animals\\color_table.png",
+        "images\\entities\\animals\\color_table1.png",
+        ],
+    ),
+    "entities_images": Files (
+        paths: [
+        "images\\entities\\animals\\swordsman.positions",
+        "images\\entities\\animals\\piceman.positions",
+        "images\\entities\\animals\\deer.positions",
+        "images\\entities\\animals\\healthbar.positions",
+        ],
+    ),
+    "game_interface": File (
+        path: "images\\ui\\game_interface.png",
+    ),
+    "game_data": Files (
+        paths: [
+        "world\\animation\\animated_tile.data",
+        "game_ui\\game_menu.interface",
+        "world\\elevation\\land_elevation.data",
+        "world\\elevation\\water_elevation.data",
+        "world\\elevation\\wall_elevation.data",
+        "world\\elevation\\object_elevation.data",
+        "world\\elevation\\special_elevation.data",
+        "world\\terrain\\land_tiles.data",
+        "world\\terrain\\water_tiles.data",
+        "world\\terrain\\special_tiles.data",
+        "world\\terrain\\debug_tiles.data",
+        "world\\objects\\wall_tiles.data",
+        "world\\objects\\object_tiles.data",
+        "world\\buildings\\building_tiles.data",
+        "brushes\\building_brushes.data",
+        "brushes\\land_brushes.data",
+        "brushes\\object_brushes.data",
+        "brushes\\special_brushes.data",
+        "brushes\\entity_brushes.data",
+        "brushes\\wall_brushes.data",
+        "world\\buildings\\buildings.data",
+        "entities\\animals.data",
+        ],
+    ),
+})

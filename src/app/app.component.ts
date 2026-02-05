@@ -55,7 +55,7 @@ export class AppComponent implements AfterViewInit, OnInit, OnDestroy  {
 
 
       this.wasmModule = value;
-      this.wasmModule.run(this.gameFieldDiv?.nativeElement!.clientWidth, this.gameFieldDiv?.nativeElement!.clientHeight);
+      this.wasmModule.init_game(this.gameFieldDiv?.nativeElement!.clientWidth, this.gameFieldDiv?.nativeElement!.clientHeight);
     });
   }
 
