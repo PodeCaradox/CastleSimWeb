@@ -13,9 +13,9 @@ struct SingleInstance
 //4 * 4 = 16 bytes
 struct TileData
 {
-	TileIndex: u32, // could be 24 bits also 8 free
-	Color: u32,//Shadow Color could be used for exra tile.
-	MiniMapColor: u32, // only need rgb 8 bits free
+	TileIndex: u32,
+	Color: u32,//Shadow Color
+	MiniMapColor: u32,
 	Elevation: f32,
 };
 
@@ -23,8 +23,8 @@ struct TileData
 struct TileRotationData
 {
     Data: u32,//16 bits for ObjectY //8 bit AnimationData //8 bit OffsetElevationX
-    SingleInstances: array<u32, 6>,                   //ground_instance, //object_instance, //building_instance, //elevation_instance, //ground_instance_flatten, //object_instance_flatten,
-    Free: u32//Skip images to rotated image would save space Only one time needed , Data is 4 Times needed because of wall illusion animation etc.
+    SingleInstances: array<u32, 6>,
+    Free: u32
 };
 
 //12 + 4 + 8 + 4 + 4 = 32 bytes;
@@ -174,7 +174,7 @@ fn calc_visible_index(index: vec2<i32>, actual_row_start: vec2<i32>) -> i32{
 
 fn WorldPosToDepth(world_pos: vec2<i32>) -> f32{
 	let size: f32 = f32(params.map_size.x * params.map_size.y);
-	return 1.0f - f32(world_pos.y * params.map_size.x + world_pos.x) / size;
+	return f32(world_pos.y * params.map_size.x + world_pos.x) / size;
 }
 
 fn WorldToScreenPos(world_pos: vec2<i32>) -> vec2<f32>{
@@ -283,7 +283,7 @@ fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: f32, a
         return initInstancingObject();
     }
     let pos = applyRotation(world_pos);
-	let depth: f32 = WorldPosToDepth(pos) + ZStep;
+	let depth: f32 = WorldPosToDepth(pos) - ZStep;
 	var position = WorldToScreenPos(pos);
 	position.x += offset_elevation_x;
 	var size = u32(elevation) + 16u;//TileSizeHalf
@@ -352,7 +352,7 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
            let rotation_offset = params.map_size.x * params.map_size.y * i32(params.direction);
            let tile_rotation_data = tiles_rotation.tiles[index.y * params.map_size.x + index.x + rotation_offset];
            let tile_data = tiles_data.tiles[index.y * params.map_size.x + index.x];
-           
+
            let tick = params.tick;
            var animation = (tile_rotation_data.Data >> 8u) & 0x000000ffu;
            var animation_enabled = animation & 0x00000001u;
@@ -452,7 +452,7 @@ fn vs_main(
 
       var pos : vec4<f32> = vec4<f32>(position.xy + instance.Position.xy, instance.Position.z, 1.0);
       pos = camera.view_proj * pos;
-
+      pos.z = instance.Position.z;
       let texCoord = vec2<f32>(instance.UvCoordPos + (imageSize * input.Position.xy) / ImageSize);
 
       let output = VertexOutput(
@@ -472,18 +472,20 @@ var t_diffuse: texture_2d_array<f32>;
 @group(0) @binding(1)
 var s_diffuse: sampler;
 
+struct FragmentOutput {
+    @location(0) color: vec4<f32>,
+    //@builtin(frag_depth) depth: f32,  // Critical for writing
+};
+
 
 @fragment
-fn fs_main(in: VertexOutput) -> @location(0) vec4<f32> {
+fn fs_main(in: VertexOutput) -> FragmentOutput {
     let color = textureSample(t_diffuse, s_diffuse, in.TexCoord, in.image_index);
     if(color.a <= 0.0){
         discard;
     }
-    return color * in.Color;
+    var out: FragmentOutput;
+    out.color = color * in.Color;
+    //out.depth = in.Position.z;
+    return out;
 }
-
-
-
- 
-
- 
