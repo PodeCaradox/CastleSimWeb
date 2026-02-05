@@ -364,7 +364,7 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
            visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile_rotation_data.SingleInstances[0u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu);
            animation_enabled = ((animation >> 1u) & 0x00000001u);
            visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile_rotation_data.SingleInstances[1u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu);
-           visble_tiles_cp.tiles[visible_index + 1].Position.z -= ZStep *  2.0;
+           visble_tiles_cp.tiles[visible_index + 1].Position.z += ZStep *  2.0;
            animation_enabled = ((animation >> 2u) & 0x00000001u);
            visble_tiles_cp.tiles[visible_index + 2] = CreateBuildingInstance(tile_rotation_data.SingleInstances[2u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu, offset_object_y);
            animation_enabled = ((animation >> 3u) & 0x00000001u);
@@ -402,7 +402,7 @@ fn instancing_without_elevation(@builtin(global_invocation_id) global_id: vec3<u
            visble_tiles_cp.tiles[visible_index] = CreateSpecificInstance(tile_rotation_data.SingleInstances[4u], index, 0.0, animation_enabled, tick, 0xffffffffu);
            animation_enabled = ((animation >> 1u) & 0x00000001u);
            visble_tiles_cp.tiles[visible_index + 1] = CreateSpecificInstance(tile_rotation_data.SingleInstances[5u], index, 0.0, animation_enabled, tick, 0xffffffffu);
-           visble_tiles_cp.tiles[visible_index + 1].Position.z -= ZStep *  2.0;
+           visble_tiles_cp.tiles[visible_index + 1].Position.z += ZStep *  2.0;
 }
 
 //==============================================================================
