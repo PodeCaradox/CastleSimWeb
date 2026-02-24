@@ -19,10 +19,12 @@
     "game_interface": File (
         path: "images\\ui\\game_interface.png",
     ),
+    "game_ui": File (
+        path: "game_ui\\game_menu.interface",
+    ),
     "game_data": Files (
         paths: [
         "world\\animation\\animated_tile.data",
-        "game_ui\\game_menu.interface",
         "world\\elevation\\land_elevation.data",
         "world\\elevation\\water_elevation.data",
         "world\\elevation\\wall_elevation.data",
@@ -35,14 +37,19 @@
         "world\\objects\\wall_tiles.data",
         "world\\objects\\object_tiles.data",
         "world\\buildings\\building_tiles.data",
-        "brushes\\building_brushes.data",
-        "brushes\\land_brushes.data",
-        "brushes\\object_brushes.data",
-        "brushes\\special_brushes.data",
-        "brushes\\entity_brushes.data",
-        "brushes\\wall_brushes.data",
         "world\\buildings\\buildings.data",
         "entities\\animals.data",
         ],
     ),
+    "brushes_data": Files (
+            paths: [
+            "brushes\\building_brushes.data",
+            "brushes\\land_brushes.data",
+            "brushes\\object_brushes.data",
+            "brushes\\special_brushes.data",
+            "brushes\\entity_brushes.data",
+            "brushes\\wall_brushes.data",
+            "entities\\animals.data",
+            ],
+        ),
 })
