@@ -75,7 +75,7 @@ fn vertex_ui(
         var texCoord : vec2<f32> = (texPos + (texSize * inputvertex.Position.xy)) / 2048.0;
         pos -= scale;
         size += scale.xy * 2.0;
-        var posWorld : vec4<f32> = vec4<f32>((pos + (size * inputvertex.Position.xy) + round(alignment * camera.screen_size)), 0.0, 1.0);
+        var posWorld : vec4<f32> = vec4<f32>((pos + (size * inputvertex.Position.xy) + round(alignment * camera.screen_size)), 1.0, 1.0);
 
         output.Color = color;
         output.TexCoord = texCoord;

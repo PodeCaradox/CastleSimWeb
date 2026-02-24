@@ -6,17 +6,11 @@
         "width": 400,
         "height": 200
     },
-    "MiniMapPos": {
-        "x": -401,
-        "y": -201
-    },
+    "MiniMapPos": [-401,-201],
     "Menus": {
         "MainEditorMenu": {
             "Alignment": "RightTop",
-            "Scale": {
-                "x": 0,
-                "y": 0
-            },
+            "Scale": [0,0],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -27,10 +21,7 @@
                             "height": 54
                         }
                     },
-                    "Position": {
-                        "x": -457,
-                        "y": 0
-                    },
+                    "Position": [-457,0],
                     "ImageSource": {
                         "x": 1548,
                         "y": 0,
@@ -49,10 +40,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": -454,
-                        "y": 1
-                    },
+                    "Position": [-454,1],
                     "ImageSource": {
                         "x": 1553,
                         "y": 78,
@@ -71,10 +59,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": -454,
-                        "y": 27
-                    },
+                    "Position": [-454,27],
                     "ImageSource": {
                         "x": 1577,
                         "y": 78,
@@ -93,10 +78,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": -429,
-                        "y": 1
-                    },
+                    "Position": [-429,1],
                     "ImageSource": {
                         "x": 1553,
                         "y": 54,
@@ -115,10 +97,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": -429,
-                        "y": 27
-                    },
+                    "Position": [-429,27],
                     "ImageSource": {
                         "x": 1577,
                         "y": 54,
@@ -137,10 +116,7 @@
                             "height": 48
                         }
                     },
-                    "Position": {
-                        "x": -400,
-                        "y": 2
-                    },
+                    "Position": [-400,2],
                     "ImageSource": {
                         "x": 1148,
                         "y": 0,
@@ -159,10 +135,7 @@
                             "height": 48
                         }
                     },
-                    "Position": {
-                        "x": -350,
-                        "y": 2
-                    },
+                    "Position": [-350,2],
                     "ImageSource": {
                         "x": 1148,
                         "y": 48,
@@ -175,10 +148,7 @@
         "MainStatisticsMenu": {
             "Alignment": "CenterTop",
             "MenuItems": [{
-                    "Position": {
-                        "x": -269,
-                        "y": 0
-                    },
+                    "Position": [-269,0],
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -205,10 +175,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": -230,
-                        "y": 10
-                    },
+                    "Position": [-230,10],
                     "ImageSource": {
                         "x": 722,
                         "y": 38,
@@ -226,10 +193,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": -142,
-                        "y": 10
-                    },
+                    "Position": [-142,10],
                     "ImageSource": {
                         "x": 746,
                         "y": 38,
@@ -247,10 +211,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": -54,
-                        "y": 10
-                    },
+                    "Position": [-54,10],
                     "ImageSource": {
                         "x": 770,
                         "y": 38,
@@ -268,10 +229,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": 32,
-                        "y": 10
-                    },
+                    "Position": [32,10],
                     "ImageSource": {
                         "x": 794,
                         "y": 38,
@@ -289,10 +247,7 @@
                             "height": 24
                         }
                     },
-                    "Position": {
-                        "x": 128,
-                        "y": 10
-                    },
+                    "Position": [128,10],
                     "ImageSource": {
                         "x": 818,
                         "y": 38,
@@ -307,30 +262,18 @@
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomCircle",
-                        "Position": {
-                            "x": 24,
-                            "y": 24
-                        },
+                        "Position": [24,24],
                         "Radius": 24
                     },
-                    "Position": {
-                        "x": 245,
-                        "y": 0
-                    }
+                    "Position": [245,0]
                 }, {
                     "EventType": "None",
                     "CollisionObject": {
                         "type": "CustomCircle",
-                        "Position": {
-                            "x": 24,
-                            "y": 24
-                        },
+                        "Position": [24,24],
                         "Radius": 24
                     },
-                    "Position": {
-                        "x": 245,
-                        "y": 0
-                    },
+                    "Position": [245,0],
                     "ImageSource": {
                         "x": 674,
                         "y": 38,
@@ -342,37 +285,22 @@
         },
         "MainProfile": {
             "Alignment": "CenterTop",
-            "Scale": {
-                "x": 0,
-                "y": 0
-            },
+            "Scale": [0,0],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomCircle",
-                        "Position": {
-                            "x": 32,
-                            "y": 32
-                        },
+                        "Position": [32,32],
                         "Radius": 32
                     },
-                    "Position": {
-                        "x": -301,
-                        "y": 0
-                    }
+                    "Position": [-301,0]
                 }, {
                     "EventType": "None",
                     "CollisionObject": {
                         "type": "CustomCircle",
-                        "Position": {
-                            "x": 32,
-                            "y": 32
-                        },
+                        "Position": [32,32],
                         "Radius": 32
                     },
-                    "Position": {
-                        "x": -301,
-                        "y": 0
-                    },
+                    "Position": [-301,0],
                     "ImageSource": {
                         "x": 610,
                         "y": 38,
@@ -400,10 +328,7 @@
                         "width": 394,
                         "height": 226
                     },
-                    "Position": {
-                        "x": -402,
-                        "y": -232
-                    }
+                    "Position": [-402,-232]
                 }
             ]
         },
@@ -419,10 +344,7 @@
                             "height": 202
                         }
                     },
-                    "Position": {
-                        "x": -406,
-                        "y": -206
-                    }
+                    "Position": [-406,-206]
                 }, {
                     "EventType": "MiniMapClicked",
                     "CollisionObject": {
@@ -434,10 +356,7 @@
                             "height": 202
                         }
                     },
-                    "Position": {
-                        "x": -406,
-                        "y": -206
-                    },
+                    "Position": [-406,-206],
                     "ImageSource": {
                         "x": 1646,
                         "y": 1846,
@@ -449,10 +368,7 @@
         },
         "MainBuildMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 1,
-                "y": 1
-            },
+            "Scale": [1,1],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -463,10 +379,7 @@
                             "height": 36
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -37
-                    },
+                    "Position": [-304,-37],
                     "ImageSource": {
                         "x": 0,
                         "y": 64,
@@ -485,10 +398,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -200,
-                        "y": -33
-                    },
+                    "Position": [-200,-33],
                     "ImageSource": {
                         "x": 0,
                         "y": 101,
@@ -507,10 +417,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -166,
-                        "y": -33
-                    },
+                    "Position": [-166,-33],
                     "ImageSource": {
                         "x": 28,
                         "y": 101,
@@ -529,10 +436,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -132,
-                        "y": -33
-                    },
+                    "Position": [-132,-33],
                     "ImageSource": {
                         "x": 56,
                         "y": 101,
@@ -551,10 +455,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -98,
-                        "y": -33
-                    },
+                    "Position": [-98,-33],
                     "ImageSource": {
                         "x": 84,
                         "y": 101,
@@ -573,10 +474,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -64,
-                        "y": -33
-                    },
+                    "Position": [-64,-33],
                     "ImageSource": {
                         "x": 112,
                         "y": 101,
@@ -595,10 +493,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -30,
-                        "y": -33
-                    },
+                    "Position": [-30,-33],
                     "ImageSource": {
                         "x": 140,
                         "y": 101,
@@ -617,10 +512,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": 4,
-                        "y": -33
-                    },
+                    "Position": [4,-33],
                     "ImageSource": {
                         "x": 168,
                         "y": 101,
@@ -639,10 +531,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": 38,
-                        "y": -33
-                    },
+                    "Position": [38,-33],
                     "ImageSource": {
                         "x": 196,
                         "y": 101,
@@ -661,10 +550,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": 72,
-                        "y": -33
-                    },
+                    "Position": [72,-33],
                     "ImageSource": {
                         "x": 224,
                         "y": 101,
@@ -683,10 +569,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": 106,
-                        "y": -33
-                    },
+                    "Position": [106,-33],
                     "ImageSource": {
                         "x": 252,
                         "y": 101,
@@ -705,10 +588,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": 140,
-                        "y": -33
-                    },
+                    "Position": [140,-33],
                     "ImageSource": {
                         "x": 280,
                         "y": 101,
@@ -720,23 +600,14 @@
         },
         "MainDeleteMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 1,
-                "y": 1
-            },
+            "Scale": [1,1],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomCircle",
-                        "Position": {
-                            "x": 16,
-                            "y": 16
-                        },
+                        "Position": [16,16],
                         "Radius": 16
                     },
-                    "Position": {
-                        "x": 288,
-                        "y": -35
-                    },
+                    "Position": [288,-35],
                     "ImageSource": {
                         "x": 578,
                         "y": 101,
@@ -748,16 +619,10 @@
                     "EventName": "delete_brush",
                     "CollisionObject": {
                         "type": "CustomCircle",
-                        "Position": {
-                            "x": 16,
-                            "y": 16
-                        },
+                        "Position": [16,16],
                         "Radius": 16
                     },
-                    "Position": {
-                        "x": 288,
-                        "y": -35
-                    },
+                    "Position": [288,-35],
                     "ImageSource": {
                         "x": 546,
                         "y": 101,
@@ -769,10 +634,7 @@
         },
         "MainDebugMenu": {
             "Alignment": "LeftTop",
-            "Scale": {
-                "x": 0,
-                "y": 0
-            },
+            "Scale": [0,0],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -783,10 +645,7 @@
                             "height": 0
                         }
                     },
-                    "Position": {
-                        "x": 0,
-                        "y": 0
-                    },
+                    "Position": [0,0],
                     "ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -806,10 +665,7 @@
                         }
                     },
 					"Text":"FPS:",
-                    "Position": {
-                        "x": 10,
-                        "y": 10
-                    }
+                    "Position": [10,10]
                 }
             ]
         },
@@ -825,10 +681,7 @@
                             "height": 90
                         }
                     },
-                    "Position": {
-                        "x": -404,
-                        "y": 54
-                    },
+                    "Position": [-404,54],
                     "ImageSource": {
                         "x": 1601,
                         "y": 54,
@@ -847,10 +700,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -397,
-                        "y": 56
-                    },
+                    "Position": [-397,56],
                     "ImageSource": {
                         "x": 1196,
                         "y": 0,
@@ -869,10 +719,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -361,
-                        "y": 56
-                    },
+                    "Position": [-361,56],
                     "ImageSource": {
                         "x": 1228,
                         "y": 0,
@@ -891,10 +738,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -325,
-                        "y": 56
-                    },
+                    "Position": [-325,56],
                     "ImageSource": {
                         "x": 1260,
                         "y": 0,
@@ -913,10 +757,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -289,
-                        "y": 56
-                    },
+                    "Position": [-289,56],
                     "ImageSource": {
                         "x": 1292,
                         "y": 0,
@@ -935,10 +776,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -253,
-                        "y": 56
-                    },
+                    "Position": [-253,56],
                     "ImageSource": {
                         "x": 1324,
                         "y": 0,
@@ -957,10 +795,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -217,
-                        "y": 56
-                    },
+                    "Position": [-217,56],
                     "ImageSource": {
                         "x": 1356,
                         "y": 0,
@@ -979,10 +814,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -181,
-                        "y": 56
-                    },
+                    "Position": [-181,56],
                     "ImageSource": {
                         "x": 1388,
                         "y": 0,
@@ -1001,10 +833,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -145,
-                        "y": 56
-                    },
+                    "Position": [-145,56],
                     "ImageSource": {
                         "x": 1420,
                         "y": 0,
@@ -1023,10 +852,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -109,
-                        "y": 56
-                    },
+                    "Position": [-109,56],
                     "ImageSource": {
                         "x": 1452,
                         "y": 0,
@@ -1045,10 +871,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -73,
-                        "y": 56
-                    },
+                    "Position": [-73,56],
                     "ImageSource": {
                         "x": 1484,
                         "y": 0,
@@ -1067,10 +890,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -37,
-                        "y": 56
-                    },
+                    "Position": [-37,56],
                     "ImageSource": {
                         "x": 1516,
                         "y": 0,
@@ -1089,10 +909,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -397,
-                        "y": 92
-                    },
+                    "Position": [-397,92],
                     "ImageSource": {
                         "x": 1196,
                         "y": 32,
@@ -1111,10 +928,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -361,
-                        "y": 92
-                    },
+                    "Position": [-361,92],
                     "ImageSource": {
                         "x": 1228,
                         "y": 32,
@@ -1136,10 +950,7 @@
                             "height": 90
                         }
                     },
-                    "Position": {
-                        "x": -404,
-                        "y": 54
-                    },
+                    "Position": [-404,54],
                     "ImageSource": {
                         "x": 1601,
                         "y": 54,
@@ -1158,10 +969,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -397,
-                        "y": 56
-                    },
+                    "Position": [-397,56],
                     "ImageSource": {
                         "x": 1196,
                         "y": 64,
@@ -1180,10 +988,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -361,
-                        "y": 56
-                    },
+                    "Position": [-361,56],
                     "ImageSource": {
                         "x": 1228,
                         "y": 64,
@@ -1203,10 +1008,7 @@
                             "height": 32
                         }
                     },
-                    "Position": {
-                        "x": -325,
-                        "y": 56
-                    },
+                    "Position": [-325,56],
                     "ImageSource": {
                         "x": 1260,
                         "y": 64,
@@ -1218,10 +1020,7 @@
         },
         "FarmingSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -1232,10 +1031,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -1254,10 +1050,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 133,
@@ -1276,10 +1069,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 133,
@@ -1298,10 +1088,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 133,
@@ -1320,10 +1107,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -117,
-                        "y": -96
-                    },
+                    "Position": [-117,-96],
                     "ImageSource": {
                         "x": 168,
                         "y": 133,
@@ -1342,10 +1126,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -57,
-                        "y": -96
-                    },
+                    "Position": [-57,-96],
                     "ImageSource": {
                         "x": 224,
                         "y": 133,
@@ -1357,10 +1138,7 @@
         },
         "ManufacturingSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -1371,10 +1149,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -1393,10 +1168,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 189,
@@ -1415,10 +1187,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 189,
@@ -1437,10 +1206,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 189,
@@ -1452,10 +1218,7 @@
         },
         "MaterialsSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -1466,10 +1229,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -1488,10 +1248,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 245,
@@ -1510,10 +1267,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 245,
@@ -1525,10 +1279,7 @@
         },
         "ProductionSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -1539,10 +1290,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -1561,10 +1309,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 301,
@@ -1583,10 +1328,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 301,
@@ -1605,10 +1347,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 301,
@@ -1627,10 +1366,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -117,
-                        "y": -96
-                    },
+                    "Position": [-117,-96],
                     "ImageSource": {
                         "x": 168,
                         "y": 301,
@@ -1642,10 +1378,7 @@
         },
         "HouseSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -1656,10 +1389,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -1678,10 +1408,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 357,
@@ -1700,10 +1427,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 357,
@@ -1722,10 +1446,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 357,
@@ -1744,10 +1465,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -117,
-                        "y": -96
-                    },
+                    "Position": [-117,-96],
                     "ImageSource": {
                         "x": 168,
                         "y": 357,
@@ -1766,10 +1484,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -57,
-                        "y": -96
-                    },
+                    "Position": [-57,-96],
                     "ImageSource": {
                         "x": 224,
                         "y": 357,
@@ -1788,10 +1503,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": 3,
-                        "y": -96
-                    },
+                    "Position": [3,-96],
                     "ImageSource": {
                         "x": 280,
                         "y": 357,
@@ -1810,10 +1522,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": 63,
-                        "y": -96
-                    },
+                    "Position": [63,-96],
                     "ImageSource": {
                         "x": 336,
                         "y": 357,
@@ -1825,10 +1534,7 @@
         },
         "PopularitySubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -1839,10 +1545,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -1861,10 +1564,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 413,
@@ -1883,10 +1583,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 413,
@@ -1905,10 +1602,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 413,
@@ -1927,10 +1621,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -117,
-                        "y": -96
-                    },
+                    "Position": [-117,-96],
                     "ImageSource": {
                         "x": 168,
                         "y": 413,
@@ -1942,10 +1633,7 @@
         },
         "FaithSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -1956,10 +1644,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -1978,10 +1663,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 469,
@@ -2000,10 +1682,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 469,
@@ -2022,10 +1701,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 469,
@@ -2037,10 +1713,7 @@
         },
         "WallSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -2051,10 +1724,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -2073,10 +1743,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 525,
@@ -2095,10 +1762,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 525,
@@ -2110,10 +1774,7 @@
         },
         "GateSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -2124,10 +1785,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -2146,10 +1804,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 581,
@@ -2168,10 +1823,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 581,
@@ -2190,10 +1842,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 581,
@@ -2205,10 +1854,7 @@
         },
         "TowerSubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -2219,10 +1865,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -2241,10 +1884,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 637,
@@ -2263,10 +1903,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 637,
@@ -2285,10 +1922,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 637,
@@ -2307,10 +1941,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -117,
-                        "y": -96
-                    },
+                    "Position": [-117,-96],
                     "ImageSource": {
                         "x": 168,
                         "y": 637,
@@ -2329,10 +1960,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -57,
-                        "y": -96
-                    },
+                    "Position": [-57,-96],
                     "ImageSource": {
                         "x": 224,
                         "y": 637,
@@ -2351,10 +1979,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": 17,
-                        "y": -96
-                    },
+                    "Position": [17,-96],
                     "ImageSource": {
                         "x": 280,
                         "y": 637,
@@ -2373,10 +1998,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": 77,
-                        "y": -96
-                    },
+                    "Position": [77,-96],
                     "ImageSource": {
                         "x": 336,
                         "y": 637,
@@ -2388,10 +2010,7 @@
         },
         "MilitarySubMenu": {
             "Alignment": "CenterBottom",
-            "Scale": {
-                "x": 2,
-                "y": 2
-            },
+            "Scale": [2,2],
             "MenuItems": [{
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -2402,10 +2021,7 @@
                             "height": 65
                         }
                     },
-                    "Position": {
-                        "x": -304,
-                        "y": -101
-                    },
+                    "Position": [-304,-101],
 					"ImageSource": {
                         "x": 0,
                         "y": 0,
@@ -2424,10 +2040,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -297,
-                        "y": -96
-                    },
+                    "Position": [-297,-96],
                     "ImageSource": {
                         "x": 0,
                         "y": 693,
@@ -2446,10 +2059,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -237,
-                        "y": -96
-                    },
+                    "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
                         "y": 693,
@@ -2468,10 +2078,7 @@
                             "height": 56
                         }
                     },
-                    "Position": {
-                        "x": -177,
-                        "y": -96
-                    },
+                    "Position": [-177,-96],
                     "ImageSource": {
                         "x": 112,
                         "y": 693,
