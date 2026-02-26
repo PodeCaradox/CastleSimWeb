@@ -86,21 +86,6 @@ struct VertexInput {
 }
 
 
-////extra for map positions drawing
-//struct EntityInput
-//{
-//	Position: vec3<f32>,
-//	entity_properties_index: u32,       //8 bytes which color to draw
-//};
-
-//struct EntityInput
-//{
-//	@location(0) ImageOffsetAndAtlasWH: u32,       //i8,i8,u8,u8
-//	@location(1) AtlasCoordPos: u32,                   //u16,u16
-//	@location(2) ColorTableOffsetXAndEntityInputId: u32,           //8u 24u     ColorTableOffsetX
-//};
-
-
 //5 * 4 = 20 bytes
 struct EntityInput
 {
@@ -191,11 +176,11 @@ fn fs_main(in: VertexOutput) -> @location(0) vec4<f32> {
     if(pos.x <= 0.0 && pos.y <= 0.0){
         discard;
     }
-    let final_color = tsw(t_color_table, s_color_diffuse, in, pos);
+    let final_color = image_pos_to_color(t_color_table, s_color_diffuse, in, pos);
     return final_color;
 }
 
 
-fn tsw(t_diffuse: texture_2d_array<f32>, s_diffuse: sampler, in: VertexOutput, pos: vec2<f32>) -> vec4<f32> {
+fn image_pos_to_color(t_diffuse: texture_2d_array<f32>, s_diffuse: sampler, in: VertexOutput, pos: vec2<f32>) -> vec4<f32> {
     return textureSample(t_diffuse, s_diffuse, (pos + in.ColorTablePos) / ColorTableImageSize, in.color_table_index);
 }

@@ -264,9 +264,20 @@ struct TilePropertiesStorage {
   properties: array<SingleInstance>,
 };
 
-
 struct TilesBehindStorage {
   Rows: array<i32>,
+};
+
+struct TileDataStorage {
+  tiles: array<TileData>,
+};
+
+struct TileRotationDataStorage {
+  tiles: array<TileRotationData>,
+};
+
+struct InstancingObjectStorage {
+  tiles: array<InstancingObject>,
 };
 
 struct ComputeParams {
@@ -286,6 +297,23 @@ struct InstancingObject
 	UvCoordPos: vec2<f32>,
 	UvCoordSize: u32,
 	Color: u32,
+};
+
+//4 * 4 = 16 bytes
+struct TileData
+{//TODO make less bytes
+	TileIndex: u32,
+	Color: u32,//Shadow Color
+	MiniMapColor: u32,
+	Elevation: f32,
+};
+
+//4 * 8 = 32 bytes
+struct TileRotationData
+{//TODO make less bytes
+    Data: u32,//16 bits for ObjectY //8 bit AnimationData //8 bit OffsetElevationX
+    SingleInstances: array<u32, 6>,
+    Free: u32
 };
 
 

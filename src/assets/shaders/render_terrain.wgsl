@@ -1,39 +1,10 @@
 #import world_utils
 
-//4 * 4 = 16 bytes
-struct TileData
-{//TODO make less bytes
-	TileIndex: u32,
-	Color: u32,//Shadow Color
-	MiniMapColor: u32,
-	Elevation: f32,
-};
-
-//4 * 8 = 32 bytes
-struct TileRotationData
-{//TODO make less bytes
-    Data: u32,//16 bits for ObjectY //8 bit AnimationData //8 bit OffsetElevationX
-    SingleInstances: array<u32, 6>,
-    Free: u32
-};
 
 
-
-struct TileDataStorage {
-  tiles: array<TileData>,
-};
-
-struct TileRotationDataStorage {
-  tiles: array<TileRotationData>,
-};
-
-struct InstancingObjectStorage {
-  tiles: array<world_utils::InstancingObject>,
-};
-
-@group(2) @binding(0) var<storage, read> tiles_data : TileDataStorage;
-@group(2) @binding(1) var<storage, read> tiles_rotation : TileRotationDataStorage;
-@group(3) @binding(0) var<storage, read_write> visble_tiles_cp : InstancingObjectStorage;
+@group(2) @binding(0) var<storage, read> tiles_data : world_utils::TileDataStorage;
+@group(2) @binding(1) var<storage, read> tiles_rotation : world_utils::TileRotationDataStorage;
+@group(3) @binding(0) var<storage, read_write> visble_tiles_cp : world_utils::InstancingObjectStorage;
 
 
 @compute
@@ -140,7 +111,7 @@ struct CameraUniform {
 @group(1) @binding(0)
 var<uniform> camera: CameraUniform;
 
-@group(2) @binding(0) var<storage, read> visble_tiles: InstancingObjectStorage;
+@group(2) @binding(0) var<storage, read> visble_tiles: world_utils::InstancingObjectStorage;
 
 @vertex
 fn vs_main(
