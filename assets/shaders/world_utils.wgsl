@@ -6,6 +6,12 @@ const ZStep : f32 = 0.0000001;
 //=============================================================================
 // Compute Shader Functions
 //=============================================================================
+fn index_to_world_pos(index: u32) -> vec2<i32> {
+    var x : i32 = i32(index % u32(params.map_size.x));
+    var y : i32 = i32(index / u32(params.map_size.y));
+    return vec2<i32>(x, y);
+}
+
 fn u8_to_i8(value: u32) -> f32 {
     if ((value & 0x80u) != 0u) {
         // If the highest bit is set, it's a negative number in i8 terms.
@@ -302,8 +308,8 @@ struct InstancingObject
 //4 * 4 = 16 bytes
 struct TileData
 {//TODO make less bytes
-	TileIndex: u32,
-	Color: u32,//Shadow Color
+	TileIndex: u32,//used in update and BrusPreview Buffer
+	Color: u32,//used in BrusPreview Buffer
 	MiniMapColor: u32,
 	Elevation: f32,
 };
