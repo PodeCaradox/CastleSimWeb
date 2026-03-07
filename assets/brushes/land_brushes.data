@@ -10,10 +10,6 @@
     "brush_grass": {
         "BrushEntities": [
 			{
-                "Name": "water_tile_0",
-                "RandomFactor": 5
-            },
-			{
                 "Name": "grass_0",
                 "RandomFactor": 5
             }, {

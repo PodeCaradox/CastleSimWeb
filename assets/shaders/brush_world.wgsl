@@ -58,7 +58,7 @@ fn instancing_cs_brush(@builtin(global_invocation_id) global_id: vec3<u32>) {
         visble_tiles_cp.tiles[visible_index + 1u].Position.z -= world_utils::ZStep *  2.0;
         visble_tiles_cp.tiles[visible_index + 2u] = world_utils::CreateBuildingInstance(brush_tile_rotation.SingleInstances[2u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_object_y);
         visble_tiles_cp.tiles[visible_index + 3u] = world_utils::CreateElevationInstance(brush_tile_rotation.SingleInstances[3u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_elevation_x);
-
+        visble_tiles_cp.tiles[visible_index + 3u].Position.z += world_utils::ZStep;
 		return;
 	}
 
