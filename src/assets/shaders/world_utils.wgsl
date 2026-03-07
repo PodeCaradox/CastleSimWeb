@@ -310,7 +310,7 @@ struct TileData
 {//TODO make less bytes
 	TileIndex: u32,//used in update and BrusPreview Buffer
 	Color: u32,//used in BrusPreview Buffer
-	MiniMapColor: u32,
+	MiniMapColor: u32,//used in Update Minimap Buffer
 	Elevation: f32,
 };
 
