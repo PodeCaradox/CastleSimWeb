@@ -29,9 +29,9 @@ fn screen_to_map_pos(position: vec2<f32>) -> vec2<i32> {
     return vec2<i32>(i32(x), i32(y));
 }
 
-fn WorldPosToDepth(world_pos: vec2<i32>) -> f32{
+fn WorldPosToDepth(world_pos: vec2<i32>) -> f32 {
 	let size: f32 = f32(params.map_size.x * params.map_size.y);
-	return 1.0f - f32(world_pos.y * params.map_size.x + world_pos.x) / size;
+	return f32(world_pos.y * params.map_size.x + world_pos.x) / size;
 }
 
 fn rotate(pos_to_rotate: vec2<f32>) -> vec2<f32> {
