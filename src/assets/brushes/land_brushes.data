@@ -15,16 +15,10 @@
             }, {
                 "Name": "grass_1",
                 "RandomFactor": 2
-            }, {
+            },
+            {
                 "Name": "grass_2",
                 "RandomFactor": 2
-            },
-			{
-                "Name": "stone_moss_0",
-                "RandomFactor": 1
-            }, {
-                "Name": "stone_moss_1",
-                "RandomFactor": 1
             }
         ],
         "BrushType": "TileBrush"
