@@ -6,7 +6,7 @@
         "width": 400,
         "height": 200
     },
-    "MiniMapPos": [-401,-201],
+    "MiniMapPos": [-406,-206],
     "Menus": {
         "MainEditorMenu": {
             "Alignment": "RightTop",
