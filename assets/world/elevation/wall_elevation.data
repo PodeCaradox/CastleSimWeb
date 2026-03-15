@@ -46,5 +46,32 @@
    "elevation_wall_wood_right_0":{
       "ImageName":"wall_elevation",
       "AtlasCoordinate":"288,0,32,926"
-   }
+   },
+   "elevation_wall_crenelation_0":{
+         "ImageName":"wall_elevation",
+         "AtlasCoordinate":"512,0,64,926"
+      },
+      "elevation_wall_crenelation_diagonal_0":{
+         "ImageName":"wall_elevation",
+         "AtlasCoordinate":"576,0,64,926"
+      },
+      "elevation_wall_crenelation_diagonal_left_0":{
+         "ImageName":"wall_elevation",
+         "AtlasCoordinate":"640,0,64,926"
+      },
+      "elevation_wall_crenelation_diagonal_right_0":{
+         "ImageName":"wall_elevation",
+         "AtlasCoordinate":"704,0,64,926"
+      },
+      "elevation_wall_crenelation_left_0":{
+         "ImageName":"wall_elevation",
+         "AtlasCoordinate":"512,0,32,926"
+      },
+      "elevation_wall_crenelation_right_0":{
+         "ImageName":"wall_elevation",
+         "AtlasCoordinate":"544,0,32,926"
+      }
+
+
+
 }

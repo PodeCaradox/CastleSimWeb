@@ -6,20 +6,12 @@
       "ElevationFamilyName":"elevation_wall_wood",
       "MiniMapColor":"213,145,103,255"
    },
-   "wall_tile_0":{
-      "FamilyName":"wall_tile_full",
-      "ImageName":"wall",
-      "ConnectionType":"Wall",
-      "AtlasCoordinate":"0,360,64,32",
-      "ElevationFamilyName":"elevation_wall",
-      "MiniMapColor":"213,145,103,255"
-   },
    "wall_crenelation_0":{
       "ImageName":"wall",
-      "AtlasCoordinate":"0,256,64,94",
+      "AtlasCoordinate":"0,34,64,94",
       "ConnectionType":"Obstacle",
-      "ElevationFamilyName":"elevation_wall",
-      "NameElevationDisabled":"wall_tile_0",
+      "ElevationFamilyName":"elevation_wall_crenelation",
+      "NameElevationDisabled":"wall_tile_full_0",
       "MiniMapColor":"213,145,103,255"
    },
   "wall_tile_full_0": {
@@ -28,7 +20,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_1": {
@@ -37,7 +29,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_2": {
@@ -46,7 +38,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_3": {
@@ -55,7 +47,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_4": {
@@ -64,7 +56,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_5": {
@@ -73,7 +65,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_6": {
@@ -82,7 +74,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_7": {
@@ -91,7 +83,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_8": {
@@ -100,7 +92,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_9": {
@@ -109,7 +101,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_10": {
@@ -118,7 +110,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_11": {
@@ -127,7 +119,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_12": {
@@ -136,7 +128,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_13": {
@@ -145,7 +137,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_14": {
@@ -154,7 +146,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_15": {
@@ -163,7 +155,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_16": {
@@ -172,7 +164,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_17": {
@@ -181,7 +173,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_18": {
@@ -190,7 +182,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_19": {
@@ -199,7 +191,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_20": {
@@ -208,7 +200,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_21": {
@@ -217,7 +209,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_22": {
@@ -226,7 +218,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_23": {
@@ -235,7 +227,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_24": {
@@ -244,7 +236,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_25": {
@@ -253,7 +245,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_26": {
@@ -262,7 +254,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_27": {
@@ -271,7 +263,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_28": {
@@ -280,7 +272,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_29": {
@@ -289,7 +281,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_30": {
@@ -298,7 +290,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_31": {
@@ -307,7 +299,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_32": {
@@ -316,7 +308,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_33": {
@@ -325,7 +317,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_34": {
@@ -334,7 +326,7 @@
     "AtlasCoordinate": "576,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_35": {
@@ -343,7 +335,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_36": {
@@ -352,7 +344,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_37": {
@@ -361,7 +353,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_38": {
@@ -370,7 +362,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_39": {
@@ -379,7 +371,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_40": {
@@ -388,7 +380,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_41": {
@@ -397,7 +389,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_42": {
@@ -406,7 +398,7 @@
     "AtlasCoordinate": "576,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_43": {
@@ -415,7 +407,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_44": {
@@ -424,7 +416,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_45": {
@@ -433,7 +425,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_46": {
@@ -442,7 +434,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_47": {
@@ -451,7 +443,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_48": {
@@ -460,7 +452,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_49": {
@@ -469,7 +461,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_50": {
@@ -478,7 +470,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_51": {
@@ -487,7 +479,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_52": {
@@ -496,7 +488,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_53": {
@@ -505,7 +497,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_54": {
@@ -514,7 +506,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_55": {
@@ -523,7 +515,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_56": {
@@ -532,7 +524,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_57": {
@@ -541,7 +533,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_58": {
@@ -550,7 +542,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_59": {
@@ -559,7 +551,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_60": {
@@ -568,7 +560,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_61": {
@@ -577,7 +569,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_62": {
@@ -586,7 +578,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_63": {
@@ -595,7 +587,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_64": {
@@ -604,7 +596,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_65": {
@@ -613,7 +605,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_66": {
@@ -622,7 +614,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_67": {
@@ -631,7 +623,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_68": {
@@ -640,7 +632,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_69": {
@@ -649,7 +641,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_70": {
@@ -658,7 +650,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_71": {
@@ -667,7 +659,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_72": {
@@ -676,7 +668,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_73": {
@@ -685,7 +677,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_74": {
@@ -694,7 +686,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_75": {
@@ -703,7 +695,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_76": {
@@ -712,7 +704,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_77": {
@@ -721,7 +713,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_78": {
@@ -730,7 +722,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_79": {
@@ -739,7 +731,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_80": {
@@ -748,7 +740,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_81": {
@@ -757,7 +749,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_82": {
@@ -766,7 +758,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_83": {
@@ -775,7 +767,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_84": {
@@ -784,7 +776,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_85": {
@@ -793,7 +785,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_86": {
@@ -802,7 +794,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_87": {
@@ -811,7 +803,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_88": {
@@ -820,7 +812,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_89": {
@@ -829,7 +821,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_90": {
@@ -838,7 +830,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_91": {
@@ -847,7 +839,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_92": {
@@ -856,7 +848,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_93": {
@@ -865,7 +857,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_94": {
@@ -874,7 +866,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_95": {
@@ -883,7 +875,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_96": {
@@ -892,7 +884,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_97": {
@@ -901,7 +893,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_98": {
@@ -910,7 +902,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_99": {
@@ -919,7 +911,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_100": {
@@ -928,7 +920,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_101": {
@@ -937,7 +929,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_102": {
@@ -946,7 +938,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_103": {
@@ -955,7 +947,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_104": {
@@ -964,7 +956,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_105": {
@@ -973,7 +965,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_106": {
@@ -982,7 +974,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_107": {
@@ -991,7 +983,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_108": {
@@ -1000,7 +992,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_109": {
@@ -1009,7 +1001,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_110": {
@@ -1018,7 +1010,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_111": {
@@ -1027,7 +1019,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_112": {
@@ -1036,7 +1028,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_113": {
@@ -1045,7 +1037,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_114": {
@@ -1054,7 +1046,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_115": {
@@ -1063,7 +1055,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_116": {
@@ -1072,7 +1064,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_117": {
@@ -1081,7 +1073,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_118": {
@@ -1090,7 +1082,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_119": {
@@ -1099,7 +1091,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_120": {
@@ -1108,7 +1100,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_121": {
@@ -1117,7 +1109,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_122": {
@@ -1126,7 +1118,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_123": {
@@ -1135,7 +1127,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_124": {
@@ -1144,7 +1136,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_125": {
@@ -1153,7 +1145,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_126": {
@@ -1162,7 +1154,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_127": {
@@ -1171,7 +1163,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_128": {
@@ -1180,7 +1172,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_129": {
@@ -1189,7 +1181,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_130": {
@@ -1198,7 +1190,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_131": {
@@ -1207,7 +1199,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_132": {
@@ -1216,7 +1208,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_133": {
@@ -1225,7 +1217,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_134": {
@@ -1234,7 +1226,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_135": {
@@ -1243,7 +1235,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_136": {
@@ -1252,7 +1244,7 @@
     "AtlasCoordinate": "576,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_137": {
@@ -1261,7 +1253,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_138": {
@@ -1270,7 +1262,7 @@
     "AtlasCoordinate": "576,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_139": {
@@ -1279,7 +1271,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_140": {
@@ -1288,7 +1280,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_141": {
@@ -1297,7 +1289,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_142": {
@@ -1306,7 +1298,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_143": {
@@ -1315,7 +1307,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_144": {
@@ -1324,7 +1316,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_145": {
@@ -1333,7 +1325,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_146": {
@@ -1342,7 +1334,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_147": {
@@ -1351,7 +1343,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_148": {
@@ -1360,7 +1352,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_149": {
@@ -1369,7 +1361,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_150": {
@@ -1378,7 +1370,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_151": {
@@ -1387,7 +1379,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_152": {
@@ -1396,7 +1388,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_153": {
@@ -1405,7 +1397,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_154": {
@@ -1414,7 +1406,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_155": {
@@ -1423,7 +1415,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_156": {
@@ -1432,7 +1424,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_157": {
@@ -1441,7 +1433,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_158": {
@@ -1450,7 +1442,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_159": {
@@ -1459,7 +1451,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_160": {
@@ -1468,7 +1460,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_161": {
@@ -1477,7 +1469,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_162": {
@@ -1486,7 +1478,7 @@
     "AtlasCoordinate": "576,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_163": {
@@ -1495,7 +1487,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_164": {
@@ -1504,7 +1496,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_165": {
@@ -1513,7 +1505,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_166": {
@@ -1522,7 +1514,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_167": {
@@ -1531,7 +1523,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_168": {
@@ -1540,7 +1532,7 @@
     "AtlasCoordinate": "576,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_169": {
@@ -1549,7 +1541,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_170": {
@@ -1558,7 +1550,7 @@
     "AtlasCoordinate": "576,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_171": {
@@ -1567,7 +1559,7 @@
     "AtlasCoordinate": "640,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_172": {
@@ -1576,7 +1568,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_173": {
@@ -1585,7 +1577,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_174": {
@@ -1594,7 +1586,7 @@
     "AtlasCoordinate": "704,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_175": {
@@ -1603,7 +1595,7 @@
     "AtlasCoordinate": "512,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_176": {
@@ -1612,7 +1604,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_177": {
@@ -1621,7 +1613,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_178": {
@@ -1630,7 +1622,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_179": {
@@ -1639,7 +1631,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_180": {
@@ -1648,7 +1640,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_181": {
@@ -1657,7 +1649,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_182": {
@@ -1666,7 +1658,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_183": {
@@ -1675,7 +1667,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_184": {
@@ -1684,7 +1676,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_185": {
@@ -1693,7 +1685,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_186": {
@@ -1702,7 +1694,7 @@
     "AtlasCoordinate": "832,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_187": {
@@ -1711,7 +1703,7 @@
     "AtlasCoordinate": "896,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_188": {
@@ -1720,7 +1712,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_189": {
@@ -1729,7 +1721,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_190": {
@@ -1738,7 +1730,7 @@
     "AtlasCoordinate": "960,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_191": {
@@ -1747,7 +1739,7 @@
     "AtlasCoordinate": "768,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_192": {
@@ -1756,7 +1748,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_193": {
@@ -1765,7 +1757,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_194": {
@@ -1774,7 +1766,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_195": {
@@ -1783,7 +1775,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_196": {
@@ -1792,7 +1784,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_197": {
@@ -1801,7 +1793,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_198": {
@@ -1810,7 +1802,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_199": {
@@ -1819,7 +1811,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_200": {
@@ -1828,7 +1820,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_201": {
@@ -1837,7 +1829,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_202": {
@@ -1846,7 +1838,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_203": {
@@ -1855,7 +1847,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_204": {
@@ -1864,7 +1856,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_205": {
@@ -1873,7 +1865,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_206": {
@@ -1882,7 +1874,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_207": {
@@ -1891,7 +1883,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_208": {
@@ -1900,7 +1892,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_209": {
@@ -1909,7 +1901,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_210": {
@@ -1918,7 +1910,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_211": {
@@ -1927,7 +1919,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_212": {
@@ -1936,7 +1928,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_213": {
@@ -1945,7 +1937,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_214": {
@@ -1954,7 +1946,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_215": {
@@ -1963,7 +1955,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_216": {
@@ -1972,7 +1964,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_217": {
@@ -1981,7 +1973,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_218": {
@@ -1990,7 +1982,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_219": {
@@ -1999,7 +1991,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_220": {
@@ -2008,7 +2000,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_221": {
@@ -2017,7 +2009,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_222": {
@@ -2026,7 +2018,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_223": {
@@ -2035,7 +2027,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_224": {
@@ -2044,7 +2036,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_225": {
@@ -2053,7 +2045,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_226": {
@@ -2062,7 +2054,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_227": {
@@ -2071,7 +2063,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_228": {
@@ -2080,7 +2072,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_229": {
@@ -2089,7 +2081,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_230": {
@@ -2098,7 +2090,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_231": {
@@ -2107,7 +2099,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_232": {
@@ -2116,7 +2108,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_233": {
@@ -2125,7 +2117,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_234": {
@@ -2134,7 +2126,7 @@
     "AtlasCoordinate": "320,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_235": {
@@ -2143,7 +2135,7 @@
     "AtlasCoordinate": "256,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_236": {
@@ -2152,7 +2144,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_237": {
@@ -2161,7 +2153,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_238": {
@@ -2170,7 +2162,7 @@
     "AtlasCoordinate": "448,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_239": {
@@ -2179,7 +2171,7 @@
     "AtlasCoordinate": "384,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_240": {
@@ -2188,7 +2180,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_241": {
@@ -2197,7 +2189,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_242": {
@@ -2206,7 +2198,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_243": {
@@ -2215,7 +2207,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_244": {
@@ -2224,7 +2216,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_245": {
@@ -2233,7 +2225,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_246": {
@@ -2242,7 +2234,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_247": {
@@ -2251,7 +2243,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_248": {
@@ -2260,7 +2252,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_249": {
@@ -2269,7 +2261,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_250": {
@@ -2278,7 +2270,7 @@
     "AtlasCoordinate": "64,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_251": {
@@ -2287,7 +2279,7 @@
     "AtlasCoordinate": "128,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_252": {
@@ -2296,7 +2288,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_253": {
@@ -2305,7 +2297,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_254": {
@@ -2314,7 +2306,7 @@
     "AtlasCoordinate": "192,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   },
   "wall_tile_full_255": {
@@ -2323,7 +2315,7 @@
     "AtlasCoordinate": "0,0,64,32",
     "Walkable": false,
     "ElevationFamilyName": "elevation_wall",
-    "NameElevationDisabled": "wall_tile_0",
+    "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
   }
 }
