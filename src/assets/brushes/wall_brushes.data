@@ -11,7 +11,7 @@
     "brush_wall_0": {
         "BrushEntities": [
             {
-                "Name": "wall_tile_0",
+                "Name": "wall_tile_full_0",
                 "RandomFactor": 1
             }
         ],
@@ -25,5 +25,14 @@
             }
         ],
         "BrushType": "WallBrush"
-    }
+    },
+     "brush_wall_crenelation_0": {
+         "BrushEntities": [
+             {
+                 "Name": "wall_crenelation_0",
+                 "RandomFactor": 1
+             }
+         ],
+         "BrushType": "WallBrush"
+     }
 }

@@ -1769,7 +1769,26 @@
                         "width": 56,
                         "height": 56
                     }
-                }
+                }, {
+                     "EventType": "SelectBrush",
+                     "EventName": "brush_wall_crenelation_0",
+                     "CollisionObject": {
+                         "type": "CustomRectangle",
+                         "Rectangle": {
+                             "x": 0,
+                             "y": 0,
+                             "width": 56,
+                             "height": 56
+                         }
+                     },
+                     "Position": [-177,-96],
+                     "ImageSource": {
+                         "x": 112,
+                         "y": 525,
+                         "width": 56,
+                         "height": 56
+                     }
+                 }
             ]
         },
         "GateSubMenu": {
