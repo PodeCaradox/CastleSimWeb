@@ -18,7 +18,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -27,7 +27,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -36,7 +36,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -45,7 +45,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -54,7 +54,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -63,7 +63,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -72,7 +72,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -81,7 +81,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -90,7 +90,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -99,7 +99,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -108,7 +108,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -117,7 +117,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -126,7 +126,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -135,7 +135,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -144,7 +144,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -153,7 +153,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -162,7 +162,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -171,7 +171,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -180,7 +180,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -189,7 +189,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -198,7 +198,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -207,7 +207,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -216,7 +216,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -225,7 +225,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -234,7 +234,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -243,7 +243,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -252,7 +252,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -261,7 +261,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -270,7 +270,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -279,7 +279,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -288,7 +288,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -297,7 +297,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -306,7 +306,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -315,7 +315,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -324,7 +324,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "576,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -333,7 +333,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -342,7 +342,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -351,7 +351,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -360,7 +360,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -369,7 +369,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -378,7 +378,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -387,7 +387,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -396,7 +396,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "576,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -405,7 +405,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -414,7 +414,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -423,7 +423,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -432,7 +432,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -441,7 +441,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -450,7 +450,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -459,7 +459,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -468,7 +468,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -477,7 +477,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -486,7 +486,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -495,7 +495,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -504,7 +504,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -513,7 +513,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -522,7 +522,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -531,7 +531,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -540,7 +540,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -549,7 +549,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -558,7 +558,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -567,7 +567,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -576,7 +576,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -585,7 +585,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -594,7 +594,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -603,7 +603,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -612,7 +612,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -621,7 +621,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -630,7 +630,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -639,7 +639,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -648,7 +648,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -657,7 +657,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -666,7 +666,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -675,7 +675,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -684,7 +684,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -693,7 +693,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -702,7 +702,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -711,7 +711,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -720,7 +720,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -729,7 +729,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -738,7 +738,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -747,7 +747,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -756,7 +756,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -765,7 +765,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -774,7 +774,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -783,7 +783,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -792,7 +792,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -801,7 +801,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -810,7 +810,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -819,7 +819,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -828,7 +828,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -837,7 +837,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -846,7 +846,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -855,7 +855,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -864,7 +864,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -873,7 +873,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -882,7 +882,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -891,7 +891,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -900,7 +900,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -909,7 +909,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -918,7 +918,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -927,7 +927,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -936,7 +936,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -945,7 +945,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -954,7 +954,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -963,7 +963,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -972,7 +972,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -981,7 +981,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -990,7 +990,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -999,7 +999,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1008,7 +1008,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1017,7 +1017,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1026,7 +1026,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1035,7 +1035,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1044,7 +1044,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1053,7 +1053,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1062,7 +1062,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1071,7 +1071,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1080,7 +1080,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1089,7 +1089,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1098,7 +1098,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1107,7 +1107,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1116,7 +1116,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1125,7 +1125,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1134,7 +1134,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1143,7 +1143,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1152,7 +1152,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1161,7 +1161,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1170,7 +1170,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1179,7 +1179,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1188,7 +1188,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1197,7 +1197,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1206,7 +1206,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1215,7 +1215,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1224,7 +1224,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1233,7 +1233,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1242,7 +1242,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "576,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1251,7 +1251,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1260,7 +1260,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "576,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1269,7 +1269,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1278,7 +1278,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1287,7 +1287,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1296,7 +1296,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1305,7 +1305,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1314,7 +1314,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1323,7 +1323,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1332,7 +1332,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1341,7 +1341,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1350,7 +1350,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1359,7 +1359,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1368,7 +1368,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1377,7 +1377,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1386,7 +1386,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1395,7 +1395,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1404,7 +1404,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1413,7 +1413,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1422,7 +1422,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1431,7 +1431,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1440,7 +1440,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1449,7 +1449,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1458,7 +1458,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1467,7 +1467,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1476,7 +1476,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "576,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1485,7 +1485,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1494,7 +1494,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1503,7 +1503,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1512,7 +1512,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1521,7 +1521,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1530,7 +1530,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "576,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1539,7 +1539,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1548,7 +1548,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "576,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1557,7 +1557,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "640,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1566,7 +1566,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1575,7 +1575,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1584,7 +1584,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "704,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1593,7 +1593,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "512,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1602,7 +1602,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1611,7 +1611,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1620,7 +1620,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1629,7 +1629,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1638,7 +1638,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1647,7 +1647,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1656,7 +1656,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1665,7 +1665,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1674,7 +1674,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1683,7 +1683,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1692,7 +1692,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "832,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1701,7 +1701,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "896,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1710,7 +1710,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1719,7 +1719,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1728,7 +1728,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "960,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1737,7 +1737,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "768,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1746,7 +1746,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1755,7 +1755,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1764,7 +1764,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1773,7 +1773,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1782,7 +1782,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1791,7 +1791,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1800,7 +1800,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1809,7 +1809,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1818,7 +1818,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1827,7 +1827,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1836,7 +1836,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1845,7 +1845,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1854,7 +1854,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1863,7 +1863,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1872,7 +1872,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1881,7 +1881,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1890,7 +1890,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1899,7 +1899,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1908,7 +1908,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1917,7 +1917,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1926,7 +1926,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1935,7 +1935,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1944,7 +1944,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1953,7 +1953,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1962,7 +1962,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1971,7 +1971,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1980,7 +1980,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1989,7 +1989,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -1998,7 +1998,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2007,7 +2007,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2016,7 +2016,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2025,7 +2025,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2034,7 +2034,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2043,7 +2043,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2052,7 +2052,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2061,7 +2061,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2070,7 +2070,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2079,7 +2079,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2088,7 +2088,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2097,7 +2097,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2106,7 +2106,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2115,7 +2115,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2124,7 +2124,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "320,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2133,7 +2133,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "256,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2142,7 +2142,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2151,7 +2151,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2160,7 +2160,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "448,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2169,7 +2169,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "384,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2178,7 +2178,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2187,7 +2187,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2196,7 +2196,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2205,7 +2205,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2214,7 +2214,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2223,7 +2223,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2232,7 +2232,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2241,7 +2241,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2250,7 +2250,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2259,7 +2259,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2268,7 +2268,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "64,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2277,7 +2277,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "128,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2286,7 +2286,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2295,7 +2295,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2304,7 +2304,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "192,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
@@ -2313,7 +2313,7 @@
     "FamilyName": "wall_tile_full",
     "ImageName": "wall",
     "AtlasCoordinate": "0,0,64,32",
-    "Walkable": false,
+    "ConnectionType":"Wall",
     "ElevationFamilyName": "elevation_wall",
     "NameElevationDisabled": "wall_tile_full_0",
     "MiniMapColor": "213,145,103,255"
