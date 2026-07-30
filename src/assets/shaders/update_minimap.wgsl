@@ -5,6 +5,7 @@ struct MiniMapParams {
     x_offset: f32,
     mini_map_tile_size: vec2<f32>,
     minimap_image_pos: vec2<i32>,
+    direction: u32,
 };
 
 struct TileInstances
@@ -21,6 +22,18 @@ struct TileInstancesStorage {
 
 fn map_to_minimap_pos(pos_x: i32, pos_y: i32) -> vec2<i32> {
     return vec2<i32>(i32(f32(pos_x - pos_y) * params.mini_map_tile_size.x * 0.5f + params.x_offset), i32(f32(pos_x + pos_y) * params.mini_map_tile_size.y * 0.5f));
+}
+
+//rotate the tile coords by the camera direction, so the generated minimap turns with the camera
+fn apply_rotation(x: i32, y: i32) -> vec2<i32> {
+    if (params.direction == 1u) {
+        return vec2<i32>(i32(params.map_size.x) - y - 1, x);
+    } else if (params.direction == 2u) {
+        return vec2<i32>(i32(params.map_size.x) - x - 1, i32(params.map_size.y) - y - 1);
+    } else if (params.direction == 3u) {
+        return vec2<i32>(y, i32(params.map_size.y) - x - 1);
+    }
+    return vec2<i32>(x, y);
 }
 
 fn u32ColorToVec4Color(u32_color: u32) -> vec4<f32> {
@@ -42,7 +55,8 @@ fn update_minimap(@builtin(global_invocation_id) global_id: vec3<u32>) {
 
     let tile: TileInstances = all_tiles.tiles[global_id.y * params.map_size.x + global_id.x];
     var color: vec4<f32> = u32ColorToVec4Color(tile.MiniMapColor);
-    let pos: vec2<i32> = map_to_minimap_pos(i32(global_id.x), i32(global_id.y));
+    let rotated = apply_rotation(i32(global_id.x), i32(global_id.y));
+    let pos: vec2<i32> = map_to_minimap_pos(rotated.x, rotated.y);
    if (i32(params.mini_map_tile_size.y) > 1 && i32(params.mini_map_tile_size.x) > 1) {
      for (var y : i32 = 0; y < i32(params.mini_map_tile_size.y); y = y + 1) {
            for (var x : i32 = -i32(params.mini_map_tile_size.x); x < i32(params.mini_map_tile_size.x); x = x + 1) {
