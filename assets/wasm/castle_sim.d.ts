@@ -3,11 +3,18 @@
 
 export function init_game(width: number, height: number): void;
 
+/**
+ * Game entry that creates a fresh map directly (same as the F2 shortcut)
+ * instead of loading one from disk: cargo run --example test_map
+ */
+export function init_game_new_map(width: number, height: number, map_size_x: number, map_size_y: number): void;
+
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
     readonly init_game: (a: number, b: number) => void;
+    readonly init_game_new_map: (a: number, b: number, c: number, d: number) => void;
     readonly wasm_bindgen__closure__destroy__h4d7e7582a79afb0c: (a: number, b: number) => void;
     readonly wasm_bindgen__closure__destroy__h4e1f99db5ce347ba: (a: number, b: number) => void;
     readonly wasm_bindgen__closure__destroy__h13f9d7347e3c9f55: (a: number, b: number) => void;

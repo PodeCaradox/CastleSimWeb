@@ -2,6 +2,7 @@
 /* eslint-disable */
 export const memory: WebAssembly.Memory;
 export const init_game: (a: number, b: number) => void;
+export const init_game_new_map: (a: number, b: number, c: number, d: number) => void;
 export const wasm_bindgen__closure__destroy__h4d7e7582a79afb0c: (a: number, b: number) => void;
 export const wasm_bindgen__closure__destroy__h4e1f99db5ce347ba: (a: number, b: number) => void;
 export const wasm_bindgen__closure__destroy__h13f9d7347e3c9f55: (a: number, b: number) => void;
