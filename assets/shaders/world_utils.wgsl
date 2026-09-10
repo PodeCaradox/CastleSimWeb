@@ -6,9 +6,11 @@ const ZStep : f32 = 0.0000001;
 //=============================================================================
 // Compute Shader Functions
 //=============================================================================
+//row-major index = y * map_size.x + x (mirrors cs_core map_pos_to_index); the
+//rotation/visible-row helpers below additionally assume a square map.
 fn index_to_world_pos(index: u32) -> vec2<i32> {
     var x : i32 = i32(index % u32(params.map_size.x));
-    var y : i32 = i32(index / u32(params.map_size.y));
+    var y : i32 = i32(index / u32(params.map_size.x));
     return vec2<i32>(x, y);
 }
 
@@ -147,12 +149,68 @@ fn initInstancingObject() -> InstancingObject {
     return obj;
 }
 
-fn calculateValue(x: f32, mapSizeX: f32) -> f32 {
-    var halfMapSizeX = mapSizeX / 2.0;
-    var absDiff = abs(x - halfMapSizeX);
-    var value = 1.0 + 2.0 * absDiff / mapSizeX;
-    value = 1.0 - pow(value, 2.0);
-    return value;
+//=============================================================================
+// Wind
+//=============================================================================
+//The wind is PURE PRESENTATION: it only decides WHEN a tile shows which atlas
+//frame, it never touches simulation state, so floats and a continuous wave are
+//legal here where the sim forbids them. Nothing below is read back by anything.
+//
+//It blows in MAP space, so turning the camera turns the gust with the world
+//instead of dragging it along. (2,-1) normalised sweeps almost horizontally
+//across the isometric screen, tilted slightly down.
+const WindDirection = vec2<f32>(0.8944272, -0.4472136);
+//One gust per this many cells along the wind. Fixed in CELLS, not derived from
+//the map size: a wind whose wavelength grows with the map is not a wind.
+const WindWavelength : f32 = 96.0;
+//How much of a cycle a single plant may start early or late. It has to stay
+//well under the share of the cycle a plant spends MOVING (a sixth for grass,
+//see animated_tile.data), or the band frays into noise instead of softening.
+const WindJitter : f32 = 0.05;
+//Two gust rhythms, in sim ticks, with no common factor: their beat is what
+//makes gusts arrive at irregular intervals instead of on a metronome.
+const WindGustPeriodA : u32 = 907u;
+const WindGustPeriodB : u32 = 1493u;
+//Amplitudes in animation ticks. They are bounded by monotonicity: the warp
+//below subtracts at most Amp*2*PI/Period per tick from the base rate of 10,
+//and 700*2*PI/907 + 400*2*PI/1493 = 6.53 < 10, so wind time never runs
+//backwards — which would play a plant's swing in reverse.
+const WindGustAmplitudeA : f32 = 700.0;
+const WindGustAmplitudeB : f32 = 400.0;
+const Tau : f32 = 6.2831855;
+
+//A cheap integer hash, used for nothing but scattering the start of a swing.
+fn hashTile(pos: vec2<i32>) -> f32 {
+    var h = (u32(pos.x) * 0x27d4eb2du) ^ (u32(pos.y) * 0x9e3779b9u);
+    h = h ^ (h >> 15u);
+    h = h * 0x85ebca6bu;
+    h = h ^ (h >> 13u);
+    return f32(h >> 8u) / 16777216.0;
+}
+
+//The clock the frame picker walks for wind tiles, in animation ticks: the old
+//linear ramp plus a bounded rise-and-fall, so the whole gust speeds up and
+//slows down. `1 - cos` is zero at both ends of a period, so the warp is
+//continuous across the wrap, and it is fed `tick % period` on purpose — an f32
+//built from the raw tick loses its integer steps after roughly an hour of play
+//and the animation would quietly freeze. The integer ramp stays integer.
+fn windTime(tick: u32) -> u32 {
+    let gust_a = WindGustAmplitudeA
+        * (1.0 - cos(Tau * f32(tick % WindGustPeriodA) / f32(WindGustPeriodA)));
+    let gust_b = WindGustAmplitudeB
+        * (1.0 - cos(Tau * f32(tick % WindGustPeriodB) / f32(WindGustPeriodB)));
+    return tick * 10u + u32(gust_a + gust_b);
+}
+
+//Where a tile sits in the gust, as a fraction of one cycle: a linear ramp along
+//the wind direction — a real travelling wave — plus the per-tile jitter that
+//keeps neighbours from starting on the same frame and showing the grid.
+fn windPhase(pos: vec2<i32>) -> f32 {
+    //negated: a bigger offset puts a tile LATER in its swing, so the gust front
+    //walks towards the smaller offsets — without the minus the band would
+    //travel backwards along the direction the constant names.
+    let along = -dot(vec2<f32>(pos), WindDirection) / WindWavelength;
+    return fract(along + hashTile(pos) * WindJitter);
 }
 
 fn applyRotation(map_pos: vec2<i32>) -> vec2<i32> {
@@ -173,22 +231,30 @@ fn CaclAnimationFrame(instance: SingleInstance, animation_enabled: u32, tick: u3
         return instance.AtlasCoordPos;
     }
 
-    var animation_tick = tick * 10;
-    // wind animation
-    if (instance.Animation >> 31u == 1u){
-       //animation_tick += u32(pos.y + params.map_size.y * 10 + (pos.y - params.map_size.y)) * 50u;
-        animation_tick += u32(f32(pos.y + params.map_size.y) * 50.0 + calculateValue(f32(pos.x), f32(params.map_size.x)) * 1400.0);//pos.y * 50 +
-    }
-
     var atlas_pos = instance.AtlasCoordPos;
     let animation_length =  u32((instance.Animation >> 24u) & 0x0000007fu);
     let reiteration =  u32((instance.Animation >> 7u) & 0x0000001fu);
     let pausing_frames =  u32(instance.Animation & 0x0000007fu) * 2u;
     let update_tick =  u32((instance.Animation >> 12u) & 0x00000fffu);
     let uv_size = vec2<u32>(instance.atlas_coord_size & 0x0000ffffu, instance.atlas_coord_size >> 16u);
-    let is_update_time = animation_tick / update_tick;
     let animation_length_wih_reiterattions = animation_length + animation_length * reiteration;
-    let img_coord = is_update_time % (animation_length_wih_reiterattions + pausing_frames);
+    let cycle_frames = animation_length_wih_reiterattions + pausing_frames;
+
+    //water and the disabled-building blink are not wind: they keep the plain
+    //steady ramp, only wind tiles get the gust clock and the wave offset.
+    var animation_tick = tick * 10u;
+    // wind animation
+    if (instance.Animation >> 31u == 1u){
+        //the offset is a fraction of THIS type's own cycle, never a raw tick
+        //count: grass runs a 120-frame cycle and a tree a 108-frame one, and
+        //only a shared FRACTION puts both at the same point of the same gust.
+        //A raw offset gave them wavelengths of 240 and 216 rows, so the two
+        //drifted apart across the map and never gusted together.
+        animation_tick = windTime(tick) + u32(windPhase(pos) * f32(cycle_frames * update_tick));
+    }
+
+    let is_update_time = animation_tick / update_tick;
+    let img_coord = is_update_time % cycle_frames;
     if(img_coord < animation_length_wih_reiterattions){
         let current_pos_x = (atlas_pos & 0x00000fffu);
         let new_pos_x = current_pos_x + (uv_size.x * (img_coord % animation_length));

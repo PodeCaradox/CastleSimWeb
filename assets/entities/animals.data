@@ -1,8 +1,9 @@
 {
-"swordsman":{
+"swordsman":{"WalkSpeed":384,"FormationRank":0,
      "ImageName":"swordsman",
      "ColorTableImageName":"color_table",
      "ColorTableStartPos":"0,4",
+     "Combat":{"HitPoints":120,"Damage":12,"AttackRange":40,"AttackCooldownTicks":40,"Ranged":false},
      "AnimationData":[
         {
            "Animation":"WalkingNorthEast",
@@ -131,10 +132,11 @@
         }
      ]
   },
-  "deer":{
+  "deer":{"WalkSpeed":422,"FormationRank":0,
        "ImageName":"deer",
        "ColorTableImageName":"color_table",
        "ColorTableStartPos":"0,0",
+       "Combat":{"HitPoints":60},
        "AnimationData":[
           {
              "Animation":"WalkingNorthEast",
@@ -216,17 +218,58 @@
              "Animation":"WalkingNorthEast",
                   "Frames":[
                     {
-                        "AtlasCoord": "0,0,48,6",
+                        "AtlasCoord": "0,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "56,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "112,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "168,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "224,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "280,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "336,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "392,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "448,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "504,64,48,6",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "560,64,48,6",
                         "ImageOffset": "0,0"
                     }
                 ]
           }
        ]
     },
-  "piceman":{
+  "piceman":{"WalkSpeed":346,"FormationRank":1,
        "ImageName":"piceman",
        "ColorTableImageName":"color_table",
        "ColorTableStartPos":"0,12",
+       "Combat":{"HitPoints":140,"Damage":10,"AttackRange":64,"AttackCooldownTicks":48,"Ranged":false},
        "AnimationData":[
           {
              "Animation":"WalkingNorthEast",
@@ -346,5 +389,355 @@
                 ]
           }
        ]
+    },
+
+    "bowman": {"WalkSpeed":288,"FormationRank":2,
+        "ImageName": "swordsman",
+        "ColorTableImageName": "color_table",
+        "ColorTableStartPos": "0,12",
+        "Combat": {
+            "HitPoints": 80,
+            "Damage": 6,
+            "AttackRange": 1152,
+            "AttackCooldownTicks": 32,
+            "Ranged": true
+        },
+        "AnimationData": [
+            {
+                "Animation": "WalkingNorthEast",
+                "Frames": [
+                    {
+                        "AtlasCoord": "0,0,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "74,0,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "148,0,34,52",
+                        "ImageOffset": "14,12"
+                    },
+                    {
+                        "AtlasCoord": "216,0,35,52",
+                        "ImageOffset": "15,12"
+                    },
+                    {
+                        "AtlasCoord": "286,0,36,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "358,0,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "432,0,36,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "504,0,36,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "576,0,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "650,0,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "724,0,36,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "796,0,40,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "876,0,40,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "956,0,41,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "1038,0,40,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "1118,0,39,52",
+                        "ImageOffset": "15,12"
+                    },
+                    {
+                        "AtlasCoord": "1196,0,39,52",
+                        "ImageOffset": "15,12"
+                    },
+                    {
+                        "AtlasCoord": "1274,0,39,52",
+                        "ImageOffset": "15,12"
+                    },
+                    {
+                        "AtlasCoord": "1352,0,39,52",
+                        "ImageOffset": "15,12"
+                    },
+                    {
+                        "AtlasCoord": "1430,0,39,52",
+                        "ImageOffset": "15,12"
+                    },
+                    {
+                        "AtlasCoord": "1508,0,38,52",
+                        "ImageOffset": "14,12"
+                    },
+                    {
+                        "AtlasCoord": "1584,0,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "1658,0,38,52",
+                        "ImageOffset": "14,12"
+                    },
+                    {
+                        "AtlasCoord": "1734,0,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "1808,0,36,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "1880,0,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "1954,0,36,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "0,104,37,52",
+                        "ImageOffset": "13,12"
+                    },
+                    {
+                        "AtlasCoord": "74,104,36,52",
+                        "ImageOffset": "12,12"
+                    },
+                    {
+                        "AtlasCoord": "146,104,37,52",
+                        "ImageOffset": "13,12"
+                    }
+                ]
+            }
+        ]
+    },
+    "crossbowman": {"WalkSpeed":288,"FormationRank":2,
+        "ImageName": "piceman",
+        "ColorTableImageName": "color_table",
+        "ColorTableStartPos": "0,4",
+        "Combat": {
+            "HitPoints": 90,
+            "Damage": 30,
+            "AttackRange": 1152,
+            "AttackCooldownTicks": 80,
+            "Ranged": true
+        },
+        "AnimationData": [
+            {
+                "Animation": "WalkingNorthEast",
+                "Frames": [
+                    {
+                        "AtlasCoord": "0,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "42,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "84,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "126,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "168,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "210,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "252,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "294,0,20,49",
+                        "ImageOffset": "4,16"
+                    },
+                    {
+                        "AtlasCoord": "334,0,20,49",
+                        "ImageOffset": "4,16"
+                    },
+                    {
+                        "AtlasCoord": "374,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "416,0,22,49",
+                        "ImageOffset": "6,16"
+                    },
+                    {
+                        "AtlasCoord": "460,0,22,49",
+                        "ImageOffset": "6,16"
+                    },
+                    {
+                        "AtlasCoord": "504,0,23,49",
+                        "ImageOffset": "7,16"
+                    },
+                    {
+                        "AtlasCoord": "550,0,23,49",
+                        "ImageOffset": "7,16"
+                    },
+                    {
+                        "AtlasCoord": "596,0,23,49",
+                        "ImageOffset": "7,16"
+                    },
+                    {
+                        "AtlasCoord": "642,0,23,49",
+                        "ImageOffset": "7,16"
+                    },
+                    {
+                        "AtlasCoord": "688,0,23,49",
+                        "ImageOffset": "7,16"
+                    },
+                    {
+                        "AtlasCoord": "734,0,23,49",
+                        "ImageOffset": "7,16"
+                    },
+                    {
+                        "AtlasCoord": "780,0,23,49",
+                        "ImageOffset": "7,16"
+                    },
+                    {
+                        "AtlasCoord": "826,0,22,49",
+                        "ImageOffset": "6,16"
+                    },
+                    {
+                        "AtlasCoord": "870,0,22,49",
+                        "ImageOffset": "6,16"
+                    },
+                    {
+                        "AtlasCoord": "914,0,22,49",
+                        "ImageOffset": "6,16"
+                    },
+                    {
+                        "AtlasCoord": "958,0,22,49",
+                        "ImageOffset": "6,16"
+                    },
+                    {
+                        "AtlasCoord": "1002,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "1044,0,21,49",
+                        "ImageOffset": "5,16"
+                    },
+                    {
+                        "AtlasCoord": "1086,0,20,49",
+                        "ImageOffset": "4,16"
+                    },
+                    {
+                        "AtlasCoord": "1126,0,20,49",
+                        "ImageOffset": "4,16"
+                    },
+                    {
+                        "AtlasCoord": "1166,0,21,49",
+                        "ImageOffset": "5,16"
+                    }
+                ]
+            }
+        ]
+    },
+    "arrow": {
+        "ImageName": "healthbar",
+        "ColorTableImageName": "color_table",
+        "ColorTableStartPos": "0,0",
+        "AnimationData": [
+            {
+                "Animation": "WalkingNorthEast",
+                "Frames": [
+                    {
+                        "AtlasCoord": "0,32,24,24",
+                        "ImageOffset": "0,24"
+                    }
+                ]
+            },
+            {
+                "Animation": "WalkingEast",
+                "Frames": [
+                    {
+                        "AtlasCoord": "32,32,24,24",
+                        "ImageOffset": "0,24"
+                    }
+                ]
+            },
+            {
+                "Animation": "WalkingSouthEast",
+                "Frames": [
+                    {
+                        "AtlasCoord": "64,32,24,24",
+                        "ImageOffset": "0,24"
+                    }
+                ]
+            },
+            {
+                "Animation": "WalkingSouth",
+                "Frames": [
+                    {
+                        "AtlasCoord": "96,32,24,24",
+                        "ImageOffset": "0,24"
+                    }
+                ]
+            },
+            {
+                "Animation": "WalkingSouthWest",
+                "Frames": [
+                    {
+                        "AtlasCoord": "128,32,24,24",
+                        "ImageOffset": "0,24"
+                    }
+                ]
+            },
+            {
+                "Animation": "WalkingWest",
+                "Frames": [
+                    {
+                        "AtlasCoord": "160,32,24,24",
+                        "ImageOffset": "0,24"
+                    }
+                ]
+            },
+            {
+                "Animation": "WalkingNorthWest",
+                "Frames": [
+                    {
+                        "AtlasCoord": "192,32,24,24",
+                        "ImageOffset": "0,24"
+                    }
+                ]
+            },
+            {
+                "Animation": "WalkingNorth",
+                "Frames": [
+                    {
+                        "AtlasCoord": "224,32,24,24",
+                        "ImageOffset": "0,24"
+                    }
+                ]
+            }
+        ]
     }
 }

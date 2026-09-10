@@ -46,8 +46,9 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
 
            visble_tiles_cp.tiles[visible_index] = world_utils::CreateSpecificInstance(tile_rotation_data.SingleInstances[0u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu);
            animation_enabled = ((animation >> 1u) & 0x00000001u);
-           visble_tiles_cp.tiles[visible_index + 1] = world_utils::CreateSpecificInstance(tile_rotation_data.SingleInstances[1u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu);
-           visble_tiles_cp.tiles[visible_index + 1].Position.z += world_utils::ZStep *  2.0;
+           var top = world_utils::CreateSpecificInstance(tile_rotation_data.SingleInstances[1u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu);
+           top.Position.z += world_utils::ZStep *  2.0;
+           visble_tiles_cp.tiles[visible_index + 1] = top;
            animation_enabled = ((animation >> 2u) & 0x00000001u);
            visble_tiles_cp.tiles[visible_index + 2] = world_utils::CreateBuildingInstance(tile_rotation_data.SingleInstances[2u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu, offset_object_y);
            animation_enabled = ((animation >> 3u) & 0x00000001u);
@@ -84,8 +85,9 @@ fn instancing_without_elevation(@builtin(global_invocation_id) global_id: vec3<u
 
            visble_tiles_cp.tiles[visible_index] = world_utils::CreateSpecificInstance(tile_rotation_data.SingleInstances[4u], index, 0.0, animation_enabled, tick, 0xffffffffu);
            animation_enabled = ((animation >> 1u) & 0x00000001u);
-           visble_tiles_cp.tiles[visible_index + 1] = world_utils::CreateSpecificInstance(tile_rotation_data.SingleInstances[5u], index, 0.0, animation_enabled, tick, 0xffffffffu);
-           visble_tiles_cp.tiles[visible_index + 1].Position.z += world_utils::ZStep *  2.0;
+           var top = world_utils::CreateSpecificInstance(tile_rotation_data.SingleInstances[5u], index, 0.0, animation_enabled, tick, 0xffffffffu);
+           top.Position.z += world_utils::ZStep *  2.0;
+           visble_tiles_cp.tiles[visible_index + 1] = top;
 }
 
 //==============================================================================

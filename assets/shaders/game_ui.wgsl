@@ -18,7 +18,7 @@ struct VSinput
     @location(2) Size: u32,
 	@location(3) TexPos: u32,
 	@location(4) TexSize: u32,
-	@location(5) @interpolate(flat)  Data: u32,  //16 alignment, 8 state, 8 Scale
+	@location(5) Data: u32,  //bytes low->high: alignment.x, alignment.y, scale, state
 };
 
 struct CameraUniform {

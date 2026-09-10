@@ -2,7 +2,6 @@ const ImageSize = vec2<f32>(2048.0,2048.0);
 const ColorTableImageSize = vec2<f32>(1024.0, 1024.0);
 const ColorTableSize = vec2<f32>(256.0, 1.0);
 const TileSize = vec2<f32>(64.0, 32.0);
-const ZStep : f32 = 0.0000001;
 //==============================================================================
 // Vertex shader_bindings
 //==============================================================================
@@ -55,18 +54,6 @@ fn rotate(pos_to_rotate: vec2<f32>) -> vec2<f32> {
 
     // Round and return the result as vec2<f32>
     return new_pos + params.map_center;
-}
-
-fn applyRotation(map_pos: vec2<i32>) -> vec2<i32> {
-    //rotation
-    if (params.direction == 0) {
-        return map_pos;
-    } else if(params.direction == 1) {
-        return vec2<i32>(params.map_size.x - map_pos.y - 1, map_pos.x);
-    } else if(params.direction == 2) {
-        return vec2<i32>(params.map_size.x - map_pos.x - 1, params.map_size.y - map_pos.y - 1);
-    }
-    return vec2<i32>(map_pos.y, params.map_size.y - map_pos.x - 1);
 }
 
 //2 * 4 = 8 bytes

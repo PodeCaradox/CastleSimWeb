@@ -54,21 +54,20 @@ fn update_minimap(@builtin(global_invocation_id) global_id: vec3<u32>) {
     }
 
     let tile: TileInstances = all_tiles.tiles[global_id.y * params.map_size.x + global_id.x];
-    var color: vec4<f32> = u32ColorToVec4Color(tile.MiniMapColor);
+    let linear = srgb_to_linear(u32ColorToVec4Color(tile.MiniMapColor));
+    let tile_size = vec2<i32>(params.mini_map_tile_size);
     let rotated = apply_rotation(i32(global_id.x), i32(global_id.y));
-    let pos: vec2<i32> = map_to_minimap_pos(rotated.x, rotated.y);
-   if (i32(params.mini_map_tile_size.y) > 1 && i32(params.mini_map_tile_size.x) > 1) {
-     for (var y : i32 = 0; y < i32(params.mini_map_tile_size.y); y = y + 1) {
-           for (var x : i32 = -i32(params.mini_map_tile_size.x); x < i32(params.mini_map_tile_size.x); x = x + 1) {
-                textureStore(t_interface, params.minimap_image_pos + pos + vec2<i32>(x,y), srgb_to_linear(color));
-           }
-       }
-   }
-   else
-   {
-
-     textureStore(t_interface, params.minimap_image_pos + pos, srgb_to_linear(color));
-   }
+    let pos: vec2<i32> = params.minimap_image_pos + map_to_minimap_pos(rotated.x, rotated.y);
+    //asymmetric x range: that is the diamond fill of one iso tile
+    if (tile_size.x > 1 && tile_size.y > 1) {
+        for (var y : i32 = 0; y < tile_size.y; y = y + 1) {
+            for (var x : i32 = -tile_size.x; x < tile_size.x; x = x + 1) {
+                textureStore(t_interface, pos + vec2<i32>(x, y), linear);
+            }
+        }
+    } else {
+        textureStore(t_interface, pos, linear);
+    }
 }
 
 fn srgb_to_linear(color: vec4<f32>) -> vec4<f32> {
