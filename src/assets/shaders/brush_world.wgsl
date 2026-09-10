@@ -37,10 +37,7 @@ fn instancing_cs_brush(@builtin(global_invocation_id) global_id: vec3<u32>) {
          }
     }
 
-
-
     var elevation : f32 = brush_tile_data.Elevation;
-    let pos = world_utils::index_to_world_pos(brush_tile_data.TileIndex);
 	if(brush_params.build_able == 1u){
 	   var visible_index : u32 = brush_params.visible_index + global_id.x * 4u;
 
@@ -54,11 +51,13 @@ fn instancing_cs_brush(@builtin(global_invocation_id) global_id: vec3<u32>) {
 
 
         visble_tiles_cp.tiles[visible_index] = world_utils::CreateSpecificInstance(brush_tile_rotation.SingleInstances[0u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
-        visble_tiles_cp.tiles[visible_index + 1u] = world_utils::CreateSpecificInstance(brush_tile_rotation.SingleInstances[1u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
-        visble_tiles_cp.tiles[visible_index + 1u].Position.z -= world_utils::ZStep *  2.0;
+        var top = world_utils::CreateSpecificInstance(brush_tile_rotation.SingleInstances[1u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
+        top.Position.z -= world_utils::ZStep *  2.0;
+        visble_tiles_cp.tiles[visible_index + 1u] = top;
         visble_tiles_cp.tiles[visible_index + 2u] = world_utils::CreateBuildingInstance(brush_tile_rotation.SingleInstances[2u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_object_y);
-        visble_tiles_cp.tiles[visible_index + 3u] = world_utils::CreateElevationInstance(brush_tile_rotation.SingleInstances[3u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_elevation_x);
-        visble_tiles_cp.tiles[visible_index + 3u].Position.z += world_utils::ZStep;
+        var elevation_instance = world_utils::CreateElevationInstance(brush_tile_rotation.SingleInstances[3u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_elevation_x);
+        elevation_instance.Position.z += world_utils::ZStep;
+        visble_tiles_cp.tiles[visible_index + 3u] = elevation_instance;
 		return;
 	}
 

@@ -9,12 +9,31 @@ export function init_game(width: number, height: number): void;
  */
 export function init_game_new_map(width: number, height: number, map_size_x: number, map_size_y: number): void;
 
+/**
+ * Stress-test entry (`cargo run --example stress_test`): `init_game_new_map`
+ * plus `unit_count` units of the stress-test unit type spawned in one batch
+ * around the map centre when the game reaches `GameStates::Finish` — the
+ * movement/pathfinding performance target, with the FPS logs left in place.
+ */
+export function init_game_stress_test(width: number, height: number, map_size_x: number, map_size_y: number, unit_count: number): void;
+
+/**
+ * The same stress test with `armies` sides. With `armies == 2` the requested
+ * count is split in half: one army on each side of the map centre, the second
+ * on team 1, and one march command into the centre — the two walk into each
+ * other and fight (combat, projectiles, deaths under load). `armies == 1` is
+ * the single-army march the performance target has always been.
+ */
+export function init_game_stress_test_armies(width: number, height: number, map_size_x: number, map_size_y: number, unit_count: number, armies: number): void;
+
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
     readonly init_game: (a: number, b: number) => void;
     readonly init_game_new_map: (a: number, b: number, c: number, d: number) => void;
+    readonly init_game_stress_test_armies: (a: number, b: number, c: number, d: number, e: number, f: number) => void;
+    readonly init_game_stress_test: (a: number, b: number, c: number, d: number, e: number) => void;
     readonly wasm_bindgen_d07a636776b43d0a___closure__destroy___dyn_core_9b3796e30d99ddb7___ops__function__FnMut__core_9b3796e30d99ddb7___option__Option_web_sys_98dfea4b5f2ab93a___features__gen_Blob__Blob_____Output_______: (a: number, b: number) => void;
     readonly wasm_bindgen_d07a636776b43d0a___closure__destroy___dyn_core_9b3796e30d99ddb7___ops__function__FnMut__wasm_bindgen_d07a636776b43d0a___JsValue____Output________1_: (a: number, b: number) => void;
     readonly wasm_bindgen_d07a636776b43d0a___closure__destroy___dyn_core_9b3796e30d99ddb7___ops__function__FnMut__wasm_bindgen_d07a636776b43d0a___JsValue____Output___core_9b3796e30d99ddb7___result__Result_____wasm_bindgen_d07a636776b43d0a___JsError___: (a: number, b: number) => void;

@@ -3,6 +3,8 @@
 export const memory: WebAssembly.Memory;
 export const init_game: (a: number, b: number) => void;
 export const init_game_new_map: (a: number, b: number, c: number, d: number) => void;
+export const init_game_stress_test_armies: (a: number, b: number, c: number, d: number, e: number, f: number) => void;
+export const init_game_stress_test: (a: number, b: number, c: number, d: number, e: number) => void;
 export const wasm_bindgen_d07a636776b43d0a___closure__destroy___dyn_core_9b3796e30d99ddb7___ops__function__FnMut__core_9b3796e30d99ddb7___option__Option_web_sys_98dfea4b5f2ab93a___features__gen_Blob__Blob_____Output_______: (a: number, b: number) => void;
 export const wasm_bindgen_d07a636776b43d0a___closure__destroy___dyn_core_9b3796e30d99ddb7___ops__function__FnMut__wasm_bindgen_d07a636776b43d0a___JsValue____Output________1_: (a: number, b: number) => void;
 export const wasm_bindgen_d07a636776b43d0a___closure__destroy___dyn_core_9b3796e30d99ddb7___ops__function__FnMut__wasm_bindgen_d07a636776b43d0a___JsValue____Output___core_9b3796e30d99ddb7___result__Result_____wasm_bindgen_d07a636776b43d0a___JsError___: (a: number, b: number) => void;

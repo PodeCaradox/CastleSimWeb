@@ -25,5 +25,24 @@
             }
         ],
         "BrushType": "EntitiesBrush"
+    },
+
+    "bowman_brush": {
+        "BrushEntities": [
+            {
+                "Name": "bowman",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "EntitiesBrush"
+    },
+    "crossbowman_brush": {
+        "BrushEntities": [
+            {
+                "Name": "crossbowman",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "EntitiesBrush"
     }
 }
