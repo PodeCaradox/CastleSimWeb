@@ -666,6 +666,20 @@
                     },
 					"Text":"FPS:",
                     "Position": [10,10]
+                }, {
+                    "EventType": "TextBinding",
+                    "EventName": "MS",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+					"Text":"MS:",
+                    "Position": [10,28]
                 }
             ]
         },
@@ -932,6 +946,177 @@
                     "ImageSource": {
                         "x": 1228,
                         "y": 32,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_sea_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-325,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_n_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-289,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_s_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-253,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_e_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-217,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_w_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-181,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_ne_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-145,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_es_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-109,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_sw_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-73,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_wn_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-37,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
                         "width": 32,
                         "height": 32
                     }
@@ -1828,7 +2013,26 @@
                          "width": 56,
                          "height": 56
                      }
-                 }
+                 }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_stair_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-117,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 525,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
             ]
         },
         "GateSubMenu": {
@@ -2314,11 +2518,11 @@
 				"height": 32
 		},
 		"M": {
-			
-				"x": 288,
-				"y": 1632,
-				"width": 32,
-				"height": 32
+
+				"x": 416,
+				"y": 1672,
+				"width": 17,
+				"height": 16
 		},
 		"N": {
 			

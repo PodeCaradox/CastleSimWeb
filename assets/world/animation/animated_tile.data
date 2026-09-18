@@ -27,5 +27,10 @@
      "PauseFrames":0,
      "AnimationLength":16,
      "Delay":150
-  }
+  },
+  "sea_animation_0": {
+      "PauseFrames": 0,
+      "AnimationLength": 16,
+      "Delay": 200
+    }
 }

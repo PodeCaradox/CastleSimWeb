@@ -1,5 +1,6 @@
 {
    "wall_wooden_0":{
+      "FamilyName":"wall_wooden",
       "ImageName":"wall",
       "AtlasCoordinate":"0,492,64,122",
       "ConnectionType":"Obstacle",
@@ -7,6 +8,7 @@
       "MiniMapColor":"213,145,103,255"
    },
    "wall_crenelation_0":{
+      "FamilyName":"wall_crenelation",
       "ImageName":"wall",
       "AtlasCoordinate":"0,34,64,94",
       "ConnectionType":"Obstacle",

@@ -50,17 +50,14 @@ fn instancing_cs_brush(@builtin(global_invocation_id) global_id: vec3<u32>) {
        var offset_elevation_x = world_utils::u8_to_i8(brush_tile_rotation.Data & 0x000000ffu);
 
 
-        visble_tiles_cp.tiles[visible_index] = world_utils::CreateSpecificInstance(brush_tile_rotation.SingleInstances[0u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
-        var top = world_utils::CreateSpecificInstance(brush_tile_rotation.SingleInstances[1u], index, elevation, animation_enabled, 0u, brush_tile_data.Color);
-        top.Position.z -= world_utils::ZStep *  2.0;
-        visble_tiles_cp.tiles[visible_index + 1u] = top;
+        //the same layers as the map, so the preview is drawn where the result will be
+        visble_tiles_cp.tiles[visible_index] = world_utils::CreateSpecificInstance(brush_tile_rotation.SingleInstances[0u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, world_utils::ModeGround);
+        visble_tiles_cp.tiles[visible_index + 1u] = world_utils::CreateSpecificInstance(brush_tile_rotation.SingleInstances[1u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, world_utils::ModeBillboard);
         visble_tiles_cp.tiles[visible_index + 2u] = world_utils::CreateBuildingInstance(brush_tile_rotation.SingleInstances[2u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_object_y);
-        var elevation_instance = world_utils::CreateElevationInstance(brush_tile_rotation.SingleInstances[3u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_elevation_x);
-        elevation_instance.Position.z += world_utils::ZStep;
-        visble_tiles_cp.tiles[visible_index + 3u] = elevation_instance;
+        visble_tiles_cp.tiles[visible_index + 3u] = world_utils::CreateElevationInstance(brush_tile_rotation.SingleInstances[3u], index, elevation, animation_enabled, 0u, brush_tile_data.Color, offset_elevation_x, 0u, 0.0);
 		return;
 	}
 
 	var visible_index : u32 = brush_params.visible_index + global_id.x;
-    visble_tiles_cp.tiles[visible_index] = world_utils::CreateSpecificInstance(brush_params.brush_instance_not_buildable, index, elevation, 0u, 0u, brush_tile_data.Color);
+    visble_tiles_cp.tiles[visible_index] = world_utils::CreateSpecificInstance(brush_params.brush_instance_not_buildable, index, elevation, 0u, 0u, brush_tile_data.Color, world_utils::ModeGround);
 }
