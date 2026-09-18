@@ -6,5 +6,77 @@
     "ConnectionType":"Obstacle",
 	"ElevationFamilyName":"elevation_water",
     "MiniMapColor": "89,220,225,255"
-  }
+  },
+  "sea_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "0,224,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    },
+    "river_n_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "0,288,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    },
+    "river_s_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "1024,288,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    },
+    "river_e_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "0,320,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    },
+    "river_w_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "1024,320,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    },
+    "river_ne_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "0,352,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    },
+    "river_es_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "1024,352,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    },
+    "river_sw_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "0,384,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    },
+    "river_wn_0": {
+      "ImageName": "water",
+      "Animation": "sea_animation_0",
+      "AtlasCoordinate": "1024,384,64,32",
+      "ConnectionType": "Obstacle",
+      "ElevationFamilyName": "elevation_sea",
+      "MiniMapColor": "89,220,225,255"
+    }
 }

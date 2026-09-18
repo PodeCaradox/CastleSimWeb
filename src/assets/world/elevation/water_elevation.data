@@ -28,5 +28,35 @@
       "ImageName":"water_elevation",
       "AtlasCoordinate":"0,930,32,930",
 	  "Animation":"water_animation_elevation_0"
-   }
+   },
+  "elevation_sea_0": {
+      "ImageName": "water_elevation",
+      "AtlasCoordinate": "1024,0,64,930",
+      "Animation": "sea_animation_0"
+    },
+    "elevation_sea_diagonal_0": {
+      "ImageName": "water_elevation",
+      "AtlasCoordinate": "1024,0,64,930",
+      "Animation": "sea_animation_0"
+    },
+    "elevation_sea_diagonal_left_0": {
+      "ImageName": "water_elevation",
+      "AtlasCoordinate": "1024,0,64,930",
+      "Animation": "sea_animation_0"
+    },
+    "elevation_sea_diagonal_right_0": {
+      "ImageName": "water_elevation",
+      "AtlasCoordinate": "1024,0,64,930",
+      "Animation": "sea_animation_0"
+    },
+    "elevation_sea_left_0": {
+      "ImageName": "water_elevation",
+      "AtlasCoordinate": "512,930,32,930",
+      "Animation": "sea_animation_0"
+    },
+    "elevation_sea_right_0": {
+      "ImageName": "water_elevation",
+      "AtlasCoordinate": "1024,930,32,930",
+      "Animation": "sea_animation_0"
+    }
 }

@@ -118,6 +118,86 @@
             }
         ],
         "BrushType": "TileBrush"
+    },
+  "brush_sea_0": {
+      "BrushEntities": [
+        {
+          "Name": "sea_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
+    },
+    "brush_river_n_0": {
+      "BrushEntities": [
+        {
+          "Name": "river_n_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
+    },
+    "brush_river_s_0": {
+      "BrushEntities": [
+        {
+          "Name": "river_s_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
+    },
+    "brush_river_e_0": {
+      "BrushEntities": [
+        {
+          "Name": "river_e_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
+    },
+    "brush_river_w_0": {
+      "BrushEntities": [
+        {
+          "Name": "river_w_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
+    },
+    "brush_river_ne_0": {
+      "BrushEntities": [
+        {
+          "Name": "river_ne_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
+    },
+    "brush_river_es_0": {
+      "BrushEntities": [
+        {
+          "Name": "river_es_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
+    },
+    "brush_river_sw_0": {
+      "BrushEntities": [
+        {
+          "Name": "river_sw_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
+    },
+    "brush_river_wn_0": {
+      "BrushEntities": [
+        {
+          "Name": "river_wn_0",
+          "RandomFactor": 1
+        }
+      ],
+      "BrushType": "TileBrush"
     }
-
 }

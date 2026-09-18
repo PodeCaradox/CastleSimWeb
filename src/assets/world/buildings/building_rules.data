@@ -1,0 +1,380 @@
+{
+  "apple_farm": {
+    "Role": "Farm",
+    "Hp": 150,
+    "Cost": {
+      "Wood": 15
+    },
+    "WorkerSlots": 1
+  },
+  "archery": {
+    "Role": "Workshop",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    },
+    "WorkerSlots": 1
+  },
+  "armory": {
+    "Role": "Stockpile",
+    "Hp": 300,
+    "Cost": {
+      "Wood": 20,
+      "Stone": 10
+    },
+    "Capacity": 200
+  },
+  "bakery": {
+    "Role": "Workshop",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    },
+    "WorkerSlots": 1
+  },
+  "barracks_1": {
+    "Role": "Barracks",
+    "Hp": 500,
+    "Cost": {
+      "Wood": 20,
+      "Stone": 15
+    }
+  },
+  "barracks_2": {
+    "Role": "Barracks",
+    "Hp": 500,
+    "Cost": {
+      "Wood": 20,
+      "Stone": 15
+    }
+  },
+  "black_smith": {
+    "Role": "Workshop",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20,
+      "Stone": 10
+    },
+    "WorkerSlots": 1
+  },
+  "brewery": {
+    "Role": "Workshop",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    },
+    "WorkerSlots": 1
+  },
+  "church_big": {
+    "Hp": 400,
+    "Cost": {
+      "Stone": 200
+    }
+  },
+  "church_medium": {
+    "Hp": 400,
+    "Cost": {
+      "Stone": 100
+    }
+  },
+  "church_small": {
+    "Hp": 400,
+    "Cost": {
+      "Stone": 50
+    }
+  },
+  "cow_farm": {
+    "Role": "Farm",
+    "Hp": 150,
+    "Cost": {
+      "Wood": 15
+    },
+    "WorkerSlots": 1
+  },
+  "gate_0": {
+    "Role": "Gate",
+    "Hp": 600,
+    "Cost": {
+      "Wood": 10,
+      "Stone": 20
+    }
+  },
+  "gate_1": {
+    "Role": "Gate",
+    "Hp": 600,
+    "Cost": {
+      "Wood": 10,
+      "Stone": 20
+    }
+  },
+  "gate_new": {
+    "Role": "Gate",
+    "Hp": 600,
+    "Cost": {
+      "Wood": 10,
+      "Stone": 20
+    }
+  },
+  "grain_farm": {
+    "Role": "Farm",
+    "Hp": 150,
+    "Cost": {
+      "Wood": 15
+    },
+    "WorkerSlots": 1
+  },
+  "granary": {
+    "Role": "Granary",
+    "Hp": 300,
+    "Cost": {
+      "Wood": 25
+    },
+    "Capacity": 500
+  },
+  "hop_farm": {
+    "Role": "Farm",
+    "Hp": 150,
+    "Cost": {
+      "Wood": 15
+    },
+    "WorkerSlots": 1
+  },
+  "house_1": {
+    "Role": "Hovel",
+    "Hp": 100,
+    "Cost": {
+      "Wood": 6
+    }
+  },
+  "house_2": {
+    "Role": "Hovel",
+    "Hp": 100,
+    "Cost": {
+      "Wood": 6
+    }
+  },
+  "house_3": {
+    "Role": "Hovel",
+    "Hp": 100,
+    "Cost": {
+      "Wood": 6
+    }
+  },
+  "house_4": {
+    "Role": "Hovel",
+    "Hp": 100,
+    "Cost": {
+      "Wood": 6
+    }
+  },
+  "house_5": {
+    "Role": "Hovel",
+    "Hp": 100,
+    "Cost": {
+      "Wood": 6
+    }
+  },
+  "house_6": {
+    "Role": "Hovel",
+    "Hp": 100,
+    "Cost": {
+      "Wood": 6
+    }
+  },
+  "house_7": {
+    "Role": "Hovel",
+    "Hp": 100,
+    "Cost": {
+      "Wood": 6
+    }
+  },
+  "hunter_stand": {
+    "Role": "Farm",
+    "Hp": 150,
+    "Cost": {
+      "Wood": 10
+    },
+    "WorkerSlots": 1
+  },
+  "inn": {
+    "Hp": 200,
+    "Cost": {
+      "Wood": 25
+    }
+  },
+  "market": {
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    }
+  },
+  "mill": {
+    "Role": "Workshop",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    },
+    "WorkerSlots": 1
+  },
+  "mine": {
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    }
+  },
+  "new_tower": {
+    "Role": "Tower",
+    "Hp": 1200,
+    "Tier": 3,
+    "Cost": {
+      "Stone": 50
+    }
+  },
+  "shields": {
+    "Role": "Workshop",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20,
+      "Stone": 10
+    },
+    "WorkerSlots": 1
+  },
+  "stair": {
+    "Role": "Wall",
+    "Hp": 400,
+    "Cost": {
+      "Stone": 5
+    }
+  },
+  "stables": {
+    "Hp": 250,
+    "Cost": {
+      "Wood": 20,
+      "Stone": 20
+    }
+  },
+  "tannery": {
+    "Role": "Workshop",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    },
+    "WorkerSlots": 1
+  },
+  "tower_big": {
+    "Role": "Tower",
+    "Hp": 1200,
+    "Tier": 3,
+    "Cost": {
+      "Stone": 50
+    }
+  },
+  "tower_big_d": {
+    "Role": "Tower",
+    "Hp": 1200,
+    "Tier": 3,
+    "Cost": {
+      "Stone": 50
+    }
+  },
+  "tower_bigc": {
+    "Role": "Tower",
+    "Hp": 1200,
+    "Tier": 3,
+    "Cost": {
+      "Stone": 50
+    }
+  },
+  "tower_bigc_d": {
+    "Role": "Tower",
+    "Hp": 1200,
+    "Tier": 3,
+    "Cost": {
+      "Stone": 50
+    }
+  },
+  "tower_round": {
+    "Role": "Tower",
+    "Hp": 1000,
+    "Tier": 2,
+    "Cost": {
+      "Stone": 40
+    }
+  },
+  "tower_small": {
+    "Role": "Tower",
+    "Hp": 800,
+    "Tier": 2,
+    "Cost": {
+      "Stone": 30
+    }
+  },
+  "tower_small_d": {
+    "Role": "Tower",
+    "Hp": 800,
+    "Tier": 2,
+    "Cost": {
+      "Stone": 30
+    }
+  },
+  "tower_small_new": {
+    "Role": "Tower",
+    "Hp": 800,
+    "Tier": 2,
+    "Cost": {
+      "Stone": 30
+    }
+  },
+  "tower_smallc": {
+    "Role": "Tower",
+    "Hp": 800,
+    "Tier": 2,
+    "Cost": {
+      "Stone": 30
+    }
+  },
+  "tower_smallc_d": {
+    "Role": "Tower",
+    "Hp": 800,
+    "Tier": 2,
+    "Cost": {
+      "Stone": 30
+    }
+  },
+  "wall_crenelation": {
+    "Role": "Wall",
+    "Hp": 400,
+    "Cost": {
+      "Stone": 5
+    }
+  },
+  "wall_tile_full": {
+    "Role": "Wall",
+    "Hp": 400,
+    "Cost": {
+      "Stone": 5
+    }
+  },
+  "wall_wooden": {
+    "Role": "Wall",
+    "Hp": 150,
+    "Cost": {
+      "Wood": 3
+    }
+  },
+  "well": {
+    "Hp": 100,
+    "Cost": {
+      "Wood": 10,
+      "Stone": 10
+    }
+  },
+  "wood_cutter": {
+    "Role": "Woodcutter",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 10
+    },
+    "WorkerSlots": 1
+  }
+}
