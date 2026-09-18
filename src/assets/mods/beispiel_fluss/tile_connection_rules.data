@@ -1,0 +1,3 @@
+{
+  "river": { "ConnectsTo": ["sea_0", "water_tile_0"] }
+}

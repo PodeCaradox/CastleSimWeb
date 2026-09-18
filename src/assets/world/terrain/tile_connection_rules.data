@@ -1,0 +1,31 @@
+{
+  "wall_tile_full": {
+    "Neighbour": "SameElevation",
+    "MaskBits": "N,NE,E,SE,S,SW,W,NW",
+    "Naming": "Suffix"
+  },
+  "river": {
+    "Neighbour": "SameFamily",
+    "MaskBits": "N,E,S,W",
+    "Naming": "Flow",
+    "Oriented": true,
+    "DefaultFlow": "S",
+    "ConnectsTo": ["sea_0"],
+    "Members": {
+      "river_n_0":  { "From": ["S"], "To": ["N"] },
+      "river_e_0":  { "From": ["W"], "To": ["E"] },
+      "river_s_0":  { "From": ["N"], "To": ["S"], "Seed": true },
+      "river_w_0":  { "From": ["E"], "To": ["W"] },
+      "river_es_0": { "From": ["W"], "To": ["S"], "MirrorOf": "S>W" },
+      "river_sw_0": { "From": ["N"], "To": ["W"], "MirrorOf": "W>N" },
+      "river_wn_0": { "From": ["E"], "To": ["N"], "MirrorOf": "N>E" },
+      "river_ne_0": { "From": ["S"], "To": ["E"], "MirrorOf": "E>S" }
+    },
+    "FlowFallback": {
+      "N": "river_n_0",
+      "E": "river_e_0",
+      "S": "river_s_0",
+      "W": "river_w_0"
+    }
+  }
+}

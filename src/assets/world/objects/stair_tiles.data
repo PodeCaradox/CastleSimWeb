@@ -1,0 +1,10 @@
+{
+  "stair_0": {
+    "FamilyName": "stair",
+    "ImageName": "wall",
+    "AtlasCoordinate": "0,0,64,32",
+    "ConnectionType": "Portal",
+    "ElevationFamilyName": "elevation_wall",
+    "MiniMapColor": "213,145,103,255"
+  }
+}
