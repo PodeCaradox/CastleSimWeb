@@ -100,7 +100,17 @@ const StepBesideFlag : u32 = 0x00800000u;
 //on the same floor (343 692 of 343 692 px on gate_0, counted in the same
 //test).
 const OnBuildingFlag : u32 = 0x80000000u;
-const ElevationMask : u32 = 0x7fffu;
+//bit 30 of the same word (bit 14 of the elevation): the unit's own cell's
+//GROUND art STANDS on the cell - a rock pile, "StandsUp": true in the tile's
+//.data entry (render_terrain.wgsl fs_main orders it as a box there). The
+//MIDDLE sub-quad alone takes the front tip then, so the pile under the man
+//cannot cut him; his SIDES keep the ordinary rule, flagged or not, because
+//what stands beside him there is a wall rising out of the ground he is on
+//and not a roof he shares - taking the sides with it, as the roof flag does,
+//drew his shoulder over the slice beside on 6 340 568 px, the very fault
+//8b488463 fixed (depth_order counts both).
+const OnStandingArtFlag : u32 = 0x40000000u;
+const ElevationMask : u32 = 0x3fffu;
 //`TileSizeHalf` of world_utils.wgsl, which this shader does not import.
 const TileHalf = vec2<f32>(32.0, 16.0);
 
@@ -315,7 +325,12 @@ fn vs_main(
     //alone, the NEIGHBOUR's V half a pixel behind (see SideNearness).
     var depth = UnitDepth(foot, world_y);
     let step = (entity_input.Data & StepBesideFlag) != 0u;
-    if ((entity_input.ImageOffset & OnBuildingFlag) != 0u) {
+    //the standing-art flag takes the MIDDLE sub-quad only (roles 2 and 3);
+    //the roof flag takes all six
+    let middle = role == 2u || role == 3u;
+    let on_tip = (entity_input.ImageOffset & OnBuildingFlag) != 0u
+        || (middle && (entity_input.ImageOffset & OnStandingArtFlag) != 0u);
+    if (on_tip) {
         depth = NearnessToDepth(RoofNearness(tip.y, foot, world_y));
     } else if (role <= 1u && (entity_input.Data & TallLeftFlag) != 0u) {
         depth = NearnessToDepth(SideNearness(tip.y, select(tip.x, tip.x - 2.0 * TileHalf.x, step), world_x, world_y));

@@ -25,38 +25,55 @@ const ImageSize = vec2<f32>(2048.0,2048.0);
 //tests count the draw order with it; change both together.
 //
 //`InstancingObject.Position.z` is not a depth but the instance's DEPTH
-//RECIPE, chosen by the mode packed into `image_index` (the atlas image is a
-//u8, the rest of the word is free):
-//  bits  0- 7  atlas image
+//RECIPE, chosen by the mode packed into `image_index`. Every one of the 32
+//bits is spoken for (depth_order::every_field_of_the_depth_word_has_its_own_
+//bits_and_the_shader_agrees counts them):
+//  bits  0- 5  atlas image — the LAYER of the environment atlas, of which
+//              create_env_image_atlas builds 15. It used to take the low 8
+//              bits; the straight foot took two of them, see FrontMax
+//  bits  6- 7  a face continues to its left / right neighbour in the same
+//              screen row: its foot is straight there
 //  bits  8-19  depth denominator / 512 (map width + height + headroom)
 //  bits 20-21  x offset of a face piece (0, +16, -16), so the fragment knows
 //              the apex of the cell's V from the instance position
 //  bits 22-23  mode
-//  bits 24-25  a wall face continues to its left / right neighbour in the
-//              same screen row: its foot is straight there
-//  bits 26-31  the GROUND in front of a wall face, in steps of FrontStep px:
+//  bits 24-31  the GROUND in front of a face, in steps of FrontStep px:
 //              the height its straight foot has to be drawn over
-const ImageIndexMask : u32 = 0xffu;
+const ImageIndexMask : u32 = 0x3fu;
 //the layer of wall.png in the environment atlas
-//(cs_initializer::helper::init_images builds that order). Ground art
-//from this layer STANDS on its cell; the land layer's tall tiles do not,
-//because units walk on them (render_terrain.wgsl fs_main).
+//(cs_initializer::helper::init_images builds that order). Ground art from
+//this layer STANDS on its cell, and so does any tile whose .data entry says
+//"StandsUp": true - a rock pile, the owner's stones (render_terrain.wgsl
+//fs_main, depth_order::standing_ground_art).
 const WallAtlasLayer : u32 = 1u;
+//that per-tile knob, as it arrives from the CPU: bit 31 of a tile property's
+//`image_index` (PropertyShaderInstance::STANDS_UP). PackDepthInfo keeps
+//ImageIndexMask of the layer, so the bit never reaches the sampler.
+const StandsUpBit : u32 = 0x80000000u;
+//and where CreateSpecificInstance puts it in the packed depth word of a
+//GROUND quad: the FrontShift field is a FACE's ground height and a ground
+//quad packs 0 there, so its lowest bit is free for every ModeGround
+//instance. Read in fs_main, under the mode test.
+const StandsUpFlag : u32 = 1u << 24u;
 const DenominatorShift : u32 = 8u;
 const DenominatorMask : u32 = 0xfffu;
 const OffsetShift : u32 = 20u;
 const ModeShift : u32 = 22u;
-const RunShift : u32 = 24u;
-const FrontShift : u32 = 26u;
-const FrontMask : u32 = 0x3fu;
+const RunShift : u32 = 6u;
+const FrontShift : u32 = 24u;
+const FrontMask : u32 = 0xffu;
 //The step of the elevation brush (`brush_elevation_up`, RandomFactor 4), so
-//every height the editor can make is stored exactly. Six bits of the word are
-//left, which caps the field: a wall whose ground in front is higher than
-//FrontMax keeps the box's V (the old sawtooth) instead of drawing its foot
-//over a ground it cannot name — the safe way round, nothing standing there is
-//ever covered.
+//every height the editor can make is stored exactly, and EIGHT bits of it:
+//FrontMax = FrontMask * FrontStep = 1020 px, twice the 512 px of
+//map_editing::MAX_HEIGHT, so the clamp below is out of the elevation brush's
+//reach and the straight foot holds at every height the editor can build. The
+//two bits came off the atlas image (ImageIndexMask, 15 layers in 64), not off
+//the step: the ground in front is still named to the px the brush moves in.
+//The clamp stays as the way round that is safe if a later map format ever
+//raises MAX_HEIGHT past 1020: a face told a ground it cannot name keeps the
+//box's V (the old sawtooth), and nothing standing there is ever covered.
 const FrontStep : f32 = 4.0;
-const FrontMax : f32 = 252.0;
+const FrontMax : f32 = 1020.0;
 //Position.z = 2 * elevation; nearness = y + Position.z
 const ModeGround : u32 = 0u;
 //Position.z = 2 * foot row; nearness = Position.z - y (trees, bushes)
@@ -523,9 +540,10 @@ fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: f32, an
 	return instance;
 }
 
-//`run` is the RunLeft/RunRight mask of a wall face (0 for a cliff and for the
-//brush preview) and `front_ground` the height of the ground the straight foot
-//towards that run is drawn over
+//`run` is the RunLeft/RunRight mask of a face — a WALL's or a CLIFF's, since
+//`face_run` of render_terrain.wgsl asks only whether the elevation slot is
+//filled (0 for the brush preview, which passes 0u) — and `front_ground` the
+//height of the ground the straight foot towards that run is drawn over
 fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: f32, animation_enabled: u32, animation_tick: u32, Color: u32, offset_elevation_x: f32, run: u32, front_ground: f32) -> InstancingObject{
     if (tile_id == 0u){
         return initInstancingObject();
@@ -554,7 +572,14 @@ fn CreateSpecificInstance(tile_id: u32, world_pos: vec2<i32>, elevation: f32, an
 	}
 	position.y -= elevation;
 	var instance = CreateObjectInstance(tile_id, world_pos, vec3(position, recipe), animation_enabled, animation_tick, Color);
+	let stands_up = instance.image_index & StandsUpBit;
 	instance.image_index = PackDepthInfo(instance.image_index, mode, 0.0, 0u, 0.0);
+	//the tile's own StandsUp knob, moved from the layer word into the depth
+	//word. Only a GROUND quad: a billboard shares this function and is
+	//another mode, and the flag's bit belongs to a FACE there.
+	if (mode == ModeGround && stands_up != 0u) {
+	    instance.image_index |= StandsUpFlag;
+	}
 	return instance;
 }
 
