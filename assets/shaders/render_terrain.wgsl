@@ -50,12 +50,14 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
            animation_enabled = ((animation >> 2u) & 0x00000001u);
            visble_tiles_cp.tiles[visible_index + 2] = world_utils::CreateBuildingInstance(tile_rotation_data.SingleInstances[2u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu, offset_object_y);
            animation_enabled = ((animation >> 3u) & 0x00000001u);
-           let run = wall_run(index, tile_rotation_data.SingleInstances[3u], rotation_offset);
+           let run = face_run(index, tile_rotation_data.SingleInstances[3u], rotation_offset);
            visble_tiles_cp.tiles[visible_index + 3] = world_utils::CreateElevationInstance(tile_rotation_data.SingleInstances[3u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu, offset_elevation_x, run, front_ground(index, run, rotation_offset));
 }
 
 //Whether `cell` holds a wall face: the elevation slot of a wall cell draws
-//the wall's masonry, a cliff's draws rock.
+//the wall's masonry, a cliff's draws rock. Only `ground_of` asks this, and
+//only because a WALL stands WallHeight over the ground of its own cell while
+//a cliff's elevation IS its ground. The RUN does not ask it (face_run).
 fn has_wall_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
     if (world_utils::is_in_map_bounds(cell) == 0) {
         return false;
@@ -64,13 +66,25 @@ fn has_wall_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
     return face != 0u && world_utils::tile_properties.properties[face].image_index == world_utils::WallFaceImage;
 }
 
-//The RunLeft/RunRight mask of a wall face: which of the two neighbours in
+//Whether `cell` draws a face at all: its elevation slot is filled. A cliff's
+//rock and a wall's masonry are the same thing to the foot, which is the
+//owner's card — "mache das fuer alles was elevation hat".
+fn has_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
+    if (world_utils::is_in_map_bounds(cell) == 0) {
+        return false;
+    }
+    return tiles_rotation.tiles[cell.y * world_utils::params.map_size.x + cell.x + rotation_offset].SingleInstances[3u] != 0u;
+}
+
+//The RunLeft/RunRight mask of a face: which of the two neighbours in
 //the same SCREEN row — the step that is (1, -1) after the camera rotation —
-//continues the wall, so the face's foot is drawn straight towards it. The
+//carries a face too, so this face's foot is drawn straight towards it. The
 //run is the only thing that decides between a straight foot and the box's
-//V: a run along a column of the map is a staircase of boxes and keeps the V.
-fn wall_run(cell: vec2<i32>, face: u32, rotation_offset: i32) -> u32 {
-    if (face == 0u || world_utils::tile_properties.properties[face].image_index != world_utils::WallFaceImage) {
+//V: a run along a column of the map is a staircase of boxes and keeps the V,
+//and a face standing ALONE in its screen row keeps it as well, because there
+//is no bank of earth to be continuous with.
+fn face_run(cell: vec2<i32>, face: u32, rotation_offset: i32) -> u32 {
+    if (face == 0u) {
         return 0u;
     }
     var right = vec2<i32>(1, -1);
@@ -82,16 +96,16 @@ fn wall_run(cell: vec2<i32>, face: u32, rotation_offset: i32) -> u32 {
         right = vec2<i32>(1, 1);
     }
     var run = 0u;
-    if (has_wall_face(cell - right, rotation_offset)) {
+    if (has_face(cell - right, rotation_offset)) {
         run |= world_utils::RunLeft;
     }
-    if (has_wall_face(cell + right, rotation_offset)) {
+    if (has_face(cell + right, rotation_offset)) {
         run |= world_utils::RunRight;
     }
     return run;
 }
 
-//The ground a wall's straight foot is drawn over: the two cells in FRONT of
+//The ground a face's straight foot is drawn over: the two cells in FRONT of
 //`cell` on screen — down-left and down-right of its diamond, which are (0, 1)
 //and (1, 0) of the ROTATED map — carry the strip below the cell's V. One
 //number has to serve both halves of the quad, and it is the LOWER of the two:
@@ -100,6 +114,10 @@ fn wall_run(cell: vec2<i32>, face: u32, rotation_offset: i32) -> u32 {
 //cover a unit standing on the lower cell.
 //A wall in front stands on its own ground, WALL_HEIGHT below its elevation
 //(`cs_core::map_editing`), and it is that ground the foot must sit over.
+//ponytail: the run mask already says which HALF of the foot is drawn, so a
+//face with RunLeft alone could take the left cell's ground exactly instead of
+//the min — worth it only if a step between the two cells in front of a run's
+//END ever shows, and nothing shipped has one.
 fn front_ground(cell: vec2<i32>, run: u32, rotation_offset: i32) -> f32 {
     if (run == 0u) {
         return 0.0;
@@ -356,29 +374,33 @@ fn fs_main(in: VertexOutput) -> FragmentOutput {
     //itself stays the ground it was, exact. The split used to sit on the
     //FRONT edge, which is the diamond's LOWER boundary: the whole floor of
     //the tile was a box too.
-    //The key is the atlas LAYER and the height TOGETHER: layer 1 is
-    //wall.png (cs_initializer::helper::init_images), and the two tiles of
-    //that layer taller than the diamond — this crenellation and the wooden
-    //spikes — are the only two Obstacle entries of wall_tiles.data, while
-    //its other 256 are Wall (walkable: a wall walk is walked on) and
-    //stair_tiles.data puts a walkable Portal stair on the same layer in the
-    //same ground slot, 64 x 32 and so never in this branch. No walkable
-    //tile of the layer is TALL, which is the invariant depth_order's
-    //no_walkable_tile_of_the_wall_layer_is_taller_than_its_diamond pins
-    //over every data file. The twelve tall tiles of the LAND layer — rock piles
-    //and tufts, 40 to 64 px — stay ground: four land brushes paint nothing
-    //else, and a box there put up to 90 % of the pile over the body of the
-    //man walking on that very cell (depth_order counts it in
-    //a_man_on_his_own_land_tile_keeps_his_body_out_of_its_standing_art).
-    //A plain 64 x 32 tile is not tall and never takes this branch;
-    //billboards are another mode. Above the back edges the art beats the
-    //ground tiles behind it strictly where it used to tie them.
+    //WHICH ground art stands is the atlas LAYER or the tile's own knob,
+    //and the height on top of either: layer 1 is wall.png
+    //(cs_initializer::helper::init_images), whose only two tiles taller
+    //than the diamond are this crenellation and the wooden spikes (the
+    //only two Obstacle entries of wall_tiles.data, while its other 256 are
+    //Wall — walkable, a wall walk is walked on — and stair_tiles.data puts
+    //a walkable Portal stair on the same layer in the same ground slot,
+    //64 x 32 and so never in this branch). The twelve tall tiles of the
+    //LAND layer are NOT covered by the layer, because units walk on them
+    //and a box there put up to 90 % of the pile over the body of the man
+    //standing on that very cell (b5f9625d); the ones that should stand
+    //anyway say so per tile — "StandsUp": true in land_tiles.data, bit 31
+    //of the tile property's layer word, moved into StandsUpFlag by
+    //CreateSpecificInstance. The owner asked for it on the STONES: a man
+    //on the cell behind is covered by the pile, and the man standing on
+    //the cell stays in front of it because core_entity::tall_beside puts
+    //his whole quad on the cell's front tip, the same anchor a man on a
+    //roof has. A plain 64 x 32 tile is not tall and never takes this
+    //branch; billboards are another mode. Above the back edges the art
+    //beats the ground tiles behind it strictly where it used to tie them.
     //ponytail: a pillar FILLING its cell would want the box over its
     //diamond's upper half as well — a man on the wall walk at the pillar's
     //shared corner paints a few rows of feet over the pillar base (counted
-    //in depth_order). The way up is a standing bit per tile; the layer is
-    //what ships.
-    if (mode == world_utils::ModeGround && in.image_index == world_utils::WallAtlasLayer && in.height > 16.0 && in.world.y < in.apex.y - 32.0 + dx / 2.0) {
+    //in depth_order). That is a second knob, and nothing shipped needs it.
+    let stands_up = in.image_index == world_utils::WallAtlasLayer
+        || (in.depth_info & world_utils::StandsUpFlag) != 0u;
+    if (mode == world_utils::ModeGround && stands_up && in.height > 16.0 && in.world.y < in.apex.y - 32.0 + dx / 2.0) {
         depth = in.thickness_depth - in.depth_per_column * dx;
     }
     if (mode == world_utils::ModeFace) {
@@ -394,11 +416,17 @@ fn fs_main(in: VertexOutput) -> FragmentOutput {
         //is drawn just over it. Below that line the pixels stay the box and
         //the ground in front covers them, so the foot is a straight line at
         //every height instead of the V's sawtooth.
+        //Only while that ground lies BELOW the face's own elevation: the map
+        //editor draws a face whenever any of the EIGHT neighbours is lower
+        //(cs_core's check_elevation_tile_for_correct_illusion) and
+        //front_ground reads only the TWO in front, so a face whose bank is
+        //buried exists. It has no foot to straighten, and the band would
+        //climb into its top rows and paint them over the ground in front.
         let run = (in.depth_info >> world_utils::RunShift) & 3u;
         let towards_run = ((run & world_utils::RunLeft) != 0u && in.world.x < in.apex.x)
             || ((run & world_utils::RunRight) != 0u && in.world.x >= in.apex.x);
         let front = world_utils::UnpackFrontGround(in.depth_info);
-        if (towards_run && in.world.y > in.apex.y - dx / 2.0 - front && in.world.y <= in.apex.y - front) {
+        if (towards_run && front < in.height && in.world.y > in.apex.y - dx / 2.0 - front && in.world.y <= in.apex.y - front) {
             depth = in.thickness_depth;
         }
     }

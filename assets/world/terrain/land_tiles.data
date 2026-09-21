@@ -42,28 +42,32 @@
     "gravel_1": {
         "ImageName": "land",
         "AtlasCoordinate": "768,0,64,40",
-        "Walkable": false,
-        "MiniMapColor": "124,116,107,255"
+        "MiniMapColor": "124,116,107,255",
+        "StandsUp": true
     },
     "stone_0": {
         "ImageName": "land",
         "AtlasCoordinate": "832,0,64,52",
-        "MiniMapColor": "133,131,119,255"
+        "MiniMapColor": "133,131,119,255",
+        "StandsUp": true
     },
     "stone_1": {
         "ImageName": "land",
         "AtlasCoordinate": "896,0,64,56",
-        "MiniMapColor": "181,174,154,255"
+        "MiniMapColor": "181,174,154,255",
+        "StandsUp": true
     },
     "stone_moss_0": {
         "ImageName": "land",
         "AtlasCoordinate": "960,0,64,56",
-        "MiniMapColor": "132,140,103,255"
+        "MiniMapColor": "132,140,103,255",
+        "StandsUp": true
     },
     "stone_moss_1": {
         "ImageName": "land",
         "AtlasCoordinate": "1024,0,64,56",
-        "MiniMapColor": "129,131,122,255"
+        "MiniMapColor": "129,131,122,255",
+        "StandsUp": true
     },
     "grass_0": {
         "ImageName": "land",
