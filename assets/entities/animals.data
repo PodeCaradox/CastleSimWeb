@@ -402,7 +402,7 @@
             "AttackCooldownTicks": 32,
             "Ranged": true,
             "ArcBasePx": 104,
-            "ArcHeightPercent": 16
+            "HitChancePercent":60,"ArcHeightPercent": 16
         },
         "AnimationData": [
             {
@@ -543,7 +543,7 @@
             "AttackCooldownTicks": 80,
             "Ranged": true,
             "ArcBasePx": 104,
-            "ArcHeightPercent": 16
+            "HitChancePercent":60,"ArcHeightPercent": 16
         },
         "AnimationData": [
             {
@@ -1252,5 +1252,855 @@
                 ]
             }
         ]
+    },
+"knight":{
+ "WalkSpeed": 384,
+ "FormationRank": 0,
+ "ImageName": "knight",
+ "ColorTableImageName": "color_table",
+ "ColorTableStartPos": "0,20",
+ "AnimationData": [
+  {
+   "Animation": "WalkingNorthEast",
+   "Frames": [
+    {
+     "AtlasCoord": "0,0,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "72,0,34,68",
+     "ImageOffset": "2,0"
+    },
+    {
+     "AtlasCoord": "140,0,34,70",
+     "ImageOffset": "2,0"
+    },
+    {
+     "AtlasCoord": "208,0,34,68",
+     "ImageOffset": "2,0"
+    },
+    {
+     "AtlasCoord": "276,0,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "348,0,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "420,0,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "492,0,36,66",
+     "ImageOffset": "4,0"
     }
+   ]
+  },
+  {
+   "Animation": "WalkingEast",
+   "Frames": [
+    {
+     "AtlasCoord": "564,0,38,62",
+     "ImageOffset": "22,0"
+    },
+    {
+     "AtlasCoord": "640,0,38,64",
+     "ImageOffset": "14,0"
+    },
+    {
+     "AtlasCoord": "716,0,38,64",
+     "ImageOffset": "10,0"
+    },
+    {
+     "AtlasCoord": "792,0,42,64",
+     "ImageOffset": "10,0"
+    },
+    {
+     "AtlasCoord": "876,0,42,62",
+     "ImageOffset": "18,0"
+    },
+    {
+     "AtlasCoord": "960,0,42,56",
+     "ImageOffset": "26,0"
+    },
+    {
+     "AtlasCoord": "1044,0,44,54",
+     "ImageOffset": "24,0"
+    },
+    {
+     "AtlasCoord": "1132,0,48,56",
+     "ImageOffset": "20,0"
+    }
+   ]
+  },
+  {
+   "Animation": "WalkingSouthEast",
+   "Frames": [
+    {
+     "AtlasCoord": "1228,0,34,56",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "1296,0,34,54",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "1364,0,36,54",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1436,0,36,54",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1508,0,34,56",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "1576,0,34,56",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "1644,0,34,58",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "1712,0,34,56",
+     "ImageOffset": "6,0"
+    }
+   ]
+  },
+  {
+   "Animation": "WalkingSouth",
+   "Frames": [
+    {
+     "AtlasCoord": "1780,0,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1844,0,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1908,0,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1972,0,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "0,140,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "64,140,32,54",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "128,140,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "192,140,32,56",
+     "ImageOffset": "0,0"
+    }
+   ]
+  },
+  {
+   "Animation": "WalkingSouthWest",
+   "Frames": [
+    {
+     "AtlasCoord": "256,140,36,56",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "328,140,34,56",
+     "ImageOffset": "-2,0"
+    },
+    {
+     "AtlasCoord": "396,140,34,58",
+     "ImageOffset": "-2,0"
+    },
+    {
+     "AtlasCoord": "464,140,34,56",
+     "ImageOffset": "-2,0"
+    },
+    {
+     "AtlasCoord": "532,140,36,58",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "604,140,36,54",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "676,140,36,54",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "748,140,36,54",
+     "ImageOffset": "-4,0"
+    }
+   ]
+  },
+  {
+   "Animation": "WalkingWest",
+   "Frames": [
+    {
+     "AtlasCoord": "820,140,44,60",
+     "ImageOffset": "-16,0"
+    },
+    {
+     "AtlasCoord": "908,140,40,62",
+     "ImageOffset": "-12,0"
+    },
+    {
+     "AtlasCoord": "988,140,38,62",
+     "ImageOffset": "-10,0"
+    },
+    {
+     "AtlasCoord": "1064,140,42,62",
+     "ImageOffset": "-10,0"
+    },
+    {
+     "AtlasCoord": "1148,140,44,60",
+     "ImageOffset": "-16,0"
+    },
+    {
+     "AtlasCoord": "1236,140,48,56",
+     "ImageOffset": "-20,0"
+    },
+    {
+     "AtlasCoord": "1332,140,48,56",
+     "ImageOffset": "-20,0"
+    },
+    {
+     "AtlasCoord": "1428,140,48,56",
+     "ImageOffset": "-20,0"
+    }
+   ]
+  },
+  {
+   "Animation": "WalkingNorthWest",
+   "Frames": [
+    {
+     "AtlasCoord": "1524,140,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "1592,140,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "1660,140,36,66",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1732,140,36,66",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1804,140,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "1872,140,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "1940,140,34,68",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "0,276,34,68",
+     "ImageOffset": "-6,0"
+    }
+   ]
+  },
+  {
+   "Animation": "WalkingNorth",
+   "Frames": [
+    {
+     "AtlasCoord": "68,276,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "132,276,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "196,276,32,68",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "260,276,32,68",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "324,276,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "388,276,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "452,276,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "516,276,32,66",
+     "ImageOffset": "0,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special1NorthEast",
+   "Frames": [
+    {
+     "AtlasCoord": "580,276,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "652,276,28,60",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "708,276,40,68",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "788,276,36,66",
+     "ImageOffset": "4,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special1East",
+   "Frames": [
+    {
+     "AtlasCoord": "860,276,38,62",
+     "ImageOffset": "22,0"
+    },
+    {
+     "AtlasCoord": "936,276,52,60",
+     "ImageOffset": "-12,0"
+    },
+    {
+     "AtlasCoord": "1040,276,58,54",
+     "ImageOffset": "38,0"
+    },
+    {
+     "AtlasCoord": "1156,276,38,62",
+     "ImageOffset": "22,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special1SouthEast",
+   "Frames": [
+    {
+     "AtlasCoord": "1232,276,34,56",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "1300,276,34,62",
+     "ImageOffset": "-2,0"
+    },
+    {
+     "AtlasCoord": "1368,276,48,52",
+     "ImageOffset": "20,0"
+    },
+    {
+     "AtlasCoord": "1464,276,34,56",
+     "ImageOffset": "6,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special1South",
+   "Frames": [
+    {
+     "AtlasCoord": "1532,276,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1596,276,32,64",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1660,276,34,52",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "1728,276,32,56",
+     "ImageOffset": "0,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special1SouthWest",
+   "Frames": [
+    {
+     "AtlasCoord": "1792,276,36,58",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1864,276,26,66",
+     "ImageOffset": "2,0"
+    },
+    {
+     "AtlasCoord": "1916,276,40,54",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "0,412,36,58",
+     "ImageOffset": "-4,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special1West",
+   "Frames": [
+    {
+     "AtlasCoord": "72,412,44,60",
+     "ImageOffset": "-16,0"
+    },
+    {
+     "AtlasCoord": "160,412,52,60",
+     "ImageOffset": "12,0"
+    },
+    {
+     "AtlasCoord": "264,412,62,52",
+     "ImageOffset": "-34,0"
+    },
+    {
+     "AtlasCoord": "388,412,44,60",
+     "ImageOffset": "-16,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special1NorthWest",
+   "Frames": [
+    {
+     "AtlasCoord": "476,412,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "544,412,34,60",
+     "ImageOffset": "2,0"
+    },
+    {
+     "AtlasCoord": "612,412,48,66",
+     "ImageOffset": "-20,0"
+    },
+    {
+     "AtlasCoord": "708,412,34,66",
+     "ImageOffset": "-6,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special1North",
+   "Frames": [
+    {
+     "AtlasCoord": "776,412,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "840,412,32,60",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "904,412,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "972,412,32,66",
+     "ImageOffset": "0,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special2NorthEast",
+   "Frames": [
+    {
+     "AtlasCoord": "1036,412,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1108,412,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1180,412,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1252,412,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1324,412,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1396,412,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1468,412,36,66",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "1540,412,36,66",
+     "ImageOffset": "4,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special2East",
+   "Frames": [
+    {
+     "AtlasCoord": "1612,412,38,62",
+     "ImageOffset": "22,0"
+    },
+    {
+     "AtlasCoord": "1688,412,38,60",
+     "ImageOffset": "22,0"
+    },
+    {
+     "AtlasCoord": "1764,412,40,60",
+     "ImageOffset": "24,0"
+    },
+    {
+     "AtlasCoord": "1844,412,40,58",
+     "ImageOffset": "24,0"
+    },
+    {
+     "AtlasCoord": "1924,412,40,58",
+     "ImageOffset": "24,0"
+    },
+    {
+     "AtlasCoord": "0,544,40,60",
+     "ImageOffset": "24,0"
+    },
+    {
+     "AtlasCoord": "80,544,40,60",
+     "ImageOffset": "24,0"
+    },
+    {
+     "AtlasCoord": "160,544,38,62",
+     "ImageOffset": "22,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special2SouthEast",
+   "Frames": [
+    {
+     "AtlasCoord": "236,544,34,56",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "304,544,34,56",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "372,544,34,54",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "440,544,34,54",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "508,544,34,54",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "576,544,34,54",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "644,544,34,54",
+     "ImageOffset": "6,0"
+    },
+    {
+     "AtlasCoord": "712,544,34,56",
+     "ImageOffset": "6,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special2South",
+   "Frames": [
+    {
+     "AtlasCoord": "780,544,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "844,544,32,54",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "908,544,32,54",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "972,544,32,54",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1036,544,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1100,544,32,54",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1164,544,32,54",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1228,544,32,56",
+     "ImageOffset": "0,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special2SouthWest",
+   "Frames": [
+    {
+     "AtlasCoord": "1292,544,36,58",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1364,544,36,58",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1436,544,36,56",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1508,544,36,56",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1580,544,36,56",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1652,544,36,56",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1724,544,36,56",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "1796,544,36,58",
+     "ImageOffset": "-4,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special2West",
+   "Frames": [
+    {
+     "AtlasCoord": "1868,544,44,60",
+     "ImageOffset": "-16,0"
+    },
+    {
+     "AtlasCoord": "1956,544,44,60",
+     "ImageOffset": "-16,0"
+    },
+    {
+     "AtlasCoord": "0,668,46,58",
+     "ImageOffset": "-18,0"
+    },
+    {
+     "AtlasCoord": "92,668,46,58",
+     "ImageOffset": "-18,0"
+    },
+    {
+     "AtlasCoord": "184,668,46,56",
+     "ImageOffset": "-18,0"
+    },
+    {
+     "AtlasCoord": "276,668,46,58",
+     "ImageOffset": "-18,0"
+    },
+    {
+     "AtlasCoord": "368,668,46,58",
+     "ImageOffset": "-18,0"
+    },
+    {
+     "AtlasCoord": "460,668,44,60",
+     "ImageOffset": "-16,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special2NorthWest",
+   "Frames": [
+    {
+     "AtlasCoord": "548,668,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "616,668,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "684,668,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "752,668,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "820,668,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "888,668,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "956,668,34,66",
+     "ImageOffset": "-6,0"
+    },
+    {
+     "AtlasCoord": "1024,668,34,66",
+     "ImageOffset": "-6,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Special2North",
+   "Frames": [
+    {
+     "AtlasCoord": "1092,668,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1156,668,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1220,668,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1284,668,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1348,668,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1412,668,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1476,668,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1540,668,32,66",
+     "ImageOffset": "0,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Dying1",
+   "Frames": [
+    {
+     "AtlasCoord": "1604,668,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "1668,668,34,66",
+     "ImageOffset": "2,0"
+    },
+    {
+     "AtlasCoord": "1736,668,38,40",
+     "ImageOffset": "-2,0"
+    },
+    {
+     "AtlasCoord": "1812,668,64,34",
+     "ImageOffset": "-12,0"
+    },
+    {
+     "AtlasCoord": "0,800,56,30",
+     "ImageOffset": "-8,0"
+    },
+    {
+     "AtlasCoord": "112,800,60,36",
+     "ImageOffset": "-20,0"
+    },
+    {
+     "AtlasCoord": "232,800,60,36",
+     "ImageOffset": "-20,0"
+    },
+    {
+     "AtlasCoord": "352,800,60,36",
+     "ImageOffset": "-20,0"
+    }
+   ]
+  },
+  {
+   "Animation": "Dying2",
+   "Frames": [
+    {
+     "AtlasCoord": "472,800,32,56",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "536,800,32,66",
+     "ImageOffset": "0,0"
+    },
+    {
+     "AtlasCoord": "600,800,36,64",
+     "ImageOffset": "4,0"
+    },
+    {
+     "AtlasCoord": "672,800,40,60",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "752,800,40,60",
+     "ImageOffset": "-4,0"
+    },
+    {
+     "AtlasCoord": "832,800,54,66",
+     "ImageOffset": "-2,0"
+    },
+    {
+     "AtlasCoord": "940,800,72,42",
+     "ImageOffset": "-8,0"
+    },
+    {
+     "AtlasCoord": "1084,800,72,42",
+     "ImageOffset": "-8,0"
+    }
+   ]
+  }
+ ],
+ "Combat": {
+  "HitPoints": 120,
+  "Damage": 12,
+  "AttackRange": 40,
+  "AttackCooldownTicks": 40,
+  "Ranged": false
+ }
+}
 }

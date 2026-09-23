@@ -61,6 +61,7 @@ das Dateisystem einen Ordner aufzählt — zwei Mitspieler bekämen sonst versch
 | `WorkerSlots` | gleichzeitige Arbeiter | 0 |
 | `Capacity` | Fassungsvermögen in Waren | 0 |
 | `Tier` | Stufe in der Produktionskette | 0 |
+| `Indestructible` | `true`: unzerstörbar. Ein Angriffsbefehl darauf wird verweigert, kein Schlag nimmt ihm Trefferpunkte, und es zählt nicht als Stein, der eine Seite im Spiel hält | `false` |
 
 Die Zahlen der ausgelieferten Datei sind **Platzhalter** in stimmiger Größenordnung
 (Holzmauer schwächer als Steinmauer, Turm teurer als Mauer). Sie sind nicht aus einer

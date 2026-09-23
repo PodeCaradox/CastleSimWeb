@@ -1240,6 +1240,26 @@
                         "width": 32,
                         "height": 32
                     }
+                },
+				{
+                    "EventType": "SelectBrush",
+                    "EventName": "knight_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-217,56],
+                    "ImageSource": {
+                        "x": 1356,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
                 }
             ]
         },
@@ -2015,7 +2035,7 @@
                      }
                  }, {
                     "EventType": "SelectBrush",
-                    "EventName": "brush_stair_0",
+                    "EventName": "brush_ramp_0",
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -2025,9 +2045,9 @@
                             "height": 56
                         }
                     },
-                    "Position": [-117,-96],
+                    "Position": [-57,-96],
                     "ImageSource": {
-                        "x": 56,
+                        "x": 112,
                         "y": 525,
                         "width": 56,
                         "height": 56
