@@ -48,6 +48,7 @@ export interface InitOutput {
     readonly wasm_bindgen_d07a636776b43d0a___convert__closures_____invoke___wasm_bindgen_d07a636776b43d0a___JsValue______true__1__6: (a: number, b: number, c: any) => void;
     readonly wasm_bindgen_d07a636776b43d0a___convert__closures_____invoke___wasm_bindgen_d07a636776b43d0a___JsValue______true__1__7: (a: number, b: number, c: any) => void;
     readonly wasm_bindgen_d07a636776b43d0a___convert__closures_____invoke___wasm_bindgen_d07a636776b43d0a___JsValue______true__1__8: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen_d07a636776b43d0a___convert__closures_____invoke___core_9b3796e30d99ddb7___option__Option_web_sys_98dfea4b5f2ab93a___features__gen_Blob__Blob_______true_: (a: number, b: number, c: number) => void;
     readonly wasm_bindgen_d07a636776b43d0a___convert__closures_____invoke___wasm_bindgen_d07a636776b43d0a___JsValue______true__2_: (a: number, b: number, c: any) => void;
     readonly wasm_bindgen_d07a636776b43d0a___convert__closures_____invoke___wasm_bindgen_d07a636776b43d0a___JsValue______true_: (a: number, b: number, c: any) => void;
     readonly wasm_bindgen_d07a636776b43d0a___convert__closures_____invoke_______true_: (a: number, b: number) => void;

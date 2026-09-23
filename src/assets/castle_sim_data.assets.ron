@@ -14,10 +14,14 @@
             "images/entities/animals/piceman.positions",
             "images/entities/animals/deer.positions",
             "images/entities/animals/healthbar.positions",
+            "images/entities/animals/knight.positions",
         ],
     ),
     "game_interface": File (
         path: "images/ui/game_interface.png",
+    ),
+    "cursors": File (
+        path: "images/ui/cursors.png",
     ),
     "game_ui": File (
         path: "game_ui/game_menu.interface",
@@ -36,7 +40,6 @@
             "world/terrain/special_tiles.data",
             "world/terrain/debug_tiles.data",
             "world/objects/wall_tiles.data",
-            "world/objects/stair_tiles.data",
             "world/objects/object_tiles.data",
             "world/buildings/building_tiles.data",
             "world/buildings/buildings.data",

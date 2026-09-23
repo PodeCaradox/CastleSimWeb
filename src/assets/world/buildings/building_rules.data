@@ -239,13 +239,6 @@
     },
     "WorkerSlots": 1
   },
-  "stair": {
-    "Role": "Wall",
-    "Hp": 400,
-    "Cost": {
-      "Stone": 5
-    }
-  },
   "stables": {
     "Hp": 250,
     "Cost": {

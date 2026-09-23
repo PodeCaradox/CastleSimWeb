@@ -35,13 +35,9 @@
          ],
          "BrushType": "WallBrush"
      },
-    "brush_stair_0": {
+    "brush_ramp_0": {
         "BrushEntities": [
-            {
-                "Name": "stair_0",
-                "RandomFactor": 1
-            }
         ],
-        "BrushType": "StairBrush"
+        "BrushType": "RampBrush"
     }
 }
