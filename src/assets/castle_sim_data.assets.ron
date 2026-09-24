@@ -16,6 +16,10 @@
             "images/entities/animals/healthbar.positions",
             "images/entities/animals/bowman.positions",
             "images/entities/animals/crossbowman.positions",
+            "images/entities/animals/cavalry.positions",
+            "images/entities/animals/catapult.positions",
+            "images/entities/animals/catapult_2.positions",
+            "images/entities/animals/catapult_3.positions",
         ],
     ),
     "game_interface": File (
