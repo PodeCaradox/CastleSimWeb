@@ -8,6 +8,24 @@
         ],
         "BrushType": "EntitiesBrush"
     },
+    "cavalry_brush": {
+        "BrushEntities": [
+            {
+                "Name": "cavalry",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "EntitiesBrush"
+    },
+    "catapult_brush": {
+        "BrushEntities": [
+            {
+                "Name": "catapult",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "EntitiesBrush"
+    },
 	"deer_brush": {
         "BrushEntities": [
             {
