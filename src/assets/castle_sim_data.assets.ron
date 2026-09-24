@@ -14,7 +14,8 @@
             "images/entities/animals/piceman.positions",
             "images/entities/animals/deer.positions",
             "images/entities/animals/healthbar.positions",
-            "images/entities/animals/knight.positions",
+            "images/entities/animals/bowman.positions",
+            "images/entities/animals/crossbowman.positions",
         ],
     ),
     "game_interface": File (

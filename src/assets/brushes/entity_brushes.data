@@ -44,14 +44,5 @@
             }
         ],
         "BrushType": "EntitiesBrush"
-    },
-    "knight_brush": {
-        "BrushEntities": [
-            {
-                "Name": "knight",
-                "RandomFactor": 1
-            }
-        ],
-        "BrushType": "EntitiesBrush"
     }
 }

@@ -1240,26 +1240,6 @@
                         "width": 32,
                         "height": 32
                     }
-                },
-				{
-                    "EventType": "SelectBrush",
-                    "EventName": "knight_brush",
-                    "CollisionObject": {
-                        "type": "CustomRectangle",
-                        "Rectangle": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 32,
-                            "height": 32
-                        }
-                    },
-                    "Position": [-217,56],
-                    "ImageSource": {
-                        "x": 1356,
-                        "y": 64,
-                        "width": 32,
-                        "height": 32
-                    }
                 }
             ]
         },
