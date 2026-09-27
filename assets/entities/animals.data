@@ -851,6 +851,8 @@
 },
 "deer":{
  "WalkSpeed":422,
+ "RunSpeed":844,
+ "HerdSize":8,
  "FormationRank":0,
  "ImageName":"deer",
  "ColorTableImageName":"color_table",
@@ -5931,12 +5933,17 @@
 "catapult": {
     "WalkSpeed": 257,
     "FormationRank": 2,
+    "Projectile": "stone",
     "Combat": {
         "HitPoints": 300,
         "Damage": 100,
         "AttackRange": 1696,
         "AttackCooldownTicks": 320,
-        "Ranged": true
+        "Ranged": true,
+        "SplashRings": 1,
+        "BreaksWalls": true,
+        "MinAttackRange": 256,
+        "GroundOnly": true
     },
     "ImageName": "catapult",
     "ColorTableImageName": "color_table",
@@ -6777,5 +6784,21 @@
     ],
     "HealthbarHang": 252,
     "DefaultStance": "Hold"
+},
+"stone": {
+    "ImageName": "healthbar",
+    "ColorTableImageName": "color_table",
+    "ColorTableStartPos": "0,16",
+    "AnimationData": [
+        {
+            "Animation": "WalkingNorthEast",
+            "Frames": [
+                {
+                    "AtlasCoord": "0,368,10,9",
+                    "ImageOffset": "0,9"
+                }
+            ]
+        }
+    ]
 }
 }
