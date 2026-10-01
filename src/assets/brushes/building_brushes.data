@@ -1,13 +1,4 @@
 {	
-	"gate_new_brush": {
-        "BrushEntities": [
-            {
-                "Name": "gate_new",
-                "RandomFactor": 1
-            }
-        ],
-        "BrushType": "BuildingBrush"
-    },	
 	"tower_round_brush": {
         "BrushEntities": [
             {

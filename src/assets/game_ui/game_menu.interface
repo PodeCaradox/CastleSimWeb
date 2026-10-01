@@ -142,6 +142,158 @@
                         "width": 48,
                         "height": 48
                     }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-300,2],
+                    "ImageSource": {
+                        "x": 1600,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "1",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-276,2],
+                    "ImageSource": {
+                        "x": 1624,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "2",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-250,2],
+                    "ImageSource": {
+                        "x": 1648,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "3",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-226,2],
+                    "ImageSource": {
+                        "x": 1672,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "4",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-300,26],
+                    "ImageSource": {
+                        "x": 1696,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "5",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-276,26],
+                    "ImageSource": {
+                        "x": 1720,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "6",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-250,26],
+                    "ImageSource": {
+                        "x": 1744,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "7",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-226,26],
+                    "ImageSource": {
+                        "x": 1768,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
                 }
             ]
         },
@@ -2127,25 +2279,6 @@
                     "Position": [-237,-96],
                     "ImageSource": {
                         "x": 56,
-                        "y": 581,
-                        "width": 56,
-                        "height": 56
-                    }
-                }, {
-                    "EventType": "SelectBrush",
-                    "EventName": "gate_new_brush",
-                    "CollisionObject": {
-                        "type": "CustomRectangle",
-                        "Rectangle": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 56,
-                            "height": 56
-                        }
-                    },
-                    "Position": [-177,-96],
-                    "ImageSource": {
-                        "x": 112,
                         "y": 581,
                         "width": 56,
                         "height": 56

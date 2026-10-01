@@ -837,7 +837,12 @@
       }
     ],
     "Hp": 100,
-    "ObjectElevation": 0
+    "ObjectElevation": 0,
+    "DirNames": [
+      "church_big_view1",
+      "church_big_view2",
+      "church_big_view3"
+    ]
   },
   "church_medium": {
     "TileData": [
@@ -1465,7 +1470,7 @@
       }
     ],
     "Hp": 100,
-    "ObjectElevation": 220,
+    "ObjectElevation": 374,
     "DirNames": [
       "gate_1",
       "gate_0",
@@ -1576,7 +1581,7 @@
       }
     ],
     "Hp": 100,
-    "ObjectElevation": 220,
+    "ObjectElevation": 374,
     "DirNames": [
       "gate_0",
       "gate_1",
@@ -4550,109 +4555,2065 @@
     ],
     "ObjectElevation": 912
   },
-  "gate_new": {
+  "church_big_view1": {
     "TileData": [
       {
-        "TileId": "gate_new_0",
+        "TileId": "church_big_view1_0",
+        "Position": [-6,-6]
+      },
+      {
+        "TileId": "church_big_view1_1",
+        "Position": [-5,-6]
+      },
+      {
+        "TileId": "church_big_view1_2",
+        "Position": [-4,-6]
+      },
+      {
+        "TileId": "church_big_view1_3",
+        "Position": [-3,-6]
+      },
+      {
+        "TileId": "church_big_view1_4",
+        "Position": [-2,-6]
+      },
+      {
+        "TileId": "church_big_view1_5",
+        "Position": [-1,-6]
+      },
+      {
+        "TileId": "church_big_view1_6",
+        "Position": [0,-6]
+      },
+      {
+        "TileId": "church_big_view1_7",
+        "Position": [1,-6]
+      },
+      {
+        "TileId": "church_big_view1_8",
+        "Position": [2,-6]
+      },
+      {
+        "TileId": "church_big_view1_9",
+        "Position": [3,-6]
+      },
+      {
+        "TileId": "church_big_view1_10",
+        "Position": [4,-6]
+      },
+      {
+        "TileId": "church_big_view1_11",
+        "Position": [5,-6]
+      },
+      {
+        "TileId": "church_big_view1_12",
+        "Position": [6,-6]
+      },
+      {
+        "TileId": "church_big_view1_13",
+        "Position": [-6,-5]
+      },
+      {
+        "TileId": "church_big_view1_14",
+        "Position": [-5,-5]
+      },
+      {
+        "TileId": "church_big_view1_15",
+        "Position": [-4,-5]
+      },
+      {
+        "TileId": "church_big_view1_16",
+        "Position": [-3,-5]
+      },
+      {
+        "TileId": "church_big_view1_17",
+        "Position": [-2,-5]
+      },
+      {
+        "TileId": "church_big_view1_18",
+        "Position": [-1,-5]
+      },
+      {
+        "TileId": "church_big_view1_19",
+        "Position": [0,-5]
+      },
+      {
+        "TileId": "church_big_view1_20",
+        "Position": [1,-5]
+      },
+      {
+        "TileId": "church_big_view1_21",
+        "Position": [2,-5]
+      },
+      {
+        "TileId": "church_big_view1_22",
+        "Position": [3,-5]
+      },
+      {
+        "TileId": "church_big_view1_23",
+        "Position": [4,-5]
+      },
+      {
+        "TileId": "church_big_view1_24",
+        "Position": [5,-5]
+      },
+      {
+        "TileId": "church_big_view1_25",
+        "Position": [6,-5]
+      },
+      {
+        "TileId": "church_big_view1_26",
+        "Position": [-6,-4]
+      },
+      {
+        "TileId": "church_big_view1_27",
+        "Position": [-5,-4]
+      },
+      {
+        "TileId": "church_big_view1_28",
+        "Position": [-4,-4]
+      },
+      {
+        "TileId": "church_big_view1_29",
+        "Position": [-3,-4]
+      },
+      {
+        "TileId": "church_big_view1_30",
+        "Position": [-2,-4]
+      },
+      {
+        "TileId": "church_big_view1_31",
+        "Position": [-1,-4]
+      },
+      {
+        "TileId": "church_big_view1_32",
+        "Position": [0,-4]
+      },
+      {
+        "TileId": "church_big_view1_33",
+        "Position": [1,-4]
+      },
+      {
+        "TileId": "church_big_view1_34",
+        "Position": [2,-4]
+      },
+      {
+        "TileId": "church_big_view1_35",
+        "Position": [3,-4]
+      },
+      {
+        "TileId": "church_big_view1_36",
+        "Position": [4,-4]
+      },
+      {
+        "TileId": "church_big_view1_37",
+        "Position": [5,-4]
+      },
+      {
+        "TileId": "church_big_view1_38",
+        "Position": [6,-4]
+      },
+      {
+        "TileId": "church_big_view1_39",
+        "Position": [-6,-3]
+      },
+      {
+        "TileId": "church_big_view1_40",
+        "Position": [-5,-3]
+      },
+      {
+        "TileId": "church_big_view1_41",
+        "Position": [-4,-3]
+      },
+      {
+        "TileId": "church_big_view1_42",
+        "Position": [-3,-3]
+      },
+      {
+        "TileId": "church_big_view1_43",
+        "Position": [-2,-3]
+      },
+      {
+        "TileId": "church_big_view1_44",
+        "Position": [-1,-3]
+      },
+      {
+        "TileId": "church_big_view1_45",
+        "Position": [0,-3]
+      },
+      {
+        "TileId": "church_big_view1_46",
+        "Position": [1,-3]
+      },
+      {
+        "TileId": "church_big_view1_47",
+        "Position": [2,-3]
+      },
+      {
+        "TileId": "church_big_view1_48",
+        "Position": [3,-3]
+      },
+      {
+        "TileId": "church_big_view1_49",
+        "Position": [4,-3]
+      },
+      {
+        "TileId": "church_big_view1_50",
+        "Position": [5,-3]
+      },
+      {
+        "TileId": "church_big_view1_51",
+        "Position": [6,-3]
+      },
+      {
+        "TileId": "church_big_view1_52",
+        "Position": [-6,-2]
+      },
+      {
+        "TileId": "church_big_view1_53",
+        "Position": [-5,-2]
+      },
+      {
+        "TileId": "church_big_view1_54",
+        "Position": [-4,-2]
+      },
+      {
+        "TileId": "church_big_view1_55",
+        "Position": [-3,-2]
+      },
+      {
+        "TileId": "church_big_view1_56",
         "Position": [-2,-2]
       },
       {
-        "TileId": "gate_new_1",
+        "TileId": "church_big_view1_57",
         "Position": [-1,-2]
       },
       {
-        "TileId": "gate_new_2",
+        "TileId": "church_big_view1_58",
         "Position": [0,-2]
       },
       {
-        "TileId": "gate_new_3",
+        "TileId": "church_big_view1_59",
         "Position": [1,-2]
       },
       {
-        "TileId": "gate_new_4",
+        "TileId": "church_big_view1_60",
         "Position": [2,-2]
       },
       {
-        "TileId": "gate_new_5",
+        "TileId": "church_big_view1_61",
+        "Position": [3,-2]
+      },
+      {
+        "TileId": "church_big_view1_62",
+        "Position": [4,-2]
+      },
+      {
+        "TileId": "church_big_view1_63",
+        "Position": [5,-2]
+      },
+      {
+        "TileId": "church_big_view1_64",
+        "Position": [6,-2]
+      },
+      {
+        "TileId": "church_big_view1_65",
+        "Position": [-6,-1]
+      },
+      {
+        "TileId": "church_big_view1_66",
+        "Position": [-5,-1]
+      },
+      {
+        "TileId": "church_big_view1_67",
+        "Position": [-4,-1]
+      },
+      {
+        "TileId": "church_big_view1_68",
+        "Position": [-3,-1]
+      },
+      {
+        "TileId": "church_big_view1_69",
         "Position": [-2,-1]
       },
       {
-        "TileId": "gate_new_6",
+        "TileId": "church_big_view1_70",
         "Position": [-1,-1]
       },
       {
-        "TileId": "gate_new_7",
+        "TileId": "church_big_view1_71",
         "Position": [0,-1]
       },
       {
-        "TileId": "gate_new_8",
+        "TileId": "church_big_view1_72",
         "Position": [1,-1]
       },
       {
-        "TileId": "gate_new_9",
+        "TileId": "church_big_view1_73",
         "Position": [2,-1]
       },
       {
-        "TileId": "gate_new_10",
+        "TileId": "church_big_view1_74",
+        "Position": [3,-1]
+      },
+      {
+        "TileId": "church_big_view1_75",
+        "Position": [4,-1]
+      },
+      {
+        "TileId": "church_big_view1_76",
+        "Position": [5,-1]
+      },
+      {
+        "TileId": "church_big_view1_77",
+        "Position": [6,-1]
+      },
+      {
+        "TileId": "church_big_view1_78",
+        "Position": [-6,0]
+      },
+      {
+        "TileId": "church_big_view1_79",
+        "Position": [-5,0]
+      },
+      {
+        "TileId": "church_big_view1_80",
+        "Position": [-4,0]
+      },
+      {
+        "TileId": "church_big_view1_81",
+        "Position": [-3,0]
+      },
+      {
+        "TileId": "church_big_view1_82",
         "Position": [-2,0]
       },
       {
-        "TileId": "gate_new_11",
+        "TileId": "church_big_view1_83",
         "Position": [-1,0]
       },
       {
-        "TileId": "gate_new_12",
+        "TileId": "church_big_view1_84",
         "Position": [0,0]
       },
       {
-        "TileId": "gate_new_13",
+        "TileId": "church_big_view1_85",
         "Position": [1,0]
       },
       {
-        "TileId": "gate_new_14",
+        "TileId": "church_big_view1_86",
         "Position": [2,0]
       },
       {
-        "TileId": "gate_new_15",
+        "TileId": "church_big_view1_87",
+        "Position": [3,0]
+      },
+      {
+        "TileId": "church_big_view1_88",
+        "Position": [4,0]
+      },
+      {
+        "TileId": "church_big_view1_89",
+        "Position": [5,0]
+      },
+      {
+        "TileId": "church_big_view1_90",
+        "Position": [6,0]
+      },
+      {
+        "TileId": "church_big_view1_91",
+        "Position": [-6,1]
+      },
+      {
+        "TileId": "church_big_view1_92",
+        "Position": [-5,1]
+      },
+      {
+        "TileId": "church_big_view1_93",
+        "Position": [-4,1]
+      },
+      {
+        "TileId": "church_big_view1_94",
+        "Position": [-3,1]
+      },
+      {
+        "TileId": "church_big_view1_95",
         "Position": [-2,1]
       },
       {
-        "TileId": "gate_new_16",
+        "TileId": "church_big_view1_96",
         "Position": [-1,1]
       },
       {
-        "TileId": "gate_new_17",
+        "TileId": "church_big_view1_97",
         "Position": [0,1]
       },
       {
-        "TileId": "gate_new_18",
+        "TileId": "church_big_view1_98",
         "Position": [1,1]
       },
       {
-        "TileId": "gate_new_19",
+        "TileId": "church_big_view1_99",
         "Position": [2,1]
       },
       {
-        "TileId": "gate_new_20",
+        "TileId": "church_big_view1_100",
+        "Position": [3,1]
+      },
+      {
+        "TileId": "church_big_view1_101",
+        "Position": [4,1]
+      },
+      {
+        "TileId": "church_big_view1_102",
+        "Position": [5,1]
+      },
+      {
+        "TileId": "church_big_view1_103",
+        "Position": [6,1]
+      },
+      {
+        "TileId": "church_big_view1_104",
+        "Position": [-6,2]
+      },
+      {
+        "TileId": "church_big_view1_105",
+        "Position": [-5,2]
+      },
+      {
+        "TileId": "church_big_view1_106",
+        "Position": [-4,2]
+      },
+      {
+        "TileId": "church_big_view1_107",
+        "Position": [-3,2]
+      },
+      {
+        "TileId": "church_big_view1_108",
         "Position": [-2,2]
       },
       {
-        "TileId": "gate_new_21",
+        "TileId": "church_big_view1_109",
         "Position": [-1,2]
       },
       {
-        "TileId": "gate_new_22",
+        "TileId": "church_big_view1_110",
         "Position": [0,2]
       },
       {
-        "TileId": "gate_new_23",
+        "TileId": "church_big_view1_111",
         "Position": [1,2]
       },
       {
-        "TileId": "gate_new_24",
+        "TileId": "church_big_view1_112",
         "Position": [2,2]
+      },
+      {
+        "TileId": "church_big_view1_113",
+        "Position": [3,2]
+      },
+      {
+        "TileId": "church_big_view1_114",
+        "Position": [4,2]
+      },
+      {
+        "TileId": "church_big_view1_115",
+        "Position": [5,2]
+      },
+      {
+        "TileId": "church_big_view1_116",
+        "Position": [6,2]
+      },
+      {
+        "TileId": "church_big_view1_117",
+        "Position": [-6,3]
+      },
+      {
+        "TileId": "church_big_view1_118",
+        "Position": [-5,3]
+      },
+      {
+        "TileId": "church_big_view1_119",
+        "Position": [-4,3]
+      },
+      {
+        "TileId": "church_big_view1_120",
+        "Position": [-3,3]
+      },
+      {
+        "TileId": "church_big_view1_121",
+        "Position": [-2,3]
+      },
+      {
+        "TileId": "church_big_view1_122",
+        "Position": [-1,3]
+      },
+      {
+        "TileId": "church_big_view1_123",
+        "Position": [0,3]
+      },
+      {
+        "TileId": "church_big_view1_124",
+        "Position": [1,3]
+      },
+      {
+        "TileId": "church_big_view1_125",
+        "Position": [2,3]
+      },
+      {
+        "TileId": "church_big_view1_126",
+        "Position": [3,3]
+      },
+      {
+        "TileId": "church_big_view1_127",
+        "Position": [4,3]
+      },
+      {
+        "TileId": "church_big_view1_128",
+        "Position": [5,3]
+      },
+      {
+        "TileId": "church_big_view1_129",
+        "Position": [6,3]
+      },
+      {
+        "TileId": "church_big_view1_130",
+        "Position": [-6,4]
+      },
+      {
+        "TileId": "church_big_view1_131",
+        "Position": [-5,4]
+      },
+      {
+        "TileId": "church_big_view1_132",
+        "Position": [-4,4]
+      },
+      {
+        "TileId": "church_big_view1_133",
+        "Position": [-3,4]
+      },
+      {
+        "TileId": "church_big_view1_134",
+        "Position": [-2,4]
+      },
+      {
+        "TileId": "church_big_view1_135",
+        "Position": [-1,4]
+      },
+      {
+        "TileId": "church_big_view1_136",
+        "Position": [0,4]
+      },
+      {
+        "TileId": "church_big_view1_137",
+        "Position": [1,4]
+      },
+      {
+        "TileId": "church_big_view1_138",
+        "Position": [2,4]
+      },
+      {
+        "TileId": "church_big_view1_139",
+        "Position": [3,4]
+      },
+      {
+        "TileId": "church_big_view1_140",
+        "Position": [4,4]
+      },
+      {
+        "TileId": "church_big_view1_141",
+        "Position": [5,4]
+      },
+      {
+        "TileId": "church_big_view1_142",
+        "Position": [6,4]
+      },
+      {
+        "TileId": "church_big_view1_143",
+        "Position": [-6,5]
+      },
+      {
+        "TileId": "church_big_view1_144",
+        "Position": [-5,5]
+      },
+      {
+        "TileId": "church_big_view1_145",
+        "Position": [-4,5]
+      },
+      {
+        "TileId": "church_big_view1_146",
+        "Position": [-3,5]
+      },
+      {
+        "TileId": "church_big_view1_147",
+        "Position": [-2,5]
+      },
+      {
+        "TileId": "church_big_view1_148",
+        "Position": [-1,5]
+      },
+      {
+        "TileId": "church_big_view1_149",
+        "Position": [0,5]
+      },
+      {
+        "TileId": "church_big_view1_150",
+        "Position": [1,5]
+      },
+      {
+        "TileId": "church_big_view1_151",
+        "Position": [2,5]
+      },
+      {
+        "TileId": "church_big_view1_152",
+        "Position": [3,5]
+      },
+      {
+        "TileId": "church_big_view1_153",
+        "Position": [4,5]
+      },
+      {
+        "TileId": "church_big_view1_154",
+        "Position": [5,5]
+      },
+      {
+        "TileId": "church_big_view1_155",
+        "Position": [6,5]
+      },
+      {
+        "TileId": "church_big_view1_156",
+        "Position": [-6,6]
+      },
+      {
+        "TileId": "church_big_view1_157",
+        "Position": [-5,6]
+      },
+      {
+        "TileId": "church_big_view1_158",
+        "Position": [-4,6]
+      },
+      {
+        "TileId": "church_big_view1_159",
+        "Position": [-3,6]
+      },
+      {
+        "TileId": "church_big_view1_160",
+        "Position": [-2,6]
+      },
+      {
+        "TileId": "church_big_view1_161",
+        "Position": [-1,6]
+      },
+      {
+        "TileId": "church_big_view1_162",
+        "Position": [0,6]
+      },
+      {
+        "TileId": "church_big_view1_163",
+        "Position": [1,6]
+      },
+      {
+        "TileId": "church_big_view1_164",
+        "Position": [2,6]
+      },
+      {
+        "TileId": "church_big_view1_165",
+        "Position": [3,6]
+      },
+      {
+        "TileId": "church_big_view1_166",
+        "Position": [4,6]
+      },
+      {
+        "TileId": "church_big_view1_167",
+        "Position": [5,6]
+      },
+      {
+        "TileId": "church_big_view1_168",
+        "Position": [6,6]
       }
     ],
-    "ObjectElevation": 376
+    "Hp": 100,
+    "ObjectElevation": 0,
+    "DirNames": [
+      "church_big_view2",
+      "church_big_view3",
+      "church_big"
+    ]
+  },
+  "church_big_view2": {
+    "TileData": [
+      {
+        "TileId": "church_big_view2_0",
+        "Position": [-6,-6]
+      },
+      {
+        "TileId": "church_big_view2_1",
+        "Position": [-5,-6]
+      },
+      {
+        "TileId": "church_big_view2_2",
+        "Position": [-4,-6]
+      },
+      {
+        "TileId": "church_big_view2_3",
+        "Position": [-3,-6]
+      },
+      {
+        "TileId": "church_big_view2_4",
+        "Position": [-2,-6]
+      },
+      {
+        "TileId": "church_big_view2_5",
+        "Position": [-1,-6]
+      },
+      {
+        "TileId": "church_big_view2_6",
+        "Position": [0,-6]
+      },
+      {
+        "TileId": "church_big_view2_7",
+        "Position": [1,-6]
+      },
+      {
+        "TileId": "church_big_view2_8",
+        "Position": [2,-6]
+      },
+      {
+        "TileId": "church_big_view2_9",
+        "Position": [3,-6]
+      },
+      {
+        "TileId": "church_big_view2_10",
+        "Position": [4,-6]
+      },
+      {
+        "TileId": "church_big_view2_11",
+        "Position": [5,-6]
+      },
+      {
+        "TileId": "church_big_view2_12",
+        "Position": [6,-6]
+      },
+      {
+        "TileId": "church_big_view2_13",
+        "Position": [-6,-5]
+      },
+      {
+        "TileId": "church_big_view2_14",
+        "Position": [-5,-5]
+      },
+      {
+        "TileId": "church_big_view2_15",
+        "Position": [-4,-5]
+      },
+      {
+        "TileId": "church_big_view2_16",
+        "Position": [-3,-5]
+      },
+      {
+        "TileId": "church_big_view2_17",
+        "Position": [-2,-5]
+      },
+      {
+        "TileId": "church_big_view2_18",
+        "Position": [-1,-5]
+      },
+      {
+        "TileId": "church_big_view2_19",
+        "Position": [0,-5]
+      },
+      {
+        "TileId": "church_big_view2_20",
+        "Position": [1,-5]
+      },
+      {
+        "TileId": "church_big_view2_21",
+        "Position": [2,-5]
+      },
+      {
+        "TileId": "church_big_view2_22",
+        "Position": [3,-5]
+      },
+      {
+        "TileId": "church_big_view2_23",
+        "Position": [4,-5]
+      },
+      {
+        "TileId": "church_big_view2_24",
+        "Position": [5,-5]
+      },
+      {
+        "TileId": "church_big_view2_25",
+        "Position": [6,-5]
+      },
+      {
+        "TileId": "church_big_view2_26",
+        "Position": [-6,-4]
+      },
+      {
+        "TileId": "church_big_view2_27",
+        "Position": [-5,-4]
+      },
+      {
+        "TileId": "church_big_view2_28",
+        "Position": [-4,-4]
+      },
+      {
+        "TileId": "church_big_view2_29",
+        "Position": [-3,-4]
+      },
+      {
+        "TileId": "church_big_view2_30",
+        "Position": [-2,-4]
+      },
+      {
+        "TileId": "church_big_view2_31",
+        "Position": [-1,-4]
+      },
+      {
+        "TileId": "church_big_view2_32",
+        "Position": [0,-4]
+      },
+      {
+        "TileId": "church_big_view2_33",
+        "Position": [1,-4]
+      },
+      {
+        "TileId": "church_big_view2_34",
+        "Position": [2,-4]
+      },
+      {
+        "TileId": "church_big_view2_35",
+        "Position": [3,-4]
+      },
+      {
+        "TileId": "church_big_view2_36",
+        "Position": [4,-4]
+      },
+      {
+        "TileId": "church_big_view2_37",
+        "Position": [5,-4]
+      },
+      {
+        "TileId": "church_big_view2_38",
+        "Position": [6,-4]
+      },
+      {
+        "TileId": "church_big_view2_39",
+        "Position": [-6,-3]
+      },
+      {
+        "TileId": "church_big_view2_40",
+        "Position": [-5,-3]
+      },
+      {
+        "TileId": "church_big_view2_41",
+        "Position": [-4,-3]
+      },
+      {
+        "TileId": "church_big_view2_42",
+        "Position": [-3,-3]
+      },
+      {
+        "TileId": "church_big_view2_43",
+        "Position": [-2,-3]
+      },
+      {
+        "TileId": "church_big_view2_44",
+        "Position": [-1,-3]
+      },
+      {
+        "TileId": "church_big_view2_45",
+        "Position": [0,-3]
+      },
+      {
+        "TileId": "church_big_view2_46",
+        "Position": [1,-3]
+      },
+      {
+        "TileId": "church_big_view2_47",
+        "Position": [2,-3]
+      },
+      {
+        "TileId": "church_big_view2_48",
+        "Position": [3,-3]
+      },
+      {
+        "TileId": "church_big_view2_49",
+        "Position": [4,-3]
+      },
+      {
+        "TileId": "church_big_view2_50",
+        "Position": [5,-3]
+      },
+      {
+        "TileId": "church_big_view2_51",
+        "Position": [6,-3]
+      },
+      {
+        "TileId": "church_big_view2_52",
+        "Position": [-6,-2]
+      },
+      {
+        "TileId": "church_big_view2_53",
+        "Position": [-5,-2]
+      },
+      {
+        "TileId": "church_big_view2_54",
+        "Position": [-4,-2]
+      },
+      {
+        "TileId": "church_big_view2_55",
+        "Position": [-3,-2]
+      },
+      {
+        "TileId": "church_big_view2_56",
+        "Position": [-2,-2]
+      },
+      {
+        "TileId": "church_big_view2_57",
+        "Position": [-1,-2]
+      },
+      {
+        "TileId": "church_big_view2_58",
+        "Position": [0,-2]
+      },
+      {
+        "TileId": "church_big_view2_59",
+        "Position": [1,-2]
+      },
+      {
+        "TileId": "church_big_view2_60",
+        "Position": [2,-2]
+      },
+      {
+        "TileId": "church_big_view2_61",
+        "Position": [3,-2]
+      },
+      {
+        "TileId": "church_big_view2_62",
+        "Position": [4,-2]
+      },
+      {
+        "TileId": "church_big_view2_63",
+        "Position": [5,-2]
+      },
+      {
+        "TileId": "church_big_view2_64",
+        "Position": [6,-2]
+      },
+      {
+        "TileId": "church_big_view2_65",
+        "Position": [-6,-1]
+      },
+      {
+        "TileId": "church_big_view2_66",
+        "Position": [-5,-1]
+      },
+      {
+        "TileId": "church_big_view2_67",
+        "Position": [-4,-1]
+      },
+      {
+        "TileId": "church_big_view2_68",
+        "Position": [-3,-1]
+      },
+      {
+        "TileId": "church_big_view2_69",
+        "Position": [-2,-1]
+      },
+      {
+        "TileId": "church_big_view2_70",
+        "Position": [-1,-1]
+      },
+      {
+        "TileId": "church_big_view2_71",
+        "Position": [0,-1]
+      },
+      {
+        "TileId": "church_big_view2_72",
+        "Position": [1,-1]
+      },
+      {
+        "TileId": "church_big_view2_73",
+        "Position": [2,-1]
+      },
+      {
+        "TileId": "church_big_view2_74",
+        "Position": [3,-1]
+      },
+      {
+        "TileId": "church_big_view2_75",
+        "Position": [4,-1]
+      },
+      {
+        "TileId": "church_big_view2_76",
+        "Position": [5,-1]
+      },
+      {
+        "TileId": "church_big_view2_77",
+        "Position": [6,-1]
+      },
+      {
+        "TileId": "church_big_view2_78",
+        "Position": [-6,0]
+      },
+      {
+        "TileId": "church_big_view2_79",
+        "Position": [-5,0]
+      },
+      {
+        "TileId": "church_big_view2_80",
+        "Position": [-4,0]
+      },
+      {
+        "TileId": "church_big_view2_81",
+        "Position": [-3,0]
+      },
+      {
+        "TileId": "church_big_view2_82",
+        "Position": [-2,0]
+      },
+      {
+        "TileId": "church_big_view2_83",
+        "Position": [-1,0]
+      },
+      {
+        "TileId": "church_big_view2_84",
+        "Position": [0,0]
+      },
+      {
+        "TileId": "church_big_view2_85",
+        "Position": [1,0]
+      },
+      {
+        "TileId": "church_big_view2_86",
+        "Position": [2,0]
+      },
+      {
+        "TileId": "church_big_view2_87",
+        "Position": [3,0]
+      },
+      {
+        "TileId": "church_big_view2_88",
+        "Position": [4,0]
+      },
+      {
+        "TileId": "church_big_view2_89",
+        "Position": [5,0]
+      },
+      {
+        "TileId": "church_big_view2_90",
+        "Position": [6,0]
+      },
+      {
+        "TileId": "church_big_view2_91",
+        "Position": [-6,1]
+      },
+      {
+        "TileId": "church_big_view2_92",
+        "Position": [-5,1]
+      },
+      {
+        "TileId": "church_big_view2_93",
+        "Position": [-4,1]
+      },
+      {
+        "TileId": "church_big_view2_94",
+        "Position": [-3,1]
+      },
+      {
+        "TileId": "church_big_view2_95",
+        "Position": [-2,1]
+      },
+      {
+        "TileId": "church_big_view2_96",
+        "Position": [-1,1]
+      },
+      {
+        "TileId": "church_big_view2_97",
+        "Position": [0,1]
+      },
+      {
+        "TileId": "church_big_view2_98",
+        "Position": [1,1]
+      },
+      {
+        "TileId": "church_big_view2_99",
+        "Position": [2,1]
+      },
+      {
+        "TileId": "church_big_view2_100",
+        "Position": [3,1]
+      },
+      {
+        "TileId": "church_big_view2_101",
+        "Position": [4,1]
+      },
+      {
+        "TileId": "church_big_view2_102",
+        "Position": [5,1]
+      },
+      {
+        "TileId": "church_big_view2_103",
+        "Position": [6,1]
+      },
+      {
+        "TileId": "church_big_view2_104",
+        "Position": [-6,2]
+      },
+      {
+        "TileId": "church_big_view2_105",
+        "Position": [-5,2]
+      },
+      {
+        "TileId": "church_big_view2_106",
+        "Position": [-4,2]
+      },
+      {
+        "TileId": "church_big_view2_107",
+        "Position": [-3,2]
+      },
+      {
+        "TileId": "church_big_view2_108",
+        "Position": [-2,2]
+      },
+      {
+        "TileId": "church_big_view2_109",
+        "Position": [-1,2]
+      },
+      {
+        "TileId": "church_big_view2_110",
+        "Position": [0,2]
+      },
+      {
+        "TileId": "church_big_view2_111",
+        "Position": [1,2]
+      },
+      {
+        "TileId": "church_big_view2_112",
+        "Position": [2,2]
+      },
+      {
+        "TileId": "church_big_view2_113",
+        "Position": [3,2]
+      },
+      {
+        "TileId": "church_big_view2_114",
+        "Position": [4,2]
+      },
+      {
+        "TileId": "church_big_view2_115",
+        "Position": [5,2]
+      },
+      {
+        "TileId": "church_big_view2_116",
+        "Position": [6,2]
+      },
+      {
+        "TileId": "church_big_view2_117",
+        "Position": [-6,3]
+      },
+      {
+        "TileId": "church_big_view2_118",
+        "Position": [-5,3]
+      },
+      {
+        "TileId": "church_big_view2_119",
+        "Position": [-4,3]
+      },
+      {
+        "TileId": "church_big_view2_120",
+        "Position": [-3,3]
+      },
+      {
+        "TileId": "church_big_view2_121",
+        "Position": [-2,3]
+      },
+      {
+        "TileId": "church_big_view2_122",
+        "Position": [-1,3]
+      },
+      {
+        "TileId": "church_big_view2_123",
+        "Position": [0,3]
+      },
+      {
+        "TileId": "church_big_view2_124",
+        "Position": [1,3]
+      },
+      {
+        "TileId": "church_big_view2_125",
+        "Position": [2,3]
+      },
+      {
+        "TileId": "church_big_view2_126",
+        "Position": [3,3]
+      },
+      {
+        "TileId": "church_big_view2_127",
+        "Position": [4,3]
+      },
+      {
+        "TileId": "church_big_view2_128",
+        "Position": [5,3]
+      },
+      {
+        "TileId": "church_big_view2_129",
+        "Position": [6,3]
+      },
+      {
+        "TileId": "church_big_view2_130",
+        "Position": [-6,4]
+      },
+      {
+        "TileId": "church_big_view2_131",
+        "Position": [-5,4]
+      },
+      {
+        "TileId": "church_big_view2_132",
+        "Position": [-4,4]
+      },
+      {
+        "TileId": "church_big_view2_133",
+        "Position": [-3,4]
+      },
+      {
+        "TileId": "church_big_view2_134",
+        "Position": [-2,4]
+      },
+      {
+        "TileId": "church_big_view2_135",
+        "Position": [-1,4]
+      },
+      {
+        "TileId": "church_big_view2_136",
+        "Position": [0,4]
+      },
+      {
+        "TileId": "church_big_view2_137",
+        "Position": [1,4]
+      },
+      {
+        "TileId": "church_big_view2_138",
+        "Position": [2,4]
+      },
+      {
+        "TileId": "church_big_view2_139",
+        "Position": [3,4]
+      },
+      {
+        "TileId": "church_big_view2_140",
+        "Position": [4,4]
+      },
+      {
+        "TileId": "church_big_view2_141",
+        "Position": [5,4]
+      },
+      {
+        "TileId": "church_big_view2_142",
+        "Position": [6,4]
+      },
+      {
+        "TileId": "church_big_view2_143",
+        "Position": [-6,5]
+      },
+      {
+        "TileId": "church_big_view2_144",
+        "Position": [-5,5]
+      },
+      {
+        "TileId": "church_big_view2_145",
+        "Position": [-4,5]
+      },
+      {
+        "TileId": "church_big_view2_146",
+        "Position": [-3,5]
+      },
+      {
+        "TileId": "church_big_view2_147",
+        "Position": [-2,5]
+      },
+      {
+        "TileId": "church_big_view2_148",
+        "Position": [-1,5]
+      },
+      {
+        "TileId": "church_big_view2_149",
+        "Position": [0,5]
+      },
+      {
+        "TileId": "church_big_view2_150",
+        "Position": [1,5]
+      },
+      {
+        "TileId": "church_big_view2_151",
+        "Position": [2,5]
+      },
+      {
+        "TileId": "church_big_view2_152",
+        "Position": [3,5]
+      },
+      {
+        "TileId": "church_big_view2_153",
+        "Position": [4,5]
+      },
+      {
+        "TileId": "church_big_view2_154",
+        "Position": [5,5]
+      },
+      {
+        "TileId": "church_big_view2_155",
+        "Position": [6,5]
+      },
+      {
+        "TileId": "church_big_view2_156",
+        "Position": [-6,6]
+      },
+      {
+        "TileId": "church_big_view2_157",
+        "Position": [-5,6]
+      },
+      {
+        "TileId": "church_big_view2_158",
+        "Position": [-4,6]
+      },
+      {
+        "TileId": "church_big_view2_159",
+        "Position": [-3,6]
+      },
+      {
+        "TileId": "church_big_view2_160",
+        "Position": [-2,6]
+      },
+      {
+        "TileId": "church_big_view2_161",
+        "Position": [-1,6]
+      },
+      {
+        "TileId": "church_big_view2_162",
+        "Position": [0,6]
+      },
+      {
+        "TileId": "church_big_view2_163",
+        "Position": [1,6]
+      },
+      {
+        "TileId": "church_big_view2_164",
+        "Position": [2,6]
+      },
+      {
+        "TileId": "church_big_view2_165",
+        "Position": [3,6]
+      },
+      {
+        "TileId": "church_big_view2_166",
+        "Position": [4,6]
+      },
+      {
+        "TileId": "church_big_view2_167",
+        "Position": [5,6]
+      },
+      {
+        "TileId": "church_big_view2_168",
+        "Position": [6,6]
+      }
+    ],
+    "Hp": 100,
+    "ObjectElevation": 0,
+    "DirNames": [
+      "church_big_view3",
+      "church_big",
+      "church_big_view1"
+    ]
+  },
+  "church_big_view3": {
+    "TileData": [
+      {
+        "TileId": "church_big_view3_0",
+        "Position": [-6,-6]
+      },
+      {
+        "TileId": "church_big_view3_1",
+        "Position": [-5,-6]
+      },
+      {
+        "TileId": "church_big_view3_2",
+        "Position": [-4,-6]
+      },
+      {
+        "TileId": "church_big_view3_3",
+        "Position": [-3,-6]
+      },
+      {
+        "TileId": "church_big_view3_4",
+        "Position": [-2,-6]
+      },
+      {
+        "TileId": "church_big_view3_5",
+        "Position": [-1,-6]
+      },
+      {
+        "TileId": "church_big_view3_6",
+        "Position": [0,-6]
+      },
+      {
+        "TileId": "church_big_view3_7",
+        "Position": [1,-6]
+      },
+      {
+        "TileId": "church_big_view3_8",
+        "Position": [2,-6]
+      },
+      {
+        "TileId": "church_big_view3_9",
+        "Position": [3,-6]
+      },
+      {
+        "TileId": "church_big_view3_10",
+        "Position": [4,-6]
+      },
+      {
+        "TileId": "church_big_view3_11",
+        "Position": [5,-6]
+      },
+      {
+        "TileId": "church_big_view3_12",
+        "Position": [6,-6]
+      },
+      {
+        "TileId": "church_big_view3_13",
+        "Position": [-6,-5]
+      },
+      {
+        "TileId": "church_big_view3_14",
+        "Position": [-5,-5]
+      },
+      {
+        "TileId": "church_big_view3_15",
+        "Position": [-4,-5]
+      },
+      {
+        "TileId": "church_big_view3_16",
+        "Position": [-3,-5]
+      },
+      {
+        "TileId": "church_big_view3_17",
+        "Position": [-2,-5]
+      },
+      {
+        "TileId": "church_big_view3_18",
+        "Position": [-1,-5]
+      },
+      {
+        "TileId": "church_big_view3_19",
+        "Position": [0,-5]
+      },
+      {
+        "TileId": "church_big_view3_20",
+        "Position": [1,-5]
+      },
+      {
+        "TileId": "church_big_view3_21",
+        "Position": [2,-5]
+      },
+      {
+        "TileId": "church_big_view3_22",
+        "Position": [3,-5]
+      },
+      {
+        "TileId": "church_big_view3_23",
+        "Position": [4,-5]
+      },
+      {
+        "TileId": "church_big_view3_24",
+        "Position": [5,-5]
+      },
+      {
+        "TileId": "church_big_view3_25",
+        "Position": [6,-5]
+      },
+      {
+        "TileId": "church_big_view3_26",
+        "Position": [-6,-4]
+      },
+      {
+        "TileId": "church_big_view3_27",
+        "Position": [-5,-4]
+      },
+      {
+        "TileId": "church_big_view3_28",
+        "Position": [-4,-4]
+      },
+      {
+        "TileId": "church_big_view3_29",
+        "Position": [-3,-4]
+      },
+      {
+        "TileId": "church_big_view3_30",
+        "Position": [-2,-4]
+      },
+      {
+        "TileId": "church_big_view3_31",
+        "Position": [-1,-4]
+      },
+      {
+        "TileId": "church_big_view3_32",
+        "Position": [0,-4]
+      },
+      {
+        "TileId": "church_big_view3_33",
+        "Position": [1,-4]
+      },
+      {
+        "TileId": "church_big_view3_34",
+        "Position": [2,-4]
+      },
+      {
+        "TileId": "church_big_view3_35",
+        "Position": [3,-4]
+      },
+      {
+        "TileId": "church_big_view3_36",
+        "Position": [4,-4]
+      },
+      {
+        "TileId": "church_big_view3_37",
+        "Position": [5,-4]
+      },
+      {
+        "TileId": "church_big_view3_38",
+        "Position": [6,-4]
+      },
+      {
+        "TileId": "church_big_view3_39",
+        "Position": [-6,-3]
+      },
+      {
+        "TileId": "church_big_view3_40",
+        "Position": [-5,-3]
+      },
+      {
+        "TileId": "church_big_view3_41",
+        "Position": [-4,-3]
+      },
+      {
+        "TileId": "church_big_view3_42",
+        "Position": [-3,-3]
+      },
+      {
+        "TileId": "church_big_view3_43",
+        "Position": [-2,-3]
+      },
+      {
+        "TileId": "church_big_view3_44",
+        "Position": [-1,-3]
+      },
+      {
+        "TileId": "church_big_view3_45",
+        "Position": [0,-3]
+      },
+      {
+        "TileId": "church_big_view3_46",
+        "Position": [1,-3]
+      },
+      {
+        "TileId": "church_big_view3_47",
+        "Position": [2,-3]
+      },
+      {
+        "TileId": "church_big_view3_48",
+        "Position": [3,-3]
+      },
+      {
+        "TileId": "church_big_view3_49",
+        "Position": [4,-3]
+      },
+      {
+        "TileId": "church_big_view3_50",
+        "Position": [5,-3]
+      },
+      {
+        "TileId": "church_big_view3_51",
+        "Position": [6,-3]
+      },
+      {
+        "TileId": "church_big_view3_52",
+        "Position": [-6,-2]
+      },
+      {
+        "TileId": "church_big_view3_53",
+        "Position": [-5,-2]
+      },
+      {
+        "TileId": "church_big_view3_54",
+        "Position": [-4,-2]
+      },
+      {
+        "TileId": "church_big_view3_55",
+        "Position": [-3,-2]
+      },
+      {
+        "TileId": "church_big_view3_56",
+        "Position": [-2,-2]
+      },
+      {
+        "TileId": "church_big_view3_57",
+        "Position": [-1,-2]
+      },
+      {
+        "TileId": "church_big_view3_58",
+        "Position": [0,-2]
+      },
+      {
+        "TileId": "church_big_view3_59",
+        "Position": [1,-2]
+      },
+      {
+        "TileId": "church_big_view3_60",
+        "Position": [2,-2]
+      },
+      {
+        "TileId": "church_big_view3_61",
+        "Position": [3,-2]
+      },
+      {
+        "TileId": "church_big_view3_62",
+        "Position": [4,-2]
+      },
+      {
+        "TileId": "church_big_view3_63",
+        "Position": [5,-2]
+      },
+      {
+        "TileId": "church_big_view3_64",
+        "Position": [6,-2]
+      },
+      {
+        "TileId": "church_big_view3_65",
+        "Position": [-6,-1]
+      },
+      {
+        "TileId": "church_big_view3_66",
+        "Position": [-5,-1]
+      },
+      {
+        "TileId": "church_big_view3_67",
+        "Position": [-4,-1]
+      },
+      {
+        "TileId": "church_big_view3_68",
+        "Position": [-3,-1]
+      },
+      {
+        "TileId": "church_big_view3_69",
+        "Position": [-2,-1]
+      },
+      {
+        "TileId": "church_big_view3_70",
+        "Position": [-1,-1]
+      },
+      {
+        "TileId": "church_big_view3_71",
+        "Position": [0,-1]
+      },
+      {
+        "TileId": "church_big_view3_72",
+        "Position": [1,-1]
+      },
+      {
+        "TileId": "church_big_view3_73",
+        "Position": [2,-1]
+      },
+      {
+        "TileId": "church_big_view3_74",
+        "Position": [3,-1]
+      },
+      {
+        "TileId": "church_big_view3_75",
+        "Position": [4,-1]
+      },
+      {
+        "TileId": "church_big_view3_76",
+        "Position": [5,-1]
+      },
+      {
+        "TileId": "church_big_view3_77",
+        "Position": [6,-1]
+      },
+      {
+        "TileId": "church_big_view3_78",
+        "Position": [-6,0]
+      },
+      {
+        "TileId": "church_big_view3_79",
+        "Position": [-5,0]
+      },
+      {
+        "TileId": "church_big_view3_80",
+        "Position": [-4,0]
+      },
+      {
+        "TileId": "church_big_view3_81",
+        "Position": [-3,0]
+      },
+      {
+        "TileId": "church_big_view3_82",
+        "Position": [-2,0]
+      },
+      {
+        "TileId": "church_big_view3_83",
+        "Position": [-1,0]
+      },
+      {
+        "TileId": "church_big_view3_84",
+        "Position": [0,0]
+      },
+      {
+        "TileId": "church_big_view3_85",
+        "Position": [1,0]
+      },
+      {
+        "TileId": "church_big_view3_86",
+        "Position": [2,0]
+      },
+      {
+        "TileId": "church_big_view3_87",
+        "Position": [3,0]
+      },
+      {
+        "TileId": "church_big_view3_88",
+        "Position": [4,0]
+      },
+      {
+        "TileId": "church_big_view3_89",
+        "Position": [5,0]
+      },
+      {
+        "TileId": "church_big_view3_90",
+        "Position": [6,0]
+      },
+      {
+        "TileId": "church_big_view3_91",
+        "Position": [-6,1]
+      },
+      {
+        "TileId": "church_big_view3_92",
+        "Position": [-5,1]
+      },
+      {
+        "TileId": "church_big_view3_93",
+        "Position": [-4,1]
+      },
+      {
+        "TileId": "church_big_view3_94",
+        "Position": [-3,1]
+      },
+      {
+        "TileId": "church_big_view3_95",
+        "Position": [-2,1]
+      },
+      {
+        "TileId": "church_big_view3_96",
+        "Position": [-1,1]
+      },
+      {
+        "TileId": "church_big_view3_97",
+        "Position": [0,1]
+      },
+      {
+        "TileId": "church_big_view3_98",
+        "Position": [1,1]
+      },
+      {
+        "TileId": "church_big_view3_99",
+        "Position": [2,1]
+      },
+      {
+        "TileId": "church_big_view3_100",
+        "Position": [3,1]
+      },
+      {
+        "TileId": "church_big_view3_101",
+        "Position": [4,1]
+      },
+      {
+        "TileId": "church_big_view3_102",
+        "Position": [5,1]
+      },
+      {
+        "TileId": "church_big_view3_103",
+        "Position": [6,1]
+      },
+      {
+        "TileId": "church_big_view3_104",
+        "Position": [-6,2]
+      },
+      {
+        "TileId": "church_big_view3_105",
+        "Position": [-5,2]
+      },
+      {
+        "TileId": "church_big_view3_106",
+        "Position": [-4,2]
+      },
+      {
+        "TileId": "church_big_view3_107",
+        "Position": [-3,2]
+      },
+      {
+        "TileId": "church_big_view3_108",
+        "Position": [-2,2]
+      },
+      {
+        "TileId": "church_big_view3_109",
+        "Position": [-1,2]
+      },
+      {
+        "TileId": "church_big_view3_110",
+        "Position": [0,2]
+      },
+      {
+        "TileId": "church_big_view3_111",
+        "Position": [1,2]
+      },
+      {
+        "TileId": "church_big_view3_112",
+        "Position": [2,2]
+      },
+      {
+        "TileId": "church_big_view3_113",
+        "Position": [3,2]
+      },
+      {
+        "TileId": "church_big_view3_114",
+        "Position": [4,2]
+      },
+      {
+        "TileId": "church_big_view3_115",
+        "Position": [5,2]
+      },
+      {
+        "TileId": "church_big_view3_116",
+        "Position": [6,2]
+      },
+      {
+        "TileId": "church_big_view3_117",
+        "Position": [-6,3]
+      },
+      {
+        "TileId": "church_big_view3_118",
+        "Position": [-5,3]
+      },
+      {
+        "TileId": "church_big_view3_119",
+        "Position": [-4,3]
+      },
+      {
+        "TileId": "church_big_view3_120",
+        "Position": [-3,3]
+      },
+      {
+        "TileId": "church_big_view3_121",
+        "Position": [-2,3]
+      },
+      {
+        "TileId": "church_big_view3_122",
+        "Position": [-1,3]
+      },
+      {
+        "TileId": "church_big_view3_123",
+        "Position": [0,3]
+      },
+      {
+        "TileId": "church_big_view3_124",
+        "Position": [1,3]
+      },
+      {
+        "TileId": "church_big_view3_125",
+        "Position": [2,3]
+      },
+      {
+        "TileId": "church_big_view3_126",
+        "Position": [3,3]
+      },
+      {
+        "TileId": "church_big_view3_127",
+        "Position": [4,3]
+      },
+      {
+        "TileId": "church_big_view3_128",
+        "Position": [5,3]
+      },
+      {
+        "TileId": "church_big_view3_129",
+        "Position": [6,3]
+      },
+      {
+        "TileId": "church_big_view3_130",
+        "Position": [-6,4]
+      },
+      {
+        "TileId": "church_big_view3_131",
+        "Position": [-5,4]
+      },
+      {
+        "TileId": "church_big_view3_132",
+        "Position": [-4,4]
+      },
+      {
+        "TileId": "church_big_view3_133",
+        "Position": [-3,4]
+      },
+      {
+        "TileId": "church_big_view3_134",
+        "Position": [-2,4]
+      },
+      {
+        "TileId": "church_big_view3_135",
+        "Position": [-1,4]
+      },
+      {
+        "TileId": "church_big_view3_136",
+        "Position": [0,4]
+      },
+      {
+        "TileId": "church_big_view3_137",
+        "Position": [1,4]
+      },
+      {
+        "TileId": "church_big_view3_138",
+        "Position": [2,4]
+      },
+      {
+        "TileId": "church_big_view3_139",
+        "Position": [3,4]
+      },
+      {
+        "TileId": "church_big_view3_140",
+        "Position": [4,4]
+      },
+      {
+        "TileId": "church_big_view3_141",
+        "Position": [5,4]
+      },
+      {
+        "TileId": "church_big_view3_142",
+        "Position": [6,4]
+      },
+      {
+        "TileId": "church_big_view3_143",
+        "Position": [-6,5]
+      },
+      {
+        "TileId": "church_big_view3_144",
+        "Position": [-5,5]
+      },
+      {
+        "TileId": "church_big_view3_145",
+        "Position": [-4,5]
+      },
+      {
+        "TileId": "church_big_view3_146",
+        "Position": [-3,5]
+      },
+      {
+        "TileId": "church_big_view3_147",
+        "Position": [-2,5]
+      },
+      {
+        "TileId": "church_big_view3_148",
+        "Position": [-1,5]
+      },
+      {
+        "TileId": "church_big_view3_149",
+        "Position": [0,5]
+      },
+      {
+        "TileId": "church_big_view3_150",
+        "Position": [1,5]
+      },
+      {
+        "TileId": "church_big_view3_151",
+        "Position": [2,5]
+      },
+      {
+        "TileId": "church_big_view3_152",
+        "Position": [3,5]
+      },
+      {
+        "TileId": "church_big_view3_153",
+        "Position": [4,5]
+      },
+      {
+        "TileId": "church_big_view3_154",
+        "Position": [5,5]
+      },
+      {
+        "TileId": "church_big_view3_155",
+        "Position": [6,5]
+      },
+      {
+        "TileId": "church_big_view3_156",
+        "Position": [-6,6]
+      },
+      {
+        "TileId": "church_big_view3_157",
+        "Position": [-5,6]
+      },
+      {
+        "TileId": "church_big_view3_158",
+        "Position": [-4,6]
+      },
+      {
+        "TileId": "church_big_view3_159",
+        "Position": [-3,6]
+      },
+      {
+        "TileId": "church_big_view3_160",
+        "Position": [-2,6]
+      },
+      {
+        "TileId": "church_big_view3_161",
+        "Position": [-1,6]
+      },
+      {
+        "TileId": "church_big_view3_162",
+        "Position": [0,6]
+      },
+      {
+        "TileId": "church_big_view3_163",
+        "Position": [1,6]
+      },
+      {
+        "TileId": "church_big_view3_164",
+        "Position": [2,6]
+      },
+      {
+        "TileId": "church_big_view3_165",
+        "Position": [3,6]
+      },
+      {
+        "TileId": "church_big_view3_166",
+        "Position": [4,6]
+      },
+      {
+        "TileId": "church_big_view3_167",
+        "Position": [5,6]
+      },
+      {
+        "TileId": "church_big_view3_168",
+        "Position": [6,6]
+      }
+    ],
+    "Hp": 100,
+    "ObjectElevation": 0,
+    "DirNames": [
+      "church_big",
+      "church_big_view1",
+      "church_big_view2"
+    ]
   }
 }
