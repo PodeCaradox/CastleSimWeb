@@ -526,19 +526,19 @@
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"448,384,32,56",
+     "AtlasCoord":"448,384,32,54",
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"512,384,32,56",
+     "AtlasCoord":"512,384,32,54",
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"576,384,32,56",
+     "AtlasCoord":"576,384,32,54",
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"640,384,34,56",
+     "AtlasCoord":"640,384,34,54",
      "ImageOffset":"10,0"
     },
     {
@@ -563,19 +563,19 @@
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"932,384,24,56",
+     "AtlasCoord":"932,384,24,54",
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"980,384,24,56",
+     "AtlasCoord":"980,384,24,54",
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"1028,384,24,56",
+     "AtlasCoord":"1028,384,24,54",
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"1076,384,24,56",
+     "AtlasCoord":"1076,384,24,54",
      "ImageOffset":"8,0"
     },
     {
@@ -1729,43 +1729,43 @@
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"56,64,48,6",
+     "AtlasCoord":"96,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"112,64,48,6",
+     "AtlasCoord":"192,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"168,64,48,6",
+     "AtlasCoord":"288,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"224,64,48,6",
+     "AtlasCoord":"384,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"280,64,48,6",
+     "AtlasCoord":"480,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"336,64,48,6",
+     "AtlasCoord":"576,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"392,64,48,6",
+     "AtlasCoord":"672,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"448,64,48,6",
+     "AtlasCoord":"768,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"504,64,48,6",
+     "AtlasCoord":"864,64,48,6",
      "ImageOffset":"0,0"
     },
     {
-     "AtlasCoord":"560,64,48,6",
+     "AtlasCoord":"960,64,48,6",
      "ImageOffset":"0,0"
     }
    ]
@@ -3124,15 +3124,15 @@
      "ImageOffset":"4,0"
     },
     {
-     "AtlasCoord":"1412,268,20,66",
+     "AtlasCoord":"1412,268,20,64",
      "ImageOffset":"4,0"
     },
     {
-     "AtlasCoord":"1452,268,20,66",
+     "AtlasCoord":"1452,268,20,64",
      "ImageOffset":"4,0"
     },
     {
-     "AtlasCoord":"1492,268,20,66",
+     "AtlasCoord":"1492,268,20,64",
      "ImageOffset":"4,0"
     },
     {
@@ -3161,15 +3161,15 @@
      "ImageOffset":"6,0"
     },
     {
-     "AtlasCoord":"1792,268,28,62",
+     "AtlasCoord":"1792,268,28,60",
      "ImageOffset":"8,0"
     },
     {
-     "AtlasCoord":"1848,268,30,62",
+     "AtlasCoord":"1848,268,30,60",
      "ImageOffset":"6,0"
     },
     {
-     "AtlasCoord":"1908,268,28,62",
+     "AtlasCoord":"1908,268,28,60",
      "ImageOffset":"8,0"
     },
     {
@@ -5016,11 +5016,14 @@
     "WalkSpeed": 400,
     "RunSpeed": 960,
     "FormationRank": 0,
+    "FootprintLength": 2,
+    "FootprintWidth": 1,
     "Combat": {
         "HitPoints": 160,
         "Damage": 14,
         "AttackRange": 48,
-        "AttackCooldownTicks": 40
+        "AttackCooldownTicks": 40,
+        "GroundOnly": true
     },
     "ImageName": "cavalry",
     "ColorTableImageName": "color_table",
@@ -5933,6 +5936,8 @@
 "catapult": {
     "WalkSpeed": 257,
     "FormationRank": 2,
+    "FootprintLength": 4,
+    "FootprintWidth": 2,
     "Projectile": "stone",
     "Combat": {
         "HitPoints": 300,

@@ -107,14 +107,6 @@
       "Stone": 20
     }
   },
-  "gate_new": {
-    "Role": "Gate",
-    "Hp": 600,
-    "Cost": {
-      "Wood": 10,
-      "Stone": 20
-    }
-  },
   "grain_farm": {
     "Role": "Farm",
     "Hp": 150,
