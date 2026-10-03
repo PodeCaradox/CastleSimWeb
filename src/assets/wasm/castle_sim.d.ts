@@ -10,19 +10,14 @@ export function init_game(width: number, height: number): void;
 export function init_game_new_map(width: number, height: number, map_size_x: number, map_size_y: number): void;
 
 /**
- * Stress-test entry (`cargo run --example stress_test`): `init_game_new_map`
- * plus `unit_count` units of the stress-test unit type spawned in one batch
- * around the map centre when the game reaches `GameStates::Finish` — the
- * movement/pathfinding performance target, with the FPS logs left in place.
+ * Stress-test entry (`cargo run --example stress_test`): a fresh map and `unit_count` units of
+ * the stress-test type spawned round its centre once the game reaches `GameStates::Finish`.
  */
 export function init_game_stress_test(width: number, height: number, map_size_x: number, map_size_y: number, unit_count: number): void;
 
 /**
- * The same stress test with `armies` sides. With `armies == 2` the requested
- * count is split in half: one army on each side of the map centre, the second
- * on team 1, and one march command into the centre — the two walk into each
- * other and fight (combat, projectiles, deaths under load). `armies == 1` is
- * the single-army march the performance target has always been.
+ * The stress test with `armies` sides: with 2 the count is split into one army each side of
+ * the centre, the second on team 1, and one march into the centre makes them fight.
  */
 export function init_game_stress_test_armies(width: number, height: number, map_size_x: number, map_size_y: number, unit_count: number, armies: number): void;
 
