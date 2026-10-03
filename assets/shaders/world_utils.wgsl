@@ -2,94 +2,42 @@
 const TileSizeHalf = vec2<i32>(32,16);
 const ImageSize = vec2<f32>(2048.0,2048.0);
 
-//=============================================================================
-// Draw order
-//=============================================================================
-//Every pipeline compares depth GreaterEqual and writes it: the nearer pixel
-//wins, a tie goes to whatever is drawn later (terrain, then the entities).
-//Nearness is the painter's key of a 2:1 isometric view, PER PIXEL: for the
-//point of the surface a pixel shows, the map y of its ground position plus
-//the height it stands at. A horizontal surface at height e shows at pixel y
-//the ground point y + e, so its nearness is y + 2e; a vertical billboard
-//standing at foot row f shows at pixel y a point of height f - y, so its
-//nearness is 2f - y; a vertical face standing on the line v(x) shows the
-//point of height v(x) - y, nearness 2v(x) - y. That is why one number per
-//sprite was never enough: a cliff face spans the nearness of its whole
-//height, and the plateau in front of it must win at its foot while the
-//plateau behind it loses at its top — measured on the showcase terraces,
-//which step by anything from 4 to 100 px between neighbours.
-//
-//The vertex stage evaluates the part that is linear across the quad and the
-//fragment stage (render_terrain.wgsl) the |x| of a face's V and the wall's
-//straight foot. `cs_renderer::depth_order` mirrors all of it in Rust and the
-//tests count the draw order with it; change both together.
-//
-//`InstancingObject.Position.z` is not a depth but the instance's DEPTH
-//RECIPE, chosen by the mode packed into `image_index`. Every one of the 32
-//bits is spoken for (depth_order::every_field_of_the_depth_word_has_its_own_
-//bits_and_the_shader_agrees counts them):
-//  bits  0- 5  atlas image — the LAYER of the environment atlas, of which
-//              create_env_image_atlas builds 15. It used to take the low 8
-//              bits; the straight foot took two of them, see FrontMax
-//  bits  6- 7  a face continues to its left / right neighbour in the same
-//              screen row: its foot is straight there
-//  bits  8-19  depth denominator / 512 (map width + height + headroom)
-//  bits 20-21  x offset of a face piece (0, +16, -16), so the fragment knows
-//              the apex of the cell's V from the instance position
-//  bits 22-23  mode
-//  bits 24-31  the GROUND in front of a face, in steps of FrontStep px:
-//              the height its straight foot has to be drawn over
-const ImageIndexMask : u32 = 0x3fu;
-//the layer of wall.png in the environment atlas
-//(cs_initializer::helper::init_images builds that order). Ground art from
-//this layer STANDS on its cell, and so does any tile whose .data entry says
-//"StandsUp": true - a rock pile, the owner's stones (render_terrain.wgsl
-//fs_main, depth_order::standing_ground_art).
+//Draw order: depth is NEARNESS per pixel, the map y of the ground point a pixel shows plus its
+//height (a surface y + 2e, a billboard 2f - y, a face 2v(x) - y); `cs_renderer::depth_order`
+//mirrors it. `Position.z` is the recipe of the mode packed into `image_index`.
+const ImageIndexMask : u32 = 0x3fu; //bits 0-5: the environment atlas layer
+//the layer of wall.png in the environment atlas (cs_initializer's init_images order); ground art
+//from it stands on its cell, as does any tile whose .data says "StandsUp": true (E158)
 const WallAtlasLayer : u32 = 1u;
 //that per-tile knob, as it arrives from the CPU: bit 31 of a tile property's
 //`image_index` (PropertyShaderInstance::STANDS_UP). PackDepthInfo keeps
 //ImageIndexMask of the layer, so the bit never reaches the sampler.
 const StandsUpBit : u32 = 0x80000000u;
-//and where CreateSpecificInstance puts it in the packed depth word of a
-//GROUND quad: the FrontShift field is a FACE's ground height and a ground
-//quad packs 0 there, so its lowest bit is free for every ModeGround
-//instance. Read in fs_main, under the mode test.
+//and where CreateSpecificInstance puts it in a ground quad's depth word: the lowest bit of the
+//FrontShift field, which a ground quad packs as 0; read in fs_main under the mode test
 const StandsUpFlag : u32 = 1u << 24u;
-const DenominatorShift : u32 = 8u;
+const DenominatorShift : u32 = 8u; //bits 8-19: depth denominator / 512
 const DenominatorMask : u32 = 0xfffu;
-const OffsetShift : u32 = 20u;
-const ModeShift : u32 = 22u;
-const RunShift : u32 = 6u;
-const FrontShift : u32 = 24u;
+const OffsetShift : u32 = 20u; //bits 20-21: a face piece's x offset (0, +16, -16)
+const ModeShift : u32 = 22u; //bits 22-23: the mode
+const RunShift : u32 = 6u; //bits 6-7: the face's run to its left / right neighbour
+const FrontShift : u32 = 24u; //bits 24-31: the ground in front of a face, in FrontStep steps
 const FrontMask : u32 = 0xffu;
-//The step of the elevation brush (`brush_elevation_up`, RandomFactor 4), so
-//every height the editor can make is stored exactly, and EIGHT bits of it:
-//FrontMax = FrontMask * FrontStep = 1020 px, twice the 512 px of
-//map_editing::MAX_HEIGHT, so the clamp below is out of the elevation brush's
-//reach and the straight foot holds at every height the editor can build. The
-//two bits came off the atlas image (ImageIndexMask, 15 layers in 64), not off
-//the step: the ground in front is still named to the px the brush moves in.
-//The clamp stays as the way round that is safe if a later map format ever
-//raises MAX_HEIGHT past 1020: a face told a ground it cannot name keeps the
-//box's V (the old sawtooth), and nothing standing there is ever covered.
+//the elevation brush's step, so every height the editor makes is stored exactly; FrontMax =
+//FrontMask * FrontStep = 1020 px, twice the editor's highest ground. A face told a ground it cannot
+//name keeps the box's V, which covers nothing standing there.
 const FrontStep : f32 = 4.0;
 const FrontMax : f32 = 1020.0;
 //Position.z = 2 * elevation; nearness = y + Position.z
 const ModeGround : u32 = 0u;
 //Position.z = 2 * foot row; nearness = Position.z - y (trees, bushes)
 const ModeBillboard : u32 = 1u;
-//Position.z = 2 * the cell's front tip row (map y, before the lift); the V
-//of the cell's front edges is v(x) = tip - |x - apex| / 2, nearness
-//2v(x) - y = Position.z - |x - apex| - y. A building slice is a box
-//standing on those edges.
+//Position.z = 2 * the cell's front tip row (map y, before the lift); the front edges' V is
+//v(x) = tip - |x - apex| / 2, nearness Position.z - |x - apex| - y: a building slice
 const ModeBox : u32 = 2u;
-//ModeBox plus: the pixels above the plateau's front edges (v(x) - elevation)
-//are the lower half of the plateau the artist painted into the face's top
-//rows and are DISCARDED, and a wall face's pixels below the V toward a wall
-//neighbour in the same row are the wall's thickness: nearness y + 2F + 1/2 for
-//the ground F in front of the wall, so it is over that ground (Stronghold's
-//straight diagonal walls) at EVERY height and under every unit standing on it
-//— a unit's own foot row ties with it and the unit, drawn later, wins.
+//ModeBox, but the pixels above the plateau's front edges (its painted lower half) are discarded,
+//and towards a run neighbour the pixels below the V are the wall's thickness, nearness y + 2F + 1/2
+//over the ground F in front: a straight foot at every height, under every unit standing on it
 const ModeFace : u32 = 3u;
 const RunLeft : u32 = 1u;
 const RunRight : u32 = 2u;
@@ -139,11 +87,8 @@ fn UnpackFrontGround(info: u32) -> f32 {
     return f32((info >> FrontShift) & FrontMask) * FrontStep;
 }
 
-//=============================================================================
-// Compute Shader Functions
-//=============================================================================
-//row-major index = y * map_size.x + x (mirrors cs_core map_pos_to_index); the
-//rotation/visible-row helpers below additionally assume a square map.
+//Compute shader functions. Row-major index = y * map_size.x + x (cs_core's map_pos_to_index); the
+//rotation and visible-row helpers below assume a square map.
 fn index_to_world_pos(index: u32) -> vec2<i32> {
     var x : i32 = i32(index % u32(params.map_size.x));
     var y : i32 = i32(index / u32(params.map_size.x));
@@ -216,13 +161,16 @@ fn calc_start_point_outside_map(start_pos: vec2<i32>) -> vec2<i32> {
                        start = vec2<i32>(params.map_size.x, 0);
 
                    } else {
-                        //we are above the Last Tile so x < MapSizeX for Camera right bottom Position
+                        //we are above the Last Tile so x < MapSizeX for Camera right bottom
+                        //Position
                        right_bottom_screen.x += right_bottom_screen.y;
                        right_bottom_screen.y -= right_bottom_screen.y;
                        start = right_bottom_screen;
                    }
 
-                   //difference is all tiles on the x axis and because we calculate here x,y different to Isomectric View we need to divide by 2 and for odd number add 1 so % 2
+                   //difference is all tiles on the x axis and because we calculate here x,y
+                   //different to Isomectric View we need to divide by 2 and for odd number add 1 so
+                   //% 2
                    var difference = start.x - left.x;
                    difference += difference % 2;
                    difference /= 2;
@@ -280,58 +228,23 @@ fn initInstancingObject() -> InstancingObject {
     return obj;
 }
 
-//=============================================================================
-// Wind
-//=============================================================================
-//The wind is PURE PRESENTATION: it only decides WHEN a tile shows which atlas
-//frame, it never touches simulation state, so floats and real-time-looking
-//maths are legal here where the sim forbids them. Nothing below is read back by
-//anything. `cs_renderer::wind` mirrors every formula of this block in Rust and
-//its tests count what the model does; change the two together.
-//
-//WHAT THE FRAME PICKER CAN DO decides the whole model. A tile shows its REST
-//frame for the whole pause section of its cycle and plays its swing loop during
-//the moving section (`assets/world/animation/animated_tile.data`: grass plays a
-//5-frame loop 4 times out of a 120-frame cycle, a tree a 16-frame loop twice out
-//of 108). There is no amplitude to scale — a plant either swings or stands. So a
-//gust can only be expressed as WHO swings, WHEN, and for HOW MANY repetitions of
-//the loop, and a calm as: nobody starts.
-//
-//The model is a gust PASS. A front travels along the wind; the tick it sweeps a
-//tile starts that tile's pass. Inside its pass a tile plays its swing once — as
-//many repetitions of the loop as the gust there is strong — and rests for the
-//remainder. WHO swings at all is a patch field (a value noise in the wind's own
-//frame, reseeded every pass) times a spell (a slow drift shared by the whole
-//map), so several separate places gust at once and whole spells pass in which
-//nothing moves at all.
-//
-//What this replaced: one global clock plus a fixed per-tile phase, i.e. a single
-//straight band of motion, infinitely long across the map, repeating every 96
-//cells, that swept over every plant exactly once every 18.75 s and never stopped.
-//
-//It blows in MAP space, so turning the camera turns the gust with the world
-//instead of dragging it along. (2,-1) normalised sweeps almost horizontally
-//across the isometric screen, tilted slightly down.
+//Wind: pure presentation, it only picks WHEN a tile shows which atlas frame, so floats are fine
+//here; `cs_renderer::wind` mirrors this block. A front along the wind starts each tile's pass, and
+//a patch noise times a map-wide spell decides who swings and how much. It blows in map space.
 const WindDirX : f32 = 0.8944272;
 const WindDirY : f32 = -0.4472136;
 const WindDirection = vec2<f32>(WindDirX, WindDirY);
 //Across the wind, for the patch lattice. Right-hand normal of WindDirection.
 const WindRight = vec2<f32>(-WindDirY, WindDirX);
 
-//--- the knobs, in the order you would turn them -----------------------------
-//How long one gust pass lasts at a single tile, in sim ticks (the sim runs at
-//64 Hz), i.e. the SHORTEST gap between two swings of the same plant. A tile the
-//patch field skips waits a whole further pass. 512 ticks = 8 s.
+//The knobs. How long one gust pass lasts at a tile, in sim ticks (64 Hz): the shortest gap between
+//two swings of one plant; a tile the patch field skips waits a whole further pass. 512 = 8 s.
 const WindPassTicks : u32 = 512u;
-//How far the gust front travels in one pass, in CELLS. With the pass length
-//above this is the front's SPEED: 96 cells per 8 s = 12 cells per second. Fixed
-//in cells, never derived from the map size: a wind whose front crawls on a
-//bigger map is not a wind.
+//How far the front travels in one pass, in cells: 96 per 8 s is 12 cells a second, fixed in cells
+//and never derived from the map size.
 const WindFrontCells : f32 = 96.0;
-//Size of one gusty patch in CELLS, measured in the wind's own frame — longer
-//along the wind than across it, because wind over a field comes in streaks, not
-//in blobs. Small values scatter the map into confetti, values past the screen
-//(about 64 cells wide at zoom 1) put the whole view in one state.
+//One gusty patch in cells, in the wind's own frame, longer along the wind than across it (streaks);
+//smaller scatters the map, past the screen (about 64 cells) the whole view is in one state.
 const WindPatchLengthCells : f32 = 40.0;
 const WindPatchWidthCells : f32 = 22.0;
 //How strong a place must be before its plants swing at all. UP = fewer, smaller,
@@ -346,20 +259,12 @@ const WindFullGust : f32 = 0.25;
 //strength range. It frays the patch EDGE so no straight cut runs through the
 //grass; it has to stay small or the patch dissolves into per-tile noise.
 const WindEdgeSoftness : f32 = 0.18;
-//The weather: how many passes one spell lasts (4 passes = 32 s) and how weak the
-//weakest spell gets. The spell scales every patch on the map at once — this, not
-//the patch field, is what makes the wind die down EVERYWHERE and pick up again.
-//A floor of 1.0 switches the weather off and leaves only the patches.
+//The weather: passes per spell (4 = 32 s) and how weak the weakest spell gets. The spell scales
+//every patch at once, which makes the wind die down everywhere; a floor of 1.0 switches it off.
 const WindSpellPasses : u32 = 4u;
 const WindSpellFloor : f32 = 0.38;
-//----------------------------------------------------------------------------
-//The pass a tile is in is found with INTEGER ticks, so nothing drifts after
-//hours of play (an f32 built from the raw tick loses its steps after about a
-//day and the animation would quietly freeze). Two helpers for that: the origin
-//puts the front's coordinate far enough outside every map that it is never
-//negative, and the bias keeps `tick + bias - delay` from wrapping. The delay is
-//at most (origin + map extent) * WindPassTicks / WindFrontCells ~ 22000 ticks,
-//well inside the bias.
+//The pass is found with integer ticks, so nothing drifts over hours of play: the origin keeps the
+//front's coordinate positive on every map, the bias keeps `tick + bias - delay` from wrapping.
 const WindOriginCells : f32 = 4096.0;
 const WindTickBias : u32 = 4194304u;
 //Animation ticks per sim tick: the unit the `Delay` of animated_tile.data is
@@ -391,10 +296,8 @@ fn windDelayTicks(pos: vec2<i32>) -> u32 {
     return u32(max(along, 0.0) * (f32(WindPassTicks) / WindFrontCells));
 }
 
-//How hard the gust of `gust_pass` blows at `pos`, 0..1. A value noise on a
-//lattice laid out in the wind's own frame — reseeded every pass, so the gusty
-//places move — scaled by the spell, a slower value noise over the pass index
-//that lets the whole map calm down and pick up again.
+//How hard the gust of `gust_pass` blows at `pos`, 0..1: value noise on a lattice in the wind's own
+//frame, reseeded every pass, times the spell, a slower noise over the pass index.
 fn windStrength(pos: vec2<i32>, gust_pass: u32) -> f32 {
     let p = vec2<f32>(pos);
     let c = vec2<f32>(dot(p, WindDirection) / WindPatchLengthCells,
@@ -418,13 +321,9 @@ fn windStrength(pos: vec2<i32>, gust_pass: u32) -> f32 {
     return gust_patch * mix(WindSpellFloor, 1.0, spell);
 }
 
-//Which frame of its OWN animation a wind tile shows, in [0, cycle). `loop_len`
-//is one repetition of the swing, `moving` the whole swing (the loop times its
-//repetitions), `delay` the authored animation ticks per frame. `moving` is
-//returned for "resting": every frame from there to the end of the cycle draws
-//the untouched atlas frame, and so does frame 0, which is why a pass boundary —
-//where one tile has just finished its swing and its neighbour is about to start
-//— shows no seam.
+//Which frame of its own animation a wind tile shows, in [0, cycle): `loop_len` is one repetition,
+//`moving` the whole swing, `delay` the authored ticks per frame. `moving` means resting: it and
+//frame 0 draw the untouched atlas frame, so a pass boundary shows no seam.
 fn windFrame(pos: vec2<i32>, tick: u32, loop_len: u32, moving: u32, delay: u32) -> u32 {
     if (loop_len == 0u || moving == 0u || delay == 0u) {
         return moving;
@@ -469,7 +368,8 @@ fn applyRotation(map_pos: vec2<i32>) -> vec2<i32> {
 }
 
 fn CaclAnimationFrame(instance: SingleInstance, animation_enabled: u32, tick: u32, pos: vec2<i32>) -> u32{
-	//Animation: u32 1 for Wind // 7 bits for animation length // 12 bits for when update animation // 5 bits repeat frames // 7 bits pausing frames TODO
+	//Animation: u32 1 for Wind // 7 bits for animation length // 12 bits for when update animation //
+	//5 bits repeat frames // 7 bits pausing frames TODO
     if (animation_enabled == 0u){
         return instance.AtlasCoordPos;
     }
@@ -488,10 +388,9 @@ fn CaclAnimationFrame(instance: SingleInstance, animation_enabled: u32, tick: u3
     var animation_tick = tick * AnimationTicksPerTick;
     // wind animation
     if (instance.Animation >> 31u == 1u){
-        //the gust names the FRAME outright, so grass and a tree next to it
-        //start their swing on the same tick and each then takes its own
-        //authored time (grass 3.1 s, a tree 5.0 s). Multiplying by update_tick
-        //undoes the division below exactly — this is the frame, not a clock.
+        //the gust names the frame outright, so grass and a tree beside it start on the same tick
+        //and each takes its own authored time; multiplying by update_tick undoes the division below
+        //exactly
         animation_tick = windFrame(pos, tick, animation_length,
                                    animation_length_wih_reiterattions, update_tick) * update_tick;
     }
@@ -540,10 +439,8 @@ fn CreateBuildingInstance(tile_id: u32, world_pos: vec2<i32>, elevation: f32, an
 	return instance;
 }
 
-//`run` is the RunLeft/RunRight mask of a face — a WALL's or a CLIFF's, since
-//`face_run` of render_terrain.wgsl asks only whether the elevation slot is
-//filled (0 for the brush preview, which passes 0u) — and `front_ground` the
-//height of the ground the straight foot towards that run is drawn over
+//`run` is the RunLeft/RunRight mask of a face, a wall's or a cliff's (0 for the brush preview), and
+//`front_ground` the height of the ground its straight foot towards that run is drawn over
 fn CreateElevationInstance(tile_id: u32, world_pos: vec2<i32>, elevation: f32, animation_enabled: u32, animation_tick: u32, Color: u32, offset_elevation_x: f32, run: u32, front_ground: f32) -> InstancingObject{
     if (tile_id == 0u){
         return initInstancingObject();

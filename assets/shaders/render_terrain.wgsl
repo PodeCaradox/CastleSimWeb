@@ -54,10 +54,8 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
            visble_tiles_cp.tiles[visible_index + 3] = world_utils::CreateElevationInstance(tile_rotation_data.SingleInstances[3u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu, offset_elevation_x, run, front_ground(index, run, rotation_offset));
 }
 
-//Whether `cell` holds a wall face: the elevation slot of a wall cell draws
-//the wall's masonry, a cliff's draws rock. Only `ground_of` asks this, and
-//only because a WALL stands WallHeight over the ground of its own cell while
-//a cliff's elevation IS its ground. The RUN does not ask it (face_run).
+//Whether `cell` holds a wall face (a wall's masonry, a cliff draws rock). Only `ground_of` asks: a
+//wall stands WallHeight over its own ground while a cliff's elevation is its ground.
 fn has_wall_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
     if (world_utils::is_in_map_bounds(cell) == 0) {
         return false;
@@ -66,9 +64,8 @@ fn has_wall_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
     return face != 0u && world_utils::tile_properties.properties[face].image_index == world_utils::WallFaceImage;
 }
 
-//Whether `cell` draws a face at all: its elevation slot is filled. A cliff's
-//rock and a wall's masonry are the same thing to the foot, which is the
-//owner's card — "mache das fuer alles was elevation hat".
+//Whether `cell` draws a face at all: its elevation slot is filled. A cliff's rock and a wall's
+//masonry are the same thing to the foot (E159).
 fn has_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
     if (world_utils::is_in_map_bounds(cell) == 0) {
         return false;
@@ -76,13 +73,9 @@ fn has_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
     return tiles_rotation.tiles[cell.y * world_utils::params.map_size.x + cell.x + rotation_offset].SingleInstances[3u] != 0u;
 }
 
-//The RunLeft/RunRight mask of a face: which of the two neighbours in
-//the same SCREEN row — the step that is (1, -1) after the camera rotation —
-//carries a face too, so this face's foot is drawn straight towards it. The
-//run is the only thing that decides between a straight foot and the box's
-//V: a run along a column of the map is a staircase of boxes and keeps the V,
-//and a face standing ALONE in its screen row keeps it as well, because there
-//is no bank of earth to be continuous with.
+//The RunLeft/RunRight mask of a face: which of its two same-screen-row neighbours (the step that is
+//(1, -1) after the camera rotation) carries a face too, so the foot is straight towards it. A face
+//alone in its row, or in a run along a map column, keeps the box's V.
 fn face_run(cell: vec2<i32>, face: u32, rotation_offset: i32) -> u32 {
     if (face == 0u) {
         return 0u;
@@ -105,19 +98,9 @@ fn face_run(cell: vec2<i32>, face: u32, rotation_offset: i32) -> u32 {
     return run;
 }
 
-//The ground a face's straight foot is drawn over: the two cells in FRONT of
-//`cell` on screen — down-left and down-right of its diamond, which are (0, 1)
-//and (1, 0) of the ROTATED map — carry the strip below the cell's V. One
-//number has to serve both halves of the quad, and it is the LOWER of the two:
-//over the higher one the foot falls back to the box's V (today's sawtooth),
-//which is the harmless way to be wrong — the other way round the foot would
-//cover a unit standing on the lower cell.
-//A wall in front stands on its own ground, WALL_HEIGHT below its elevation
-//(`cs_core::map_editing`), and it is that ground the foot must sit over.
-//ponytail: the run mask already says which HALF of the foot is drawn, so a
-//face with RunLeft alone could take the left cell's ground exactly instead of
-//the min — worth it only if a step between the two cells in front of a run's
-//END ever shows, and nothing shipped has one.
+//The ground a face's straight foot is drawn over: the LOWER of the two cells in front on screen
+//((0, 1) and (1, 0) of the rotated map), so the foot never covers a unit on the lower one. A wall
+//there stands on its ground, WallHeight below its elevation.
 fn front_ground(cell: vec2<i32>, run: u32, rotation_offset: i32) -> f32 {
     if (run == 0u) {
         return 0.0;
@@ -134,6 +117,9 @@ fn front_ground(cell: vec2<i32>, run: u32, rotation_offset: i32) -> f32 {
         left = vec2<i32>(-1, 0);
         right = vec2<i32>(0, 1);
     }
+    //ponytail: the run mask says which half of the foot is drawn, so a face with one run could take
+    //that cell's ground exactly instead of the min; worth it only if a step in front of a run's end
+    //shows
     return min(ground_of(cell + left, rotation_offset), ground_of(cell + right, rotation_offset));
 }
 
@@ -185,10 +171,7 @@ fn instancing_without_elevation(@builtin(global_invocation_id) global_id: vec3<u
            visble_tiles_cp.tiles[visible_index + 1] = world_utils::CreateSpecificInstance(tile_rotation_data.SingleInstances[5u], index, 0.0, animation_enabled, tick, 0xffffffffu, world_utils::ModeBillboard);
 }
 
-//==============================================================================
-// Vertex shader_bindings
-//==============================================================================
-//16 bytes
+//Vertex shader bindings; 16 bytes
 struct VertexInput {
     @location(0) Position: vec2<f32>,
     @builtin(instance_index) instance_index: u32,
@@ -200,16 +183,9 @@ struct VertexOutput {
     @location(0) Color: vec4<f32>,
     @location(1) TexCoord : vec2<f32>,
     @location(2) @interpolate(flat)  image_index : u32,
-    //the fragment stage's share of the depth (world_utils "Draw order"): the
-    //fragment's world position, the apex of the cell's V (its front tip: the
-    //map row before the lift for a box and a face, the LIFTED tip — the
-    //quad's bottom — for a ground quad, so its edge test needs no elevation),
-    //the height of a face or of a ground quad less the 16 px of the diamond's
-    //lower half, how much depth one column away from the apex takes off (the
-    //fragment stage applies it to a box, a face and the standing part of tall
-    //ground art), the depth of the wall's thickness at this pixel — for a
-    //ground quad the linear part of the box its standing art is ordered as —
-    //and the packed mode and run mask
+    //the fragment stage's share of the depth: world position, the V's apex (the lifted tip for a
+    //ground quad), the face or quad height less 16, the depth a column takes off, the thickness
+    //depth, the packed mode and run
     @location(3) world : vec2<f32>,
     @location(4) @interpolate(flat) apex : vec2<f32>,
     @location(5) @interpolate(flat) height : f32,
@@ -249,7 +225,8 @@ fn vs_main(
       }
       let imageSize = vec2<f32>(f32(instance.UvCoordSize & 0x0000ffffu), f32(instance.UvCoordSize >> 16u));
 
-      // Calculate ImageSizeToDraw - vec2(imageSize.x/2,imageSize.y) because images have different starting points
+      // Calculate ImageSizeToDraw - vec2(imageSize.x/2,imageSize.y) because images have different
+      // starting points
       let position = input.Position * imageSize - vec2<f32>(imageSize.x / 2.0, imageSize.y);
 
       let world = position.xy + instance.Position.xy;
@@ -270,29 +247,20 @@ fn vs_main(
       if (mode != world_utils::ModeGround) {
           nearness = instance.Position.z - world.y;
       }
-      //one column away from the apex the V is half a row lower, and the
-      //face pixel over it half a row higher: one pixel of nearness, in
-      //window depth through the projection's z scale. Every mode carries
-      //it; fs_main applies it to a box, a face and the standing part of tall
-      //ground art
+      //one column away from the apex the V is half a row lower and the face pixel over it half a
+      //row higher: one pixel of nearness in window depth; fs_main applies it to a box, a face and
+      //standing ground art
       let depth_per_column = world_utils::KeysPerPixel / denominator * camera.view_proj[2][2];
       let depth = (nearness * world_utils::KeysPerPixel + 64.0) / denominator;
-      //the wall's thickness: just over the ground in front of the face, at
-      //whatever height that ground lies. It is written to frag_depth, so it
-      //has to go through the projection the same way `pos.z` does — the z
-      //column's scale AND its translation (the rasterizer would have added
-      //both). The camera is orthographic and its view moves only x and y, so
-      //the x and y columns contribute nothing to z; a projection that mixed
-      //them in would need their terms here too.
+      //the wall's thickness, just over the ground in front. It is written to frag_depth, so it goes
+      //through the projection's z scale and translation as `pos.z` does; the orthographic camera's
+      //x and y columns add nothing to z
       var thickness = world.y + 2.0 * world_utils::UnpackFrontGround(info) + 0.5;
       var apex_y = instance.Position.z / 2.0;
       if (mode == world_utils::ModeGround) {
-          //a ground quad has no thickness: the varying carries the linear
-          //part of the BOX its standing art is ordered as in fs_main, 2 tip -
-          //y with the tip the quad's bottom before the lift (Position.y +
-          //elevation, elevation being Position.z / 2), and the apex is the
-          //LIFTED tip, the quad's bottom, so the edge test there needs no
-          //elevation of its own
+          //a ground quad has no thickness: the varying carries the linear part of the box its
+          //standing art is ordered as, 2 tip - y with the tip the quad's bottom before the lift
+          //(Position.y + Position.z / 2)
           thickness = 2.0 * (instance.Position.y + instance.Position.z / 2.0) - world.y;
           apex_y = instance.Position.y;
       }
@@ -326,22 +294,9 @@ var t_diffuse: texture_2d_array<f32>;
 @group(0) @binding(1)
 var s_diffuse: sampler;
 
-//Writing frag_depth costs the EARLY DEPTH TEST for the whole pipeline — not
-//only for the fragments that take the box branch: a shader that CAN write it
-//makes every fragment's depth unknown until it has run. Only the box and the
-//face need it; ground and billboard carry a depth that is linear over the quad
-//and the vertex stage has it exactly. Splitting them apart takes two
-//pipelines, and with them a compute pass that writes the four slots of a cell
-//into two buffers instead of one interleaved run (`visible_index * 4 + slot`)
-//and a render pass that draws both — nothing a shader can do on its own.
-//MEASURED what it would win (pt_scene on the showcase map, zoom 1, the camera
-//over the 512 px terraces at cell 250,200; three runs each, alternating, on
-//the shared machine): with only the ground and billboard instances drawn,
-//frag_depth on 1245 fps against 1437 fps without it — 0.107 ms of a 0.82 ms
-//frame. Over the same camera the whole terrain pass runs at 1219 fps and,
-//with frag_depth taken off ALL modes (the picture then wrong), 1464. At a
-//flat camera (cell 250,250) the difference disappears into the run-to-run
-//spread: 1507 against 1509 fps.
+//Writing frag_depth disables the early depth test for the whole pipeline, not only for the box and
+//the face that need it; splitting ground and billboard into a pipeline of their own would take a
+//second pass and buffer layout, and was measured not worth it (docs/rendering.md).
 struct FragmentOutput {
     @location(0) color: vec4<f32>,
     @builtin(frag_depth) depth: f32,
@@ -362,44 +317,13 @@ fn fs_main(in: VertexOutput) -> FragmentOutput {
     if (mode == world_utils::ModeBox || mode == world_utils::ModeFace) {
         depth -= in.depth_per_column * dx;
     }
-    //WALL art in the ground slot TALLER than the 32 px diamond — the
-    //crenellation 64 x 94 and the wooden spikes 64 x 122 of wall_tiles.data
-    //— is not ground OUTSIDE the diamond, above the cell's BACK edges: it
-    //STANDS there, and y + 2e ordered every standing row as the flat
-    //surface at that row, so a man one screen row behind a crenellation
-    //painted his whole body over the pillar. Above the back edges (the
-    //front edge V mirrored through the diamond's centre row: 32 rows up,
-    //dx / 2 down) it is the box on the cell, the same V a building slice
-    //stands on (depth_order::ground_quad_nearness counts it); the diamond
-    //itself stays the ground it was, exact. The split used to sit on the
-    //FRONT edge, which is the diamond's LOWER boundary: the whole floor of
-    //the tile was a box too.
-    //WHICH ground art stands is the atlas LAYER or the tile's own knob,
-    //and the height on top of either: layer 1 is wall.png
-    //(cs_initializer::helper::init_images), whose only two tiles taller
-    //than the diamond are this crenellation and the wooden spikes (the
-    //only two Obstacle entries of wall_tiles.data, while its other 256 are
-    //Wall — walkable, a wall walk is walked on — and stair_tiles.data puts
-    //a walkable Portal stair on the same layer in the same ground slot,
-    //64 x 32 and so never in this branch). The twelve tall tiles of the
-    //LAND layer are NOT covered by the layer, because units walk on them
-    //and a box there put up to 90 % of the pile over the body of the man
-    //standing on that very cell (b5f9625d); the ones that should stand
-    //anyway say so per tile — "StandsUp": true in land_tiles.data, bit 31
-    //of the tile property's layer word, moved into StandsUpFlag by
-    //CreateSpecificInstance. The owner asked for it on the STONES: a man
-    //on the cell behind is covered by the pile, and the man standing on
-    //the cell stays in front of it because core_entity::tall_beside puts
-    //his whole quad on the cell's front tip, the same anchor a man on a
-    //roof has. A plain 64 x 32 tile is not tall and never takes this
-    //branch; billboards are another mode. Above the back edges the art
-    //beats the ground tiles behind it strictly where it used to tie them.
-    //ponytail: a pillar FILLING its cell would want the box over its
-    //diamond's upper half as well — a man on the wall walk at the pillar's
-    //shared corner paints a few rows of feet over the pillar base (counted
-    //in depth_order). That is a second knob, and nothing shipped needs it.
+    //ground-slot art taller than the diamond that STANDS (the wall layer or the tile's own StandsUp
+    //knob) is a box above the cell's back edges, the V a building slice stands on; its diamond
+    //stays ground. A plain 64 x 32 tile never takes this branch (depth_order::ground_quad_nearness)
     let stands_up = in.image_index == world_utils::WallAtlasLayer
         || (in.depth_info & world_utils::StandsUpFlag) != 0u;
+    //ponytail: a pillar filling its cell wants the box over its diamond's upper half too (a man at
+    //its shared corner paints a few rows of feet over its base); that needs a second per-tile knob
     if (mode == world_utils::ModeGround && stands_up && in.height > 16.0 && in.world.y < in.apex.y - 32.0 + dx / 2.0) {
         depth = in.thickness_depth - in.depth_per_column * dx;
     }
@@ -409,19 +333,9 @@ fn fs_main(in: VertexOutput) -> FragmentOutput {
         if (in.world.y < in.apex.y - in.height - dx / 2.0) {
             discard;
         }
-        //towards a wall neighbour in the same row: the wall's thickness. It
-        //fills the corner triangles between the cell's front edges and the
-        //straight line through the cell's bottom tip — both LIFTED by the
-        //ground in front, which is where the wall meets that ground — and it
-        //is drawn just over it. Below that line the pixels stay the box and
-        //the ground in front covers them, so the foot is a straight line at
-        //every height instead of the V's sawtooth.
-        //Only while that ground lies BELOW the face's own elevation: the map
-        //editor draws a face whenever any of the EIGHT neighbours is lower
-        //(cs_core's check_elevation_tile_for_correct_illusion) and
-        //front_ground reads only the TWO in front, so a face whose bank is
-        //buried exists. It has no foot to straighten, and the band would
-        //climb into its top rows and paint them over the ground in front.
+        //towards a run neighbour: the wall's thickness, the triangles between the front edges and
+        //the line through the bottom tip, both lifted by the ground in front; only while that
+        //ground lies below the face
         let run = (in.depth_info >> world_utils::RunShift) & 3u;
         let towards_run = ((run & world_utils::RunLeft) != 0u && in.world.x < in.apex.x)
             || ((run & world_utils::RunRight) != 0u && in.world.x >= in.apex.x);
