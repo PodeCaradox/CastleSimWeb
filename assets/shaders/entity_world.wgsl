@@ -1,29 +1,15 @@
-const ImageSize = vec2<f32>(2048.0,2048.0);
+#import common
 const ColorTableImageSize = vec2<f32>(1024.0, 1024.0);
 const ColorTableSize = vec2<f32>(256.0, 1.0);
 const TileSize = vec2<f32>(64.0, 32.0);
 //==============================================================================
 // Vertex shader_bindings
 //==============================================================================
-fn u8_to_i8(value: u32) -> f32 {
-    if ((value & 0x80u) != 0u) {
-        // If the highest bit is set, it's a negative number in i8 terms.
-        return f32(value) - 256.0;
-    } else {
-        return f32(value);
-    }
-}
-
 //A unit is a billboard standing at its foot row: nearness 2 foot - y, linear over the quad, so the
-//vertex stage evaluates it (world_utils "Draw order"). These constants copy world_utils' (this
-//shader does not import the chunk) and `cs_renderer::depth_order` mirrors them.
-const KeysPerPixel : f32 = 16.0;
-const KeysPerRowPair : i32 = 512;
-const DepthHeadroomRows : i32 = 50;
-const UnitNearnessBias : f32 = 0.5;
-
+//vertex stage evaluates it ("Draw order" in common.wgsl), with world_utils' NearnessToDepth over
+//this shader's params; `cs_renderer::depth_order` mirrors it.
 fn NearnessToDepth(nearness: f32) -> f32 {
-    return (nearness * KeysPerPixel + 64.0) / f32((params.map_size.x + params.map_size.y + DepthHeadroomRows) * KeysPerRowPair);
+    return (nearness * KeysPerPixel + 64.0) / f32(u32(params.map_size.x + params.map_size.y + DepthHeadroomRows) * KeysPerRowPair);
 }
 
 //`foot` is the rotated, whole-pixel row of the quad's BOTTOM edge — the frame's
@@ -42,8 +28,8 @@ const OverlayDepth : f32 = 1.0;
 const OverlayFlag : u32 = 0x00100000u;
 
 //Bits 21 and 22: the same-row neighbour left/right rises above the unit (a slice or a higher face;
-//`core_entity::tall_beside`), so the quad past the own tile takes the own cell's V half a pixel
-//behind. Bit 23: higher ground only, use the neighbour's V.
+//`core_entity::shader::tall_beside`), so the quad past the own tile takes the own cell's V half a
+//pixel behind. Bit 23: higher ground only, use the neighbour's V.
 const TallLeftFlag : u32 = 0x00200000u;
 const TallRightFlag : u32 = 0x00400000u;
 const StepBesideFlag : u32 = 0x00800000u;
@@ -56,8 +42,8 @@ const OnBuildingFlag : u32 = 0x80000000u;
 //beside him stands a wall rising out of his ground and not a roof he shares
 const OnStandingArtFlag : u32 = 0x40000000u;
 const ElevationMask : u32 = 0x3fffu;
-//`TileSizeHalf` of world_utils.wgsl, which this shader does not import.
-const TileHalf = vec2<f32>(32.0, 16.0);
+//`TileSizeHalf` in f32
+const TileHalf = vec2<f32>(TileSizeHalf);
 
 //The V of a box on the cell with front tip (apex_x, tip_y), half a pixel behind: a flagged side's
 //vertices carry it with the own apex, or with the neighbour's beside a step alone
@@ -74,25 +60,12 @@ fn RoofNearness(tip_y: f32, foot: f32, y: f32) -> f32 {
     return 2.0 * tip_y - y + UnitNearnessBias * (1.0 - back);
 }
 
-//`applyRotation` of world_utils.wgsl, copied: the terrain's permutation of the
-//cells under the camera direction.
-fn rotateCell(cell: vec2<i32>) -> vec2<i32> {
-    if (params.direction == 0) {
-        return cell;
-    } else if (params.direction == 1) {
-        return vec2<i32>(params.map_size.x - cell.y - 1, cell.x);
-    } else if (params.direction == 2) {
-        return vec2<i32>(params.map_size.x - cell.x - 1, params.map_size.y - cell.y - 1);
-    }
-    return vec2<i32>(cell.y, params.map_size.y - cell.x - 1);
-}
-
 //The front tip of the unit's own cell on the rotated screen, from its unrotated position: the cell
-//by `sim_to_map_pos`'s arithmetic, then applyRotation and WorldToScreenPos. `depth_order` proves it
+//by `sim_to_map_pos`'s arithmetic, then rotate_cell and WorldToScreenPos. `depth_order` proves it
 //is the tip of the cell `rotate` puts the unit into, up to the half pixel `rotate` rounds by.
 fn OwnTip(position: vec2<f32>) -> vec2<f32> {
     let cell = vec2<i32>(i32(floor((position.x + 2.0 * position.y) / 64.0)), i32(floor((2.0 * position.y - position.x) / 64.0)));
-    let rotated = rotateCell(cell);
+    let rotated = rotate_cell(cell, params.map_size, u32(params.direction));
     return vec2<f32>(TileHalf.x * f32(rotated.x - rotated.y), TileHalf.y * f32(rotated.x + rotated.y) + TileHalf.x);
 }
 
@@ -197,7 +170,7 @@ fn vs_main(
     new_pos.y -= elevation;
     let world_y = position_y + new_pos.y;
 
-    //three sub-quads cut at the own tile's edges (`entity_geometry::ENTITY_VERTICES`); the x byte
+    //three sub-quads cut at the own tile's edges (`render_entities::ENTITY_VERTICES`); the x byte
     //is the column role: 0 quad left, 1|2 tile left, 3|4 tile right, 5 quad right, a tile edge
     //outside the quad clamped onto it
     let role = u32(round(vertex_input.Position.x * 5.0));

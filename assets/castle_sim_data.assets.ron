@@ -66,7 +66,6 @@
             "brushes/special_brushes.data",
             "brushes/entity_brushes.data",
             "brushes/wall_brushes.data",
-            "entities/animals.data",
         ],
     ),
 })

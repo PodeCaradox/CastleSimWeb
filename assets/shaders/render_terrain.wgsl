@@ -50,7 +50,7 @@ fn instancing_with_elevation(@builtin(global_invocation_id) global_id: vec3<u32>
            animation_enabled = ((animation >> 2u) & 0x00000001u);
            visble_tiles_cp.tiles[visible_index + 2] = world_utils::CreateBuildingInstance(tile_rotation_data.SingleInstances[2u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu, offset_object_y);
            animation_enabled = ((animation >> 3u) & 0x00000001u);
-           let run = face_run(index, tile_rotation_data.SingleInstances[3u], rotation_offset);
+           let run = face_run(index, tile_rotation_data.SingleInstances[3u], tile_data.Elevation, rotation_offset);
            visble_tiles_cp.tiles[visible_index + 3] = world_utils::CreateElevationInstance(tile_rotation_data.SingleInstances[3u], index, tile_data.Elevation, animation_enabled, tick, 0xffffffffu, offset_elevation_x, run, front_ground(index, run, rotation_offset));
 }
 
@@ -65,7 +65,7 @@ fn has_wall_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
 }
 
 //Whether `cell` draws a face at all: its elevation slot is filled. A cliff's rock and a wall's
-//masonry are the same thing to the foot (E159).
+//masonry are the same thing to the foot (E363).
 fn has_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
     if (world_utils::is_in_map_bounds(cell) == 0) {
         return false;
@@ -73,10 +73,18 @@ fn has_face(cell: vec2<i32>, rotation_offset: i32) -> bool {
     return tiles_rotation.tiles[cell.y * world_utils::params.map_size.x + cell.x + rotation_offset].SingleInstances[3u] != 0u;
 }
 
+//Whether the face of a cell at `elevation` runs straight into `cell`: that cell draws a face too and
+//stands exactly as high, the same equality `illusion_piece` picks a flat half by (E363). Beside
+//another height each face is a pillar of its own and keeps the V.
+fn continues_at(cell: vec2<i32>, elevation: f32, rotation_offset: i32) -> bool {
+    return has_face(cell, rotation_offset)
+        && tiles_data.tiles[cell.y * world_utils::params.map_size.x + cell.x].Elevation == elevation;
+}
+
 //The RunLeft/RunRight mask of a face: which of its two same-screen-row neighbours (the step that is
-//(1, -1) after the camera rotation) carries a face too, so the foot is straight towards it. A face
-//alone in its row, or in a run along a map column, keeps the box's V.
-fn face_run(cell: vec2<i32>, face: u32, rotation_offset: i32) -> u32 {
+//(1, -1) after the camera rotation) continues it, so the foot is straight towards it. A face alone
+//in its row, in a run along a map column, or beside another height keeps the box's V.
+fn face_run(cell: vec2<i32>, face: u32, elevation: f32, rotation_offset: i32) -> u32 {
     if (face == 0u) {
         return 0u;
     }
@@ -89,18 +97,18 @@ fn face_run(cell: vec2<i32>, face: u32, rotation_offset: i32) -> u32 {
         right = vec2<i32>(1, 1);
     }
     var run = 0u;
-    if (has_face(cell - right, rotation_offset)) {
+    if (continues_at(cell - right, elevation, rotation_offset)) {
         run |= world_utils::RunLeft;
     }
-    if (has_face(cell + right, rotation_offset)) {
+    if (continues_at(cell + right, elevation, rotation_offset)) {
         run |= world_utils::RunRight;
     }
     return run;
 }
 
-//The ground a face's straight foot is drawn over: the LOWER of the two cells in front on screen
-//((0, 1) and (1, 0) of the rotated map), so the foot never covers a unit on the lower one. A wall
-//there stands on its ground, WallHeight below its elevation.
+//The ground a face's straight foot is drawn over: the cell in front on screen ((0, 1) and (1, 0) of
+//the rotated map) on the side of its one run, else the LOWER of the two, so the foot never covers a
+//unit on the lower one. A wall there stands on its ground, WallHeight below its elevation.
 fn front_ground(cell: vec2<i32>, run: u32, rotation_offset: i32) -> f32 {
     if (run == 0u) {
         return 0.0;
@@ -117,10 +125,16 @@ fn front_ground(cell: vec2<i32>, run: u32, rotation_offset: i32) -> f32 {
         left = vec2<i32>(-1, 0);
         right = vec2<i32>(0, 1);
     }
-    //ponytail: the run mask says which half of the foot is drawn, so a face with one run could take
-    //that cell's ground exactly instead of the min; worth it only if a step in front of a run's end
-    //shows
-    return min(ground_of(cell + left, rotation_offset), ground_of(cell + right, rotation_offset));
+    let on_left = ground_of(cell + left, rotation_offset);
+    let on_right = ground_of(cell + right, rotation_offset);
+    //the end of a run draws one half, over its own front cell, not under the step to the other
+    if (run == world_utils::RunLeft) {
+        return on_left;
+    }
+    if (run == world_utils::RunRight) {
+        return on_right;
+    }
+    return min(on_left, on_right);
 }
 
 const WallHeight : f32 = 200.0;
@@ -241,7 +255,7 @@ fn vs_main(
           offset_x = -16.0;
       }
 
-      //the linear part of the nearness at this vertex (see world_utils):
+      //the linear part of the nearness at this vertex ("Draw order" in common.wgsl):
       //ground y + 2e, billboard 2f - y, box and face 2tip - y before the |x|
       var nearness = world.y + instance.Position.z;
       if (mode != world_utils::ModeGround) {
