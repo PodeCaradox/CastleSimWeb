@@ -3,6 +3,7 @@
 export const memory: WebAssembly.Memory;
 export const init_game: (a: number, b: number) => void;
 export const init_game_new_map: (a: number, b: number, c: number, d: number) => void;
+export const loading_permille: () => number;
 export const wasm_bindgen__closure__destroy__h0ae2e7a0dc04e545: (a: number, b: number) => void;
 export const wasm_bindgen__closure__destroy__h39928b18bef4cd3e: (a: number, b: number) => void;
 export const wasm_bindgen__closure__destroy__h45c260b7f02a2570: (a: number, b: number) => void;
