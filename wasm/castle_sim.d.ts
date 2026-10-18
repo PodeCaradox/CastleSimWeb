@@ -11,12 +11,18 @@ export function init_game(width: number, height: number): void;
  */
 export function init_game_new_map(width: number, height: number, map_size_x: number, map_size_y: number): void;
 
+/**
+ * How far the game's load is, 0..=1000; the web page polls it for its bar.
+ */
+export function loading_permille(): number;
+
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
     readonly init_game: (a: number, b: number) => void;
     readonly init_game_new_map: (a: number, b: number, c: number, d: number) => void;
+    readonly loading_permille: () => number;
     readonly wasm_bindgen__closure__destroy__h0ae2e7a0dc04e545: (a: number, b: number) => void;
     readonly wasm_bindgen__closure__destroy__h39928b18bef4cd3e: (a: number, b: number) => void;
     readonly wasm_bindgen__closure__destroy__h45c260b7f02a2570: (a: number, b: number) => void;
