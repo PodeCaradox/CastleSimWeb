@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Castle Sim</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  canvas { display: block; width: 100%; height: 100%; }
+  #loading {
+    position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; gap: 14px; background: #000; color: #e8dcc0;
+    font: 16px/1.2 system-ui, sans-serif; letter-spacing: .08em; transition: opacity .4s;
+  }
+  #loading.done { opacity: 0; pointer-events: none; }
+  #bar { width: min(420px, 70vw); height: 12px; border: 1px solid #8a7a52; background: #14110a; }
+  #fill { width: 0; height: 100%; background: #c9a14a; }
+  #loading.failed #fill { background: #b03a2e; }
+</style>
+</head>
+<body>
+<canvas id="castle_sim"></canvas>
+<div id="loading">
+  <div id="bar"><div id="fill"></div></div>
+  <div id="label">LOADING</div>
+</div>
+<script type="module">
+import init, * as game from './wasm/castle_sim.js';
+
+const overlay = document.getElementById('loading');
+const fill = document.getElementById('fill');
+const label = document.getElementById('label');
+
+function show(text, fraction) {
+  label.textContent = `${text}  ${Math.round(fraction * 100)} %`;
+  fill.style.width = `${fraction * 100}%`;
+}
+
+// Fetches the wasm and reports the bytes read. Content-Length counts the gzipped bytes while the
+// stream yields the unpacked ones, so the unpacked size comes from X-Uncompressed-Length or size.txt.
+async function fetchWasm(url, onProgress) {
+  // size.txt (written by build.sh) covers hosts that gzip and send no X-Uncompressed-Length
+  const sized = await fetch('./wasm/size.txt').then(r => (r.ok ? r.text() : '')).catch(() => '');
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`${url}: ${res.status}`);
+  const total = Number(res.headers.get('x-uncompressed-length') || sized || res.headers.get('content-length') || 0);
+  const reader = res.body.getReader();
+  const chunks = [];
+  let got = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+    got += value.length;
+    onProgress(total ? Math.min(got / total, 1) : 0);
+  }
+  return new Response(new Blob(chunks), { headers: { 'Content-Type': 'application/wasm' } });
+}
+
+try {
+  show('DOWNLOADING', 0);
+  const wasm = await fetchWasm('./wasm/castle_sim_bg.wasm', f => show('DOWNLOADING', f));
+  show('STARTING', 0);
+  await init({ module_or_path: wasm });
+  // The engine reports its own progress through `loading_permille` (0..1000) once the build has it.
+  const progress = typeof game.loading_permille === 'function' ? game.loading_permille : null;
+  if (progress) {
+    const timer = setInterval(() => {
+      const permille = progress();
+      show('LOADING', permille / 1000);
+      if (permille >= 1000) {
+        clearInterval(timer);
+        overlay.classList.add('done');
+      }
+    }, 100);
+  } else {
+    overlay.classList.add('done');
+  }
+  try {
+    game.init_game(window.innerWidth, window.innerHeight);
+  } catch (e) {
+    // winit ends the call with an exception on purpose: the loop runs on from the browser's callbacks
+    if (!String(e).includes('control flow')) throw e;
+  }
+} catch (e) {
+  overlay.classList.add('failed');
+  label.textContent = `FAILED: ${e.message || e}`;
+  console.error(e);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,2805 @@
+{
+    "ImageNameUI": "interface",
+    "MiniMapSource": {
+        "x": 1647,
+        "y": 1847,
+        "width": 400,
+        "height": 200
+    },
+    "MiniMapPos": [-406,-206],
+    "Menus": {
+        "MainEditorMenu": {
+            "Alignment": "RightTop",
+            "Scale": [0,0],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 457,
+                            "height": 54
+                        }
+                    },
+                    "Position": [-457,0],
+                    "ImageSource": {
+                        "x": 1548,
+                        "y": 0,
+                        "width": 457,
+                        "height": 54
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_elevation_up",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-454,1],
+                    "ImageSource": {
+                        "x": 1553,
+                        "y": 78,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_elevation_down",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-454,27],
+                    "ImageSource": {
+                        "x": 1577,
+                        "y": 78,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "Function",
+                    "EventName": "increase_brush_size",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-429,1],
+                    "ImageSource": {
+                        "x": 1553,
+                        "y": 54,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "Function",
+                    "EventName": "decrease_brush_size",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-429,27],
+                    "ImageSource": {
+                        "x": 1577,
+                        "y": 54,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "LandSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 48,
+                            "height": 48
+                        }
+                    },
+                    "Position": [-400,2],
+                    "ImageSource": {
+                        "x": 1148,
+                        "y": 0,
+                        "width": 48,
+                        "height": 48
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "UnitsSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 48,
+                            "height": 48
+                        }
+                    },
+                    "Position": [-350,2],
+                    "ImageSource": {
+                        "x": 1148,
+                        "y": 48,
+                        "width": 48,
+                        "height": 48
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-300,2],
+                    "ImageSource": {
+                        "x": 1600,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "1",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-276,2],
+                    "ImageSource": {
+                        "x": 1624,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "2",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-250,2],
+                    "ImageSource": {
+                        "x": 1648,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "3",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-226,2],
+                    "ImageSource": {
+                        "x": 1672,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "4",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-300,26],
+                    "ImageSource": {
+                        "x": 1696,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "5",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-276,26],
+                    "ImageSource": {
+                        "x": 1720,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "6",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-250,26],
+                    "ImageSource": {
+                        "x": 1744,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "SelectTeam",
+                    "EventName": "7",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-226,26],
+                    "ImageSource": {
+                        "x": 1768,
+                        "y": 160,
+                        "width": 24,
+                        "height": 24
+                    }
+                }
+            ]
+        },
+        "MainStatisticsMenu": {
+            "Alignment": "CenterTop",
+            "MenuItems": [{
+                    "Position": [-269,0],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 538,
+                            "height": 38
+                        }
+                    },
+                    "ImageSource": {
+                        "x": 610,
+                        "y": 0,
+                        "width": 538,
+                        "height": 38
+                    }
+                }, {
+                    "Text": "100%",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-230,10],
+                    "ImageSource": {
+                        "x": 722,
+                        "y": 38,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "Text": "0010",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-142,10],
+                    "ImageSource": {
+                        "x": 746,
+                        "y": 38,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "Text": "0010",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [-54,10],
+                    "ImageSource": {
+                        "x": 770,
+                        "y": 38,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "Text": "0010",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [32,10],
+                    "ImageSource": {
+                        "x": 794,
+                        "y": 38,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "Text": "000010",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [128,10],
+                    "ImageSource": {
+                        "x": 818,
+                        "y": 38,
+                        "width": 24,
+                        "height": 24
+                    }
+                }
+            ]
+        },
+        "MainOptions": {
+            "Alignment": "CenterTop",
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomCircle",
+                        "Position": [24,24],
+                        "Radius": 24
+                    },
+                    "Position": [245,0]
+                }, {
+                    "EventType": "None",
+                    "CollisionObject": {
+                        "type": "CustomCircle",
+                        "Position": [24,24],
+                        "Radius": 24
+                    },
+                    "Position": [245,0],
+                    "ImageSource": {
+                        "x": 674,
+                        "y": 38,
+                        "width": 48,
+                        "height": 48
+                    }
+                }
+            ]
+        },
+        "MainProfile": {
+            "Alignment": "CenterTop",
+            "Scale": [0,0],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomCircle",
+                        "Position": [32,32],
+                        "Radius": 32
+                    },
+                    "Position": [-301,0]
+                }, {
+                    "EventType": "None",
+                    "CollisionObject": {
+                        "type": "CustomCircle",
+                        "Position": [32,32],
+                        "Radius": 32
+                    },
+                    "Position": [-301,0],
+                    "ImageSource": {
+                        "x": 610,
+                        "y": 38,
+                        "width": 64,
+                        "height": 64
+                    }
+                }
+            ]
+        },
+        "MainBackgroundMinimap": {
+            "Alignment": "RightBottom",
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomEllipse",
+                        "Ellipse": {
+                            "x": 0,
+                            "y": 32,
+                            "width": 394,
+                            "height": 194
+                        }
+                    },
+                    "ImageSource": {
+                        "x": 1654,
+                        "y": 1620,
+                        "width": 394,
+                        "height": 226
+                    },
+                    "Position": [-402,-232]
+                }
+            ]
+        },
+        "MainMinimap": {
+            "Alignment": "RightBottom",
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomDiamond",
+                        "Diamond": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 402,
+                            "height": 202
+                        }
+                    },
+                    "Position": [-406,-206]
+                }, {
+                    "EventType": "MiniMapClicked",
+                    "CollisionObject": {
+                        "type": "CustomDiamond",
+                        "Diamond": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 402,
+                            "height": 202
+                        }
+                    },
+                    "Position": [-406,-206],
+                    "ImageSource": {
+                        "x": 1646,
+                        "y": 1846,
+                        "width": 402,
+                        "height": 202
+                    }
+                }
+            ]
+        },
+        "MainBuildMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [1,1],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 608,
+                            "height": 36
+                        }
+                    },
+                    "Position": [-304,-37],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 64,
+                        "width": 610,
+                        "height": 37
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "FarmingSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-200,-33],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "ManufacturingSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-166,-33],
+                    "ImageSource": {
+                        "x": 28,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "MaterialsSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-132,-33],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "ProductionSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-98,-33],
+                    "ImageSource": {
+                        "x": 84,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "HouseSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-64,-33],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "PopularitySubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-30,-33],
+                    "ImageSource": {
+                        "x": 140,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "FaithSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [4,-33],
+                    "ImageSource": {
+                        "x": 168,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "WallSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [38,-33],
+                    "ImageSource": {
+                        "x": 196,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "GateSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [72,-33],
+                    "ImageSource": {
+                        "x": 224,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "TowerSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [106,-33],
+                    "ImageSource": {
+                        "x": 252,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "MilitarySubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 28,
+                            "height": 32
+                        }
+                    },
+                    "Position": [140,-33],
+                    "ImageSource": {
+                        "x": 280,
+                        "y": 101,
+                        "width": 28,
+                        "height": 32
+                    }
+                }
+            ]
+        },
+        "MainDeleteMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [1,1],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomCircle",
+                        "Position": [16,16],
+                        "Radius": 16
+                    },
+                    "Position": [288,-35],
+                    "ImageSource": {
+                        "x": 578,
+                        "y": 101,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "delete_brush",
+                    "CollisionObject": {
+                        "type": "CustomCircle",
+                        "Position": [16,16],
+                        "Radius": 16
+                    },
+                    "Position": [288,-35],
+                    "ImageSource": {
+                        "x": 546,
+                        "y": 101,
+                        "width": 32,
+                        "height": 32
+                    }
+                }
+            ]
+        },
+        "MainDebugMenu": {
+            "Alignment": "LeftTop",
+            "Scale": [0,0],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [0,0],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                    }
+                }, {
+                    "EventType": "TextBinding",
+                    "EventName": "FPS",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+					"Text":"FPS:",
+                    "Position": [10,10]
+                }, {
+                    "EventType": "TextBinding",
+                    "EventName": "MS",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+					"Text":"MS:",
+                    "Position": [10,28]
+                }, {
+                    "EventType": "TextBinding",
+                    "EventName": "TICK",
+                    "Places": 7,
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+					"Text":"TICK:",
+                    "Position": [10,46]
+                }
+            ]
+        },
+		"LandSubMenu": {
+            "Alignment": "RightTop",
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 404,
+                            "height": 90
+                        }
+                    },
+                    "Position": [-404,54],
+                    "ImageSource": {
+                        "x": 1601,
+                        "y": 54,
+                        "width": 404,
+                        "height": 90
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_test_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-397,56],
+                    "ImageSource": {
+                        "x": 1196,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_water_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-361,56],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_grass",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-325,56],
+                    "ImageSource": {
+                        "x": 1260,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_tree_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-289,56],
+                    "ImageSource": {
+                        "x": 1292,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_sand_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-253,56],
+                    "ImageSource": {
+                        "x": 1324,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_dirt_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-217,56],
+                    "ImageSource": {
+                        "x": 1356,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_gravel_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-181,56],
+                    "ImageSource": {
+                        "x": 1388,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_street_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-145,56],
+                    "ImageSource": {
+                        "x": 1420,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_dirt_1",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-109,56],
+                    "ImageSource": {
+                        "x": 1452,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_gravel_1",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-73,56],
+                    "ImageSource": {
+                        "x": 1484,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_stone_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-37,56],
+                    "ImageSource": {
+                        "x": 1516,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_stone_moss_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-397,92],
+                    "ImageSource": {
+                        "x": 1196,
+                        "y": 32,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_grass_dry_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-361,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 32,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_sea_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-325,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_n_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-289,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_s_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-253,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_e_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-217,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_w_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-181,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_ne_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-145,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_es_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-109,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_sw_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-73,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_river_wn_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-37,92],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 0,
+                        "width": 32,
+                        "height": 32
+                    }
+                }
+            ]
+        },
+        "UnitsSubMenu": {
+            "Alignment": "RightTop",
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 404,
+                            "height": 90
+                        }
+                    },
+                    "Position": [-404,54],
+                    "ImageSource": {
+                        "x": 1601,
+                        "y": 54,
+                        "width": 404,
+                        "height": 90
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "swordsman_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-397,56],
+                    "ImageSource": {
+                        "x": 1196,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                },{
+                    "EventType": "SelectBrush",
+                    "EventName": "deer_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-361,56],
+                    "ImageSource": {
+                        "x": 1228,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+				{
+                    "EventType": "SelectBrush",
+                    "EventName": "piceman_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-325,56],
+                    "ImageSource": {
+                        "x": 1260,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+				{
+                    "EventType": "SelectBrush",
+                    "EventName": "bowman_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-289,56],
+                    "ImageSource": {
+                        "x": 1292,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                },
+				{
+                    "EventType": "SelectBrush",
+                    "EventName": "crossbowman_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-253,56],
+                    "ImageSource": {
+                        "x": 1324,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                },{
+                    "EventType": "SelectBrush",
+                    "EventName": "cavalry_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-217,56],
+                    "ImageSource": {
+                        "x": 1356,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                },{
+                    "EventType": "SelectBrush",
+                    "EventName": "catapult_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-181,56],
+                    "ImageSource": {
+                        "x": 1388,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                }
+            ]
+        },
+        "FarmingSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "apple_farm_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 133,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "grain_farm_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 133,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "cow_farm_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-177,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 133,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "hunter_stand_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-117,-96],
+                    "ImageSource": {
+                        "x": 168,
+                        "y": 133,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "hop_farm_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-57,-96],
+                    "ImageSource": {
+                        "x": 224,
+                        "y": 133,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "ManufacturingSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brewery_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 189,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "mill_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 189,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "bakery_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-177,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 189,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "MaterialsSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "wood_cutter_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 245,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "mine_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 245,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "ProductionSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "black_smith_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 301,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tannery_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 301,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "shields_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-177,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 301,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "archery_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-117,-96],
+                    "ImageSource": {
+                        "x": 168,
+                        "y": 301,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "HouseSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "house_1_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 357,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "house_2_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 357,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "house_3_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-177,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 357,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "house_4_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-117,-96],
+                    "ImageSource": {
+                        "x": 168,
+                        "y": 357,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "house_5_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-57,-96],
+                    "ImageSource": {
+                        "x": 224,
+                        "y": 357,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "house_6_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [3,-96],
+                    "ImageSource": {
+                        "x": 280,
+                        "y": 357,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "house_7_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [63,-96],
+                    "ImageSource": {
+                        "x": 336,
+                        "y": 357,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "PopularitySubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "granary_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 413,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "market_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 413,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "inn_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-177,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 413,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "well_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-117,-96],
+                    "ImageSource": {
+                        "x": 168,
+                        "y": 413,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "FaithSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "church_small_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 469,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "church_medium_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 469,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "church_big_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-177,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 469,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "WallSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_wall_wooden_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 525,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_wall_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 525,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                     "EventType": "SelectBrush",
+                     "EventName": "brush_wall_crenelation_0",
+                     "CollisionObject": {
+                         "type": "CustomRectangle",
+                         "Rectangle": {
+                             "x": 0,
+                             "y": 0,
+                             "width": 56,
+                             "height": 56
+                         }
+                     },
+                     "Position": [-177,-96],
+                     "ImageSource": {
+                         "x": 112,
+                         "y": 525,
+                         "width": 56,
+                         "height": 56
+                     }
+                 }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brush_ramp_0",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-57,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 525,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "GateSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "gate_1_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 581,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "gate_0_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 581,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "TowerSubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tower_smallc_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tower_small_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tower_big_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-177,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tower_bigc_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-117,-96],
+                    "ImageSource": {
+                        "x": 168,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "new_tower_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-57,-96],
+                    "ImageSource": {
+                        "x": 224,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+				}, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tower_round_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [17,-96],
+                    "ImageSource": {
+                        "x": 280,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+				}, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tower_small_new_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [77,-96],
+                    "ImageSource": {
+                        "x": 336,
+                        "y": 637,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        },
+        "MilitarySubMenu": {
+            "Alignment": "CenterBottom",
+            "Scale": [2,2],
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 1,
+                            "y": 0,
+                            "width": 606,
+                            "height": 65
+                        }
+                    },
+                    "Position": [-304,-101],
+					"ImageSource": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 610,
+                        "height": 64
+					}
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "armory_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-297,-96],
+                    "ImageSource": {
+                        "x": 0,
+                        "y": 693,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "barracks_1_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-237,-96],
+                    "ImageSource": {
+                        "x": 56,
+                        "y": 693,
+                        "width": 56,
+                        "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "barracks_2_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 56,
+                            "height": 56
+                        }
+                    },
+                    "Position": [-177,-96],
+                    "ImageSource": {
+                        "x": 112,
+                        "y": 693,
+                        "width": 56,
+                        "height": 56
+                    }
+                }
+            ]
+        }
+    },
+	"FontAtlas": {
+		":": {
+				"x": 320,
+				"y": 1642,
+				"width": 6,
+				"height": 16
+		},
+		"%": {
+				"x": 160,
+				"y": 1608,
+				"width": 20,
+				"height": 17
+		},
+		"0": {
+				"x": 0,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"1": {
+				"x": 32,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"2": {
+			
+				"x": 64,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"3": {
+			
+				"x": 96,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"4": {
+			
+				"x": 128,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"5": {
+			
+				"x": 160,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"6": {
+			
+				"x": 192,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"7": {
+			
+				"x": 224,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"8": {
+			
+				"x": 256,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},
+		"9": {
+			
+				"x": 288,
+				"y": 1640,
+				"width": 12,
+				"height": 16
+		},	
+		"A": {
+			
+				"x": 32,
+				"y": 1672,
+				"width": 16,
+				"height": 16
+		},	
+		"B": {
+			
+				"x": 64,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"C": {
+			
+				"x": 96,
+				"y": 1672,
+				"width": 16,
+				"height": 16
+		},
+		"D": {
+			
+				"x": 128,
+				"y": 1672,
+				"width": 16,
+				"height": 16
+		},
+		"E": {
+			
+				"x": 160,
+				"y": 1672,
+				"width": 15,
+				"height": 16
+		},
+		"F": {
+			
+				"x": 192,
+				"y": 1672,
+				"width": 13,
+				"height": 16
+		},
+		"G": {
+			
+				"x": 224,
+				"y": 1672,
+				"width": 17,
+				"height": 16
+		},
+		"H": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"I": {
+			
+				"x": 288,
+				"y": 1672,
+				"width": 5,
+				"height": 16
+		},
+		"J": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"K": {
+			
+				"x": 352,
+				"y": 1672,
+				"width": 16,
+				"height": 16
+		},
+		"L": {
+			
+				"x": 384,
+				"y": 1672,
+				"width": 12,
+				"height": 16
+		},
+		"M": {
+
+				"x": 416,
+				"y": 1672,
+				"width": 17,
+				"height": 16
+		},
+		"N": {
+			
+				"x": 448,
+				"y": 1672,
+				"width": 15,
+				"height": 16
+		},
+		"O": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"P": {
+			
+				"x": 0,
+				"y": 1704,
+				"width": 15,
+				"height": 16
+		},
+		"Q": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"R": {
+			
+				"x": 64,
+				"y": 1704,
+				"width": 16,
+				"height": 16
+		},
+		"S": {
+			
+				"x": 96,
+				"y": 1704,
+				"width": 15,
+				"height": 16
+		},
+		"T": {
+			
+				"x": 128,
+				"y": 1704,
+				"width": 13,
+				"height": 16
+		},
+		"U": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"V": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"W": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"X": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"Y": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		},
+		"Z": {
+			
+				"x": 288,
+				"y": 1632,
+				"width": 32,
+				"height": 32
+		}
+	}		
+}
