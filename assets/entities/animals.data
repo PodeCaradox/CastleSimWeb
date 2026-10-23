@@ -2,6 +2,7 @@
 "swordsman":{
  "WalkSpeed":384,
  "FormationRank":0,
+ "TargetClass":"Melee",
  "ImageName":"swordsman",
  "ColorTableImageName":"color_table",
  "ColorTableStartPos":"0,4",
@@ -1775,6 +1776,7 @@
 "piceman":{
  "WalkSpeed":346,
  "FormationRank":1,
+ "TargetClass":"Melee",
  "ImageName":"piceman",
  "ColorTableImageName":"color_table",
  "ColorTableStartPos":"0,12",
@@ -2625,6 +2627,7 @@
 "bowman":{
  "WalkSpeed":288,
  "FormationRank":2,
+ "TargetClass":"Archer",
  "ImageName":"bowman",
  "ColorTableImageName":"color_table",
  "ColorTableStartPos":"0,24",
@@ -3443,6 +3446,7 @@
 "crossbowman":{
  "WalkSpeed":288,
  "FormationRank":2,
+ "TargetClass":"Archer",
  "Projectile":"bolt",
  "ImageName":"crossbowman",
  "ColorTableImageName":"color_table",
@@ -5601,6 +5605,7 @@
     "WalkSpeed": 400,
     "RunSpeed": 960,
     "FormationRank": 0,
+    "TargetClass": "Melee",
     "FootprintLength": 2,
     "FootprintWidth": 1,
     "Combat": {
@@ -6521,6 +6526,7 @@
 "catapult": {
     "WalkSpeed": 257,
     "FormationRank": 2,
+    "TargetClass": "Engine",
     "FootprintLength": 4,
     "FootprintWidth": 2,
     "Projectile": "stone",

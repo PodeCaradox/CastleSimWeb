@@ -335,7 +335,9 @@
                         "height": 24
                     }
                 }, {
-                    "Text": "0010",
+                    "EventType": "TextBinding",
+                    "EventName": "HEADER_WOOD",
+                    "Places": 6,
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -345,15 +347,17 @@
                             "height": 24
                         }
                     },
-                    "Position": [-142,10],
+                    "Position": [-170,7],
                     "ImageSource": {
                         "x": 746,
-                        "y": 38,
+                        "y": 66,
                         "width": 24,
                         "height": 24
                     }
                 }, {
-                    "Text": "0010",
+                    "EventType": "TextBinding",
+                    "EventName": "HEADER_STONE",
+                    "Places": 6,
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -363,25 +367,7 @@
                             "height": 24
                         }
                     },
-                    "Position": [-54,10],
-                    "ImageSource": {
-                        "x": 770,
-                        "y": 38,
-                        "width": 24,
-                        "height": 24
-                    }
-                }, {
-                    "Text": "0010",
-                    "CollisionObject": {
-                        "type": "CustomRectangle",
-                        "Rectangle": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 24,
-                            "height": 24
-                        }
-                    },
-                    "Position": [32,10],
+                    "Position": [-66,7],
                     "ImageSource": {
                         "x": 794,
                         "y": 38,
@@ -389,7 +375,9 @@
                         "height": 24
                     }
                 }, {
-                    "Text": "000010",
+                    "EventType": "TextBinding",
+                    "EventName": "HEADER_FOOD",
+                    "Places": 6,
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -399,7 +387,27 @@
                             "height": 24
                         }
                     },
-                    "Position": [128,10],
+                    "Position": [38,7],
+                    "ImageSource": {
+                        "x": 770,
+                        "y": 38,
+                        "width": 24,
+                        "height": 24
+                    }
+                }, {
+                    "EventType": "TextBinding",
+                    "EventName": "HEADER_GOLD",
+                    "Places": 6,
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 24,
+                            "height": 24
+                        }
+                    },
+                    "Position": [142,7],
                     "ImageSource": {
                         "x": 818,
                         "y": 38,
@@ -780,6 +788,712 @@
                         "y": 101,
                         "width": 32,
                         "height": 32
+                    }
+                }
+            ]
+        },
+        "MainBuildingPanel": {
+            "Alignment": "LeftBottom",
+            "Scale": [
+                1,
+                1
+            ],
+            "MenuItems": [
+                {
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 224,
+                            "height": 184
+                        }
+                    },
+                    "Position": [
+                        8,
+                        -192
+                    ],
+                    "ImageSource": {
+                        "x": 1024,
+                        "y": 832,
+                        "width": 224,
+                        "height": 82
+                    }
+                },
+                {
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        8,
+                        -110
+                    ],
+                    "ImageSource": {
+                        "x": 1024,
+                        "y": 834,
+                        "width": 224,
+                        "height": 102
+                    }
+                },
+                {
+                    "Text": "GEBAEUDE",
+                    "ShownFor": [
+                        "Scenery"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "LAGER",
+                    "ShownFor": [
+                        "Stockpile"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "KORNSPEICHER",
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "BERGFRIED",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "HAUS",
+                    "ShownFor": [
+                        "Hovel"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "HOLZFAELLER",
+                    "ShownFor": [
+                        "Woodcutter"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "FARM",
+                    "ShownFor": [
+                        "Farm"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "WERKSTATT",
+                    "ShownFor": [
+                        "Workshop"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "KASERNE",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "WAFFENKAMMER",
+                    "ShownFor": [
+                        "Armory"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "MINE",
+                    "ShownFor": [
+                        "Mine"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "TURM",
+                    "ShownFor": [
+                        "Tower"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "TOR",
+                    "ShownFor": [
+                        "Gate"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "MAUER",
+                    "ShownFor": [
+                        "Wall"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "BUILDING_HP",
+                    "Text": "HP:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -158
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "BUILDING_TEAM",
+                    "Places": 1,
+                    "Text": "TEAM:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -138
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "STORE_USED",
+                    "Places": 3,
+                    "ShownFor": [
+                        "Stockpile",
+                        "Granary",
+                        "Armory"
+                    ],
+                    "Text": "VOLL:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        112,
+                        -158
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "STORE_CAPACITY",
+                    "Places": 3,
+                    "ShownFor": [
+                        "Stockpile",
+                        "Granary",
+                        "Armory"
+                    ],
+                    "Text": "MAX:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        112,
+                        -138
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "wood",
+                    "ShownFor": [
+                        "Stockpile"
+                    ],
+                    "Text": "HOLZ:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -120
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "stone",
+                    "ShownFor": [
+                        "Stockpile"
+                    ],
+                    "Text": "STEIN:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -102
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "iron",
+                    "ShownFor": [
+                        "Stockpile"
+                    ],
+                    "Text": "EISEN:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -84
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "pitch",
+                    "ShownFor": [
+                        "Stockpile"
+                    ],
+                    "Text": "PECH:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -66
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "wheat",
+                    "ShownFor": [
+                        "Stockpile"
+                    ],
+                    "Text": "WEIZEN:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -48
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "flour",
+                    "ShownFor": [
+                        "Stockpile"
+                    ],
+                    "Text": "MEHL:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -30
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "bread",
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "Text": "BROT:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -110
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "sword",
+                    "ShownFor": [
+                        "Armory"
+                    ],
+                    "Text": "SCHWERT:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -110
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "bow",
+                    "ShownFor": [
+                        "Armory"
+                    ],
+                    "Text": "BOGEN:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -90
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "crossbow",
+                    "ShownFor": [
+                        "Armory"
+                    ],
+                    "Text": "ARMBRUST:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -70
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "mace",
+                    "ShownFor": [
+                        "Armory"
+                    ],
+                    "Text": "KEULE:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -50
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "armor",
+                    "ShownFor": [
+                        "Armory"
+                    ],
+                    "Text": "RUESTUNG:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -30
+                    ]
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "gate_shut",
+                    "ShownFor": [
+                        "Gate"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 64,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -110
+                    ],
+                    "ImageSource": {
+                        "x": 1024,
+                        "y": 944,
+                        "width": 64,
+                        "height": 24
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "gate_open",
+                    "ShownFor": [
+                        "Gate"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 64,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        92,
+                        -110
+                    ],
+                    "ImageSource": {
+                        "x": 1096,
+                        "y": 944,
+                        "width": 64,
+                        "height": 24
                     }
                 }
             ]
@@ -2790,5 +3504,12 @@
 				"width": 13,
 				"height": 16
 		}
-	}		
+	},
+	"CostIcons": {
+		"wood": { "x": 496, "y": 2030, "width": 16, "height": 16 },
+		"stone": { "x": 512, "y": 2030, "width": 16, "height": 16 },
+		"iron": { "x": 528, "y": 2030, "width": 16, "height": 16 },
+		"pitch": { "x": 544, "y": 2030, "width": 16, "height": 16 },
+		"gold": { "x": 560, "y": 2030, "width": 16, "height": 16 }
+	}
 }
