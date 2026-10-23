@@ -13,16 +13,40 @@
     "Cost": {
       "Wood": 20
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Intake": 2,
+    "Shelf": 2,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Inputs": {
+          "wood": 1
+        },
+        "Outputs": {
+          "bow": 1
+        },
+        "WorkTicks": 400
+      },
+      {
+        "Inputs": {
+          "wood": 1
+        },
+        "Outputs": {
+          "crossbow": 1
+        },
+        "WorkTicks": 500
+      }
+    ]
   },
   "armory": {
-    "Role": "Stockpile",
+    "Role": "Armory",
     "Hp": 300,
     "Cost": {
       "Wood": 20,
       "Stone": 10
     },
-    "Capacity": 200
+    "Capacity": 50,
+    "Entrance": "0,2"
   },
   "bakery": {
     "Role": "Workshop",
@@ -30,7 +54,22 @@
     "Cost": {
       "Wood": 20
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Intake": 2,
+    "Shelf": 16,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Inputs": {
+          "flour": 1
+        },
+        "Outputs": {
+          "bread": 8
+        },
+        "WorkTicks": 500,
+        "Bonus": false
+      }
+    ]
   },
   "barracks_1": {
     "Role": "Barracks",
@@ -55,7 +94,30 @@
       "Wood": 20,
       "Stone": 10
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Intake": 2,
+    "Shelf": 2,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Inputs": {
+          "iron": 1
+        },
+        "Outputs": {
+          "sword": 1
+        },
+        "WorkTicks": 480
+      },
+      {
+        "Inputs": {
+          "iron": 1
+        },
+        "Outputs": {
+          "mace": 1
+        },
+        "WorkTicks": 480
+      }
+    ]
   },
   "brewery": {
     "Role": "Workshop",
@@ -113,7 +175,18 @@
     "Cost": {
       "Wood": 15
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Shelf": 4,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Outputs": {
+          "wheat": 2
+        },
+        "WorkTicks": 600,
+        "Bonus": false
+      }
+    ]
   },
   "granary": {
     "Role": "Granary",
@@ -121,7 +194,8 @@
     "Cost": {
       "Wood": 25
     },
-    "Capacity": 500
+    "Capacity": 250,
+    "Entrance": "0,2"
   },
   "hop_farm": {
     "Role": "Farm",
@@ -189,10 +263,13 @@
     "WorkerSlots": 1
   },
   "inn": {
+    "Role": "Stockpile",
     "Hp": 200,
     "Cost": {
       "Wood": 25
-    }
+    },
+    "Stacks": 4,
+    "Indestructible": true
   },
   "market": {
     "Hp": 200,
@@ -206,13 +283,39 @@
     "Cost": {
       "Wood": 20
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Intake": 4,
+    "Shelf": 4,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Inputs": {
+          "wheat": 1
+        },
+        "Outputs": {
+          "flour": 1
+        },
+        "WorkTicks": 400,
+        "Bonus": false
+      }
+    ]
   },
   "mine": {
+    "Role": "Mine",
     "Hp": 200,
     "Cost": {
       "Wood": 20
-    }
+    },
+    "Shelf": 4,
+    "Entrance": "0,3",
+    "Recipes": [
+      {
+        "Outputs": {
+          "iron": 1
+        },
+        "WorkTicks": 640
+      }
+    ]
   },
   "new_tower": {
     "Role": "Tower",
@@ -229,7 +332,21 @@
       "Wood": 20,
       "Stone": 10
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Intake": 2,
+    "Shelf": 2,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Inputs": {
+          "iron": 1
+        },
+        "Outputs": {
+          "armor": 1
+        },
+        "WorkTicks": 480
+      }
+    ]
   },
   "stables": {
     "Hp": 250,
@@ -282,6 +399,7 @@
     "Role": "Tower",
     "Hp": 1000,
     "Tier": 2,
+    "FallDamagePercent": 25,
     "Cost": {
       "Stone": 40
     }
@@ -329,22 +447,22 @@
   "wall_crenelation": {
     "Role": "Wall",
     "Hp": 400,
-    "Cost": {
-      "Stone": 5
+    "QuarterCost": {
+      "Stone": 2
     }
   },
   "wall_tile_full": {
     "Role": "Wall",
     "Hp": 400,
-    "Cost": {
-      "Stone": 5
+    "QuarterCost": {
+      "Stone": 2
     }
   },
   "wall_wooden": {
     "Role": "Wall",
     "Hp": 150,
-    "Cost": {
-      "Wood": 3
+    "QuarterCost": {
+      "Wood": 2
     }
   },
   "well": {
@@ -360,6 +478,15 @@
     "Cost": {
       "Wood": 10
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Shelf": 12,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Outputs": {
+          "wood": 12
+        }
+      }
+    ]
   }
 }

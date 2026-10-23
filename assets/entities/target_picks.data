@@ -1,0 +1,18 @@
+{
+  "Melee": {
+    "Archer": { "Quarters": 4, "Px": 0 },
+    "Melee": { "Quarters": 8, "Px": 400 },
+    "Engine": { "Quarters": 4, "Px": 100 },
+    "Lord": { "Quarters": 1, "Px": 0 },
+    "Peasant": { "Quarters": 32, "Px": 800 },
+    "Other": { "Quarters": 16, "Px": 800 }
+  },
+  "Shooter": {
+    "Archer": { "Quarters": 4, "Px": 300 },
+    "Melee": { "Quarters": 20, "Px": 800 },
+    "Engine": { "Quarters": 8, "Px": 400 },
+    "Lord": { "Quarters": 8, "Px": 400 },
+    "Peasant": { "Quarters": 40, "Px": 1600 },
+    "Other": { "Quarters": 40, "Px": 1600 }
+  }
+}

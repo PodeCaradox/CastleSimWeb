@@ -1,0 +1,64 @@
+{
+  "Goods": {
+    "armor": {
+      "Store": "Armory",
+      "Load": 1
+    },
+    "bow": {
+      "Store": "Armory",
+      "Load": 1
+    },
+    "bread": {
+      "Store": "Granary",
+      "Load": 8
+    },
+    "crossbow": {
+      "Store": "Armory",
+      "Load": 1
+    },
+    "flour": {
+      "Store": "Stockpile",
+      "Stack": 32,
+      "Load": 1
+    },
+    "iron": {
+      "Store": "Stockpile",
+      "Stack": 48,
+      "Load": 1
+    },
+    "mace": {
+      "Store": "Armory",
+      "Load": 1
+    },
+    "pitch": {
+      "Store": "Stockpile",
+      "Stack": 16,
+      "Load": 4
+    },
+    "stone": {
+      "Store": "Stockpile",
+      "Stack": 48,
+      "Load": 8
+    },
+    "sword": {
+      "Store": "Armory",
+      "Load": 1
+    },
+    "wheat": {
+      "Store": "Stockpile",
+      "Stack": 32,
+      "Load": 2
+    },
+    "wood": {
+      "Store": "Stockpile",
+      "Stack": 48,
+      "Load": 12
+    }
+  },
+  "StartGoods": {
+    "iron": 20,
+    "stone": 80,
+    "wood": 80
+  },
+  "StartGold": 100
+}

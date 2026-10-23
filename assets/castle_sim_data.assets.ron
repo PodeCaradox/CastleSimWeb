@@ -49,7 +49,9 @@
             "world/buildings/building_tiles.data",
             "world/buildings/buildings.data",
             "world/buildings/building_rules.data",
+            "world/economy_rules.data",
             "entities/animals.data",
+            "entities/target_picks.data",
         ],
     ),
     //Mod files, loaded after the shipped data and merged over it. Add a
