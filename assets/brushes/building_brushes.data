@@ -358,5 +358,284 @@
             }
         ],
         "BrushType": "BuildingBrush"
+    },
+    "stockpile_brush": {
+        "BrushEntities": [
+            {
+                "Name": "stockpile",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "praetorium_brush": {
+        "BrushEntities": [
+            {
+                "Name": "praetorium",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "campfire_brush": {
+        "BrushEntities": [
+            {
+                "Name": "campfire",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "quarry_brush": {
+        "BrushEntities": [
+            {
+                "Name": "quarry",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "stone_pile_brush": {
+        "BrushEntities": [
+            {
+                "Name": "stone_pile",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "ox_tether_brush": {
+        "BrushEntities": [
+            {
+                "Name": "ox_tether",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "pitch_rig_brush": {
+        "BrushEntities": [
+            {
+                "Name": "pitch_rig",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "pole_turner_brush": {
+        "BrushEntities": [
+            {
+                "Name": "pole_turner",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "oil_smelter_brush": {
+        "BrushEntities": [
+            {
+                "Name": "oil_smelter",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "engineers_guild_brush": {
+        "BrushEntities": [
+            {
+                "Name": "engineers_guild",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "tunnelers_guild_brush": {
+        "BrushEntities": [
+            {
+                "Name": "tunnelers_guild",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "siege_tent_brush": {
+        "BrushEntities": [
+            {
+                "Name": "siege_tent",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "tunnel_entrance_brush": {
+        "BrushEntities": [
+            {
+                "Name": "tunnel_entrance",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "brazier_brush": {
+        "BrushEntities": [
+            {
+                "Name": "brazier",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "water_pot_brush": {
+        "BrushEntities": [
+            {
+                "Name": "water_pot",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "maypole_brush": {
+        "BrushEntities": [
+            {
+                "Name": "maypole",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "garden_brush": {
+        "BrushEntities": [
+            {
+                "Name": "garden",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "statue_brush": {
+        "BrushEntities": [
+            {
+                "Name": "statue",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "shrine_brush": {
+        "BrushEntities": [
+            {
+                "Name": "shrine",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "dancing_bear_brush": {
+        "BrushEntities": [
+            {
+                "Name": "dancing_bear",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "gallows_brush": {
+        "BrushEntities": [
+            {
+                "Name": "gallows",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "stocks_brush": {
+        "BrushEntities": [
+            {
+                "Name": "stocks",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "witch_chair_brush": {
+        "BrushEntities": [
+            {
+                "Name": "witch_chair",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "cesspit_brush": {
+        "BrushEntities": [
+            {
+                "Name": "cesspit",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "burning_stake_brush": {
+        "BrushEntities": [
+            {
+                "Name": "burning_stake",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "gibbet_brush": {
+        "BrushEntities": [
+            {
+                "Name": "gibbet",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "dungeon_brush": {
+        "BrushEntities": [
+            {
+                "Name": "dungeon",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "stretching_rack_brush": {
+        "BrushEntities": [
+            {
+                "Name": "stretching_rack",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "flogging_rack_brush": {
+        "BrushEntities": [
+            {
+                "Name": "flogging_rack",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "chopping_block_brush": {
+        "BrushEntities": [
+            {
+                "Name": "chopping_block",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
+    },
+    "ducking_stool_brush": {
+        "BrushEntities": [
+            {
+                "Name": "ducking_stool",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "BuildingBrush"
     }
 }

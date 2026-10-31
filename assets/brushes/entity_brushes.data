@@ -62,5 +62,14 @@
             }
         ],
         "BrushType": "EntitiesBrush"
+    },
+    "peasant_brush": {
+        "BrushEntities": [
+            {
+                "Name": "peasant",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "EntitiesBrush"
     }
 }

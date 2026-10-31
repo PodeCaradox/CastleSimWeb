@@ -16524,5 +16524,4112 @@
     "ConnectionType": "Obstacle",
     "NameElevationDisabled": "elevation_disabled",
     "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_0T": {
+    "Name": "stockpile_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1408,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_0": {
+    "Name": "stockpile_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_1T": {
+    "Name": "stockpile_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1472,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_1": {
+    "Name": "stockpile_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_2T": {
+    "Name": "stockpile_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1536,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_2": {
+    "Name": "stockpile_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_3T": {
+    "Name": "stockpile_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1600,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_3": {
+    "Name": "stockpile_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_4T": {
+    "Name": "stockpile_4T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1664,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_4": {
+    "Name": "stockpile_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_5T": {
+    "Name": "stockpile_5T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1728,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_5": {
+    "Name": "stockpile_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_5T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_6": {
+    "Name": "stockpile_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_7": {
+    "Name": "stockpile_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_8": {
+    "Name": "stockpile_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_9": {
+    "Name": "stockpile_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_10T": {
+    "Name": "stockpile_10T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1792,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_10": {
+    "Name": "stockpile_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_10T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_11": {
+    "Name": "stockpile_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_12": {
+    "Name": "stockpile_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_13": {
+    "Name": "stockpile_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_14": {
+    "Name": "stockpile_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_15T": {
+    "Name": "stockpile_15T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1856,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_15": {
+    "Name": "stockpile_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_15T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_16": {
+    "Name": "stockpile_16",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_17": {
+    "Name": "stockpile_17",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_18": {
+    "Name": "stockpile_18",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_19": {
+    "Name": "stockpile_19",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_20T": {
+    "Name": "stockpile_20T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1920,518,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_20": {
+    "Name": "stockpile_20",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stockpile_20T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_21": {
+    "Name": "stockpile_21",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_22": {
+    "Name": "stockpile_22",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_23": {
+    "Name": "stockpile_23",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stockpile_24": {
+    "Name": "stockpile_24",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_0T": {
+    "Name": "praetorium_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1984,518,64,286",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_0": {
+    "Name": "praetorium_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_1T": {
+    "Name": "praetorium_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "0,1026,64,278",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_1": {
+    "Name": "praetorium_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1568,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_2T": {
+    "Name": "praetorium_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "64,1026,64,266",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_2": {
+    "Name": "praetorium_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_3T": {
+    "Name": "praetorium_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "128,1026,64,254",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_3": {
+    "Name": "praetorium_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_4T": {
+    "Name": "praetorium_4T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "192,1026,64,186",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_4": {
+    "Name": "praetorium_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_5T": {
+    "Name": "praetorium_5T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "256,1026,64,186",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_5": {
+    "Name": "praetorium_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_5T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_6T": {
+    "Name": "praetorium_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "320,1026,64,198",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_6": {
+    "Name": "praetorium_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_7T": {
+    "Name": "praetorium_7T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "384,1026,64,274",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_7": {
+    "Name": "praetorium_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_7T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_8": {
+    "Name": "praetorium_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_9": {
+    "Name": "praetorium_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_10": {
+    "Name": "praetorium_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_11": {
+    "Name": "praetorium_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_12": {
+    "Name": "praetorium_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_13": {
+    "Name": "praetorium_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_14T": {
+    "Name": "praetorium_14T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "448,1026,64,262",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_14": {
+    "Name": "praetorium_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_14T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_15": {
+    "Name": "praetorium_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_16": {
+    "Name": "praetorium_16",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_17": {
+    "Name": "praetorium_17",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_18": {
+    "Name": "praetorium_18",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_19": {
+    "Name": "praetorium_19",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_20": {
+    "Name": "praetorium_20",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_21T": {
+    "Name": "praetorium_21T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "512,1026,64,254",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_21": {
+    "Name": "praetorium_21",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_21T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_22": {
+    "Name": "praetorium_22",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_23": {
+    "Name": "praetorium_23",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_24": {
+    "Name": "praetorium_24",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_25": {
+    "Name": "praetorium_25",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_26": {
+    "Name": "praetorium_26",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_27": {
+    "Name": "praetorium_27",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_28T": {
+    "Name": "praetorium_28T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "576,1026,64,186",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_28": {
+    "Name": "praetorium_28",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_28T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_29": {
+    "Name": "praetorium_29",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_30": {
+    "Name": "praetorium_30",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_31": {
+    "Name": "praetorium_31",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_32": {
+    "Name": "praetorium_32",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_33": {
+    "Name": "praetorium_33",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1600,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_34": {
+    "Name": "praetorium_34",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_35T": {
+    "Name": "praetorium_35T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "640,1026,64,186",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_35": {
+    "Name": "praetorium_35",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_35T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_36": {
+    "Name": "praetorium_36",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_37": {
+    "Name": "praetorium_37",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_38": {
+    "Name": "praetorium_38",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_39": {
+    "Name": "praetorium_39",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_40": {
+    "Name": "praetorium_40",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_41": {
+    "Name": "praetorium_41",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_42T": {
+    "Name": "praetorium_42T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "704,1026,64,198",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_42": {
+    "Name": "praetorium_42",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "praetorium_42T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_43": {
+    "Name": "praetorium_43",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_44": {
+    "Name": "praetorium_44",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_45": {
+    "Name": "praetorium_45",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_46": {
+    "Name": "praetorium_46",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_47": {
+    "Name": "praetorium_47",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "praetorium_48": {
+    "Name": "praetorium_48",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "campfire_0T": {
+    "Name": "campfire_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "768,1026,64,62",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "campfire_0": {
+    "Name": "campfire_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "campfire_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_0T": {
+    "Name": "quarry_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "832,1026,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_0": {
+    "Name": "quarry_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_1T": {
+    "Name": "quarry_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "896,1026,64,122",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_1": {
+    "Name": "quarry_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_2T": {
+    "Name": "quarry_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "960,1026,64,134",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_2": {
+    "Name": "quarry_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_3T": {
+    "Name": "quarry_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1024,1026,64,134",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_3": {
+    "Name": "quarry_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_4T": {
+    "Name": "quarry_4T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1088,1026,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_4": {
+    "Name": "quarry_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_5T": {
+    "Name": "quarry_5T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1152,1026,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_5": {
+    "Name": "quarry_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_5T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_6T": {
+    "Name": "quarry_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1216,1026,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_6": {
+    "Name": "quarry_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_7": {
+    "Name": "quarry_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_8": {
+    "Name": "quarry_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_9": {
+    "Name": "quarry_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_10": {
+    "Name": "quarry_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_11": {
+    "Name": "quarry_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_12T": {
+    "Name": "quarry_12T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1280,1026,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_12": {
+    "Name": "quarry_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_12T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_13": {
+    "Name": "quarry_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_14": {
+    "Name": "quarry_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_15": {
+    "Name": "quarry_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1632,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_16": {
+    "Name": "quarry_16",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_17": {
+    "Name": "quarry_17",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_18T": {
+    "Name": "quarry_18T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1344,1026,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_18": {
+    "Name": "quarry_18",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_18T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_19": {
+    "Name": "quarry_19",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_20": {
+    "Name": "quarry_20",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_21": {
+    "Name": "quarry_21",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_22": {
+    "Name": "quarry_22",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_23": {
+    "Name": "quarry_23",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_24T": {
+    "Name": "quarry_24T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1408,1026,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_24": {
+    "Name": "quarry_24",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_24T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_25": {
+    "Name": "quarry_25",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_26": {
+    "Name": "quarry_26",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_27": {
+    "Name": "quarry_27",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_28": {
+    "Name": "quarry_28",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_29": {
+    "Name": "quarry_29",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_30T": {
+    "Name": "quarry_30T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1472,1026,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_30": {
+    "Name": "quarry_30",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "quarry_30T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_31": {
+    "Name": "quarry_31",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_32": {
+    "Name": "quarry_32",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_33": {
+    "Name": "quarry_33",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_34": {
+    "Name": "quarry_34",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "quarry_35": {
+    "Name": "quarry_35",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stone_pile_0T": {
+    "Name": "stone_pile_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1536,1026,64,58",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stone_pile_0": {
+    "Name": "stone_pile_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stone_pile_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stone_pile_1T": {
+    "Name": "stone_pile_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1600,1026,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stone_pile_1": {
+    "Name": "stone_pile_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stone_pile_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stone_pile_2T": {
+    "Name": "stone_pile_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1664,1026,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stone_pile_2": {
+    "Name": "stone_pile_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stone_pile_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stone_pile_3": {
+    "Name": "stone_pile_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ox_tether_0T": {
+    "Name": "ox_tether_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1728,1026,64,94",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ox_tether_0": {
+    "Name": "ox_tether_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "ox_tether_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ox_tether_1T": {
+    "Name": "ox_tether_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1792,1026,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ox_tether_1": {
+    "Name": "ox_tether_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "ox_tether_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ox_tether_2T": {
+    "Name": "ox_tether_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1856,1026,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ox_tether_2": {
+    "Name": "ox_tether_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "ox_tether_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ox_tether_3": {
+    "Name": "ox_tether_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_0T": {
+    "Name": "pitch_rig_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1920,1026,64,146",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_0": {
+    "Name": "pitch_rig_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pitch_rig_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_1T": {
+    "Name": "pitch_rig_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1984,1026,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_1": {
+    "Name": "pitch_rig_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pitch_rig_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_2T": {
+    "Name": "pitch_rig_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "0,1304,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_2": {
+    "Name": "pitch_rig_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pitch_rig_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_3T": {
+    "Name": "pitch_rig_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "64,1304,64,122",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_3": {
+    "Name": "pitch_rig_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1664,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pitch_rig_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_4T": {
+    "Name": "pitch_rig_4T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "128,1304,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_4": {
+    "Name": "pitch_rig_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pitch_rig_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_5": {
+    "Name": "pitch_rig_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_6": {
+    "Name": "pitch_rig_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_7": {
+    "Name": "pitch_rig_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_8T": {
+    "Name": "pitch_rig_8T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "192,1304,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_8": {
+    "Name": "pitch_rig_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pitch_rig_8T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_9": {
+    "Name": "pitch_rig_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_10": {
+    "Name": "pitch_rig_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_11": {
+    "Name": "pitch_rig_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_12T": {
+    "Name": "pitch_rig_12T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "256,1304,64,122",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_12": {
+    "Name": "pitch_rig_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pitch_rig_12T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_13": {
+    "Name": "pitch_rig_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_14": {
+    "Name": "pitch_rig_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pitch_rig_15": {
+    "Name": "pitch_rig_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_0T": {
+    "Name": "pole_turner_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "320,1304,64,146",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_0": {
+    "Name": "pole_turner_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pole_turner_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_1T": {
+    "Name": "pole_turner_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "384,1304,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_1": {
+    "Name": "pole_turner_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pole_turner_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_2T": {
+    "Name": "pole_turner_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "448,1304,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_2": {
+    "Name": "pole_turner_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pole_turner_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_3T": {
+    "Name": "pole_turner_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "512,1304,64,122",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_3": {
+    "Name": "pole_turner_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pole_turner_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_4T": {
+    "Name": "pole_turner_4T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "576,1304,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_4": {
+    "Name": "pole_turner_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pole_turner_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_5": {
+    "Name": "pole_turner_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_6": {
+    "Name": "pole_turner_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_7": {
+    "Name": "pole_turner_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_8T": {
+    "Name": "pole_turner_8T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "640,1304,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_8": {
+    "Name": "pole_turner_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pole_turner_8T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_9": {
+    "Name": "pole_turner_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_10": {
+    "Name": "pole_turner_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_11": {
+    "Name": "pole_turner_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_12T": {
+    "Name": "pole_turner_12T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "704,1304,64,122",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_12": {
+    "Name": "pole_turner_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "pole_turner_12T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_13": {
+    "Name": "pole_turner_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_14": {
+    "Name": "pole_turner_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "pole_turner_15": {
+    "Name": "pole_turner_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_0T": {
+    "Name": "oil_smelter_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "768,1304,64,146",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_0": {
+    "Name": "oil_smelter_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "oil_smelter_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_1T": {
+    "Name": "oil_smelter_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "832,1304,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_1": {
+    "Name": "oil_smelter_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "oil_smelter_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_2T": {
+    "Name": "oil_smelter_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "896,1304,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_2": {
+    "Name": "oil_smelter_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "oil_smelter_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_3T": {
+    "Name": "oil_smelter_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "960,1304,64,122",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_3": {
+    "Name": "oil_smelter_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1696,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "oil_smelter_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_4T": {
+    "Name": "oil_smelter_4T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1024,1304,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_4": {
+    "Name": "oil_smelter_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "oil_smelter_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_5": {
+    "Name": "oil_smelter_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_6": {
+    "Name": "oil_smelter_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_7": {
+    "Name": "oil_smelter_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_8T": {
+    "Name": "oil_smelter_8T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1088,1304,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_8": {
+    "Name": "oil_smelter_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "oil_smelter_8T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_9": {
+    "Name": "oil_smelter_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_10": {
+    "Name": "oil_smelter_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_11": {
+    "Name": "oil_smelter_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_12T": {
+    "Name": "oil_smelter_12T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1152,1304,64,122",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_12": {
+    "Name": "oil_smelter_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "oil_smelter_12T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_13": {
+    "Name": "oil_smelter_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_14": {
+    "Name": "oil_smelter_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "oil_smelter_15": {
+    "Name": "oil_smelter_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_0T": {
+    "Name": "engineers_guild_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1216,1304,64,162",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_0": {
+    "Name": "engineers_guild_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_1T": {
+    "Name": "engineers_guild_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1280,1304,64,154",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_1": {
+    "Name": "engineers_guild_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_2T": {
+    "Name": "engineers_guild_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1344,1304,64,150",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_2": {
+    "Name": "engineers_guild_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_3T": {
+    "Name": "engineers_guild_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1408,1304,64,142",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_3": {
+    "Name": "engineers_guild_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_4T": {
+    "Name": "engineers_guild_4T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1472,1304,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_4": {
+    "Name": "engineers_guild_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_5T": {
+    "Name": "engineers_guild_5T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1536,1304,64,154",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_5": {
+    "Name": "engineers_guild_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_5T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_6": {
+    "Name": "engineers_guild_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_7": {
+    "Name": "engineers_guild_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_8": {
+    "Name": "engineers_guild_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_9": {
+    "Name": "engineers_guild_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_10T": {
+    "Name": "engineers_guild_10T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1600,1304,64,150",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_10": {
+    "Name": "engineers_guild_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_10T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_11": {
+    "Name": "engineers_guild_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_12": {
+    "Name": "engineers_guild_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_13": {
+    "Name": "engineers_guild_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_14": {
+    "Name": "engineers_guild_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_15T": {
+    "Name": "engineers_guild_15T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1664,1304,64,142",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_15": {
+    "Name": "engineers_guild_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_15T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_16": {
+    "Name": "engineers_guild_16",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_17": {
+    "Name": "engineers_guild_17",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_18": {
+    "Name": "engineers_guild_18",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_19": {
+    "Name": "engineers_guild_19",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1728,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_20T": {
+    "Name": "engineers_guild_20T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1728,1304,64,134",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_20": {
+    "Name": "engineers_guild_20",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "engineers_guild_20T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_21": {
+    "Name": "engineers_guild_21",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_22": {
+    "Name": "engineers_guild_22",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_23": {
+    "Name": "engineers_guild_23",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "engineers_guild_24": {
+    "Name": "engineers_guild_24",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_0T": {
+    "Name": "tunnelers_guild_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1792,1304,64,162",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_0": {
+    "Name": "tunnelers_guild_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_1T": {
+    "Name": "tunnelers_guild_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1856,1304,64,154",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_1": {
+    "Name": "tunnelers_guild_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_2T": {
+    "Name": "tunnelers_guild_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1920,1304,64,150",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_2": {
+    "Name": "tunnelers_guild_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_3T": {
+    "Name": "tunnelers_guild_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1984,1304,64,142",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_3": {
+    "Name": "tunnelers_guild_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_4T": {
+    "Name": "tunnelers_guild_4T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "0,1466,64,138",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_4": {
+    "Name": "tunnelers_guild_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_4T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_5T": {
+    "Name": "tunnelers_guild_5T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "64,1466,64,154",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_5": {
+    "Name": "tunnelers_guild_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_5T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_6": {
+    "Name": "tunnelers_guild_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_7": {
+    "Name": "tunnelers_guild_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_8": {
+    "Name": "tunnelers_guild_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_9": {
+    "Name": "tunnelers_guild_9",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_10T": {
+    "Name": "tunnelers_guild_10T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "128,1466,64,150",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_10": {
+    "Name": "tunnelers_guild_10",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_10T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_11": {
+    "Name": "tunnelers_guild_11",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_12": {
+    "Name": "tunnelers_guild_12",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_13": {
+    "Name": "tunnelers_guild_13",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_14": {
+    "Name": "tunnelers_guild_14",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_15T": {
+    "Name": "tunnelers_guild_15T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "192,1466,64,142",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_15": {
+    "Name": "tunnelers_guild_15",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_15T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_16": {
+    "Name": "tunnelers_guild_16",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_17": {
+    "Name": "tunnelers_guild_17",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_18": {
+    "Name": "tunnelers_guild_18",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_19": {
+    "Name": "tunnelers_guild_19",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_20T": {
+    "Name": "tunnelers_guild_20T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "256,1466,64,134",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_20": {
+    "Name": "tunnelers_guild_20",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnelers_guild_20T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_21": {
+    "Name": "tunnelers_guild_21",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_22": {
+    "Name": "tunnelers_guild_22",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_23": {
+    "Name": "tunnelers_guild_23",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnelers_guild_24": {
+    "Name": "tunnelers_guild_24",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_0T": {
+    "Name": "siege_tent_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "320,1466,64,106",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_0": {
+    "Name": "siege_tent_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "siege_tent_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_1T": {
+    "Name": "siege_tent_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "384,1466,64,70",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_1": {
+    "Name": "siege_tent_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1760,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "siege_tent_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_2T": {
+    "Name": "siege_tent_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "448,1466,64,26",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_2": {
+    "Name": "siege_tent_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "siege_tent_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_3T": {
+    "Name": "siege_tent_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "512,1466,64,66",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_3": {
+    "Name": "siege_tent_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "siege_tent_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_4": {
+    "Name": "siege_tent_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_5": {
+    "Name": "siege_tent_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_6T": {
+    "Name": "siege_tent_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "576,1466,64,26",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_6": {
+    "Name": "siege_tent_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "siege_tent_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_7": {
+    "Name": "siege_tent_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "siege_tent_8": {
+    "Name": "siege_tent_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnel_entrance_0T": {
+    "Name": "tunnel_entrance_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "640,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnel_entrance_0": {
+    "Name": "tunnel_entrance_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnel_entrance_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnel_entrance_1T": {
+    "Name": "tunnel_entrance_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "704,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnel_entrance_1": {
+    "Name": "tunnel_entrance_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnel_entrance_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnel_entrance_2T": {
+    "Name": "tunnel_entrance_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "768,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnel_entrance_2": {
+    "Name": "tunnel_entrance_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "tunnel_entrance_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "tunnel_entrance_3": {
+    "Name": "tunnel_entrance_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "brazier_0T": {
+    "Name": "brazier_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "832,1466,64,70",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "brazier_0": {
+    "Name": "brazier_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "brazier_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "water_pot_0T": {
+    "Name": "water_pot_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "896,1466,64,114",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "water_pot_0": {
+    "Name": "water_pot_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "water_pot_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "water_pot_1T": {
+    "Name": "water_pot_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "960,1466,64,102",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "water_pot_1": {
+    "Name": "water_pot_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "water_pot_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "water_pot_2T": {
+    "Name": "water_pot_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1024,1466,64,98",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "water_pot_2": {
+    "Name": "water_pot_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "water_pot_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "water_pot_3": {
+    "Name": "water_pot_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "maypole_0T": {
+    "Name": "maypole_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1088,1466,64,146",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "maypole_0": {
+    "Name": "maypole_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "maypole_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "maypole_1T": {
+    "Name": "maypole_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1152,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "maypole_1": {
+    "Name": "maypole_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "maypole_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "maypole_2T": {
+    "Name": "maypole_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1216,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "maypole_2": {
+    "Name": "maypole_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "maypole_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "maypole_3": {
+    "Name": "maypole_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_0T": {
+    "Name": "garden_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1280,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_0": {
+    "Name": "garden_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "garden_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_1T": {
+    "Name": "garden_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1344,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_1": {
+    "Name": "garden_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "garden_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_2T": {
+    "Name": "garden_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1408,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_2": {
+    "Name": "garden_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "garden_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_3T": {
+    "Name": "garden_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1472,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_3": {
+    "Name": "garden_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "garden_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_4": {
+    "Name": "garden_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_5": {
+    "Name": "garden_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_6T": {
+    "Name": "garden_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1536,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_6": {
+    "Name": "garden_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "garden_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_7": {
+    "Name": "garden_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "garden_8": {
+    "Name": "garden_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "statue_0T": {
+    "Name": "statue_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1600,1466,64,78",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "statue_0": {
+    "Name": "statue_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "statue_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "statue_1T": {
+    "Name": "statue_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1664,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "statue_1": {
+    "Name": "statue_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "statue_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "statue_2T": {
+    "Name": "statue_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1728,1466,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "statue_2": {
+    "Name": "statue_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1792,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "statue_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "statue_3": {
+    "Name": "statue_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "shrine_0T": {
+    "Name": "shrine_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1792,1466,64,114",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "shrine_0": {
+    "Name": "shrine_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "shrine_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "shrine_1T": {
+    "Name": "shrine_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1856,1466,64,102",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "shrine_1": {
+    "Name": "shrine_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "shrine_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "shrine_2T": {
+    "Name": "shrine_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1920,1466,64,98",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "shrine_2": {
+    "Name": "shrine_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "shrine_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "shrine_3": {
+    "Name": "shrine_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_0T": {
+    "Name": "dancing_bear_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1984,1466,64,94",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_0": {
+    "Name": "dancing_bear_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dancing_bear_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_1T": {
+    "Name": "dancing_bear_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "0,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_1": {
+    "Name": "dancing_bear_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dancing_bear_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_2T": {
+    "Name": "dancing_bear_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "64,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_2": {
+    "Name": "dancing_bear_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dancing_bear_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_3T": {
+    "Name": "dancing_bear_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "128,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_3": {
+    "Name": "dancing_bear_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dancing_bear_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_4": {
+    "Name": "dancing_bear_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_5": {
+    "Name": "dancing_bear_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_6T": {
+    "Name": "dancing_bear_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "192,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_6": {
+    "Name": "dancing_bear_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dancing_bear_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_7": {
+    "Name": "dancing_bear_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dancing_bear_8": {
+    "Name": "dancing_bear_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gallows_0T": {
+    "Name": "gallows_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "256,1620,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gallows_0": {
+    "Name": "gallows_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "gallows_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gallows_1T": {
+    "Name": "gallows_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "320,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gallows_1": {
+    "Name": "gallows_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "gallows_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gallows_2T": {
+    "Name": "gallows_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "384,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gallows_2": {
+    "Name": "gallows_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "gallows_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gallows_3": {
+    "Name": "gallows_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stocks_0T": {
+    "Name": "stocks_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "448,1620,64,62",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stocks_0": {
+    "Name": "stocks_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stocks_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stocks_1T": {
+    "Name": "stocks_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "512,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stocks_1": {
+    "Name": "stocks_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stocks_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stocks_2T": {
+    "Name": "stocks_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "576,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stocks_2": {
+    "Name": "stocks_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stocks_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stocks_3": {
+    "Name": "stocks_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_0T": {
+    "Name": "witch_chair_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "640,1620,64,94",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_0": {
+    "Name": "witch_chair_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "witch_chair_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_1T": {
+    "Name": "witch_chair_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "704,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_1": {
+    "Name": "witch_chair_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "witch_chair_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_2T": {
+    "Name": "witch_chair_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "768,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_2": {
+    "Name": "witch_chair_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "witch_chair_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_3T": {
+    "Name": "witch_chair_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "832,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_3": {
+    "Name": "witch_chair_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "witch_chair_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_4": {
+    "Name": "witch_chair_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_5": {
+    "Name": "witch_chair_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_6T": {
+    "Name": "witch_chair_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "896,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_6": {
+    "Name": "witch_chair_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "witch_chair_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_7": {
+    "Name": "witch_chair_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "witch_chair_8": {
+    "Name": "witch_chair_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_0T": {
+    "Name": "cesspit_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "960,1620,64,94",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_0": {
+    "Name": "cesspit_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1824,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "cesspit_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_1T": {
+    "Name": "cesspit_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1024,1620,64,94",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_1": {
+    "Name": "cesspit_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "cesspit_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_2T": {
+    "Name": "cesspit_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1088,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_2": {
+    "Name": "cesspit_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "cesspit_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_3T": {
+    "Name": "cesspit_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1152,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_3": {
+    "Name": "cesspit_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "cesspit_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_4": {
+    "Name": "cesspit_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_5": {
+    "Name": "cesspit_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_6T": {
+    "Name": "cesspit_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1216,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_6": {
+    "Name": "cesspit_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "cesspit_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_7": {
+    "Name": "cesspit_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "cesspit_8": {
+    "Name": "cesspit_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_0T": {
+    "Name": "burning_stake_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1280,1620,64,126",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_0": {
+    "Name": "burning_stake_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "burning_stake_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_1T": {
+    "Name": "burning_stake_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1344,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_1": {
+    "Name": "burning_stake_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "burning_stake_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_2T": {
+    "Name": "burning_stake_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1408,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_2": {
+    "Name": "burning_stake_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "burning_stake_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_3T": {
+    "Name": "burning_stake_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1472,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_3": {
+    "Name": "burning_stake_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "burning_stake_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_4": {
+    "Name": "burning_stake_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_5": {
+    "Name": "burning_stake_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_6T": {
+    "Name": "burning_stake_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1536,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_6": {
+    "Name": "burning_stake_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "burning_stake_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_7": {
+    "Name": "burning_stake_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "burning_stake_8": {
+    "Name": "burning_stake_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gibbet_0T": {
+    "Name": "gibbet_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1600,1620,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gibbet_0": {
+    "Name": "gibbet_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "gibbet_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gibbet_1T": {
+    "Name": "gibbet_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1664,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gibbet_1": {
+    "Name": "gibbet_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "gibbet_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gibbet_2T": {
+    "Name": "gibbet_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1728,1620,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gibbet_2": {
+    "Name": "gibbet_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "gibbet_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "gibbet_3": {
+    "Name": "gibbet_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_0T": {
+    "Name": "dungeon_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1792,1620,64,130",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_0": {
+    "Name": "dungeon_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dungeon_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_1T": {
+    "Name": "dungeon_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1856,1620,64,118",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_1": {
+    "Name": "dungeon_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dungeon_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_2T": {
+    "Name": "dungeon_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1920,1620,64,106",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_2": {
+    "Name": "dungeon_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dungeon_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_3T": {
+    "Name": "dungeon_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1984,1620,64,118",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_3": {
+    "Name": "dungeon_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1536,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dungeon_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_4": {
+    "Name": "dungeon_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1600,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_5": {
+    "Name": "dungeon_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1664,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_6T": {
+    "Name": "dungeon_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "0,1750,64,106",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_6": {
+    "Name": "dungeon_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1728,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "dungeon_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_7": {
+    "Name": "dungeon_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1792,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "dungeon_8": {
+    "Name": "dungeon_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1856,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_0T": {
+    "Name": "stretching_rack_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "64,1750,64,62",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_0": {
+    "Name": "stretching_rack_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1920,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stretching_rack_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_1T": {
+    "Name": "stretching_rack_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "128,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_1": {
+    "Name": "stretching_rack_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1984,1856,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stretching_rack_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_2T": {
+    "Name": "stretching_rack_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "192,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_2": {
+    "Name": "stretching_rack_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "0,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stretching_rack_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_3T": {
+    "Name": "stretching_rack_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "256,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_3": {
+    "Name": "stretching_rack_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "64,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stretching_rack_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_4": {
+    "Name": "stretching_rack_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "128,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_5": {
+    "Name": "stretching_rack_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "192,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_6T": {
+    "Name": "stretching_rack_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "320,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_6": {
+    "Name": "stretching_rack_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "256,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "stretching_rack_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_7": {
+    "Name": "stretching_rack_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "320,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "stretching_rack_8": {
+    "Name": "stretching_rack_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "384,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "flogging_rack_0T": {
+    "Name": "flogging_rack_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "384,1750,64,62",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "flogging_rack_0": {
+    "Name": "flogging_rack_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "448,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "flogging_rack_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "flogging_rack_1T": {
+    "Name": "flogging_rack_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "448,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "flogging_rack_1": {
+    "Name": "flogging_rack_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "512,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "flogging_rack_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "flogging_rack_2T": {
+    "Name": "flogging_rack_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "512,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "flogging_rack_2": {
+    "Name": "flogging_rack_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "576,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "flogging_rack_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "flogging_rack_3": {
+    "Name": "flogging_rack_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "640,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "chopping_block_0T": {
+    "Name": "chopping_block_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "576,1750,64,62",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "chopping_block_0": {
+    "Name": "chopping_block_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "704,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "chopping_block_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "chopping_block_1T": {
+    "Name": "chopping_block_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "640,1750,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "chopping_block_1": {
+    "Name": "chopping_block_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "768,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "chopping_block_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "chopping_block_2T": {
+    "Name": "chopping_block_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "704,1750,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "chopping_block_2": {
+    "Name": "chopping_block_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "832,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "chopping_block_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "chopping_block_3": {
+    "Name": "chopping_block_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "896,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_0T": {
+    "Name": "ducking_stool_0T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "768,1750,64,94",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_0": {
+    "Name": "ducking_stool_0",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "960,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "ducking_stool_0T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_1T": {
+    "Name": "ducking_stool_1T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "832,1750,64,94",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_1": {
+    "Name": "ducking_stool_1",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1024,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "ducking_stool_1T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_2T": {
+    "Name": "ducking_stool_2T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "896,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_2": {
+    "Name": "ducking_stool_2",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1088,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "ducking_stool_2T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_3T": {
+    "Name": "ducking_stool_3T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "960,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_3": {
+    "Name": "ducking_stool_3",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1152,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "ducking_stool_3T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_4": {
+    "Name": "ducking_stool_4",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1216,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_5": {
+    "Name": "ducking_stool_5",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1280,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_6T": {
+    "Name": "ducking_stool_6T",
+    "ImageName": "objects_on_top4",
+    "AtlasCoordinate": "1024,1750,64,30",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_6": {
+    "Name": "ducking_stool_6",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1344,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "InstanceOnTop": "ducking_stool_6T",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_7": {
+    "Name": "ducking_stool_7",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1408,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
+  },
+  "ducking_stool_8": {
+    "Name": "ducking_stool_8",
+    "ImageName": "objects_tiled1",
+    "AtlasCoordinate": "1472,1888,64,32",
+    "ConnectionType": "Obstacle",
+    "NameElevationDisabled": "elevation_disabled",
+    "MiniMapColor": "213,145,103,255"
   }
 }
