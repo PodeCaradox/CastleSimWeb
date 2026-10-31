@@ -37,25 +37,29 @@
     "dirt_3": {
         "ImageName": "land",
         "AtlasCoordinate": "704,0,64,32",
-        "MiniMapColor": "65,66,50,255"
+        "MiniMapColor": "65,66,50,255",
+        "Ground": ["marsh"]
     },
     "gravel_1": {
         "ImageName": "land",
         "AtlasCoordinate": "768,0,64,40",
         "MiniMapColor": "124,116,107,255",
-        "StandsUp": true
+        "StandsUp": true,
+        "Ground": ["ore"]
     },
     "stone_0": {
         "ImageName": "land",
         "AtlasCoordinate": "832,0,64,52",
         "MiniMapColor": "133,131,119,255",
-        "StandsUp": true
+        "StandsUp": true,
+        "Ground": ["rock"]
     },
     "stone_1": {
         "ImageName": "land",
         "AtlasCoordinate": "896,0,64,56",
         "MiniMapColor": "181,174,154,255",
-        "StandsUp": true
+        "StandsUp": true,
+        "Ground": ["rock"]
     },
     "stone_moss_0": {
         "ImageName": "land",
@@ -73,43 +77,51 @@
         "ImageName": "land",
         "InstanceOnTop": "grass_3",
         "AtlasCoordinate": "1088,0,64,32",
-        "MiniMapColor": "100,118,65,255"
+        "MiniMapColor": "100,118,65,255",
+        "Ground": ["grass"]
     },
     "grass_1": {
         "ImageName": "land",
         "AtlasCoordinate": "1152,0,64,40",
-        "MiniMapColor": "100,118,65,255"
+        "MiniMapColor": "100,118,65,255",
+        "Ground": ["grass"]
     },
     "grass_2": {
         "ImageName": "land",
         "AtlasCoordinate": "1216,0,64,56",
-        "MiniMapColor": "100,118,65,255"
+        "MiniMapColor": "100,118,65,255",
+        "Ground": ["grass"]
     },
     "grass_3": {
         "ImageName": "land",
         "Animation": "animated_grass_0",
         "NameElevationDisabled": "grass_3",
         "AtlasCoordinate": "1280,0,64,64",
-        "MiniMapColor": "100,118,65,255"
+        "MiniMapColor": "100,118,65,255",
+        "Ground": ["grass"]
     },
     "grass_dry_0": {
         "ImageName": "land",
         "AtlasCoordinate": "1728,0,64,40",
-        "MiniMapColor": "141,123,66,255"
+        "MiniMapColor": "141,123,66,255",
+        "Ground": ["scrub"]
     },
     "grass_dry_1": {
         "ImageName": "land",
         "AtlasCoordinate": "1792,0,64,40",
-        "MiniMapColor": "141,123,66,255"
+        "MiniMapColor": "141,123,66,255",
+        "Ground": ["scrub"]
     },
     "grass_dry_2": {
         "ImageName": "land",
         "AtlasCoordinate": "1856,0,64,56",
-        "MiniMapColor": "141,123,66,255"
+        "MiniMapColor": "141,123,66,255",
+        "Ground": ["scrub"]
     },
     "grass_dry_3": {
         "ImageName": "land",
         "AtlasCoordinate": "1920,0,64,64",
-        "MiniMapColor": "141,123,66,255"
+        "MiniMapColor": "141,123,66,255",
+        "Ground": ["scrub"]
     }
 }

@@ -294,6 +294,25 @@
                         "width": 24,
                         "height": 24
                     }
+                }, {
+                    "EventType": "OpenSubMenu",
+                    "EventName": "PlaceholderSubMenu",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 48,
+                            "height": 48
+                        }
+                    },
+                    "Position": [-200,2],
+                    "ImageSource": {
+                        "x": 736,
+                        "y": 568,
+                        "width": 48,
+                        "height": 48
+                    }
                 }
             ]
         },
@@ -1035,6 +1054,44 @@
                     "Text": "MINE",
                     "ShownFor": [
                         "Mine"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "STEINBRUCH",
+                    "ShownFor": [
+                        "Quarry"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "OCHSENPFLOCK",
+                    "ShownFor": [
+                        "OxTether"
                     ],
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -2159,6 +2216,598 @@
                         "width": 32,
                         "height": 32
                     }
+                },{
+                    "EventType": "SelectBrush",
+                    "EventName": "peasant_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-145,56],
+                    "ImageSource": {
+                        "x": 1420,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
+                }
+            ]
+        },
+        "PlaceholderSubMenu": {
+            "Alignment": "RightTop",
+            "MenuItems": [{
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 404,
+                            "height": 126
+                        }
+                    },
+                    "Position": [-404,54],
+                    "ImageSource": {
+                        "x": 736,
+                        "y": 432,
+                        "width": 404,
+                        "height": 126
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "stockpile_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-397,56],
+                    "ImageSource": {
+                        "x": 736,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "praetorium_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-361,56],
+                    "ImageSource": {
+                        "x": 768,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "campfire_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-325,56],
+                    "ImageSource": {
+                        "x": 800,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "stone_pile_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-253,56],
+                    "ImageSource": {
+                        "x": 864,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "pitch_rig_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-181,56],
+                    "ImageSource": {
+                        "x": 928,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "pole_turner_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-145,56],
+                    "ImageSource": {
+                        "x": 960,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "oil_smelter_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-109,56],
+                    "ImageSource": {
+                        "x": 992,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "engineers_guild_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-73,56],
+                    "ImageSource": {
+                        "x": 1024,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tunnelers_guild_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-37,56],
+                    "ImageSource": {
+                        "x": 1056,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "siege_tent_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-397,92],
+                    "ImageSource": {
+                        "x": 736,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "tunnel_entrance_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-361,92],
+                    "ImageSource": {
+                        "x": 768,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "brazier_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-325,92],
+                    "ImageSource": {
+                        "x": 800,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "water_pot_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-289,92],
+                    "ImageSource": {
+                        "x": 832,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "maypole_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-253,92],
+                    "ImageSource": {
+                        "x": 864,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "garden_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-217,92],
+                    "ImageSource": {
+                        "x": 896,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "statue_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-181,92],
+                    "ImageSource": {
+                        "x": 928,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "shrine_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-145,92],
+                    "ImageSource": {
+                        "x": 960,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "dancing_bear_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-109,92],
+                    "ImageSource": {
+                        "x": 992,
+                        "y": 656,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "gallows_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-397,128],
+                    "ImageSource": {
+                        "x": 736,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "stocks_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-361,128],
+                    "ImageSource": {
+                        "x": 768,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "witch_chair_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-325,128],
+                    "ImageSource": {
+                        "x": 800,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "cesspit_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-289,128],
+                    "ImageSource": {
+                        "x": 832,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "burning_stake_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-253,128],
+                    "ImageSource": {
+                        "x": 864,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "gibbet_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-217,128],
+                    "ImageSource": {
+                        "x": 896,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "dungeon_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-181,128],
+                    "ImageSource": {
+                        "x": 928,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "stretching_rack_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-145,128],
+                    "ImageSource": {
+                        "x": 960,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "flogging_rack_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-109,128],
+                    "ImageSource": {
+                        "x": 992,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "chopping_block_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-73,128],
+                    "ImageSource": {
+                        "x": 1024,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "ducking_stool_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-37,128],
+                    "ImageSource": {
+                        "x": 1056,
+                        "y": 688,
+                        "width": 32,
+                        "height": 32
+                    }
                 }
             ]
         },
@@ -2417,6 +3066,44 @@
                         "y": 245,
                         "width": 56,
                         "height": 56
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "quarry_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-165,-84],
+                    "ImageSource": {
+                        "x": 832,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "ox_tether_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-105,-84],
+                    "ImageSource": {
+                        "x": 896,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
                     }
                 }
             ]

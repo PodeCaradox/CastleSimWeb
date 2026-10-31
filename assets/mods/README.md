@@ -71,6 +71,7 @@ das Dateisystem einen Ordner aufzählt — zwei Mitspieler bekämen sonst versch
 | `Cost` | `{ "Wood": n, "Stone": n, "Iron": n, "Pitch": n, "Gold": n }`: ganze Einheiten je Bauwerk (je Zelle bei Mauer und Rampe); der Spieler zahlt sie im Spielmodus aus seinen Lagern, Gold aus seiner Kasse, der Editor baut gratis. Eine Ware, die `economy_rules.data` nicht kennt, bricht den Start ab | 0 |
 | `QuarterCost` | `{ "Wood": n, "Stone": n, "Iron": n, "Pitch": n }`: Viertel einer Einheit je Mauerzelle und Rampenstück (2 ist ein halber Stein), für die Spalte, die `Cost` bei 0 lässt; eine Spalte, die `Cost` nennt, gewinnt. Gold gibt es hier nicht | 0 |
 | `WorkerSlots` | gleichzeitige Arbeiter | 0 |
+| `JobPriority` | welches Gebäude freie Bauern zuerst bekommt: das höhere, bei Gleichstand die Zelle (Zeile, dann Spalte) | 0 |
 | `Capacity` | Fassungsvermögen von Kornspeicher und Waffenkammer in Stück, alle Waren zusammen; mit 0 oder weniger fasst der Speicher nichts | 0 |
 | `Stacks` | Stapel eines Lagerplatzes (`Stockpile`); er fasst, was sie fassen (`Stack` je Ware in `economy_rules.data`), und `Capacity` zählt dort nicht; ohne `Stacks` fasst er nichts | 0 |
 | `Tier` | Stufe in der Produktionskette | 0 |

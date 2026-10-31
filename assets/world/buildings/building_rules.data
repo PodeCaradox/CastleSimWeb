@@ -5,7 +5,8 @@
     "Cost": {
       "Wood": 15
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Needs": { "Ground": ["grass", "scrub"] }
   },
   "archery": {
     "Role": "Workshop",
@@ -119,6 +120,12 @@
       }
     ]
   },
+  "brazier": {
+    "Hp": 100,
+    "Cost": {
+      "Wood": 5
+    }
+  },
   "brewery": {
     "Role": "Workshop",
     "Hp": 200,
@@ -126,6 +133,27 @@
       "Wood": 20
     },
     "WorkerSlots": 1
+  },
+  "burning_stake": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "campfire": {
+    "Hp": 100
+  },
+  "cesspit": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "chopping_block": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
   },
   "church_big": {
     "Hp": 400,
@@ -151,7 +179,51 @@
     "Cost": {
       "Wood": 15
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Needs": { "Ground": ["grass", "scrub"] }
+  },
+  "dancing_bear": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "ducking_stool": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "dungeon": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "engineers_guild": {
+    "Hp": 300,
+    "Cost": {
+      "Wood": 10,
+      "Gold": 100
+    }
+  },
+  "flogging_rack": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "gallows": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "garden": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
   },
   "gate_0": {
     "Role": "Gate",
@@ -167,6 +239,12 @@
     "Cost": {
       "Wood": 10,
       "Stone": 20
+    }
+  },
+  "gibbet": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
     }
   },
   "grain_farm": {
@@ -186,7 +264,8 @@
         "WorkTicks": 600,
         "Bonus": false
       }
-    ]
+    ],
+    "Needs": { "Ground": ["grass", "scrub"] }
   },
   "granary": {
     "Role": "Granary",
@@ -203,7 +282,8 @@
     "Cost": {
       "Wood": 15
     },
-    "WorkerSlots": 1
+    "WorkerSlots": 1,
+    "Needs": { "Ground": ["grass", "scrub"] }
   },
   "house_1": {
     "Role": "Hovel",
@@ -277,13 +357,19 @@
       "Wood": 20
     }
   },
+  "maypole": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
   "mill": {
     "Role": "Workshop",
     "Hp": 200,
     "Cost": {
       "Wood": 20
     },
-    "WorkerSlots": 1,
+    "WorkerSlots": 3,
     "Intake": 4,
     "Shelf": 4,
     "Entrance": "0,2",
@@ -315,7 +401,8 @@
         },
         "WorkTicks": 640
       }
-    ]
+    ],
+    "Needs": { "Ground": ["ore"], "Cells": 4 }
   },
   "new_tower": {
     "Role": "Tower",
@@ -324,6 +411,65 @@
     "Cost": {
       "Stone": 50
     }
+  },
+  "oil_smelter": {
+    "Hp": 200,
+    "Cost": {
+      "Wood": 10,
+      "Stone": 10
+    }
+  },
+  "ox_tether": {
+    "Role": "OxTether",
+    "Hp": 100,
+    "Cost": {
+      "Wood": 5
+    },
+    "WorkerSlots": 1,
+    "Entrance": "0,1",
+    "Recipes": [
+      {
+        "Outputs": {
+          "stone": 8
+        }
+      }
+    ]
+  },
+  "pitch_rig": {
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    },
+    "Needs": { "Ground": ["marsh"], "Cells": 1 }
+  },
+  "pole_turner": {
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    }
+  },
+  "praetorium": {
+    "Hp": 1000
+  },
+  "quarry": {
+    "Role": "Quarry",
+    "Hp": 200,
+    "Cost": {
+      "Wood": 20
+    },
+    "WorkerSlots": 3,
+    "Shelf": 48,
+    "Entrance": "0,3",
+    "Recipes": [
+      {
+        "Outputs": {
+          "stone": 1
+        },
+        "WorkTicks": 640,
+        "Bonus": false
+      }
+    ],
+    "Needs": { "Ground": ["rock"], "Cells": 8 }
   },
   "shields": {
     "Role": "Workshop",
@@ -348,11 +494,44 @@
       }
     ]
   },
+  "shrine": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "siege_tent": {
+    "Hp": 100
+  },
   "stables": {
     "Hp": 250,
     "Cost": {
       "Wood": 20,
       "Stone": 20
+    }
+  },
+  "statue": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "stockpile": {
+    "Hp": 200
+  },
+  "stocks": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
+    }
+  },
+  "stone_pile": {
+    "Hp": 100
+  },
+  "stretching_rack": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
     }
   },
   "tannery": {
@@ -444,6 +623,16 @@
       "Stone": 30
     }
   },
+  "tunnel_entrance": {
+    "Hp": 100
+  },
+  "tunnelers_guild": {
+    "Hp": 300,
+    "Cost": {
+      "Wood": 10,
+      "Gold": 100
+    }
+  },
   "wall_crenelation": {
     "Role": "Wall",
     "Hp": 400,
@@ -465,11 +654,23 @@
       "Wood": 2
     }
   },
+  "water_pot": {
+    "Hp": 100,
+    "Cost": {
+      "Wood": 10
+    }
+  },
   "well": {
     "Hp": 100,
     "Cost": {
       "Wood": 10,
       "Stone": 10
+    }
+  },
+  "witch_chair": {
+    "Hp": 100,
+    "Cost": {
+      "Gold": 50
     }
   },
   "wood_cutter": {
@@ -485,7 +686,9 @@
       {
         "Outputs": {
           "wood": 12
-        }
+        },
+        "Trips": 3,
+        "WorkTicks": 231
       }
     ]
   }
