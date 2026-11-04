@@ -6,8 +6,8 @@ ersetzen. Das Modding-Tool fasst diesen Ordner nie an.
 ## Was heute überschrieben werden kann
 
 `building_rules.data` — die Regeln jedes Bauwerks und jeder Mauerfamilie: Rolle,
-Trefferpunkte, Baukosten, Arbeitsplätze, Kapazität, Stufe. Die ausgelieferte Datei liegt in
-`assets/world/buildings/building_rules.data`.
+Trefferpunkte, Baukosten, Arbeitsplätze, Kapazität, Stufe, der Name im Baumenü (`Label`, in
+Großbuchstaben). Die ausgelieferte Datei liegt in `assets/world/buildings/building_rules.data`.
 
 `economy_rules.data` — der Warenkatalog: welche Waren es gibt, wo sie liegen und wie viel ein
 Träger auf einmal trägt (`Goods`). Die Rezepte der Gebäude stehen in `building_rules.data`
@@ -72,7 +72,8 @@ das Dateisystem einen Ordner aufzählt — zwei Mitspieler bekämen sonst versch
 | `QuarterCost` | `{ "Wood": n, "Stone": n, "Iron": n, "Pitch": n }`: Viertel einer Einheit je Mauerzelle und Rampenstück (2 ist ein halber Stein), für die Spalte, die `Cost` bei 0 lässt; eine Spalte, die `Cost` nennt, gewinnt. Gold gibt es hier nicht | 0 |
 | `WorkerSlots` | gleichzeitige Arbeiter | 0 |
 | `JobPriority` | welches Gebäude freie Bauern zuerst bekommt: das höhere, bei Gleichstand die Zelle (Zeile, dann Spalte) | 0 |
-| `Capacity` | Fassungsvermögen von Kornspeicher und Waffenkammer in Stück, alle Waren zusammen; mit 0 oder weniger fasst der Speicher nichts | 0 |
+| `LeavePriority` | welcher Arbeiter zuerst geht, wenn das Volk abwandert und kein freier Bauer da ist: der des höheren Werts, bei Gleichstand der kleinste Index; 0 geht nie | 0 |
+| `Capacity` | Fassungsvermögen von Kornspeicher und Waffenkammer in Stück, alle Waren zusammen; mit 0 oder weniger fasst der Speicher nichts; bei Hütte (`Hovel`) und Bergfried (`Keep`) die Wohnplätze | 0 |
 | `Stacks` | Stapel eines Lagerplatzes (`Stockpile`); er fasst, was sie fassen (`Stack` je Ware in `economy_rules.data`), und `Capacity` zählt dort nicht; ohne `Stacks` fasst er nichts | 0 |
 | `Tier` | Stufe in der Produktionskette | 0 |
 | `Indestructible` | `true`: unzerstörbar. Ein Angriffsbefehl darauf wird verweigert, kein Schlag nimmt ihm Trefferpunkte, und im Spielmodus reißt der Spieler es nicht ab. Mauer, Tor, Turm und Rampe zählen nie als Stein, der eine Seite im Spiel hält, auch unzerstörbar nicht; jedes andere unzerstörbare Gebäude (das Gasthaus) hält seine Seite im Spiel | `false` |
@@ -97,12 +98,16 @@ Bauregeln je Ware und je Feld, nach Pfad sortiert.
 | `Stack` | Stück je Stapel eines Lagerplatzes: ein Stapel hat 96 Teile, ein Stück belegt 96 / `Stack` davon. `Stack` muss 96 teilen (1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48 oder 96), sonst bricht das Laden mit dem Dateinamen ab. `0`: ein Stück belegt ein Teil. Kornspeicher und Waffenkammer zählen Stück und lesen es nicht | 0 |
 | `Load` | Stück, die ein Träger je Gang trägt, mindestens 1 | Fehler |
 | `CarriedBy` | Einheitentyp aus `animals.data`, der die Ware trägt | `peasant` |
+| `Meal` | Platz einer Nahrung in der Runde, in der ein Team isst, der kleinere zuerst (ausgeliefert: `bread` 1, `apple` 4, Crusaders Brot, Käse, Fleisch, Äpfel). Nahrung ist jede Ware mit `Store` `Granary`; eine ohne `Meal` kommt nach allen mit | nach allen |
 
 Die Waren werden nach Namen sortiert, und die Stelle in dieser Reihenfolge ist die Nummer der
 Ware (`WareId`): wer eine Ware hinzufügt, verschiebt die Nummern der späteren, bei allen
 Mitspielern gleich, solange sie dieselben Dateien laden. Höchstens 32 Waren.
 
-Dazu zwei Schlüssel neben `Goods`: `StartGoods` (`{ "wood": 80 }`, Stück je Ware, die jedes Team beim Wechsel ins Spiel in seine Lager gelegt bekommt, bis es sie hat) und `StartGold`. Eine Ware, die es nicht gibt oder die kein Lager hält, bricht den Start ab. Die Zahlen der ausgelieferten Datei sind Platzhalter.
+Dazu zwei Schlüssel neben `Goods`: `StartGoods` (`{ "wood": 80 }`, Stück je Ware, die jedes Team beim Wechsel ins Spiel in seine Lager gelegt bekommt, bis es sie hat) und `StartGold`. Eine Ware, die es nicht gibt oder die kein Lager hält, bricht den Start ab.
+`Migration` ist die Zuwanderungstabelle: 21 ganze Zahlen, was die Zuwanderungsuhr eines Teams je Tick
+gewinnt, nach Beliebtheit / 500 (eine andere Anzahl bricht den Start ab); ohne sie kommt und geht
+niemand. `StartPopularity` (0 bis 10 000) ist die Beliebtheit jedes Teams zu Beginn einer Partie, bis sein erster Wochenschritt sie bewegt. Die Zahlen der ausgelieferten Datei sind Platzhalter.
 
 Der Start bricht mit dem Dateinamen ab bei: einer Ware mit `Load` 0, einem `CarriedBy`, das kein
 Einheitentyp ist, mehr als 32 Waren, einer Ware, die ein Rezept nicht kennt, einem Rezept mit

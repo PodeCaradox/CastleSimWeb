@@ -1,15 +1,29 @@
 {
   "apple_farm": {
+    "Label": "APFELHOF",
     "Role": "Farm",
+    "LeavePriority": 2,
     "Hp": 150,
     "Cost": {
       "Wood": 15
     },
     "WorkerSlots": 1,
+    "Shelf": 6,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Outputs": {
+          "apple": 3
+        },
+        "WorkTicks": 600
+      }
+    ],
     "Needs": { "Ground": ["grass", "scrub"] }
   },
   "archery": {
+    "Label": "BOGENMACHER",
     "Role": "Workshop",
+    "LeavePriority": 15,
     "Hp": 200,
     "Cost": {
       "Wood": 20
@@ -40,6 +54,7 @@
     ]
   },
   "armory": {
+    "Label": "WAFFENKAMMER",
     "Role": "Armory",
     "Hp": 300,
     "Cost": {
@@ -50,7 +65,9 @@
     "Entrance": "0,2"
   },
   "bakery": {
+    "Label": "BAECKEREI",
     "Role": "Workshop",
+    "LeavePriority": 6,
     "Hp": 200,
     "Cost": {
       "Wood": 20
@@ -73,23 +90,29 @@
     ]
   },
   "barracks_1": {
+    "Label": "KASERNE 1",
     "Role": "Barracks",
     "Hp": 500,
+    "Entrance": "0,3",
     "Cost": {
       "Wood": 20,
       "Stone": 15
     }
   },
   "barracks_2": {
+    "Label": "KASERNE 2",
     "Role": "Barracks",
     "Hp": 500,
+    "Entrance": "0,3",
     "Cost": {
       "Wood": 20,
       "Stone": 15
     }
   },
   "black_smith": {
+    "Label": "SCHMIED",
     "Role": "Workshop",
+    "LeavePriority": 17,
     "Hp": 200,
     "Cost": {
       "Wood": 20,
@@ -121,13 +144,16 @@
     ]
   },
   "brazier": {
+    "Label": "FEUERSCHALE",
     "Hp": 100,
     "Cost": {
       "Wood": 5
     }
   },
   "brewery": {
+    "Label": "BRAUEREI",
     "Role": "Workshop",
+    "LeavePriority": 20,
     "Hp": 200,
     "Cost": {
       "Wood": 20
@@ -135,46 +161,57 @@
     "WorkerSlots": 1
   },
   "burning_stake": {
+    "Label": "SCHEITERHAUFEN",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "campfire": {
-    "Hp": 100
+    "Label": "LAGERFEUER",
+    "Role": "Campfire",
+    "Hp": 100,
+    "Indestructible": true
   },
   "cesspit": {
+    "Label": "JAUCHEGRUBE",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "chopping_block": {
+    "Label": "RICHTBLOCK",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "church_big": {
+    "Label": "KATHEDRALE",
     "Hp": 400,
     "Cost": {
       "Stone": 200
     }
   },
   "church_medium": {
+    "Label": "KIRCHE",
     "Hp": 400,
     "Cost": {
       "Stone": 100
     }
   },
   "church_small": {
+    "Label": "KAPELLE",
     "Hp": 400,
     "Cost": {
       "Stone": 50
     }
   },
   "cow_farm": {
+    "Label": "MILCHHOF",
     "Role": "Farm",
+    "LeavePriority": 1,
     "Hp": 150,
     "Cost": {
       "Wood": 15
@@ -183,24 +220,28 @@
     "Needs": { "Ground": ["grass", "scrub"] }
   },
   "dancing_bear": {
+    "Label": "TANZBAER",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "ducking_stool": {
+    "Label": "TAUCHSTUHL",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "dungeon": {
+    "Label": "VERLIES",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "engineers_guild": {
+    "Label": "INGENIEURSGILDE",
     "Hp": 300,
     "Cost": {
       "Wood": 10,
@@ -208,24 +249,28 @@
     }
   },
   "flogging_rack": {
+    "Label": "PRUEGELBOCK",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "gallows": {
+    "Label": "GALGEN",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "garden": {
+    "Label": "GARTEN",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "gate_0": {
+    "Label": "TORHAUS 1",
     "Role": "Gate",
     "Hp": 600,
     "Cost": {
@@ -234,6 +279,7 @@
     }
   },
   "gate_1": {
+    "Label": "TORHAUS 2",
     "Role": "Gate",
     "Hp": 600,
     "Cost": {
@@ -242,13 +288,16 @@
     }
   },
   "gibbet": {
+    "Label": "GALGENKAEFIG",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "grain_farm": {
+    "Label": "WEIZENHOF",
     "Role": "Farm",
+    "LeavePriority": 4,
     "Hp": 150,
     "Cost": {
       "Wood": 15
@@ -268,6 +317,7 @@
     "Needs": { "Ground": ["grass", "scrub"] }
   },
   "granary": {
+    "Label": "KORNSPEICHER",
     "Role": "Granary",
     "Hp": 300,
     "Cost": {
@@ -277,7 +327,9 @@
     "Entrance": "0,2"
   },
   "hop_farm": {
+    "Label": "HOPFENHOF",
     "Role": "Farm",
+    "LeavePriority": 14,
     "Hp": 150,
     "Cost": {
       "Wood": 15
@@ -286,56 +338,72 @@
     "Needs": { "Ground": ["grass", "scrub"] }
   },
   "house_1": {
+    "Label": "HAUS 1",
     "Role": "Hovel",
+    "Capacity": 8,
     "Hp": 100,
     "Cost": {
       "Wood": 6
     }
   },
   "house_2": {
+    "Label": "HAUS 2",
     "Role": "Hovel",
+    "Capacity": 8,
     "Hp": 100,
     "Cost": {
       "Wood": 6
     }
   },
   "house_3": {
+    "Label": "HAUS 3",
     "Role": "Hovel",
+    "Capacity": 8,
     "Hp": 100,
     "Cost": {
       "Wood": 6
     }
   },
   "house_4": {
+    "Label": "HAUS 4",
     "Role": "Hovel",
+    "Capacity": 8,
     "Hp": 100,
     "Cost": {
       "Wood": 6
     }
   },
   "house_5": {
+    "Label": "HAUS 5",
     "Role": "Hovel",
+    "Capacity": 8,
     "Hp": 100,
     "Cost": {
       "Wood": 6
     }
   },
   "house_6": {
+    "Label": "HAUS 6",
     "Role": "Hovel",
+    "Capacity": 8,
     "Hp": 100,
     "Cost": {
       "Wood": 6
     }
   },
   "house_7": {
+    "Label": "HAUS 7",
     "Role": "Hovel",
+    "Capacity": 8,
     "Hp": 100,
     "Cost": {
       "Wood": 6
     }
   },
   "hunter_stand": {
+    "Label": "JAEGERHUETTE",
     "Role": "Farm",
+    "LeavePriority": 3,
     "Hp": 150,
     "Cost": {
       "Wood": 10
@@ -343,6 +411,7 @@
     "WorkerSlots": 1
   },
   "inn": {
+    "Label": "LAGER",
     "Role": "Stockpile",
     "Hp": 200,
     "Cost": {
@@ -352,19 +421,23 @@
     "Indestructible": true
   },
   "market": {
+    "Label": "MARKT",
     "Hp": 200,
     "Cost": {
       "Wood": 20
     }
   },
   "maypole": {
+    "Label": "MAIBAUM",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "mill": {
+    "Label": "MUEHLE",
     "Role": "Workshop",
+    "LeavePriority": 5,
     "Hp": 200,
     "Cost": {
       "Wood": 20
@@ -387,11 +460,14 @@
     ]
   },
   "mine": {
+    "Label": "EISENMINE",
     "Role": "Mine",
+    "LeavePriority": 11,
     "Hp": 200,
     "Cost": {
       "Wood": 20
     },
+    "WorkerSlots": 2,
     "Shelf": 4,
     "Entrance": "0,3",
     "Recipes": [
@@ -399,12 +475,14 @@
         "Outputs": {
           "iron": 1
         },
-        "WorkTicks": 640
+        "WorkTicks": 640,
+        "Bonus": false
       }
     ],
     "Needs": { "Ground": ["ore"], "Cells": 4 }
   },
   "new_tower": {
+    "Label": "VIERECKTURM",
     "Role": "Tower",
     "Hp": 1200,
     "Tier": 3,
@@ -413,6 +491,7 @@
     }
   },
   "oil_smelter": {
+    "Label": "OELSCHMELZE",
     "Hp": 200,
     "Cost": {
       "Wood": 10,
@@ -420,7 +499,9 @@
     }
   },
   "ox_tether": {
+    "Label": "OCHSENGESPANN",
     "Role": "OxTether",
+    "LeavePriority": 9,
     "Hp": 100,
     "Cost": {
       "Wood": 5
@@ -436,23 +517,44 @@
     ]
   },
   "pitch_rig": {
+    "Label": "PECHGRUBE",
+    "Role": "PitchRig",
+    "LeavePriority": 12,
     "Hp": 200,
     "Cost": {
       "Wood": 20
     },
+    "WorkerSlots": 1,
+    "Entrance": "0,2",
+    "Recipes": [
+      {
+        "Outputs": {
+          "pitch": 1
+        },
+        "WorkTicks": 640
+      }
+    ],
     "Needs": { "Ground": ["marsh"], "Cells": 1 }
   },
   "pole_turner": {
+    "Label": "PIKENMACHER",
     "Hp": 200,
     "Cost": {
       "Wood": 20
     }
   },
   "praetorium": {
-    "Hp": 1000
+    "Label": "PRAETORIUM",
+    "Role": "Keep",
+    "Capacity": 8,
+    "Campfire": "0,7",
+    "Hp": 1000,
+    "Indestructible": true
   },
   "quarry": {
+    "Label": "STEINBRUCH",
     "Role": "Quarry",
+    "LeavePriority": 8,
     "Hp": 200,
     "Cost": {
       "Wood": 20
@@ -472,7 +574,9 @@
     "Needs": { "Ground": ["rock"], "Cells": 8 }
   },
   "shields": {
+    "Label": "SCHILDMACHER",
     "Role": "Workshop",
+    "LeavePriority": 18,
     "Hp": 200,
     "Cost": {
       "Wood": 20,
@@ -495,15 +599,18 @@
     ]
   },
   "shrine": {
+    "Label": "SCHREIN",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "siege_tent": {
+    "Label": "BELAGERUNGSZELT",
     "Hp": 100
   },
   "stables": {
+    "Label": "STALL",
     "Hp": 250,
     "Cost": {
       "Wood": 20,
@@ -511,31 +618,38 @@
     }
   },
   "statue": {
+    "Label": "STATUE",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "stockpile": {
+    "Label": "LAGER",
     "Hp": 200
   },
   "stocks": {
+    "Label": "PRANGER",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "stone_pile": {
+    "Label": "STEINHAUFEN",
     "Hp": 100
   },
   "stretching_rack": {
+    "Label": "STRECKBANK",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "tannery": {
+    "Label": "GERBEREI",
     "Role": "Workshop",
+    "LeavePriority": 19,
     "Hp": 200,
     "Cost": {
       "Wood": 20
@@ -543,6 +657,7 @@
     "WorkerSlots": 1
   },
   "tower_big": {
+    "Label": "GROSSER TURM",
     "Role": "Tower",
     "Hp": 1200,
     "Tier": 3,
@@ -559,6 +674,7 @@
     }
   },
   "tower_bigc": {
+    "Label": "GROSSER ZINNENTURM",
     "Role": "Tower",
     "Hp": 1200,
     "Tier": 3,
@@ -575,6 +691,7 @@
     }
   },
   "tower_round": {
+    "Label": "AUSGUCK",
     "Role": "Tower",
     "Hp": 1000,
     "Tier": 2,
@@ -584,6 +701,7 @@
     }
   },
   "tower_small": {
+    "Label": "KLEINER TURM",
     "Role": "Tower",
     "Hp": 800,
     "Tier": 2,
@@ -600,6 +718,7 @@
     }
   },
   "tower_small_new": {
+    "Label": "ECKTURM",
     "Role": "Tower",
     "Hp": 800,
     "Tier": 2,
@@ -608,6 +727,7 @@
     }
   },
   "tower_smallc": {
+    "Label": "KLEINER ZINNENTURM",
     "Role": "Tower",
     "Hp": 800,
     "Tier": 2,
@@ -624,9 +744,11 @@
     }
   },
   "tunnel_entrance": {
+    "Label": "TUNNELEINGANG",
     "Hp": 100
   },
   "tunnelers_guild": {
+    "Label": "MINEURSGILDE",
     "Hp": 300,
     "Cost": {
       "Wood": 10,
@@ -634,6 +756,7 @@
     }
   },
   "wall_crenelation": {
+    "Label": "ZINNEN",
     "Role": "Wall",
     "Hp": 400,
     "QuarterCost": {
@@ -641,6 +764,7 @@
     }
   },
   "wall_tile_full": {
+    "Label": "STEINMAUER",
     "Role": "Wall",
     "Hp": 400,
     "QuarterCost": {
@@ -648,6 +772,7 @@
     }
   },
   "wall_wooden": {
+    "Label": "HOLZWALL",
     "Role": "Wall",
     "Hp": 150,
     "QuarterCost": {
@@ -655,12 +780,14 @@
     }
   },
   "water_pot": {
+    "Label": "WASSERTOPF",
     "Hp": 100,
     "Cost": {
       "Wood": 10
     }
   },
   "well": {
+    "Label": "BRUNNEN",
     "Hp": 100,
     "Cost": {
       "Wood": 10,
@@ -668,13 +795,16 @@
     }
   },
   "witch_chair": {
+    "Label": "HEXENSTUHL",
     "Hp": 100,
     "Cost": {
       "Gold": 50
     }
   },
   "wood_cutter": {
+    "Label": "HOLZFAELLER",
     "Role": "Woodcutter",
+    "LeavePriority": 7,
     "Hp": 200,
     "Cost": {
       "Wood": 10

@@ -38,6 +38,7 @@
     "brush_ramp_0": {
         "BrushEntities": [
         ],
-        "BrushType": "RampBrush"
+        "BrushType": "RampBrush",
+        "Label": "RAMPE"
     }
 }
