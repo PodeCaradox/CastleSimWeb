@@ -29,7 +29,8 @@
       "Logs":3,
       "AtlasCoordinate":"0,0,256,256",
       "ConnectionType":"Obstacle",
-      "NameElevationDisabled":"tree_0_trunk"
+      "NameElevationDisabled":"tree_0_trunk",
+      "MiniMapColor":"34,85,34,255"
    },
    "tree_1":{
       "ImageName":"tree",
@@ -37,7 +38,8 @@
       "Logs":3,
       "AtlasCoordinate":"0,512,256,256",
       "ConnectionType":"Obstacle",
-      "NameElevationDisabled":"tree_1_trunk"
+      "NameElevationDisabled":"tree_1_trunk",
+      "MiniMapColor":"34,85,34,255"
    },
    "tree_2":{
       "ImageName":"tree",
@@ -45,7 +47,8 @@
       "Logs":3,
       "AtlasCoordinate":"0,1024,256,256",
       "ConnectionType":"Obstacle",
-      "NameElevationDisabled":"tree_2_trunk"
+      "NameElevationDisabled":"tree_2_trunk",
+      "MiniMapColor":"34,85,34,255"
    },
    "tree_3":{
       "ImageName":"tree",
@@ -53,6 +56,7 @@
       "Logs":3,
       "AtlasCoordinate":"0,1536,256,256",
       "ConnectionType":"Obstacle",
-      "NameElevationDisabled":"tree_3_trunk"
+      "NameElevationDisabled":"tree_3_trunk",
+      "MiniMapColor":"34,85,34,255"
    }
 }

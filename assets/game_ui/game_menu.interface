@@ -336,7 +336,9 @@
                         "height": 38
                     }
                 }, {
-                    "Text": "100%",
+                    "EventType": "TextBinding",
+                    "EventName": "HEADER_POPULARITY",
+                    "Places": 3,
                     "CollisionObject": {
                         "type": "CustomRectangle",
                         "Rectangle": {
@@ -346,7 +348,7 @@
                             "height": 24
                         }
                     },
-                    "Position": [-230,10],
+                    "Position": [-236,7],
                     "ImageSource": {
                         "x": 722,
                         "y": 38,
@@ -937,6 +939,25 @@
                     ]
                 },
                 {
+                    "Text": "LAGERFEUER",
+                    "ShownFor": [
+                        "Campfire"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
                     "Text": "HAUS",
                     "ShownFor": [
                         "Hovel"
@@ -1092,6 +1113,25 @@
                     "Text": "OCHSENPFLOCK",
                     "ShownFor": [
                         "OxTether"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -182
+                    ]
+                },
+                {
+                    "Text": "PECHGRUBE",
+                    "ShownFor": [
+                        "PitchRig"
                     ],
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -1398,6 +1438,27 @@
                 },
                 {
                     "EventType": "TextBinding",
+                    "EventName": "apple",
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "Text": "AEPFEL:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -90
+                    ]
+                },
+                {
+                    "EventType": "TextBinding",
                     "EventName": "sword",
                     "ShownFor": [
                         "Armory"
@@ -1552,6 +1613,790 @@
                         "width": 64,
                         "height": 24
                     }
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "TEAM_RATION",
+                    "Places": 1,
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "Text": "RATION:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -66
+                    ]
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "ration_0",
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        14,
+                        -44
+                    ],
+                    "ImageSource": {
+                        "x": 1024,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "ration_1",
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        50,
+                        -44
+                    ],
+                    "ImageSource": {
+                        "x": 1060,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "ration_2",
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        86,
+                        -44
+                    ],
+                    "ImageSource": {
+                        "x": 1096,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "ration_3",
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        122,
+                        -44
+                    ],
+                    "ImageSource": {
+                        "x": 1132,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "ration_4",
+                    "ShownFor": [
+                        "Granary"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        158,
+                        -44
+                    ],
+                    "ImageSource": {
+                        "x": 1168,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "TextBinding",
+                    "EventName": "TEAM_TAXES",
+                    "Places": 2,
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "Text": "STEUER:",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        20,
+                        -116
+                    ]
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_0",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        14,
+                        -94
+                    ],
+                    "ImageSource": {
+                        "x": 1024,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_1",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        50,
+                        -94
+                    ],
+                    "ImageSource": {
+                        "x": 1060,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_2",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        86,
+                        -94
+                    ],
+                    "ImageSource": {
+                        "x": 1096,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_3",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        122,
+                        -94
+                    ],
+                    "ImageSource": {
+                        "x": 1132,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_4",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        158,
+                        -94
+                    ],
+                    "ImageSource": {
+                        "x": 1168,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_5",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        194,
+                        -94
+                    ],
+                    "ImageSource": {
+                        "x": 1204,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_6",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        14,
+                        -64
+                    ],
+                    "ImageSource": {
+                        "x": 1240,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_7",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        50,
+                        -64
+                    ],
+                    "ImageSource": {
+                        "x": 1276,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_8",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        86,
+                        -64
+                    ],
+                    "ImageSource": {
+                        "x": 1312,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_9",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        122,
+                        -64
+                    ],
+                    "ImageSource": {
+                        "x": 1348,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_10",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        158,
+                        -64
+                    ],
+                    "ImageSource": {
+                        "x": 1384,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "taxes_11",
+                    "ShownFor": [
+                        "Keep"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        194,
+                        -64
+                    ],
+                    "ImageSource": {
+                        "x": 1420,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventName": "TEAM_PRIORITY",
+                    "Text": "VORRANG",
+                    "ShownFor": [
+                        "Farm",
+                        "Workshop",
+                        "Woodcutter",
+                        "Mine",
+                        "Quarry"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        12,
+                        -34
+                    ]
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "priority_0",
+                    "ShownFor": [
+                        "Farm",
+                        "Workshop",
+                        "Woodcutter",
+                        "Mine",
+                        "Quarry"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        126,
+                        -40
+                    ],
+                    "ImageSource": {
+                        "x": 1024,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "priority_1",
+                    "ShownFor": [
+                        "Farm",
+                        "Workshop",
+                        "Woodcutter",
+                        "Mine",
+                        "Quarry"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        160,
+                        -40
+                    ],
+                    "ImageSource": {
+                        "x": 1060,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "priority_2",
+                    "ShownFor": [
+                        "Farm",
+                        "Workshop",
+                        "Woodcutter",
+                        "Mine",
+                        "Quarry"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 34,
+                            "height": 28
+                        }
+                    },
+                    "Position": [
+                        194,
+                        -40
+                    ],
+                    "ImageSource": {
+                        "x": 1096,
+                        "y": 968,
+                        "width": 34,
+                        "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "recruit_bowman",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 134,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        12,
+                        -118
+                    ],
+                    "ImageSource": {
+                        "x": 1256,
+                        "y": 832,
+                        "width": 134,
+                        "height": 24
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "recruit_crossbowman",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 134,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        12,
+                        -92
+                    ],
+                    "ImageSource": {
+                        "x": 1394,
+                        "y": 832,
+                        "width": 134,
+                        "height": 24
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "recruit_piceman",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 134,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        12,
+                        -66
+                    ],
+                    "ImageSource": {
+                        "x": 1532,
+                        "y": 832,
+                        "width": 134,
+                        "height": 24
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "recruit_swordsman",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 134,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        12,
+                        -40
+                    ],
+                    "ImageSource": {
+                        "x": 1670,
+                        "y": 832,
+                        "width": 134,
+                        "height": 24
+                    }
+                },
+                {
+                    "EventName": "RECRUIT_NO_GOLD",
+                    "Text": "KEIN",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        150,
+                        -118
+                    ]
+                },
+                {
+                    "EventName": "RECRUIT_NO_GOLD",
+                    "Text": "GOLD",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        150,
+                        -100
+                    ]
+                },
+                {
+                    "EventName": "RECRUIT_NO_PEASANT",
+                    "Text": "KEIN",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        150,
+                        -78
+                    ]
+                },
+                {
+                    "EventName": "RECRUIT_NO_PEASANT",
+                    "Text": "BAUER",
+                    "ShownFor": [
+                        "Barracks"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [
+                        150,
+                        -60
+                    ]
                 }
             ]
         },
@@ -2235,6 +3080,25 @@
                         "width": 32,
                         "height": 32
                     }
+                },{
+                    "EventType": "SelectBrush",
+                    "EventName": "entry_point_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-109,56],
+                    "ImageSource": {
+                        "x": 1452,
+                        "y": 64,
+                        "width": 32,
+                        "height": 32
+                    }
                 }
             ]
         },
@@ -2297,25 +3161,6 @@
                     }
                 }, {
                     "EventType": "SelectBrush",
-                    "EventName": "campfire_brush",
-                    "CollisionObject": {
-                        "type": "CustomRectangle",
-                        "Rectangle": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 32,
-                            "height": 32
-                        }
-                    },
-                    "Position": [-325,56],
-                    "ImageSource": {
-                        "x": 800,
-                        "y": 624,
-                        "width": 32,
-                        "height": 32
-                    }
-                }, {
-                    "EventType": "SelectBrush",
                     "EventName": "stone_pile_brush",
                     "CollisionObject": {
                         "type": "CustomRectangle",
@@ -2329,25 +3174,6 @@
                     "Position": [-253,56],
                     "ImageSource": {
                         "x": 864,
-                        "y": 624,
-                        "width": 32,
-                        "height": 32
-                    }
-                }, {
-                    "EventType": "SelectBrush",
-                    "EventName": "pitch_rig_brush",
-                    "CollisionObject": {
-                        "type": "CustomRectangle",
-                        "Rectangle": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 32,
-                            "height": 32
-                        }
-                    },
-                    "Position": [-181,56],
-                    "ImageSource": {
-                        "x": 928,
                         "y": 624,
                         "width": 32,
                         "height": 32
@@ -3101,6 +3927,25 @@
                     "Position": [-105,-84],
                     "ImageSource": {
                         "x": 896,
+                        "y": 624,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "pitch_rig_brush",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 32,
+                            "height": 32
+                        }
+                    },
+                    "Position": [-45,-84],
+                    "ImageSource": {
+                        "x": 928,
                         "y": 624,
                         "width": 32,
                         "height": 32

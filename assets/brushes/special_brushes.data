@@ -34,5 +34,10 @@
         "BrushEntities": [
         ],
         "BrushType": "DeleteBrush"
+    },
+    "entry_point_brush": {
+        "BrushEntities": [
+        ],
+        "BrushType": "EntryPointBrush"
     }
 }

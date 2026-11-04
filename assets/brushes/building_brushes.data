@@ -377,15 +377,6 @@
         ],
         "BrushType": "BuildingBrush"
     },
-    "campfire_brush": {
-        "BrushEntities": [
-            {
-                "Name": "campfire",
-                "RandomFactor": 1
-            }
-        ],
-        "BrushType": "BuildingBrush"
-    },
     "quarry_brush": {
         "BrushEntities": [
             {
