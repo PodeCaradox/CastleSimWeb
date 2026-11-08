@@ -320,6 +320,9 @@ struct FragmentOutput {
 @fragment
 fn fs_main(in: VertexOutput) -> FragmentOutput {
     let color = textureSample(t_diffuse, s_diffuse, in.TexCoord, in.image_index);
+    //rows the box takes under its back edges: one screen pixel (world rows per screen row, at least
+    //1), which covers the texel of the sampled mip the art behind reaches over; before the discard
+    let reach = max(1.0, fwidth(in.world.y));
     if(color.a <= 0.0){
         discard;
     }
@@ -332,13 +335,14 @@ fn fs_main(in: VertexOutput) -> FragmentOutput {
         depth -= in.depth_per_column * dx;
     }
     //ground-slot art taller than the diamond that STANDS (the wall layer or the tile's own StandsUp
-    //knob) is a box above the cell's back edges, the V a building slice stands on; its diamond
-    //stays ground. A plain 64 x 32 tile never takes this branch (depth_order::ground_quad_nearness)
+    //knob) is a box above the cell's back edges and the `reach` rows under them that the diamond
+    //art behind reaches into, the V a building slice stands on; the rest of its diamond stays ground.
+    //A plain 64 x 32 tile never takes this branch (depth_order::ground_quad_nearness)
     let stands_up = in.image_index == world_utils::WallAtlasLayer
         || (in.depth_info & world_utils::StandsUpFlag) != 0u;
     //ponytail: a pillar filling its cell wants the box over its diamond's upper half too (a man at
     //its shared corner paints a few rows of feet over its base); that needs a second per-tile knob
-    if (mode == world_utils::ModeGround && stands_up && in.height > 16.0 && in.world.y < in.apex.y - 32.0 + dx / 2.0) {
+    if (mode == world_utils::ModeGround && stands_up && in.height > 16.0 && in.world.y < in.apex.y - 32.0 + reach + dx / 2.0) {
         depth = in.thickness_depth - in.depth_per_column * dx;
     }
     if (mode == world_utils::ModeFace) {

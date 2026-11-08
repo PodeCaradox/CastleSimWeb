@@ -31,12 +31,16 @@ struct CameraUniform {
 var<uniform> camera: CameraUniform;
 
 
-// 16 byte + 16 byte + 12 bytes = 44 bytes
+// TexCoord in texels of the atlas `Font` names: 0 the UI atlas, 1 the font atlas
 struct VertexOutput {
     @builtin(position) Position: vec4<f32>,
     @location(0) Color: vec4<f32>,
-    @location(1) TexCoord : vec2<f32>
+    @location(1) TexCoord : vec2<f32>,
+    @location(2) @interpolate(flat) Font: u32
 }
+
+// the font atlas's texel rows follow the UI atlas's (`FONT_ATLAS_TOP`)
+const FONT_ATLAS_TOP: f32 = 2048.0;
 
 @vertex
 fn vertex_ui(
@@ -51,6 +55,7 @@ fn vertex_ui(
           output.Position = vec4<f32>(0.0, 0.0, 0.0, -1.0);
           output.TexCoord = vec2<f32>(0.0, 0.0);
           output.Color = color;
+          output.Font = 0u;
           return output;
         }
 
@@ -72,13 +77,19 @@ fn vertex_ui(
             scale = vec2<f32>(0.0, 0.0);
         }
 
-        var texCoord : vec2<f32> = (texPos + (texSize * inputvertex.Position.xy)) / 2048.0;
+        var font = 0u;
+        if (texPos.y >= FONT_ATLAS_TOP) {
+          texPos.y -= FONT_ATLAS_TOP;
+          font = 1u;
+        }
+        var texCoord : vec2<f32> = texPos + (texSize * inputvertex.Position.xy);
         pos -= scale;
         size += scale.xy * 2.0;
         var posWorld : vec4<f32> = vec4<f32>((pos + (size * inputvertex.Position.xy) + round(alignment * camera.screen_size)), 1.0, 1.0);
 
         output.Color = color;
         output.TexCoord = texCoord;
+        output.Font = font;
         output.Position = camera.proj * posWorld;
         return output;
     }
@@ -91,11 +102,16 @@ fn vertex_ui(
 var t_diffuse: texture_2d<f32>;
 @group(0) @binding(1)
 var s_diffuse: sampler;
+@group(0) @binding(2)
+var t_font: texture_2d<f32>;
 
 
 @fragment
 fn fragment_ui(in: VertexOutput) -> @location(0) vec4<f32> {
-    let color = textureSample(t_diffuse, s_diffuse, in.TexCoord);
+    // both sampled, so each call stays in uniform control flow
+    let ui = textureSample(t_diffuse, s_diffuse, in.TexCoord / vec2<f32>(textureDimensions(t_diffuse)));
+    let glyph = textureSample(t_font, s_diffuse, in.TexCoord / vec2<f32>(textureDimensions(t_font)));
+    let color = select(ui, glyph, in.Font == 1u);
 	if(color.r == 1.0 && color.g == 0.0 && color.b == 1.0){
 		discard;
 	}

@@ -784,9 +784,13 @@
             "Scale": [1,1],
             "MenuItems": [{
                     "CollisionObject": {
-                        "type": "CustomCircle",
-                        "Position": [16,16],
-                        "Radius": 16
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 68,
+                            "height": 32
+                        }
                     },
                     "Position": [288,-35],
                     "ImageSource": {
@@ -810,6 +814,38 @@
                         "width": 32,
                         "height": 32
                     }
+                }, {
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "Position": [324,-35],
+                    "ImageSource": {
+                        "x": 578,
+                        "y": 101,
+                        "width": 32,
+                        "height": 32
+                    }
+                }, {
+                    "EventType": "SelectBrush",
+                    "EventName": "repair_brush",
+                    "CollisionObject": {
+                        "type": "CustomCircle",
+                        "Position": [16,16],
+                        "Radius": 16
+                    },
+                    "Position": [324,-35],
+                    "ImageSource": {
+                        "x": 1426,
+                        "y": 860,
+                        "width": 32,
+                        "height": 32
+                    }
                 }
             ]
         },
@@ -827,18 +863,18 @@
                             "x": 0,
                             "y": 0,
                             "width": 224,
-                            "height": 184
+                            "height": 204
                         }
                     },
                     "Position": [
                         8,
-                        -192
+                        -212
                     ],
                     "ImageSource": {
                         "x": 1024,
                         "y": 832,
                         "width": 224,
-                        "height": 82
+                        "height": 102
                     }
                 },
                 {
@@ -2212,6 +2248,93 @@
                         "y": 968,
                         "width": 34,
                         "height": 28
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "repair",
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 110,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        14,
+                        -208
+                    ],
+                    "ImageSource": {
+                        "x": 1256,
+                        "y": 860,
+                        "width": 110,
+                        "height": 24
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "sleep",
+                    "ShownFor": [
+                        "Farm",
+                        "Workshop",
+                        "Woodcutter",
+                        "Mine",
+                        "Quarry",
+                        "OxTether",
+                        "PitchRig"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 96,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        128,
+                        -208
+                    ],
+                    "ImageSource": {
+                        "x": 1460,
+                        "y": 860,
+                        "width": 96,
+                        "height": 24
+                    }
+                },
+                {
+                    "EventType": "Command",
+                    "EventName": "wake",
+                    "ShownFor": [
+                        "Farm",
+                        "Workshop",
+                        "Woodcutter",
+                        "Mine",
+                        "Quarry",
+                        "OxTether",
+                        "PitchRig"
+                    ],
+                    "CollisionObject": {
+                        "type": "CustomRectangle",
+                        "Rectangle": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 96,
+                            "height": 24
+                        }
+                    },
+                    "Position": [
+                        128,
+                        -208
+                    ],
+                    "ImageSource": {
+                        "x": 1560,
+                        "y": 860,
+                        "width": 96,
+                        "height": 24
                     }
                 },
                 {
@@ -5035,6 +5158,70 @@
 				"y": 1704,
 				"width": 13,
 				"height": 16
+		}
+	},
+	"StartMenu": {
+		"Vignette": { "x": 512, "y": 1536, "width": 256, "height": 144 },
+		"Preview": { "x": 768, "y": 1536, "width": 256, "height": 128 },
+		"RowPreviews": { "x": 1024, "y": 1536, "width": 192, "height": 192 },
+		"Divider": { "x": 512, "y": 1728, "width": 440, "height": 1 },
+		"Icons": {
+			"SwordsRest": { "x": 1216, "y": 1536, "width": 64, "height": 64 },
+			"SwordsHover": { "x": 1280, "y": 1536, "width": 64, "height": 64 },
+			"SwordsClash": { "x": 1344, "y": 1536, "width": 64, "height": 64 },
+			"Editor": { "x": 1408, "y": 1536, "width": 28, "height": 28 },
+			"EditorHover": { "x": 1436, "y": 1536, "width": 28, "height": 28 },
+			"Quit": { "x": 1464, "y": 1536, "width": 28, "height": 28 },
+			"QuitHover": { "x": 1492, "y": 1536, "width": 28, "height": 28 },
+			"Options": { "x": 1520, "y": 1536, "width": 28, "height": 28 },
+			"OptionsHover": { "x": 1548, "y": 1536, "width": 28, "height": 28 },
+			"Chronicle": { "x": 1576, "y": 1536, "width": 28, "height": 28 },
+			"ChronicleHover": { "x": 1604, "y": 1536, "width": 28, "height": 28 }
+		},
+		"Tones": {
+			"Shade": { "x": 952, "y": 1728, "width": 1, "height": 1 },
+			"Shield": { "x": 953, "y": 1728, "width": 1, "height": 1 },
+			"Panel": { "x": 954, "y": 1728, "width": 1, "height": 1 },
+			"Line07": { "x": 955, "y": 1728, "width": 1, "height": 1 },
+			"Line12": { "x": 956, "y": 1728, "width": 1, "height": 1 },
+			"Line14": { "x": 957, "y": 1728, "width": 1, "height": 1 },
+			"Line20": { "x": 958, "y": 1728, "width": 1, "height": 1 },
+			"Line35": { "x": 959, "y": 1728, "width": 1, "height": 1 },
+			"Line100": { "x": 960, "y": 1728, "width": 1, "height": 1 },
+			"Fill06": { "x": 961, "y": 1728, "width": 1, "height": 1 },
+			"Fill10": { "x": 962, "y": 1728, "width": 1, "height": 1 },
+			"Fill12": { "x": 963, "y": 1728, "width": 1, "height": 1 },
+			"Gold": { "x": 964, "y": 1728, "width": 1, "height": 1 },
+			"GoldLight": { "x": 965, "y": 1728, "width": 1, "height": 1 },
+			"Line25": { "x": 966, "y": 1728, "width": 1, "height": 1 },
+			"RedLine": { "x": 967, "y": 1728, "width": 1, "height": 1 },
+			"Shade50": { "x": 968, "y": 1728, "width": 1, "height": 1 },
+			"Line08": { "x": 969, "y": 1728, "width": 1, "height": 1 },
+			"Line30": { "x": 970, "y": 1728, "width": 1, "height": 1 },
+			"Gold25": { "x": 971, "y": 1728, "width": 1, "height": 1 },
+			"Gold35": { "x": 972, "y": 1728, "width": 1, "height": 1 }
+		},
+		"Marks": {
+			"MarkPale": { "x": 973, "y": 1728, "width": 11, "height": 11 },
+			"MarkGold": { "x": 984, "y": 1728, "width": 11, "height": 11 },
+			"MarkDark": { "x": 995, "y": 1728, "width": 13, "height": 13 },
+			"MarkIvory": { "x": 1008, "y": 1728, "width": 18, "height": 18 },
+			"Dot0": { "x": 1026, "y": 1728, "width": 12, "height": 12 },
+			"Dot1": { "x": 1038, "y": 1728, "width": 12, "height": 12 },
+			"Dot2": { "x": 1050, "y": 1728, "width": 12, "height": 12 },
+			"Dot3": { "x": 1062, "y": 1728, "width": 12, "height": 12 },
+			"Dot4": { "x": 1074, "y": 1728, "width": 12, "height": 12 },
+			"Dot5": { "x": 1086, "y": 1728, "width": 12, "height": 12 },
+			"Dot6": { "x": 1098, "y": 1728, "width": 12, "height": 12 },
+			"Dot7": { "x": 1110, "y": 1728, "width": 12, "height": 12 },
+			"Place0": { "x": 1122, "y": 1728, "width": 22, "height": 22 },
+			"Place1": { "x": 1144, "y": 1728, "width": 22, "height": 22 },
+			"Place2": { "x": 1166, "y": 1728, "width": 22, "height": 22 },
+			"Place3": { "x": 1188, "y": 1728, "width": 22, "height": 22 },
+			"Place4": { "x": 1210, "y": 1728, "width": 22, "height": 22 },
+			"Place5": { "x": 1232, "y": 1728, "width": 22, "height": 22 },
+			"Place6": { "x": 1254, "y": 1728, "width": 22, "height": 22 },
+			"Place7": { "x": 1276, "y": 1728, "width": 22, "height": 22 }
 		}
 	},
 	"CostIcons": {

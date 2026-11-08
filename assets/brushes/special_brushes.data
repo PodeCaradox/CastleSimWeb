@@ -35,6 +35,11 @@
         ],
         "BrushType": "DeleteBrush"
     },
+    "repair_brush": {
+        "BrushEntities": [
+        ],
+        "BrushType": "RepairBrush"
+    },
     "entry_point_brush": {
         "BrushEntities": [
         ],

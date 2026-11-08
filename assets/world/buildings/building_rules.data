@@ -547,7 +547,12 @@
     "Label": "PRAETORIUM",
     "Role": "Keep",
     "Capacity": 8,
-    "Campfire": "0,7",
+    "Parts": [
+      {
+        "Object": "campfire",
+        "At": "0,7"
+      }
+    ],
     "Hp": 1000,
     "Indestructible": true
   },

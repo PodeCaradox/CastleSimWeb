@@ -67,6 +67,7 @@
     "wood": 80
   },
   "StartGold": 100,
+  "StartGoldLevels": [500, 1000, 2000],
   "Migration": [
     -50,
     -45,

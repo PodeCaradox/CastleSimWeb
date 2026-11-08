@@ -28,6 +28,17 @@
     "cursors": File (
         path: "images/ui/cursors.png",
     ),
+    "menu_font": File (
+        path: "fonts/MarcellusSC-Regular.ttf",
+    ),
+    "death_sound": File (
+        path: "sound/death_puff.wav",
+    ),
+    "music": Files (
+        paths: [
+            "sound/minstrel_dance_loop.ogg",
+        ],
+    ),
     "game_ui": File (
         path: "game_ui/game_menu.interface",
     ),

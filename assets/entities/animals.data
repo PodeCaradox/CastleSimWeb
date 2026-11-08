@@ -6128,7 +6128,7 @@
  ]
 },
 "arrow":{
- "Ballistics":{"ArcCurve":"Speed","ProjectileSpeed":16},
+ "Ballistics":{"ArcCurve":"Speed","ProjectileSpeed":16,"LandSpreadAlong":[-48,47],"LandSpreadAcross":[-40,39]},
  "ImageName":"healthbar",
  "ColorTableImageName":"color_table",
  "ColorTableStartPos":"0,16",
@@ -6717,7 +6717,7 @@
  ]
 },
 "bolt":{
- "Ballistics":{"ArcCurve":"Speed","ProjectileSpeed":16},
+ "Ballistics":{"ArcCurve":"Speed","ProjectileSpeed":16,"LandSpreadAlong":[-48,47],"LandSpreadAcross":[-40,39]},
  "ImageName":"healthbar",
  "ColorTableImageName":"color_table",
  "ColorTableStartPos":"0,16",
@@ -9094,7 +9094,9 @@
         "ArcBasePx": 104,
         "ArcHeightPercent": 16,
         "ScatterBelow": 20,
-        "ScatterAdded": 40
+        "ScatterAdded": 40,
+        "LandSpreadAlong": [-96, 31],
+        "LandSpreadAcross": [-48, 47]
     },
     "ImageName": "healthbar",
     "ColorTableImageName": "color_table",
@@ -9110,5 +9112,86 @@
             ]
         }
     ]
-}
+},
+    "death_cloud": {
+        "ImageName": "healthbar",
+        "ColorTableImageName": "color_table",
+        "ColorTableStartPos": "0,20",
+        "AnimationData": [
+            {
+                "Animation": "Dying1",
+                "Frames": [
+                    {
+                        "AtlasCoord": "0,400,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "64,400,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "128,400,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "192,400,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "256,400,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "320,400,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "384,400,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "448,400,32,28",
+                        "ImageOffset": "0,0"
+                    }
+                ]
+            },
+            {
+                "Animation": "Dying2",
+                "Frames": [
+                    {
+                        "AtlasCoord": "0,456,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "64,456,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "128,456,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "192,456,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "256,456,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "320,456,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "384,456,32,28",
+                        "ImageOffset": "0,0"
+                    },
+                    {
+                        "AtlasCoord": "448,456,32,28",
+                        "ImageOffset": "0,0"
+                    }
+                ]
+            }
+        ]
+    }
 }
