@@ -84,12 +84,14 @@
         "ImageName": "land",
         "AtlasCoordinate": "1152,0,64,40",
         "MiniMapColor": "100,118,65,255",
+        "StandsUp": true,
         "Ground": ["grass"]
     },
     "grass_2": {
         "ImageName": "land",
         "AtlasCoordinate": "1216,0,64,56",
         "MiniMapColor": "100,118,65,255",
+        "StandsUp": true,
         "Ground": ["grass"]
     },
     "grass_3": {
@@ -98,30 +100,35 @@
         "NameElevationDisabled": "grass_3",
         "AtlasCoordinate": "1280,0,64,64",
         "MiniMapColor": "100,118,65,255",
+        "StandsUp": true,
         "Ground": ["grass"]
     },
     "grass_dry_0": {
         "ImageName": "land",
         "AtlasCoordinate": "1728,0,64,40",
         "MiniMapColor": "141,123,66,255",
+        "StandsUp": true,
         "Ground": ["scrub"]
     },
     "grass_dry_1": {
         "ImageName": "land",
         "AtlasCoordinate": "1792,0,64,40",
         "MiniMapColor": "141,123,66,255",
+        "StandsUp": true,
         "Ground": ["scrub"]
     },
     "grass_dry_2": {
         "ImageName": "land",
         "AtlasCoordinate": "1856,0,64,56",
         "MiniMapColor": "141,123,66,255",
+        "StandsUp": true,
         "Ground": ["scrub"]
     },
     "grass_dry_3": {
         "ImageName": "land",
         "AtlasCoordinate": "1920,0,64,64",
         "MiniMapColor": "141,123,66,255",
+        "StandsUp": true,
         "Ground": ["scrub"]
     }
 }
