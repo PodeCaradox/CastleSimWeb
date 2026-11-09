@@ -80,7 +80,7 @@ try {
     overlay.classList.add('done');
   }
   try {
-    game.init_game(window.innerWidth, window.innerHeight);
+    game.init_menu(window.innerWidth, window.innerHeight);
   } catch (e) {
     // winit ends the call with an exception on purpose: the loop runs on from the browser's callbacks
     if (!String(e).includes('control flow')) throw e;
