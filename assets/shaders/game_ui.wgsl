@@ -21,6 +21,7 @@ struct VSinput
 	@location(5) Data: u32,  //bytes low->high: alignment.x, alignment.y, scale, state
 };
 
+// screen_size in UI px; scale_factor: device px a UI px (the UI's stage, E477), device px a logical px
 struct CameraUniform {
     proj: mat4x4<f32>,
     screen_size: vec2<f32>,
@@ -41,6 +42,17 @@ struct VertexOutput {
 
 // the font atlas's texel rows follow the UI atlas's (`FONT_ATLAS_TOP`)
 const FONT_ATLAS_TOP: f32 = 2048.0;
+// the font atlas's width at 1x: a wider one holds every cell at its stage (`font_atlas::rasterize_at`)
+const FONT_ATLAS_WIDTH: f32 = 1024.0;
+// the clear texels right of and below a cell at 1x, which a glyph at a stage may ink (`FONT_GUTTER`)
+const FONT_GUTTER: f32 = 1.0;
+// a quad the world places, in logical px and not scaled (`WORLD_QUAD`)
+const WORLD_QUAD: u32 = 0x80u;
+
+// a place of the 1x font atlas at its stage, as `font_atlas::staged` rounds it
+fn staged(at: vec2<f32>, stage: f32) -> vec2<f32> {
+    return floor(at * stage + 0.5);
+}
 
 @vertex
 fn vertex_ui(
@@ -65,7 +77,8 @@ fn vertex_ui(
         var size = vec2<f32>(f32(input.Size & 0x0000ffffu), f32(input.Size >> 16u));
         var texPos = vec2<f32>(f32(input.TexPos & 0x0000ffffu), f32(input.TexPos >> 16u));
         var texSize = vec2<f32>(f32(input.TexSize & 0x0000ffffu), f32(input.TexSize >> 16u));
-        var alignment = vec2<f32>(f32(input.Data& 0x000000ffu)/ 2.0, f32((input.Data >> 8u) & 0x000000ffu)/ 2.0) ;
+        let world = (input.Data & WORLD_QUAD) != 0u;
+        var alignment = vec2<f32>(f32(input.Data & 0x7fu)/ 2.0, f32((input.Data >> 8u) & 0x000000ffu)/ 2.0) ;
         let scale_data = (input.Data >> 16u) & 0x000000ffu;
         var scale = vec2<f32>(f32(scale_data), f32(scale_data));
 
@@ -78,14 +91,40 @@ fn vertex_ui(
         }
 
         var font = 0u;
+        var texSpan = texSize;
+        let stage = camera.scale_factor.x;
+        let device = camera.scale_factor.y;
+        let font_stage = f32(textureDimensions(t_font).x) / FONT_ATLAS_WIDTH;
         if (texPos.y >= FONT_ATLAS_TOP) {
           texPos.y -= FONT_ATLAS_TOP;
           font = 1u;
+          // the texels of the cell and its gutter at the atlas's stage
+          let start = staged(texPos, font_stage);
+          texSpan = staged(texPos + texSize + FONT_GUTTER, font_stage) - start;
+          texPos = start;
         }
-        var texCoord : vec2<f32> = texPos + (texSize * inputvertex.Position.xy);
+        var texCoord : vec2<f32> = texPos + (texSpan * inputvertex.Position.xy);
         pos -= scale;
         size += scale.xy * 2.0;
-        var posWorld : vec4<f32> = vec4<f32>((pos + (size * inputvertex.Position.xy) + round(alignment * camera.screen_size)), 1.0, 1.0);
+        // a letter covers its cell and gutter: at the atlas's stage a texel is a px
+        var drawn = size;
+        if (font == 1u) {
+          drawn = texSpan / font_stage * size / max(texSize, vec2<f32>(1.0));
+        }
+        // the anchor in device px, then each corner on a whole device px
+        let anchor = round(alignment * camera.screen_size * stage);
+        var corner: vec2<f32>;
+        if (world) {
+          corner = anchor / device + pos + drawn * inputvertex.Position.xy;
+        } else {
+          let start = round(pos * stage);
+          var span = round((pos + size) * stage) - start;
+          if (font == 1u) {
+            span = round(drawn * stage);
+          }
+          corner = (anchor + start + span * inputvertex.Position.xy) / device;
+        }
+        var posWorld : vec4<f32> = vec4<f32>(corner, 1.0, 1.0);
 
         output.Color = color;
         output.TexCoord = texCoord;
