@@ -7,9 +7,28 @@ if (globalThis.AudioContext) {
     construct(target, args) {
       const context = new target(...args);
       contexts.push(context);
+      keep_buffers_in_line(context);
       return context;
     },
   });
+}
+
+// cpal's WebAudio host starts each buffer at its cursor, which a blocked main thread leaves behind
+// the clock: late buffers would start at once, together, and play the music fast. So a buffer (any
+// source: taken for cpal's, played whole once at rate 1) starts at the clock or the end of the last.
+function keep_buffers_in_line(context) {
+  let end = 0;
+  const create = context.createBufferSource.bind(context);
+  context.createBufferSource = () => {
+    const source = create();
+    const start = source.start.bind(source);
+    source.start = (when = 0, ...rest) => {
+      const at = Math.max(when, end, context.currentTime);
+      end = at + (source.buffer ? source.buffer.duration : 0);
+      start(at, ...rest);
+    };
+    return source;
+  };
 }
 
 export function resume_audio_on_input() {

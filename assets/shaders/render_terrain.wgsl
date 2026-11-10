@@ -216,6 +216,11 @@ var<uniform> camera: CameraUniform;
 
 @group(2) @binding(0) var<storage, read> visble_tiles: world_utils::InstancingObjectStorage;
 
+//Zoomed out a pixel's centre falls on the edge of two texels of the sampled mip, and rounding picks
+//one or the other as the camera moves; a sixteenth of a full-size texel (1/64 of the smallest mip's)
+//in keeps it inside one, and zoomed in (up to 4 device px a full-size texel) inside the one it shows.
+const TexelNudge : f32 = 0.0625;
+
 @vertex
 fn vs_main(
     input: VertexInput,
@@ -283,7 +288,7 @@ fn vs_main(
       var pos : vec4<f32> = vec4<f32>(world, depth, 1.0);
       pos = camera.view_proj * pos;
 
-      let texCoord = vec2<f32>(instance.UvCoordPos + (imageSize * input.Position) / world_utils::ImageSize);
+      let texCoord = vec2<f32>(instance.UvCoordPos + (imageSize * input.Position + TexelNudge) / world_utils::ImageSize);
 
       let output = VertexOutput(
         pos,
@@ -364,6 +369,10 @@ fn fs_main(in: VertexOutput) -> FragmentOutput {
     }
     var out: FragmentOutput;
     out.color = color * in.Color;
-    out.depth = depth;
+    //on a whole key (the near plane is 0), so two quads that tie keep their depth and the later one
+    //wins; some GPUs round their ways there (`Position.z`, `thickness_depth`, a column's V) apart at
+    //each screen row. A tie lies on a whole key while pixel_zoom <= 8 (pixel centres on 1/16 px).
+    let per_key = in.depth_per_column / world_utils::KeysPerPixel;
+    out.depth = round(depth / per_key) * per_key;
     return out;
 }

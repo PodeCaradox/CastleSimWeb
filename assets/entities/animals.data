@@ -1698,6 +1698,45 @@
   }
  ]
 },
+"woodcutter":{
+ "Like":"peasant"
+},
+"mason":{
+ "Like":"peasant"
+},
+"apple_farmer":{
+ "Like":"peasant"
+},
+"wheat_farmer":{
+ "Like":"peasant"
+},
+"miller":{
+ "Like":"peasant"
+},
+"baker":{
+ "Like":"peasant"
+},
+"miner":{
+ "Like":"peasant"
+},
+"iron_fetcher":{
+ "Like":"peasant"
+},
+"pitchman":{
+ "Like":"peasant"
+},
+"blacksmith":{
+ "Like":"peasant"
+},
+"fletcher":{
+ "Like":"peasant"
+},
+"armourer":{
+ "Like":"peasant"
+},
+"carrier":{
+ "Like":"peasant"
+},
 "lord":{
  "WalkSpeed":384,
  "DefaultStance":"Defensive",
