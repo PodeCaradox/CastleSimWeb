@@ -71,6 +71,8 @@ das Dateisystem einen Ordner aufzählt — zwei Mitspieler bekämen sonst versch
 | `Cost` | `{ "Wood": n, "Stone": n, "Iron": n, "Pitch": n, "Gold": n }`: ganze Einheiten je Bauwerk (je Zelle bei Mauer und Rampe); der Spieler zahlt sie im Spielmodus aus seinen Lagern, Gold aus seiner Kasse, der Editor baut gratis. Eine Ware, die `economy_rules.data` nicht kennt, bricht den Start ab | 0 |
 | `QuarterCost` | `{ "Wood": n, "Stone": n, "Iron": n, "Pitch": n }`: Viertel einer Einheit je Mauerzelle und Rampenstück (2 ist ein halber Stein), für die Spalte, die `Cost` bei 0 lässt; eine Spalte, die `Cost` nennt, gewinnt. Gold gibt es hier nicht | 0 |
 | `WorkerSlots` | gleichzeitige Arbeiter | 0 |
+| `Worker` | Einheitentyp aus `animals.data`, den ein Mann annimmt, solange er hier arbeitet. Er darf sich vom `peasant` nur in seinen Bildern unterscheiden, und keine Ware darf ihn als `CarriedBy` nennen; sonst, oder wenn es den Typ nicht gibt, bricht der Start ab | keiner: der Mann bleibt Bauer |
+| `Fetcher` | Einheitentyp des Mannes, der holt (der zweite Mann einer Mine); dieselben Regeln wie `Worker` | `Worker` |
 | `JobPriority` | welches Gebäude freie Bauern zuerst bekommt: das höhere, bei Gleichstand die Zelle (Zeile, dann Spalte) | 0 |
 | `LeavePriority` | welcher Arbeiter zuerst geht, wenn das Volk abwandert und kein freier Bauer da ist: der des höheren Werts, bei Gleichstand der kleinste Index; 0 geht nie | 0 |
 | `Capacity` | Fassungsvermögen von Kornspeicher und Waffenkammer in Stück, alle Waren zusammen; mit 0 oder weniger fasst der Speicher nichts; bei Hütte (`Hovel`) und Bergfried (`Keep`) die Wohnplätze | 0 |
@@ -97,7 +99,7 @@ Bauregeln je Ware und je Feld, nach Pfad sortiert.
 | `Store` | Rolle des Gebäudes, das die Ware lagert (`Stockpile`, `Granary`, `Armory`) | keine: die Ware wird nur weitergereicht |
 | `Stack` | Stück je Stapel eines Lagerplatzes: ein Stapel hat 96 Teile, ein Stück belegt 96 / `Stack` davon. `Stack` muss 96 teilen (1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48 oder 96), sonst bricht das Laden mit dem Dateinamen ab. `0`: ein Stück belegt ein Teil. Kornspeicher und Waffenkammer zählen Stück und lesen es nicht | 0 |
 | `Load` | Stück, die ein Träger je Gang trägt, mindestens 1 | Fehler |
-| `CarriedBy` | Einheitentyp aus `animals.data`, der die Ware trägt | `peasant` |
+| `CarriedBy` | Einheitentyp aus `animals.data`, der die Ware trägt; kein `Worker`, kein `Fetcher` und nicht `carrier`, denn ein freier Mann ist wieder Bauer | `peasant` |
 | `Meal` | Platz einer Nahrung in der Runde, in der ein Team isst, der kleinere zuerst (ausgeliefert: `bread` 1, `apple` 4, Crusaders Brot, Käse, Fleisch, Äpfel). Nahrung ist jede Ware mit `Store` `Granary`; eine ohne `Meal` kommt nach allen mit | nach allen |
 
 Die Waren werden nach Namen sortiert, und die Stelle in dieser Reihenfolge ist die Nummer der
@@ -113,7 +115,9 @@ Der Start bricht mit dem Dateinamen ab bei: einer Ware mit `Load` 0, einem `Carr
 Einheitentyp ist, mehr als 32 Waren, einer Ware, die ein Rezept nicht kennt, einem Rezept mit
 mehr als 3 Eingängen oder 2 Ausgängen, einem Rezept ganz ohne Ein- und Ausgang, einer Menge 0 in
 einem Rezept, einer Ware ohne `Store`, die kein Rezept als Eingang nennt, und einem Preis in einer Ware,
-die der Katalog nicht führt.
+die der Katalog nicht führt. Er bricht auch ab bei einem `CarriedBy`, das einen Arbeitertyp nennt
+(`Worker`, `Fetcher` oder `carrier`), und bei einem Arbeitertyp, der sich vom `peasant` in mehr als
+seinen Bildern unterscheidet.
 
 Das nächste Glied einer Kette ist jedes Gebäude, dessen Rezept die Ware als Eingang nennt; ein
 Feld „Next“ gibt es nicht.

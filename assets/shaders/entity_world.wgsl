@@ -7,10 +7,14 @@ const TileSize = vec2<f32>(64.0, 32.0);
 //==============================================================================
 //A unit is a billboard standing at its foot row: nearness 2 foot - y, linear over the quad, so the
 //vertex stage evaluates it ("Draw order" in common.wgsl), with world_utils' NearnessToDepth over
-//this shader's params; `cs_renderer::depth_order` mirrors it.
+//this shader's params, an eighth of a key nearer; `cs_renderer::depth_order` mirrors it.
 fn NearnessToDepth(nearness: f32) -> f32 {
-    return (nearness * KeysPerPixel + 64.0) / f32(u32(params.map_size.x + params.map_size.y + DepthHeadroomRows) * KeysPerRowPair);
+    return (nearness * KeysPerPixel + 64.0 + UnitTieKeys) / f32(u32(params.map_size.x + params.map_size.y + DepthHeadroomRows) * KeysPerRowPair);
 }
+
+//The terrain writes whole keys and a unit's nearness falls on whole or quarter keys, so an eighth of
+//a key hands him a tie past the rasterizer's rounding of his z and turns no other order.
+const UnitTieKeys : f32 = 0.125;
 
 //`foot` is the rotated, whole-pixel row of the quad's BOTTOM edge — the frame's
 //image offset included, the elevation lift not; `vertex_y` the vertex's world
