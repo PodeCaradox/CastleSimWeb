@@ -130,5 +130,92 @@
         "MiniMapColor": "141,123,66,255",
         "StandsUp": true,
         "Ground": ["scrub"]
+    },
+    "grass_flowers_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "0,672,64,32",
+        "MiniMapColor": "105,121,68,255",
+        "Ground": ["grass"]
+    },
+    "grass_clover_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "64,672,64,32",
+        "MiniMapColor": "102,119,66,255",
+        "Ground": ["grass"]
+    },
+    "grass_pebbles_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "128,672,64,32",
+        "MiniMapColor": "102,118,65,255",
+        "Ground": ["grass"]
+    },
+    "meadow_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "192,672,64,32",
+        "MiniMapColor": "108,123,73,255",
+        "Ground": ["grass"]
+    },
+    "grass_dry_flowers_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "256,672,64,32",
+        "MiniMapColor": "145,128,69,255",
+        "Ground": ["scrub"]
+    },
+    "grass_dry_pebbles_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "320,672,64,32",
+        "MiniMapColor": "142,124,68,255",
+        "Ground": ["scrub"]
+    },
+    "dirt_pebbles_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "384,672,64,32",
+        "MiniMapColor": "183,151,122,255"
+    },
+    "gravel_coarse_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "448,672,64,32",
+        "MiniMapColor": "126,122,113,255"
+    },
+    "beach_shells_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "512,672,64,32",
+        "MiniMapColor": "224,228,169,255"
+    },
+    "street_pebbles_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "576,672,64,32",
+        "MiniMapColor": "178,125,89,255"
+    },
+    "marsh_1": {
+        "ImageName": "land",
+        "AtlasCoordinate": "640,672,64,32",
+        "MiniMapColor": "87,93,62,255",
+        "Ground": ["marsh"]
+    },
+    "forest_floor_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "704,672,64,32",
+        "MiniMapColor": "83,87,61,255"
+    },
+    "field_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "768,672,64,32",
+        "MiniMapColor": "92,88,70,255"
+    },
+    "field_1": {
+        "ImageName": "land",
+        "AtlasCoordinate": "832,672,64,32",
+        "MiniMapColor": "89,82,68,255"
+    },
+    "path_0": {
+        "ImageName": "land",
+        "AtlasCoordinate": "896,672,64,32",
+        "MiniMapColor": "76,73,60,255"
+    },
+    "path_1": {
+        "ImageName": "land",
+        "AtlasCoordinate": "960,672,64,32",
+        "MiniMapColor": "171,142,115,255"
     }
 }

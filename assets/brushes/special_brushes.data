@@ -44,5 +44,10 @@
         "BrushEntities": [
         ],
         "BrushType": "EntryPointBrush"
+    },
+    "ladder_brush": {
+        "BrushEntities": [
+        ],
+        "BrushType": "LadderBrush"
     }
 }

@@ -1,7 +1,13 @@
 {
 "swordsman":{
  "WalkSpeed":384,
- "FormationRank":0,
+ "FormationRank":3,
+ "FormationBlock":1,
+ "PressRows":2,
+ "RejoinPx":940,
+ "SiegeHoldCells":0,
+ "ImageSway":3,
+ "StrikeStep":4,
  "RecruitGold":100,
  "TargetClass":"Melee",
  "ImageName":"swordsman",
@@ -12,7 +18,9 @@
   "Damage":12,
   "AttackRange":40,
   "AttackCooldownTicks":40,
-  "Ranged":false
+  "Ranged":false,
+  "SideDamagePercent":125,
+  "RearDamagePercent":150
  },
  "AnimationData":[
   {
@@ -853,7 +861,7 @@
 },
 "peasant":{
  "WalkSpeed":384,
- "FormationRank":0,
+ "FormationRank":8,
  "TargetClass":"Peasant",
  "ImageName":"swordsman",
  "ColorTableImageName":"color_table",
@@ -1740,7 +1748,12 @@
 "lord":{
  "WalkSpeed":384,
  "DefaultStance":"Defensive",
- "FormationRank":0,
+ "FormationRank":9,
+ "FormationBlock":3,
+ "PressRows":2,
+ "RejoinPx":940,
+ "SiegeHoldCells":0,
+ "StrikeStep":4,
  "TargetClass":"Lord",
  "ImageName":"swordsman",
  "ColorTableImageName":"color_table",
@@ -2585,6 +2598,111 @@
     {
      "AtlasCoord":"1028,616,86,40",
      "ImageOffset":"6,0"
+    }
+   ]
+  }
+ ]
+},
+"ladderman":{
+ "Like":"swordsman",
+ "WalkSpeed":320,
+ "DefaultStance":"Hold",
+ "SetsLadders":true,
+ "LadderSpacingCells":4,
+ "RecruitGold":0,
+ "RejoinPx":0,
+ "ImageSway":0,
+ "StrikeStep":0,
+ "ColorTableStartPos":"0,44",
+ "Combat":{
+  "HitPoints":60,
+  "Damage":0
+ }
+},
+"ladder":{
+ "Like":"swordsman",
+ "WalkSpeed":320,
+ "DefaultStance":"Hold",
+ "RecruitGold":0,
+ "RejoinPx":0,
+ "ImageSway":0,
+ "StrikeStep":0,
+ "ColorTableStartPos":"0,44",
+ "Combat":{
+  "HitPoints":60,
+  "Damage":0
+ },
+ "ImageName":"healthbar",
+ "AnimationData":[
+  {
+   "Animation":"Special1NorthEast",
+   "Frames":[
+    {
+     "AtlasCoord":"0,520,40,116",
+     "ImageOffset":"0,0"
+    }
+   ]
+  },
+  {
+   "Animation":"Special1East",
+   "Frames":[
+    {
+     "AtlasCoord":"80,520,40,116",
+     "ImageOffset":"0,0"
+    }
+   ]
+  },
+  {
+   "Animation":"Special1SouthEast",
+   "Frames":[
+    {
+     "AtlasCoord":"160,520,40,116",
+     "ImageOffset":"0,0"
+    }
+   ]
+  },
+  {
+   "Animation":"Special1South",
+   "Frames":[
+    {
+     "AtlasCoord":"240,520,40,116",
+     "ImageOffset":"0,0"
+    }
+   ]
+  },
+  {
+   "Animation":"Special1SouthWest",
+   "Frames":[
+    {
+     "AtlasCoord":"320,520,40,116",
+     "ImageOffset":"0,0"
+    }
+   ]
+  },
+  {
+   "Animation":"Special1West",
+   "Frames":[
+    {
+     "AtlasCoord":"400,520,40,116",
+     "ImageOffset":"0,0"
+    }
+   ]
+  },
+  {
+   "Animation":"Special1NorthWest",
+   "Frames":[
+    {
+     "AtlasCoord":"480,520,40,116",
+     "ImageOffset":"0,0"
+    }
+   ]
+  },
+  {
+   "Animation":"Special1North",
+   "Frames":[
+    {
+     "AtlasCoord":"560,520,40,116",
+     "ImageOffset":"0,0"
     }
    ]
   }
@@ -3515,7 +3633,15 @@
 },
 "piceman":{
  "WalkSpeed":346,
- "FormationRank":1,
+ "Climbs":true,
+ "TopplesLadders":true,
+ "FormationRank":2,
+ "FormationBlock":1,
+ "PressRows":2,
+ "RejoinPx":940,
+ "SiegeHoldCells":0,
+ "ImageSway":2,
+ "StrikeStep":3,
  "RecruitGold":50,
  "TargetClass":"Melee",
  "ImageName":"piceman",
@@ -3526,7 +3652,10 @@
   "Damage":10,
   "AttackRange":64,
   "AttackCooldownTicks":48,
-  "Ranged":false
+  "Ranged":false,
+  "SpearWall":true,
+  "SideDamagePercent":125,
+  "RearDamagePercent":150
  },
  "AnimationData":[
   {
@@ -4367,7 +4496,12 @@
 },
 "bowman":{
  "WalkSpeed":288,
- "FormationRank":2,
+ "FormationRank":6,
+ "FormationBlock":1,
+ "PressRows":2,
+ "RejoinPx":940,
+ "SiegeHoldCells":0,
+ "ImageSway":4,
  "RecruitGold":30,
  "TargetClass":"Archer",
  "ImageName":"bowman",
@@ -4378,7 +4512,9 @@
   "Damage":6,
   "AttackRange":1152,
   "AttackCooldownTicks":32,
-  "Ranged":true
+  "Ranged":true,
+  "SideDamagePercent":125,
+  "RearDamagePercent":150
  },
  "AnimationData":[
   {
@@ -5187,7 +5323,12 @@
 },
 "crossbowman":{
  "WalkSpeed":288,
- "FormationRank":2,
+ "FormationRank":5,
+ "FormationBlock":1,
+ "PressRows":2,
+ "RejoinPx":940,
+ "SiegeHoldCells":0,
+ "ImageSway":3,
  "RecruitGold":60,
  "TargetClass":"Archer",
  "Projectile":"bolt",
@@ -5199,7 +5340,9 @@
   "Damage":30,
   "AttackRange":1152,
   "AttackCooldownTicks":80,
-  "Ranged":true
+  "Ranged":true,
+  "SideDamagePercent":125,
+  "RearDamagePercent":150
  },
  "AnimationData":[
   {
@@ -7345,9 +7488,14 @@
  ]
 },
 "cavalry": {
-    "WalkSpeed": 400,
+    "WalkSpeed": 538,
     "RunSpeed": 960,
     "FormationRank": 0,
+    "FormationBlock": 0,
+    "PressRows": 2,
+    "RejoinPx": 940,
+    "SiegeHoldCells": 0,
+    "StrikeStep": 4,
     "TargetClass": "Melee",
     "FootprintLength": 2,
     "FootprintWidth": 1,
@@ -7357,7 +7505,18 @@
         "Damage": 14,
         "AttackRange": 48,
         "AttackCooldownTicks": 40,
-        "GroundOnly": true
+        "GroundOnly": true,
+        "MarchSightPx": 208,
+        "ChargeMinPx": 150,
+        "ChargeMaxPx": 665,
+        "ChargeTicks": 448,
+        "ChargeCooldownTicks": 960,
+        "ChargeSpeed": 700,
+        "ChargeDamage": 21,
+        "ChargeBreakMen": 3,
+        "ChargeBreakPercent": 60,
+        "SideDamagePercent": 125,
+        "RearDamagePercent": 150
     },
     "ImageName": "cavalry",
     "ColorTableImageName": "color_table",
@@ -8270,6 +8429,10 @@
 "catapult": {
     "WalkSpeed": 257,
     "FormationRank": 2,
+    "FormationBlock": 2,
+    "PressRows": 2,
+    "RejoinPx": 940,
+    "SiegeHoldCells": 0,
     "TargetClass": "Engine",
     "FootprintLength": 4,
     "FootprintWidth": 2,

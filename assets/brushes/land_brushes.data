@@ -9,66 +9,50 @@
     },
     "brush_grass": {
         "BrushEntities": [
-			{
-                "Name": "grass_0",
-                "RandomFactor": 5
-            }, {
-                "Name": "grass_1",
-                "RandomFactor": 2
-            },
-            {
-                "Name": "grass_2",
-                "RandomFactor": 2
-            }
+            {"Name": "grass_0", "RandomFactor": 10},
+            {"Name": "grass_1", "RandomFactor": 4},
+            {"Name": "grass_2", "RandomFactor": 4},
+            {"Name": "grass_flowers_0", "RandomFactor": 1},
+            {"Name": "grass_clover_0", "RandomFactor": 2},
+            {"Name": "grass_pebbles_0", "RandomFactor": 1},
+            {"Name": "meadow_0", "RandomFactor": 2}
         ],
         "BrushType": "TileBrush"
     },
     "brush_sand_0": {
-        "BrushEntities": [{
-                "Name": "beach_0",
-                "RandomFactor": 1
-            }, {
-                "Name": "beach_1",
-                "RandomFactor": 1
-            }
+        "BrushEntities": [
+            {"Name": "beach_0", "RandomFactor": 4},
+            {"Name": "beach_1", "RandomFactor": 4},
+            {"Name": "beach_shells_0", "RandomFactor": 1}
         ],
         "BrushType": "TileBrush"
     },
     "brush_dirt_0": {
-        "BrushEntities": [{
-                "Name": "dirt_0",
-                "RandomFactor": 1
-            }
+        "BrushEntities": [
+            {"Name": "dirt_0", "RandomFactor": 4},
+            {"Name": "dirt_pebbles_0", "RandomFactor": 1}
         ],
         "BrushType": "TileBrush"
     },
     "brush_gravel_0": {
-        "BrushEntities": [{
-                "Name": "gravel_0",
-                "RandomFactor": 1
-            }
+        "BrushEntities": [
+            {"Name": "gravel_0", "RandomFactor": 3},
+            {"Name": "gravel_coarse_0", "RandomFactor": 1}
         ],
         "BrushType": "TileBrush"
     },
 	"brush_street_0": {
-        "BrushEntities": [{
-                "Name": "street_0",
-                "RandomFactor": 1
-            }
+        "BrushEntities": [
+            {"Name": "street_0", "RandomFactor": 1}
         ],
         "BrushType": "TileBrush"
     },
     "brush_dirt_1": {
-        "BrushEntities": [{
-                "Name": "dirt_1",
-                "RandomFactor": 1
-            }, {
-                "Name": "dirt_2",
-                "RandomFactor": 1
-            }, {
-                "Name": "dirt_3",
-                "RandomFactor": 2
-            }
+        "BrushEntities": [
+            {"Name": "dirt_1", "RandomFactor": 2},
+            {"Name": "dirt_2", "RandomFactor": 2},
+            {"Name": "dirt_3", "RandomFactor": 4},
+            {"Name": "marsh_1", "RandomFactor": 1}
         ],
         "BrushType": "TileBrush"
     },
@@ -103,19 +87,11 @@
         "BrushType": "TileBrush"
     },
     "brush_grass_dry_0": {
-        "BrushEntities": [{
-                "Name": "grass_dry_0",
-                "RandomFactor": 5
-            }, {
-                "Name": "grass_dry_1",
-                "RandomFactor": 1
-            }, {
-                "Name": "grass_dry_2",
-                "RandomFactor": 2
-            }, {
-                "Name": "grass_dry_3",
-                "RandomFactor": 1
-            }
+        "BrushEntities": [
+            {"Name": "grass_dry_0", "RandomFactor": 5},
+            {"Name": "grass_dry_1", "RandomFactor": 1},
+            {"Name": "grass_dry_2", "RandomFactor": 2},
+            {"Name": "grass_dry_3", "RandomFactor": 1}
         ],
         "BrushType": "TileBrush"
     },
@@ -199,5 +175,91 @@
         }
       ],
       "BrushType": "TileBrush"
+    },
+    "brush_forest_floor_0": {
+        "BrushEntities": [
+            {"Name": "forest_floor_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_field_0": {
+        "BrushEntities": [
+            {"Name": "field_0", "RandomFactor": 1},
+            {"Name": "field_1", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_path_0": {
+        "BrushEntities": [
+            {"Name": "path_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_street_1": {
+        "BrushEntities": [
+            {"Name": "street_pebbles_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_path_1": {
+        "BrushEntities": [
+            {"Name": "path_1", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_grass_dry_1": {
+        "BrushEntities": [
+            {"Name": "grass_dry_pebbles_0", "RandomFactor": 2},
+            {"Name": "grass_dry_flowers_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_grass_flowers_0": {
+        "BrushEntities": [
+            {"Name": "grass_flowers_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_grass_clover_0": {
+        "BrushEntities": [
+            {"Name": "grass_clover_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_grass_pebbles_0": {
+        "BrushEntities": [
+            {"Name": "grass_pebbles_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_meadow_0": {
+        "BrushEntities": [
+            {"Name": "meadow_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_beach_shells_0": {
+        "BrushEntities": [
+            {"Name": "beach_shells_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_dirt_pebbles_0": {
+        "BrushEntities": [
+            {"Name": "dirt_pebbles_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_gravel_coarse_0": {
+        "BrushEntities": [
+            {"Name": "gravel_coarse_0", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
+    },
+    "brush_marsh_1": {
+        "BrushEntities": [
+            {"Name": "marsh_1", "RandomFactor": 1}
+        ],
+        "BrushType": "TileBrush"
     }
 }
