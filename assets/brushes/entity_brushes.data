@@ -71,5 +71,14 @@
             }
         ],
         "BrushType": "EntitiesBrush"
+    },
+    "ladderman_brush": {
+        "BrushEntities": [
+            {
+                "Name": "ladderman",
+                "RandomFactor": 1
+            }
+        ],
+        "BrushType": "EntitiesBrush"
     }
 }

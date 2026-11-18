@@ -33,7 +33,7 @@
     "Worker": "fletcher",
     "Intake": 2,
     "Shelf": 2,
-    "Entrance": "0,2",
+    "Entrance": "0,3",
     "Recipes": [
       {
         "Inputs": {
@@ -64,7 +64,7 @@
       "Stone": 10
     },
     "Capacity": 50,
-    "Entrance": "0,2"
+    "Entrance": "0,3"
   },
   "bakery": {
     "Label": "BAECKEREI",
@@ -78,7 +78,7 @@
     "Worker": "baker",
     "Intake": 2,
     "Shelf": 16,
-    "Entrance": "0,2",
+    "Entrance": "0,3",
     "Recipes": [
       {
         "Inputs": {
@@ -125,7 +125,7 @@
     "Worker": "blacksmith",
     "Intake": 2,
     "Shelf": 2,
-    "Entrance": "0,2",
+    "Entrance": "0,3",
     "Recipes": [
       {
         "Inputs": {
@@ -329,7 +329,7 @@
       "Wood": 25
     },
     "Capacity": 250,
-    "Entrance": "0,2"
+    "Entrance": "0,3"
   },
   "hop_farm": {
     "Label": "HOPFENHOF",
@@ -451,7 +451,7 @@
     "Worker": "miller",
     "Intake": 4,
     "Shelf": 4,
-    "Entrance": "0,2",
+    "Entrance": "0,3",
     "Recipes": [
       {
         "Inputs": {
@@ -601,7 +601,7 @@
     "Worker": "armourer",
     "Intake": 2,
     "Shelf": 2,
-    "Entrance": "0,2",
+    "Entrance": "0,3",
     "Recipes": [
       {
         "Inputs": {

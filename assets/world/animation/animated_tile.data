@@ -32,5 +32,10 @@
       "PauseFrames": 0,
       "AnimationLength": 16,
       "Delay": 200
-    }
+    },
+  "mill_sails_0":{
+     "PauseFrames":0,
+     "AnimationLength":6,
+     "Delay":200
+  }
 }

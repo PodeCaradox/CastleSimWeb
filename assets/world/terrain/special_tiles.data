@@ -1,25 +1,45 @@
-{ 
-	"brush_tile":{
-	  "ImageName":"land",
-	  "AtlasCoordinate":"0,0,64,32"
-	},
-	"elevation_disabled": {
-		"ImageName": "land",
-		"AtlasCoordinate": "64,0,64,32"
-	},
-	"tile_orange":{
-	  "ImageName":"land",
-	  "AtlasCoordinate":"128,0,64,32",
-	  "MiniMapColor":"213,145,103,255"
-	},
-	"tile_grey":{
-	  "ImageName":"land",
-	  "AtlasCoordinate":"192,0,64,32",
-	  "MiniMapColor":"127,118,104,255"
-	},
+{
+    "brush_tile":{
+      "ImageName": "land",
+      "AtlasCoordinate": "0,0,64,32"
+    },
+    "elevation_disabled":{
+      "ImageName": "land",
+      "AtlasCoordinate": "64,0,64,32"
+    },
+    "tile_orange":{
+      "ImageName": "land",
+      "AtlasCoordinate": "128,0,64,32",
+      "MiniMapColor": "213,145,103,255"
+    },
+    "tile_grey":{
+      "ImageName": "land",
+      "AtlasCoordinate": "192,0,64,32",
+      "MiniMapColor": "127,118,104,255"
+    },
     "building_disabled_icon":{
-      "ImageName":"world_effects",
-      "Animation":"building_disabled",
-      "AtlasCoordinate":"0,0,68,68"
+      "ImageName": "world_effects",
+      "Animation": "building_disabled",
+      "AtlasCoordinate": "0,0,68,68"
+    },
+    "mill_sails_0":{
+      "ImageName": "world_effects",
+      "Animation": "mill_sails_0",
+      "AtlasCoordinate": "0,136,316,304"
+    },
+    "mill_sails_1":{
+      "ImageName": "world_effects",
+      "Animation": "mill_sails_0",
+      "AtlasCoordinate": "0,444,316,300"
+    },
+    "mill_sails_2":{
+      "ImageName": "world_effects",
+      "Animation": "mill_sails_0",
+      "AtlasCoordinate": "0,748,316,300"
+    },
+    "mill_sails_3":{
+      "ImageName": "world_effects",
+      "Animation": "mill_sails_0",
+      "AtlasCoordinate": "0,1052,316,304"
     }
 }
