@@ -4143,7 +4143,7 @@
     "InstanceOnTop": {
       "Id": "mill_sails_0",
       "TilePos": [0,0],
-      "Offset": 268
+      "Offset": 277
     }
   },
   "armory": {
@@ -20296,7 +20296,7 @@
     "InstanceOnTop": {
       "Id": "mill_sails_1",
       "TilePos": [0,0],
-      "Offset": 313
+      "Offset": 322
     }
   },
   "mill_view2": {
@@ -20413,7 +20413,7 @@
     "InstanceOnTop": {
       "Id": "mill_sails_2",
       "TilePos": [0,0],
-      "Offset": 314
+      "Offset": 323
     }
   },
   "mill_view3": {
@@ -20530,7 +20530,7 @@
     "InstanceOnTop": {
       "Id": "mill_sails_3",
       "TilePos": [0,0],
-      "Offset": 268
+      "Offset": 277
     }
   },
   "mine_view1": {
