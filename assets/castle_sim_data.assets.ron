@@ -20,6 +20,7 @@
             "images/entities/animals/catapult.positions",
             "images/entities/animals/catapult_2.positions",
             "images/entities/animals/catapult_3.positions",
+            "images/entities/animals/peasant.positions",
         ],
     ),
     "game_interface": File (
